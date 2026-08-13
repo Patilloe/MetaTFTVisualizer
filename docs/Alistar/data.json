@@ -4708,37 +4708,6 @@
    },
    {
     "key": [
-     "DA_Bloodthirster"
-    ],
-    "label": "Bloodthirster",
-    "n": 41,
-    "share": 0.0012879716017968775,
-    "avg_place": 5.39,
-    "sd": 2.294,
-    "win": 0.1463,
-    "top2": 0.1707,
-    "top4": 0.2439,
-    "top4_ci": [
-     0.1382,
-     0.3934
-    ],
-    "d_avg": 1.684,
-    "d_avg_ci": [
-     0.981,
-     2.387
-    ],
-    "d_top4": -0.4063,
-    "d_win": -0.0404,
-    "shrunk_avg": 3.808,
-    "score": 0.102,
-    "d_avg_pess": 0.981,
-    "impact": -0.0001,
-    "z": 4.7,
-    "p": 0.0,
-    "significant": true
-   },
-   {
-    "key": [
      "DA_TitansResolve"
     ],
     "label": "Titans Resolve",
@@ -4766,6 +4735,37 @@
     "impact": -0.0002,
     "z": 4.03,
     "p": 6e-05,
+    "significant": true
+   },
+   {
+    "key": [
+     "DA_Bloodthirster"
+    ],
+    "label": "Bloodthirster",
+    "n": 41,
+    "share": 0.0012879716017968775,
+    "avg_place": 5.39,
+    "sd": 2.294,
+    "win": 0.1463,
+    "top2": 0.1707,
+    "top4": 0.2439,
+    "top4_ci": [
+     0.1382,
+     0.3934
+    ],
+    "d_avg": 1.684,
+    "d_avg_ci": [
+     0.981,
+     2.387
+    ],
+    "d_top4": -0.4063,
+    "d_win": -0.0404,
+    "shrunk_avg": 3.808,
+    "score": 0.102,
+    "d_avg_pess": 0.981,
+    "impact": -0.0001,
+    "z": 4.7,
+    "p": 0.0,
     "significant": true
    },
    {
