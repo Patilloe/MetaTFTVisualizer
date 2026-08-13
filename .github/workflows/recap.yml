@@ -9,11 +9,11 @@ on:
       set:
         description: "Profil de set (vide = set live, ex: 18-pbe)"
         required: false
-        default: ""
+        default: "18-pbe"
       comps:
         description: "Fichier de comps"
         required: false
-        default: "comps.json"
+        default: "comps.18-pbe.json"
 
 permissions:
   contents: write
@@ -46,21 +46,19 @@ jobs:
       - name: Generation
         run: |
           python metatft.py \
-            ${{ inputs.set && format('--set {0}', inputs.set) || '' }} \
-            --comps "${{ inputs.comps || 'comps.json' }}" \
+            ${{ inputs.set && format('--set {0}', inputs.set) || '--set 18-pbe' }} \
+            --comps "${{ inputs.comps || 'comps.18-pbe.json' }}" \
             --output site
 
-      - name: Publication (docs/ + Discord)
+      # Discord desactive pour l'instant : ajouter --notify et les secrets
+      # DISCORD_WEBHOOK_* ci-dessous quand les webhooks existeront.
+      - name: Publication (docs/)
         env:
           SITE_URL: ${{ vars.SITE_URL }}
-          DISCORD_WEBHOOK_GENERAL: ${{ secrets.DISCORD_WEBHOOK_GENERAL }}
-          DISCORD_WEBHOOK_BLACKTHORN: ${{ secrets.DISCORD_WEBHOOK_BLACKTHORN }}
-          DISCORD_WEBHOOK_JUGGERNAUT: ${{ secrets.DISCORD_WEBHOOK_JUGGERNAUT }}
-          DISCORD_WEBHOOK_PRIMAL: ${{ secrets.DISCORD_WEBHOOK_PRIMAL }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          python publish.py --site site --deploy --notify
+          python publish.py --site site --deploy --force
 
       # le snapshot doit survivre d'un run a l'autre pour detecter les mouvements
       - name: Conserver le snapshot

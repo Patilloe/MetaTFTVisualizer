@@ -258,12 +258,15 @@ def route_changes(changes: list[Change], channels: dict[str, dict]) -> dict[str,
 # Deploiement GitHub Pages
 # --------------------------------------------------------------------------- #
 
-def run_git(args: list[str], cwd: str, dry_run: bool) -> tuple[int, str]:
+def run_git(args: list[str], cwd: str, dry_run: bool,
+            report_error: bool = True) -> tuple[int, str]:
+    """`report_error=False` pour les commandes dont un code non nul est une
+    reponse et non un echec (ex: `diff --quiet`)."""
     if dry_run:
         print(f"  [dry-run] git {' '.join(args)}")
         return 0, ""
     proc = subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True)
-    if proc.returncode != 0:
+    if proc.returncode != 0 and report_error:
         print(f"  ✗ git {' '.join(args)}: {proc.stderr.strip()}", file=sys.stderr)
     return proc.returncode, (proc.stdout or "") + (proc.stderr or "")
 
@@ -297,7 +300,8 @@ def deploy(site_dir: str, docs_dir: str, repo_root: str, message: str,
 
     rel = os.path.relpath(docs_dir, repo_root)
     run_git(["add", rel], repo_root, dry_run)
-    code, out = run_git(["diff", "--cached", "--quiet"], repo_root, dry_run)
+    code, _ = run_git(["diff", "--cached", "--quiet"], repo_root, dry_run,
+                      report_error=False)
     if code == 0 and not dry_run:
         print("  rien de nouveau a committer")
         return True
