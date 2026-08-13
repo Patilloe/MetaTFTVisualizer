@@ -1,36 +1,149 @@
-<meta charset='utf-8'>
-<meta name='viewport' content='width=device-width,initial-scale=1'>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>TFT — Set 18 - Enchanted Wilds (PBE)</title>
 <style>
-body{font-family:system-ui,sans-serif;margin:2rem;max-width:1100px}
-table{border-collapse:collapse;width:100%;margin-bottom:1.5rem;font-size:13px}
-th,td{border:1px solid #ddd;padding:4px 8px;text-align:right}
-th:first-child,td:first-child{text-align:left}
-th{background:#f4f4f4}
-img{max-width:100%;margin:1rem 0}
-h2{border-bottom:2px solid #333;padding-bottom:.2rem;margin-top:2.5rem}
+  :root{--bg:#1e1f22; --panel:#2b2d31; --panel-2:#313338; --border:#3b3d42;
+    --text:#dbdee1; --muted:#949ba4; --accent:oklch(72% 0.14 275);
+    --good:oklch(70% 0.15 150); --bad:oklch(68% 0.17 30)}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); margin:0; padding:2.5rem 1.5rem}
+  .wrap{max-width:1180px; margin:0 auto}
+  h1{font-size:1.4rem; font-weight:700; margin:0 0 .25rem}
+  .meta{color:var(--muted); font-size:.85rem; margin:0 0 1.5rem}
+  .toolbar{display:flex; align-items:center; gap:.75rem; margin-bottom:.75rem}
+  .search{position:relative}
+  .search input{background:var(--panel); border:1px solid var(--border); color:var(--text);
+    border-radius:8px; padding:.55rem .8rem .55rem 2.1rem; font-size:.9rem; width:240px;
+    outline:none; transition:border-color .15s, width .15s}
+  .search input:focus{border-color:var(--accent); width:280px}
+  .search svg{position:absolute; left:.65rem; top:50%; transform:translateY(-50%); opacity:.5; pointer-events:none}
+  .count{color:var(--muted); font-size:.82rem; margin-left:auto}
+  table{width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--border);
+    border-radius:10px; overflow:hidden; font-variant-numeric:tabular-nums}
+  thead th{background:var(--panel-2); text-align:right; font-size:.72rem; text-transform:uppercase;
+    letter-spacing:.04em; color:var(--muted); padding:.65rem .8rem; font-weight:600; cursor:pointer;
+    user-select:none; white-space:nowrap; border-bottom:1px solid var(--border)}
+  thead th:first-child{text-align:left}
+  thead th:hover{color:var(--text)}
+  thead th .arrow{display:inline-block; width:.7em; opacity:0; margin-left:.15em}
+  thead th.sorted .arrow{opacity:1}
+  thead th.sorted{color:var(--text)}
+  tbody tr{border-bottom:1px solid var(--border); cursor:pointer; transition:background .1s}
+  tbody tr:last-child{border-bottom:none}
+  tbody tr:hover{background:#35373c}
+  td{padding:.6rem .8rem; font-size:.87rem; text-align:right; white-space:nowrap}
+  td:first-child{text-align:left}
+  td.comp a{color:var(--text); text-decoration:none; font-weight:600}
+  tbody tr:hover td.comp a{color:var(--accent)}
+  td.champ{color:var(--muted); font-size:.8rem; font-family:ui-monospace,Menlo,Consolas,monospace}
+  .bar-cell{position:relative}
+  .bar-cell .bar{position:absolute; inset:3px 0; left:0;
+    background:color-mix(in oklch, var(--accent) 22%, transparent); border-radius:4px; z-index:0}
+  .bar-cell span{position:relative; z-index:1}
+  .err-badge{display:inline-block; margin-left:.4em; padding:0 .4em; border-radius:5px;
+    background:color-mix(in oklch, var(--bad) 30%, transparent); color:var(--bad); font-size:.7rem;
+    font-weight:700; vertical-align:middle}
+  tr.has-error{opacity:.55}
+  tr.has-error:hover{opacity:.8}
+  .empty-row td{text-align:center; color:var(--muted); padding:2rem; cursor:default}
+  .empty-row:hover{background:none}
 </style>
-<h1>Comps analysees</h1>
-<p>Set 18 - Enchanted Wilds (PBE) — genere le 2026-08-13 21:30 UTC — 20 comps</p>
-<table><thead><tr><th>comp</th><th>champ</th><th>games</th><th>share_of_meta</th><th>avg_place</th><th>d_avg_vs_meta</th><th>top4</th><th>win</th><th>erreur</th></tr></thead><tbody>
-<tr><td><a href='Gnar%20Small/report.html'>Gnar Small</a></td><td>DA_18_GnarSmall</td><td>35957</td><td>0.04744</td><td>3.198</td><td>-1.302</td><td>0.75</td><td>0.2294</td><td></td></tr>
-<tr><td><a href='Kennen/report.html'>Kennen</a></td><td>DA_18_Kennen</td><td>48074</td><td>0.06343</td><td>3.268</td><td>-1.232</td><td>0.7255</td><td>0.253</td><td></td></tr>
-<tr><td><a href='Ivern/report.html'>Ivern</a></td><td>DA_18_Ivern</td><td>19500</td><td>0.02573</td><td>3.285</td><td>-1.215</td><td>0.709</td><td>0.2785</td><td></td></tr>
-<tr><td><a href='Taric/report.html'>Taric</a></td><td>DA_Taric18</td><td>47431</td><td>0.06258</td><td>3.331</td><td>-1.169</td><td>0.7151</td><td>0.2401</td><td></td></tr>
-<tr><td><a href='Maokai/report.html'>Maokai</a></td><td>DA_18_Maokai</td><td>59211</td><td>0.07813</td><td>3.367</td><td>-1.133</td><td>0.6937</td><td>0.2741</td><td></td></tr>
-<tr><td><a href='Sett/report.html'>Sett</a></td><td>DA_18_Sett</td><td>73560</td><td>0.09706</td><td>3.647</td><td>-0.853</td><td>0.6603</td><td>0.1893</td><td></td></tr>
-<tr><td><a href='Alistar/report.html'>Alistar</a></td><td>DA_18_Alistar</td><td>31088</td><td>0.04102</td><td>3.707</td><td>-0.793</td><td>0.6502</td><td>0.1862</td><td></td></tr>
-<tr><td><a href='Ahri/report.html'>Ahri</a></td><td>DA_18_Ahri</td><td>83366</td><td>0.11</td><td>3.813</td><td>-0.687</td><td>0.6242</td><td>0.1837</td><td></td></tr>
-<tr><td><a href='Ezreal/report.html'>Ezreal</a></td><td>DA_18_Ezreal</td><td>67856</td><td>0.08953</td><td>3.822</td><td>-0.678</td><td>0.6185</td><td>0.1852</td><td></td></tr>
-<tr><td><a href='Vi/report.html'>Vi</a></td><td>DA_Vi18</td><td>32101</td><td>0.04236</td><td>3.836</td><td>-0.664</td><td>0.6329</td><td>0.1432</td><td></td></tr>
-<tr><td><a href='Soraka/report.html'>Soraka</a></td><td>DA_18_Soraka</td><td>44491</td><td>0.0587</td><td>3.936</td><td>-0.564</td><td>0.6078</td><td>0.1507</td><td></td></tr>
-<tr><td><a href='Sentinel/report.html'>Sentinel</a></td><td>DA_Sentinel18</td><td>79936</td><td>0.10547</td><td>3.979</td><td>-0.521</td><td>0.6046</td><td>0.1326</td><td></td></tr>
-<tr><td><a href='Rakan/report.html'>Rakan</a></td><td>DA_18_Rakan</td><td>10697</td><td>0.01411</td><td>3.987</td><td>-0.513</td><td>0.6005</td><td>0.1498</td><td></td></tr>
-<tr><td><a href='Le%20Blanc/report.html'>Le Blanc</a></td><td>DA_18_LeBlanc</td><td>23028</td><td>0.03038</td><td>3.997</td><td>-0.503</td><td>0.5926</td><td>0.1585</td><td></td></tr>
-<tr><td><a href='Xayah/report.html'>Xayah</a></td><td>DA_18_Xayah</td><td>30842</td><td>0.04069</td><td>4.058</td><td>-0.442</td><td>0.5843</td><td>0.1488</td><td></td></tr>
-<tr><td><a href='Amumu/report.html'>Amumu</a></td><td>DA_Amumu18</td><td>47342</td><td>0.06247</td><td>4.069</td><td>-0.431</td><td>0.5811</td><td>0.1353</td><td></td></tr>
-<tr><td><a href='Azir/report.html'>Azir</a></td><td>DA_18_Azir</td><td>37863</td><td>0.04996</td><td>4.136</td><td>-0.364</td><td>0.5592</td><td>0.1636</td><td></td></tr>
-<tr><td><a href='Hecarim/report.html'>Hecarim</a></td><td>DA_18_Hecarim</td><td>33499</td><td>0.0442</td><td>4.139</td><td>-0.361</td><td>0.5647</td><td>0.1313</td><td></td></tr>
-<tr><td><a href='Fiddlesticks/report.html'>Fiddlesticks</a></td><td>DA_Fiddlesticks18</td><td>29202</td><td>0.03853</td><td>4.178</td><td>-0.322</td><td>0.5639</td><td>0.1126</td><td></td></tr>
-<tr><td><a href='Diana/report.html'>Diana</a></td><td>DA_18_Diana</td><td>16536</td><td>0.02182</td><td>4.299</td><td>-0.201</td><td>0.5371</td><td>0.1092</td><td></td></tr>
-</tbody></table>
+</head>
+<body>
+<div class="wrap">
+  <h1>Comps analysées</h1>
+  <p class="meta">Set 18 - Enchanted Wilds (PBE) — généré le 2026-08-13 22:27 UTC — 20 comps</p>
+  <div class="toolbar">
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input id="search" type="text" placeholder="Filtrer par champion…" autocomplete="off">
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+  <table><thead><tr id="head-row"></tr></thead><tbody id="tbody"></tbody></table>
+</div>
+<script>
+const ROWS = [{"comp": "Gnar Small", "champ": "DA_18_GnarSmall", "games": 36477, "share_of_meta": 0.04732, "avg_place": 3.198, "d_avg_vs_meta": -1.302, "top4": 0.7498, "win": 0.2295, "erreur": "", "href": "Gnar%20Small/report.html"}, {"comp": "Kennen", "champ": "DA_18_Kennen", "games": 48746, "share_of_meta": 0.06323, "avg_place": 3.27, "d_avg_vs_meta": -1.23, "top4": 0.7252, "win": 0.2527, "erreur": "", "href": "Kennen/report.html"}, {"comp": "Ivern", "champ": "DA_18_Ivern", "games": 19824, "share_of_meta": 0.02572, "avg_place": 3.285, "d_avg_vs_meta": -1.215, "top4": 0.7088, "win": 0.279, "erreur": "", "href": "Ivern/report.html"}, {"comp": "Taric", "champ": "DA_Taric18", "games": 48077, "share_of_meta": 0.06237, "avg_place": 3.33, "d_avg_vs_meta": -1.17, "top4": 0.7154, "win": 0.2401, "erreur": "", "href": "Taric/report.html"}, {"comp": "Maokai", "champ": "DA_18_Maokai", "games": 60127, "share_of_meta": 0.078, "avg_place": 3.369, "d_avg_vs_meta": -1.131, "top4": 0.6935, "win": 0.2741, "erreur": "", "href": "Maokai/report.html"}, {"comp": "Sett", "champ": "DA_18_Sett", "games": 74738, "share_of_meta": 0.09695, "avg_place": 3.646, "d_avg_vs_meta": -0.854, "top4": 0.6603, "win": 0.1896, "erreur": "", "href": "Sett/report.html"}, {"comp": "Alistar", "champ": "DA_18_Alistar", "games": 31833, "share_of_meta": 0.04129, "avg_place": 3.706, "d_avg_vs_meta": -0.794, "top4": 0.6502, "win": 0.1867, "erreur": "", "href": "Alistar/report.html"}, {"comp": "Ahri", "champ": "DA_18_Ahri", "games": 84582, "share_of_meta": 0.10972, "avg_place": 3.812, "d_avg_vs_meta": -0.688, "top4": 0.6242, "win": 0.1841, "erreur": "", "href": "Ahri/report.html"}, {"comp": "Ezreal", "champ": "DA_18_Ezreal", "games": 68887, "share_of_meta": 0.08936, "avg_place": 3.82, "d_avg_vs_meta": -0.68, "top4": 0.6188, "win": 0.1858, "erreur": "", "href": "Ezreal/report.html"}, {"comp": "Vi", "champ": "DA_Vi18", "games": 32636, "share_of_meta": 0.04234, "avg_place": 3.835, "d_avg_vs_meta": -0.665, "top4": 0.6331, "win": 0.1431, "erreur": "", "href": "Vi/report.html"}, {"comp": "Soraka", "champ": "DA_18_Soraka", "games": 45100, "share_of_meta": 0.0585, "avg_place": 3.935, "d_avg_vs_meta": -0.565, "top4": 0.6079, "win": 0.1512, "erreur": "", "href": "Soraka/report.html"}, {"comp": "Sentinel", "champ": "DA_Sentinel18", "games": 81017, "share_of_meta": 0.1051, "avg_place": 3.977, "d_avg_vs_meta": -0.523, "top4": 0.605, "win": 0.1327, "erreur": "", "href": "Sentinel/report.html"}, {"comp": "Rakan", "champ": "DA_18_Rakan", "games": 10881, "share_of_meta": 0.01411, "avg_place": 3.984, "d_avg_vs_meta": -0.516, "top4": 0.6011, "win": 0.1498, "erreur": "", "href": "Rakan/report.html"}, {"comp": "Le Blanc", "champ": "DA_18_LeBlanc", "games": 23417, "share_of_meta": 0.03038, "avg_place": 3.996, "d_avg_vs_meta": -0.504, "top4": 0.593, "win": 0.1588, "erreur": "", "href": "Le%20Blanc/report.html"}, {"comp": "Xayah", "champ": "DA_18_Xayah", "games": 31350, "share_of_meta": 0.04067, "avg_place": 4.061, "d_avg_vs_meta": -0.439, "top4": 0.5833, "win": 0.1486, "erreur": "", "href": "Xayah/report.html"}, {"comp": "Amumu", "champ": "DA_Amumu18", "games": 48057, "share_of_meta": 0.06234, "avg_place": 4.069, "d_avg_vs_meta": -0.431, "top4": 0.5811, "win": 0.1353, "erreur": "", "href": "Amumu/report.html"}, {"comp": "Hecarim", "champ": "DA_18_Hecarim", "games": 34073, "share_of_meta": 0.0442, "avg_place": 4.139, "d_avg_vs_meta": -0.361, "top4": 0.5647, "win": 0.1313, "erreur": "", "href": "Hecarim/report.html"}, {"comp": "Azir", "champ": "DA_18_Azir", "games": 38401, "share_of_meta": 0.04981, "avg_place": 4.141, "d_avg_vs_meta": -0.359, "top4": 0.5584, "win": 0.1628, "erreur": "", "href": "Azir/report.html"}, {"comp": "Fiddlesticks", "champ": "DA_Fiddlesticks18", "games": 29691, "share_of_meta": 0.03852, "avg_place": 4.176, "d_avg_vs_meta": -0.324, "top4": 0.5646, "win": 0.113, "erreur": "", "href": "Fiddlesticks/report.html"}, {"comp": "Diana", "champ": "DA_18_Diana", "games": 16850, "share_of_meta": 0.02186, "avg_place": 4.3, "d_avg_vs_meta": -0.2, "top4": 0.5374, "win": 0.109, "erreur": "", "href": "Diana/report.html"}];
+const COLUMNS = [
+  {key:"comp", label:"Comp", align:"left"},
+  {key:"champ", label:"Champ", align:"left"},
+  {key:"games", label:"Games", fmt:"int"},
+  {key:"share_of_meta", label:"% Meta", fmt:"pct1", bar:true},
+  {key:"avg_place", label:"Avg Place", fmt:"place", tint:true},
+  {key:"d_avg_vs_meta", label:"Δ vs Meta", fmt:"delta", tint:true},
+  {key:"top4", label:"Top 4", fmt:"pct1"},
+  {key:"win", label:"Win", fmt:"pct1"},
+];
+let sortKey = "avg_place", sortDir = 1, filterText = "";
+function fmt(v, kind){
+  if (v === "" || v === null || v === undefined) return "—";
+  if (kind === "int") return v.toLocaleString("fr-FR");
+  if (kind === "pct1") return (v*100).toFixed(1) + "%";
+  if (kind === "place") return v.toFixed(2);
+  if (kind === "delta") return (v>0?"+":"") + v.toFixed(2);
+  return String(v);
+}
+function tintColor(delta){
+  const span = 1.4;
+  const t = Math.max(-1, Math.min(1, delta / span));
+  const pct = Math.round(((t + 1) / 2) * 100);
+  return `color-mix(in oklch, var(--bad) ${pct}%, var(--good) ${100-pct}%)`;
+}
+function render(){
+  const head = document.getElementById("head-row");
+  head.innerHTML = COLUMNS.map(c => {
+    const active = c.key === sortKey;
+    return `<th data-key="${c.key}" class="${active?'sorted':''}" style="text-align:${c.align||'right'}">${c.label}<span class="arrow">${active ? (sortDir>0?'▲':'▼') : '▲'}</span></th>`;
+  }).join("");
+  head.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
+    const key = th.dataset.key;
+    if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+    render();
+  }));
+  let rows = ROWS.filter(r => {
+    if (!filterText) return true;
+    const q = filterText.toLowerCase();
+    return r.comp.toLowerCase().includes(q) || r.champ.toLowerCase().includes(q);
+  });
+  rows = rows.slice().sort((a,b) => {
+    const va = a[sortKey], vb = b[sortKey];
+    if (typeof va === "string") return va.localeCompare(vb) * sortDir;
+    return ((va ?? 0) - (vb ?? 0)) * sortDir;
+  });
+  const tbody = document.getElementById("tbody");
+  if (!rows.length){
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="${COLUMNS.length}">Aucun résultat pour « ${filterText} »</td></tr>`;
+  } else {
+    tbody.innerHTML = rows.map(r => {
+      const cells = COLUMNS.map(c => {
+        const raw = r[c.key];
+        if (c.key === "comp"){
+          const err = r.erreur ? `<span class="err-badge" title="${r.erreur.replace(/"/g,'&quot;')}">err</span>` : "";
+          return `<td class="comp"><a href="${r.href}">${raw}</a>${err}</td>`;
+        }
+        if (c.key === "champ") return `<td class="champ">${raw}</td>`;
+        const text = fmt(raw, c.fmt);
+        let style = "";
+        if (c.tint && raw !== "" && raw !== null){
+          const delta = c.key === "avg_place" ? r.d_avg_vs_meta : raw;
+          style = `style="color:${tintColor(delta)};font-weight:700"`;
+        }
+        if (c.bar && typeof raw === "number"){
+          return `<td class="bar-cell"><span class="bar" style="width:${Math.min(100, raw/0.15*100)}%"></span><span ${style}>${text}</span></td>`;
+        }
+        return `<td ${style}>${text}</td>`;
+      }).join("");
+      return `<tr class="${r.erreur?'has-error':''}" onclick="location.href='${r.href}'">${cells}</tr>`;
+    }).join("");
+  }
+  document.getElementById("count").textContent = `${rows.length} / ${ROWS.length} comps`;
+}
+document.getElementById("search").addEventListener("input", e => { filterText = e.target.value.trim(); render(); });
+render();
+</script>
+</body>
+</html>
