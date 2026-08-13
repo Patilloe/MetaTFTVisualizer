@@ -1179,8 +1179,12 @@ function render(){
   });
   rows = rows.slice().sort((a,b) => {
     const va = a[sortKey], vb = b[sortKey];
-    if (typeof va === "string") return va.localeCompare(vb) * sortDir;
-    return ((va ?? 0) - (vb ?? 0)) * sortDir;
+    if (typeof va === "string" && typeof vb === "string") return va.localeCompare(vb) * sortDir;
+    // les comps en erreur ont une valeur vide : toujours les traiter comme
+    // le pire cas, sinon elles remontent en tete du classement
+    const na = (va === "" || va == null) ? Infinity : va;
+    const nb = (vb === "" || vb == null) ? Infinity : vb;
+    return (na - nb) * sortDir;
   });
   const tbody = document.getElementById("tbody");
   if (!rows.length){
