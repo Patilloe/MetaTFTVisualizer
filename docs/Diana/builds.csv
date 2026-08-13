@@ -1,0 +1,30 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Hand Of Justice + Ionic Spark + Jeweled Gauntlet,255,0.015420899854862119,3.839,4.099,-0.2,-0.46,-0.206,0.0031,0.0629,0.1608,0.3333,0.6,2.053,-3.55,0.00038,True
+populaire,Hand Of Justice + Hand Of Justice + Jeweled Gauntlet,109,0.006591678761490082,3.596,4.125,-0.174,-0.703,-0.332,0.0011,0.1785,0.1193,0.3761,0.7156,1.968,-3.72,0.0002,True
+populaire,Hand Of Justice + Jeweled Gauntlet + Rabadons Deathcap,146,0.008829221093372037,3.89,4.174,-0.125,-0.409,-0.084,0.0011,0.0725,0.1233,0.3014,0.6096,1.994,-2.47,0.01363,True
+populaire,Edge Of Night + Hand Of Justice + Jeweled Gauntlet,194,0.011731978713110788,4.015,4.194,-0.105,-0.284,0.0,0.0012,0.0247,0.134,0.3144,0.5619,2.084,-1.89,0.05926,False
+pepite,Bloodthirster + Ionic Spark + Titans Resolve,48,0.002902757619738752,3.708,4.225,-0.075,-0.591,0.0,0.0002,0.0879,0.2083,0.375,0.625,2.179,-1.88,0.06053,False
+populaire,Hand Of Justice + Jeweled Gauntlet + Titans Resolve,179,0.010824866956942429,4.112,4.234,-0.066,-0.188,0.0,0.0007,0.0271,0.1285,0.3128,0.5642,2.122,-1.18,0.239,False
+pepite,Hand Of Justice + Jeweled Gauntlet + Quicksilver,56,0.003386550556361877,3.911,4.243,-0.056,-0.389,0.0,0.0002,0.0879,0.1786,0.3571,0.625,2.309,-1.26,0.20834,False
+pepite,Hand Of Justice + Ionic Spark + Titans Resolve,49,0.0029632317368166426,3.878,4.245,-0.054,-0.422,0.0,0.0002,0.0751,0.1224,0.3061,0.6122,1.996,-1.48,0.13967,False
+pepite,Bloodthirster + Jeweled Gauntlet + Rabadons Deathcap,41,0.0024794388001935174,3.829,4.248,-0.052,-0.47,0.0,0.0001,0.1214,0.1707,0.3171,0.6585,2.14,-1.41,0.16001,False
+populaire,Bloodthirster + Hand Of Justice + Jeweled Gauntlet,154,0.009313014029995162,4.149,4.252,-0.048,-0.15,0.0,0.0004,0.0343,0.1429,0.2727,0.5714,2.185,-0.85,0.39606,False
+pepite,Giant Slayer + Hand Of Justice + Jeweled Gauntlet,57,0.003447024673439768,3.982,4.253,-0.047,-0.317,0.0,0.0002,0.0944,0.1404,0.2281,0.6316,2.013,-1.19,0.23536,False
+pepite,Archangels Staff + Hand Of Justice + Jeweled Gauntlet,54,0.003265602322206096,4.0,4.257,-0.042,-0.299,0.0,0.0001,0.0369,0.0926,0.3148,0.5741,2.046,-1.07,0.28291,False
+,Bloodthirster + Edge Of Night + Titans Resolve,48,0.002902757619738752,3.979,4.259,-0.041,-0.32,0.0,0.0001,0.067,0.1458,0.2708,0.6042,2.077,-1.07,0.28596,False
+,Bloodthirster + Edge Of Night + Jeweled Gauntlet,74,0.004475084663763909,4.149,4.272,-0.028,-0.151,0.0,0.0001,0.0034,0.0811,0.2703,0.5405,1.922,-0.67,0.50083,False
+,Bloodthirster + Ionic Spark + Jeweled Gauntlet,53,0.003205128205128205,4.189,4.284,-0.015,-0.111,0.0,0.0,-0.0088,0.1132,0.2642,0.5283,2.047,-0.39,0.69409,False
+,Edge Of Night + Hand Of Justice + Titans Resolve,44,0.002660861151427189,4.273,4.296,-0.003,-0.027,0.0,0.0,0.0311,0.0909,0.2273,0.5682,2.114,-0.08,0.93324,False
+,Hand Of Justice + Hextech Gunblade + Jeweled Gauntlet,42,0.0025399129172714078,4.5,4.322,0.023,0.201,0.0,-0.0001,-0.0848,0.1429,0.1667,0.4524,2.015,0.64,0.5195,False
+populaire,Bloodthirster + Guinsoos Rageblade + Titans Resolve,155,0.009373488147073053,4.4,4.332,0.032,0.101,0.0,-0.0003,-0.0081,0.0903,0.2129,0.529,2.069,0.6,0.5471,False
+,Bloodthirster + Edge Of Night + Hand Of Justice,54,0.003265602322206096,4.537,4.333,0.033,0.238,0.0,-0.0001,-0.0371,0.037,0.1852,0.5,1.997,0.87,0.38297,False
+,Gargoyle Stoneplate + Spirit Visage + Sunfire Cape,42,0.0025399129172714078,4.69,4.344,0.044,0.391,0.0,-0.0001,-0.1086,0.0476,0.2381,0.4286,2.053,1.23,0.21765,False
+populaire,Hand Of Justice + Jeweled Gauntlet + Strikers Flail,144,0.008708272859216255,4.451,4.346,0.046,0.152,0.0,-0.0004,-0.0163,0.0903,0.1944,0.5208,1.939,0.94,0.34973,False
+,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,57,0.003447024673439768,4.772,4.369,0.069,0.472,0.0,-0.0002,-0.0985,0.0526,0.1579,0.4386,2.009,1.77,0.07636,False
+,Gargoyle Stoneplate + Sunfire Cape + Warmogs Armor,58,0.0035074987905176582,4.862,4.383,0.084,0.563,0.107,-0.0003,-0.1233,0.0345,0.0862,0.4138,1.766,2.42,0.01552,True
+,Gargoyle Stoneplate + Protectors Vow + Warmogs Armor,65,0.003930817610062893,4.877,4.394,0.095,0.577,0.122,-0.0004,-0.1371,0.0308,0.1692,0.4,1.869,2.48,0.01296,True
+,Gargoyle Stoneplate + Steadfast Heart + Warmogs Armor,42,0.0025399129172714078,5.143,4.395,0.095,0.843,0.211,-0.0002,-0.1086,0.0714,0.119,0.4286,2.088,2.61,0.00895,True
+,Bloodthirster + Steraks Gage + Titans Resolve,56,0.003386550556361877,4.964,4.396,0.096,0.665,0.142,-0.0003,-0.1978,0.0714,0.1607,0.3393,1.991,2.49,0.01262,True
+populaire,Bloodthirster + Jeweled Gauntlet + Titans Resolve,143,0.008647798742138365,4.72,4.426,0.127,0.421,0.068,-0.0011,-0.0896,0.0839,0.1888,0.4476,2.146,2.33,0.01956,True
+populaire,Bloodthirster + Hand Of Justice + Titans Resolve,136,0.00822447992259313,4.765,4.435,0.136,0.465,0.137,-0.0011,-0.1033,0.0662,0.1397,0.4338,1.945,2.78,0.0055,True
+,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,104,0.006289308176100629,5.096,4.49,0.191,0.797,0.478,-0.0012,-0.191,0.0096,0.0385,0.3462,1.65,4.9,0.0,True
