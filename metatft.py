@@ -748,6 +748,28 @@ def write_csv(path: str, rows: list[dict]) -> None:
             w.writerow(r)
 
 
+# Palette des graphiques, alignee sur le theme sombre des pages HTML : le PNG
+# est le contenu principal du report, il ne doit pas y apparaitre comme un
+# rectangle blanc.
+MPL_BG = "#2b2d31"      # = --panel
+MPL_TEXT = "#dbdee1"    # = --text
+MPL_GRID = "#4a4d54"
+
+
+def apply_dark_style(fig, axes) -> None:
+    fig.patch.set_facecolor(MPL_BG)
+    for ax in axes:
+        ax.set_facecolor(MPL_BG)
+        ax.tick_params(colors=MPL_TEXT, labelsize=8)
+        for spine in ax.spines.values():
+            spine.set_color(MPL_GRID)
+        ax.xaxis.label.set_color(MPL_TEXT)
+        ax.yaxis.label.set_color(MPL_TEXT)
+        # sans condition : le titre est pose apres cet appel, il serait sinon
+        # laisse en noir sur fond sombre
+        ax.title.set_color(MPL_TEXT)
+
+
 def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
                 icons: bool = True) -> None:
     """Barres horizontales du delta de place moyenne, avec IC 95% et icones."""
@@ -789,13 +811,14 @@ def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
         sharey=True)
     for extra in (ax_txt, ax_img):
         extra.axis("off")
+    apply_dark_style(fig, (ax, ax_txt, ax_img))
 
-    ax.barh(ys, deltas, height=heights, color=colors, edgecolor="black",
-            linewidth=0.6, zorder=3)
+    ax.barh(ys, deltas, height=heights, color=colors, edgecolor=MPL_BG,
+            linewidth=0.8, zorder=3)
     ax.errorbar(deltas, ys, xerr=[[d - lo for d, lo in zip(deltas, los)],
                                   [hi - d for d, hi in zip(deltas, his)]],
-                fmt="none", ecolor="black", elinewidth=1.0, capsize=3, zorder=4)
-    ax.axvline(0, color="black", linewidth=1.2, zorder=2)
+                fmt="none", ecolor=MPL_TEXT, elinewidth=1.0, capsize=3, zorder=4)
+    ax.axvline(0, color=MPL_TEXT, linewidth=1.2, zorder=2)
 
     txt_tr = mtransforms.blended_transform_factory(ax_txt.transAxes, ax_txt.transData)
     for y, r in zip(ys, rows):
@@ -804,20 +827,21 @@ def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
                     f"{r['avg_place']:.2f} | {100 * r['share']:5.1f}% "
                     f"| n={r['n']:<6} | top4 {100 * r['top4']:3.0f}%{mark}",
                     transform=txt_tr, va="center", ha="left", fontsize=8,
-                    family="monospace")
+                    family="monospace", color=MPL_TEXT)
 
     # losange : la place moyenne lissee, celle qui sert au classement
-    ax.scatter([r["score"] for r in rows], ys, marker="D", s=26,
-               facecolor="white", edgecolor="black", linewidth=0.8, zorder=5,
+    ax.scatter([r["score"] for r in rows], ys, marker="D", s=30,
+               facecolor="white", edgecolor=MPL_BG, linewidth=0.8, zorder=5,
                label="valeur lissee (classement)")
 
     ax.set_yticks(ys)
-    ax.set_yticklabels(labels, fontsize=8)
+    ax.set_yticklabels(labels, fontsize=8, color=MPL_TEXT)
     ax.set_xlabel("Delta de place moyenne vs la comp (negatif = meilleur) — "
                   "epaisseur de barre = part de l'echantillon")
-    ax.set_title(title, fontsize=13, fontweight="bold")
-    ax.legend(fontsize=8, loc="upper left", framealpha=0.9)
-    ax.grid(axis="x", linestyle="--", alpha=0.3, zorder=1)
+    ax.set_title(title, fontsize=14, fontweight="bold")
+    ax.legend(fontsize=8, loc="upper left", framealpha=0.9, facecolor=MPL_BG,
+              edgecolor=MPL_GRID, labelcolor=MPL_TEXT)
+    ax.grid(axis="x", linestyle="--", alpha=0.25, color=MPL_GRID, zorder=1)
     ax.margins(x=0.08)
 
     # icones dans la marge droite : la colonne de gauche reste lisible.
@@ -839,7 +863,8 @@ def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
                 ax_img.add_artist(ab)
 
     fig.tight_layout()
-    fig.savefig(path, dpi=140, bbox_inches="tight")
+    # sans facecolor explicite, savefig repasse la figure en blanc
+    fig.savefig(path, dpi=140, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
 
 
@@ -859,18 +884,19 @@ def plot_scatter(rows: list[dict], title: str, path: str) -> None:
     cmap = plt.get_cmap("RdYlGn_r")
 
     fig, ax = plt.subplots(figsize=(13, 8))
+    apply_dark_style(fig, (ax,))
     ax.scatter(xs, ys, s=140, c=[cmap(norm(r["d_avg"])) for r in rows],
-               edgecolor="k", zorder=3)
+               edgecolor=MPL_BG, zorder=3)
     ax.set_yscale("log")
     for x, y, r in zip(xs, ys, rows):
         ax.annotate(r["label"], (x, y), textcoords="offset points", xytext=(0, 10),
-                    ha="center", fontsize=7)
+                    ha="center", fontsize=7, color=MPL_TEXT)
     ax.set_xlabel("Place moyenne")
     ax.set_ylabel("Parties (echelle log)")
-    ax.set_title(title, fontsize=13, fontweight="bold")
-    ax.grid(True, linestyle="--", alpha=0.3, zorder=1)
+    ax.set_title(title, fontsize=14, fontweight="bold")
+    ax.grid(True, linestyle="--", alpha=0.25, color=MPL_GRID, zorder=1)
     fig.tight_layout()
-    fig.savefig(path, dpi=140, bbox_inches="tight")
+    fig.savefig(path, dpi=140, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
 
 
@@ -923,9 +949,9 @@ REPORT_HEAD = """<!DOCTYPE html>
   h1 + p + p{background:var(--panel); border:1px solid var(--border); border-radius:10px;
     padding:.85rem 1.1rem; font-size:.92rem; color:var(--muted); margin-bottom:1.75rem; line-height:1.7}
   h1 + p + p b{color:var(--accent); font-weight:700}
-  .gallery{display:grid; grid-template-columns:repeat(auto-fit,minmax(360px,1fr)); gap:1rem; margin-bottom:1rem}
+  .gallery{display:flex; flex-direction:column; gap:1.5rem; margin-bottom:2.5rem}
   .gallery img{width:100%; display:block; background:var(--panel); border:1px solid var(--border);
-    border-radius:10px; padding:.5rem}
+    border-radius:12px; padding:.75rem}
   h2{font-size:1.02rem; font-weight:700; text-transform:capitalize; color:var(--text);
     border:none; margin:2.25rem 0 .75rem; padding-bottom:.4rem; border-bottom:1px solid var(--border)}
   h2 + p{color:var(--muted); font-style:italic; font-size:.85rem}
