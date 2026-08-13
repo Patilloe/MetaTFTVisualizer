@@ -888,20 +888,120 @@ def html_table(rows: list[dict], limit: int = 25) -> str:
     return f"<table><thead><tr>{head}</tr></thead><tbody>{''.join(body)}</tbody></table>"
 
 
-HTML_CSS = """
-body{font-family:system-ui,sans-serif;margin:2rem;max-width:1100px}
-table{border-collapse:collapse;width:100%;margin-bottom:1.5rem;font-size:13px}
-th,td{border:1px solid #ddd;padding:4px 8px;text-align:right}
-th:first-child,td:first-child{text-align:left}
-th{background:#f4f4f4}
-img{max-width:100%;margin:1rem 0}
-h2{border-bottom:2px solid #333;padding-bottom:.2rem;margin-top:2.5rem}
+# --------------------------------------------------------------------------- #
+# Gabarit du report : theme sombre. Le JS de pied de page reformate les tables
+# produites par html_table() (pourcentages, milliers, pastilles) sans toucher a
+# sa logique, et regroupe les images en grille.
+# --------------------------------------------------------------------------- #
+
+REPORT_HEAD = """<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TFT — __TITLE__</title>
+<style>
+  :root{
+    --bg:#1e1f22; --panel:#2b2d31; --panel-2:#313338; --border:#3b3d42;
+    --text:#dbdee1; --muted:#949ba4; --accent:oklch(72% 0.14 275);
+    --good:oklch(70% 0.15 150); --bad:oklch(68% 0.17 30);
+    --good-bg:color-mix(in oklch, var(--good) 16%, var(--panel));
+    --bad-bg:color-mix(in oklch, var(--bad) 16%, var(--panel));
+  }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); margin:0; padding:0 1.5rem 3rem}
+  .wrap{max-width:1180px; margin:0 auto}
+  .topbar{display:flex; align-items:center; gap:.6rem; padding:1.25rem 0 .5rem;
+    position:sticky; top:0; background:var(--bg); z-index:5}
+  .back{color:var(--muted); text-decoration:none; font-size:.85rem; display:inline-flex;
+    align-items:center; gap:.35rem; padding:.4rem .7rem; border:1px solid var(--border);
+    border-radius:7px; transition:color .15s, border-color .15s}
+  .back:hover{color:var(--text); border-color:var(--accent)}
+  h1{font-size:1.5rem; font-weight:700; margin:.75rem 0 .2rem}
+  h1 + p{color:var(--muted); font-size:.85rem; margin:0 0 1rem}
+  h1 + p + p{background:var(--panel); border:1px solid var(--border); border-radius:10px;
+    padding:.85rem 1.1rem; font-size:.92rem; color:var(--muted); margin-bottom:1.75rem; line-height:1.7}
+  h1 + p + p b{color:var(--accent); font-weight:700}
+  .gallery{display:grid; grid-template-columns:repeat(auto-fit,minmax(360px,1fr)); gap:1rem; margin-bottom:1rem}
+  .gallery img{width:100%; display:block; background:var(--panel); border:1px solid var(--border);
+    border-radius:10px; padding:.5rem}
+  h2{font-size:1.02rem; font-weight:700; text-transform:capitalize; color:var(--text);
+    border:none; margin:2.25rem 0 .75rem; padding-bottom:.4rem; border-bottom:1px solid var(--border)}
+  h2 + p{color:var(--muted); font-style:italic; font-size:.85rem}
+  table{width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--border);
+    border-radius:10px; overflow:hidden; font-variant-numeric:tabular-nums; margin-bottom:.5rem; font-size:.83rem}
+  th,td{padding:.5rem .7rem; text-align:right; white-space:nowrap}
+  th:first-child,td:first-child{text-align:left; white-space:normal}
+  th{background:var(--panel-2); font-size:.7rem; text-transform:uppercase; letter-spacing:.03em;
+    color:var(--muted); font-weight:600; border-bottom:1px solid var(--border)}
+  tbody tr{border-bottom:1px solid var(--border)}
+  tbody tr:last-child{border-bottom:none}
+  tr[style*="e8f5e9"]{background:var(--good-bg) !important}
+  tr[style*="ffebee"]{background:var(--bad-bg) !important}
+  p[style*="b71c1c"]{color:var(--bad) !important; background:var(--bad-bg); border:1px solid var(--border);
+    border-radius:8px; padding:.6rem .9rem; margin-bottom:1rem}
+  .table-scroll{overflow-x:auto; border-radius:10px}
+  .pill{display:inline-block; padding:.1rem .5rem; border-radius:5px; font-weight:700; font-size:.78rem}
+  .pill.yes{background:color-mix(in oklch, var(--good) 25%, transparent); color:var(--good)}
+  .pill.no{background:transparent; color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar"><a class="back" href="../index.html">← Retour aux comps</a></div>
 """
+
+REPORT_FOOT = """
+</div>
+<script>
+document.querySelectorAll("img").forEach(function(img){
+  if (img.closest(".gallery")) return;
+  var gal = img.previousElementSibling;
+  if (!gal || !gal.classList || !gal.classList.contains("gallery")) {
+    gal = document.createElement("div");
+    gal.className = "gallery";
+    img.parentNode.insertBefore(gal, img);
+  }
+  gal.appendChild(img);
+});
+document.querySelectorAll("table").forEach(function(table){
+  var wrap = document.createElement("div");
+  wrap.className = "table-scroll";
+  table.parentNode.insertBefore(wrap, table);
+  wrap.appendChild(table);
+  var headers = Array.prototype.map.call(table.querySelectorAll("thead th"), function(th){ return th.textContent.trim().toLowerCase(); });
+  var pctCols = ["top4","win","share","d_top4","d_win"];
+  var intCols = ["n"];
+  var decCols = ["avg_place","shrunk_avg","d_avg","d_avg_pess","z","impact"];
+  table.querySelectorAll("tbody tr").forEach(function(tr){
+    Array.prototype.forEach.call(tr.children, function(td, i){
+      var col = headers[i];
+      var raw = td.textContent.trim();
+      if (col === "significant") {
+        var yes = raw.toLowerCase() === "true";
+        td.innerHTML = "<span class=\\"pill " + (yes ? "yes" : "no") + "\\">" + (yes ? "significatif" : "—") + "</span>";
+        return;
+      }
+      var v = parseFloat(raw);
+      if (isNaN(v)) return;
+      if (intCols.indexOf(col) !== -1) td.textContent = v.toLocaleString("fr-FR");
+      else if (pctCols.indexOf(col) !== -1) td.textContent = (v * 100).toFixed(1) + "%";
+      else if (decCols.indexOf(col) !== -1) {
+        var sign = (v > 0 && col !== "avg_place" && col !== "shrunk_avg") ? "+" : "";
+        td.textContent = sign + v.toFixed(3);
+        if (col === "d_avg") td.style.color = v < 0 ? "var(--good)" : "var(--bad)";
+      }
+    });
+  });
+});
+</script>
+</body>
+</html>"""
 
 
 def write_comp_html(result: dict, comp_dir: str, images: list[str]) -> None:
-    parts = [f"<style>{HTML_CSS}</style>",
-             f"<h1>{html.escape(result['name'])} — {html.escape(result['champ'])}</h1>",
+    parts = [f"<h1>{html.escape(result['name'])} — {html.escape(result['champ'])}</h1>",
              f"<p>{html.escape(result['set_label'])}</p>"]
     m = result.get("meta")
     if m:
@@ -916,8 +1016,11 @@ def write_comp_html(result: dict, comp_dir: str, images: list[str]) -> None:
         parts.append(f"<img src='{html.escape(os.path.basename(img))}'>")
     for table, rows in result["tables"].items():
         parts.append(f"<h2>{table}</h2>{html_table(rows)}")
+
+    title = f"{result['name']} — {result['champ']}"
+    doc = REPORT_HEAD.replace("__TITLE__", html.escape(title)) + "\n".join(parts) + REPORT_FOOT
     with open(os.path.join(comp_dir, "report.html"), "w", encoding="utf-8") as f:
-        f.write("\n".join(parts))
+        f.write(doc)
 
 
 def comp_folder(name: str, champ: str) -> str:
@@ -959,6 +1062,161 @@ def write_outputs(result: dict, out_dir: str, api: ApiClient, cfg: argparse.Name
         write_comp_html(result, comp_dir, images)
 
 
+# --------------------------------------------------------------------------- #
+# Gabarit de l'index : table triable + recherche, donnees injectees en JSON.
+# --------------------------------------------------------------------------- #
+
+INDEX_HEAD = """<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TFT — __SUBTITLE__</title>
+<style>
+  :root{--bg:#1e1f22; --panel:#2b2d31; --panel-2:#313338; --border:#3b3d42;
+    --text:#dbdee1; --muted:#949ba4; --accent:oklch(72% 0.14 275);
+    --good:oklch(70% 0.15 150); --bad:oklch(68% 0.17 30)}
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--text); margin:0; padding:2.5rem 1.5rem}
+  .wrap{max-width:1180px; margin:0 auto}
+  h1{font-size:1.4rem; font-weight:700; margin:0 0 .25rem}
+  .meta{color:var(--muted); font-size:.85rem; margin:0 0 1.5rem}
+  .toolbar{display:flex; align-items:center; gap:.75rem; margin-bottom:.75rem}
+  .search{position:relative}
+  .search input{background:var(--panel); border:1px solid var(--border); color:var(--text);
+    border-radius:8px; padding:.55rem .8rem .55rem 2.1rem; font-size:.9rem; width:240px;
+    outline:none; transition:border-color .15s, width .15s}
+  .search input:focus{border-color:var(--accent); width:280px}
+  .search svg{position:absolute; left:.65rem; top:50%; transform:translateY(-50%); opacity:.5; pointer-events:none}
+  .count{color:var(--muted); font-size:.82rem; margin-left:auto}
+  table{width:100%; border-collapse:collapse; background:var(--panel); border:1px solid var(--border);
+    border-radius:10px; overflow:hidden; font-variant-numeric:tabular-nums}
+  thead th{background:var(--panel-2); text-align:right; font-size:.72rem; text-transform:uppercase;
+    letter-spacing:.04em; color:var(--muted); padding:.65rem .8rem; font-weight:600; cursor:pointer;
+    user-select:none; white-space:nowrap; border-bottom:1px solid var(--border)}
+  thead th:first-child{text-align:left}
+  thead th:hover{color:var(--text)}
+  thead th .arrow{display:inline-block; width:.7em; opacity:0; margin-left:.15em}
+  thead th.sorted .arrow{opacity:1}
+  thead th.sorted{color:var(--text)}
+  tbody tr{border-bottom:1px solid var(--border); cursor:pointer; transition:background .1s}
+  tbody tr:last-child{border-bottom:none}
+  tbody tr:hover{background:#35373c}
+  td{padding:.6rem .8rem; font-size:.87rem; text-align:right; white-space:nowrap}
+  td:first-child{text-align:left}
+  td.comp a{color:var(--text); text-decoration:none; font-weight:600}
+  tbody tr:hover td.comp a{color:var(--accent)}
+  td.champ{color:var(--muted); font-size:.8rem; font-family:ui-monospace,Menlo,Consolas,monospace}
+  .bar-cell{position:relative}
+  .bar-cell .bar{position:absolute; inset:3px 0; left:0;
+    background:color-mix(in oklch, var(--accent) 22%, transparent); border-radius:4px; z-index:0}
+  .bar-cell span{position:relative; z-index:1}
+  .err-badge{display:inline-block; margin-left:.4em; padding:0 .4em; border-radius:5px;
+    background:color-mix(in oklch, var(--bad) 30%, transparent); color:var(--bad); font-size:.7rem;
+    font-weight:700; vertical-align:middle}
+  tr.has-error{opacity:.55}
+  tr.has-error:hover{opacity:.8}
+  .empty-row td{text-align:center; color:var(--muted); padding:2rem; cursor:default}
+  .empty-row:hover{background:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Comps analysées</h1>
+  <p class="meta">__SUBTITLE__ — généré le __GENERATED__ — __NCOMPS__ comps</p>
+  <div class="toolbar">
+    <div class="search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <input id="search" type="text" placeholder="Filtrer par champion…" autocomplete="off">
+    </div>
+    <span class="count" id="count"></span>
+  </div>
+  <table><thead><tr id="head-row"></tr></thead><tbody id="tbody"></tbody></table>
+</div>
+<script>
+const ROWS = __ROWS_JSON__;
+const COLUMNS = [
+  {key:"comp", label:"Comp", align:"left"},
+  {key:"champ", label:"Champ", align:"left"},
+  {key:"games", label:"Games", fmt:"int"},
+  {key:"share_of_meta", label:"% Meta", fmt:"pct1", bar:true},
+  {key:"avg_place", label:"Avg Place", fmt:"place", tint:true},
+  {key:"d_avg_vs_meta", label:"Δ vs Meta", fmt:"delta", tint:true},
+  {key:"top4", label:"Top 4", fmt:"pct1"},
+  {key:"win", label:"Win", fmt:"pct1"},
+];
+let sortKey = "avg_place", sortDir = 1, filterText = "";
+function fmt(v, kind){
+  if (v === "" || v === null || v === undefined) return "—";
+  if (kind === "int") return v.toLocaleString("fr-FR");
+  if (kind === "pct1") return (v*100).toFixed(1) + "%";
+  if (kind === "place") return v.toFixed(2);
+  if (kind === "delta") return (v>0?"+":"") + v.toFixed(2);
+  return String(v);
+}
+function tintColor(delta){
+  const span = 1.4;
+  const t = Math.max(-1, Math.min(1, delta / span));
+  const pct = Math.round(((t + 1) / 2) * 100);
+  return `color-mix(in oklch, var(--bad) ${pct}%, var(--good) ${100-pct}%)`;
+}
+function render(){
+  const head = document.getElementById("head-row");
+  head.innerHTML = COLUMNS.map(c => {
+    const active = c.key === sortKey;
+    return `<th data-key="${c.key}" class="${active?'sorted':''}" style="text-align:${c.align||'right'}">${c.label}<span class="arrow">${active ? (sortDir>0?'▲':'▼') : '▲'}</span></th>`;
+  }).join("");
+  head.querySelectorAll("th").forEach(th => th.addEventListener("click", () => {
+    const key = th.dataset.key;
+    if (sortKey === key) sortDir *= -1; else { sortKey = key; sortDir = 1; }
+    render();
+  }));
+  let rows = ROWS.filter(r => {
+    if (!filterText) return true;
+    const q = filterText.toLowerCase();
+    return r.comp.toLowerCase().includes(q) || r.champ.toLowerCase().includes(q);
+  });
+  rows = rows.slice().sort((a,b) => {
+    const va = a[sortKey], vb = b[sortKey];
+    if (typeof va === "string") return va.localeCompare(vb) * sortDir;
+    return ((va ?? 0) - (vb ?? 0)) * sortDir;
+  });
+  const tbody = document.getElementById("tbody");
+  if (!rows.length){
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="${COLUMNS.length}">Aucun résultat pour « ${filterText} »</td></tr>`;
+  } else {
+    tbody.innerHTML = rows.map(r => {
+      const cells = COLUMNS.map(c => {
+        const raw = r[c.key];
+        if (c.key === "comp"){
+          const err = r.erreur ? `<span class="err-badge" title="${r.erreur.replace(/"/g,'&quot;')}">err</span>` : "";
+          return `<td class="comp"><a href="${r.href}">${raw}</a>${err}</td>`;
+        }
+        if (c.key === "champ") return `<td class="champ">${raw}</td>`;
+        const text = fmt(raw, c.fmt);
+        let style = "";
+        if (c.tint && raw !== "" && raw !== null){
+          const delta = c.key === "avg_place" ? r.d_avg_vs_meta : raw;
+          style = `style="color:${tintColor(delta)};font-weight:700"`;
+        }
+        if (c.bar && typeof raw === "number"){
+          return `<td class="bar-cell"><span class="bar" style="width:${Math.min(100, raw/0.15*100)}%"></span><span ${style}>${text}</span></td>`;
+        }
+        return `<td ${style}>${text}</td>`;
+      }).join("");
+      return `<tr class="${r.erreur?'has-error':''}" onclick="location.href='${r.href}'">${cells}</tr>`;
+    }).join("");
+  }
+  document.getElementById("count").textContent = `${rows.length} / ${ROWS.length} comps`;
+}
+document.getElementById("search").addEventListener("input", e => { filterText = e.target.value.trim(); render(); });
+render();
+</script>
+</body>
+</html>"""
+
+
 def write_summary(results: list[dict], out_dir: str, cfg: argparse.Namespace,
                   profile: "SetProfile | None" = None) -> list[dict]:
     """Ecrit summary.csv + index.html. Retourne les lignes (reutilisees par la
@@ -988,25 +1246,20 @@ def write_summary(results: list[dict], out_dir: str, cfg: argparse.Namespace,
 
     generated = time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime())
     subtitle = profile.label if profile else ""
-    header = "".join(f"<th>{html.escape(c)}</th>" for c in rows[0])
-    body = ["<meta charset='utf-8'>",
-            "<meta name='viewport' content='width=device-width,initial-scale=1'>",
-            f"<title>TFT — {html.escape(subtitle)}</title>",
-            "<style>" + HTML_CSS + "</style>",
-            "<h1>Comps analysees</h1>",
-            f"<p>{html.escape(subtitle)} — genere le {generated} — "
-            f"{len([r for r in rows if not r['erreur']])} comps</p>",
-            f"<table><thead><tr>{header}</tr></thead><tbody>"]
-    for r in rows:
-        # les dossiers contiennent espaces et accents : encoder l'URL, sinon
-        # les liens cassent une fois servis par GitHub Pages
-        href = quote(f"{r['comp']}/report.html")
-        link = f"<a href='{href}'>{html.escape(r['comp'])}</a>"
-        cells = [link] + [html.escape(str(v)) for v in list(r.values())[1:]]
-        body.append("<tr>" + "".join(f"<td>{c}</td>" for c in cells) + "</tr>")
-    body.append("</tbody></table>")
+    ncomps = len([r for r in rows if not r["erreur"]])
+
+    # les dossiers contiennent espaces et accents : encoder l'URL, sinon les
+    # liens cassent une fois servis par GitHub Pages
+    json_rows = [dict(r, href=quote(f"{r['comp']}/report.html")) for r in rows]
+
+    doc = (INDEX_HEAD
+           .replace("__SUBTITLE__", html.escape(subtitle))
+           .replace("__GENERATED__", generated)
+           .replace("__NCOMPS__", str(ncomps))
+           .replace("__ROWS_JSON__", json.dumps(json_rows, ensure_ascii=False)))
+
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write("\n".join(body))
+        f.write(doc)
     print(f"Rapport global : {os.path.join(out_dir, 'index.html')}")
     return rows
 
