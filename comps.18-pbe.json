@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Sentinel",
+    "champ": "DA_Sentinel18",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_Sentinel18-1_.*_3",
+    "_note": "215026 parties, place moyenne 4.21"
+  },
+  {
+    "name": "Amumu",
+    "champ": "DA_Amumu18",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_Amumu18-1_.*_3",
+    "_note": "195069 parties, place moyenne 4.12"
+  },
+  {
+    "name": "Taric",
+    "champ": "DA_Taric18",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_Taric18-1_.*_3",
+    "_note": "193540 parties, place moyenne 3.67"
+  },
+  {
+    "name": "Kennen",
+    "champ": "DA_18_Kennen",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Kennen-1_.*_3",
+    "_note": "165924 parties, place moyenne 3.66"
+  },
+  {
+    "name": "Sett",
+    "champ": "DA_18_Sett",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Sett-1_.*_3",
+    "_note": "158698 parties, place moyenne 3.97"
+  },
+  {
+    "name": "Diana",
+    "champ": "DA_18_Diana",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Diana-1_.*_3",
+    "_note": "158642 parties, place moyenne 4.45"
+  },
+  {
+    "name": "Maokai",
+    "champ": "DA_18_Maokai",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Maokai-1_.*_3",
+    "_note": "155925 parties, place moyenne 3.87"
+  },
+  {
+    "name": "Gnar Small",
+    "champ": "DA_18_GnarSmall",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_GnarSmall-1_.*_3",
+    "_note": "153567 parties, place moyenne 3.52"
+  },
+  {
+    "name": "Fiddlesticks",
+    "champ": "DA_Fiddlesticks18",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_Fiddlesticks18-1_.*_3",
+    "_note": "146983 parties, place moyenne 4.47"
+  },
+  {
+    "name": "Hecarim",
+    "champ": "DA_18_Hecarim",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Hecarim-1_.*_3",
+    "_note": "145324 parties, place moyenne 4.45"
+  },
+  {
+    "name": "Ivern",
+    "champ": "DA_18_Ivern",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Ivern-1_.*_3",
+    "_note": "140802 parties, place moyenne 3.70"
+  },
+  {
+    "name": "Ahri",
+    "champ": "DA_18_Ahri",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Ahri-1_.*_3",
+    "_note": "131544 parties, place moyenne 3.96"
+  },
+  {
+    "name": "Alistar",
+    "champ": "DA_18_Alistar",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Alistar-1_.*_3",
+    "_note": "123694 parties, place moyenne 4.36"
+  },
+  {
+    "name": "Ezreal",
+    "champ": "DA_18_Ezreal",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Ezreal-1_.*_3",
+    "_note": "122941 parties, place moyenne 4.01"
+  },
+  {
+    "name": "Rakan",
+    "champ": "DA_18_Rakan",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Rakan-1_.*_3",
+    "_note": "117188 parties, place moyenne 4.63"
+  },
+  {
+    "name": "Soraka",
+    "champ": "DA_18_Soraka",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Soraka-1_.*_3",
+    "_note": "115061 parties, place moyenne 4.02"
+  },
+  {
+    "name": "Azir",
+    "champ": "DA_18_Azir",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Azir-1_.*_3",
+    "_note": "112460 parties, place moyenne 4.45"
+  },
+  {
+    "name": "Le Blanc",
+    "champ": "DA_18_LeBlanc",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_LeBlanc-1_.*_3",
+    "_note": "112020 parties, place moyenne 4.38"
+  },
+  {
+    "name": "Vi",
+    "champ": "DA_Vi18",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_Vi18-1_.*_3",
+    "_note": "108737 parties, place moyenne 4.33"
+  },
+  {
+    "name": "Xayah",
+    "champ": "DA_18_Xayah",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&unit=DA_18_Xayah-1_.*_3",
+    "_note": "108686 parties, place moyenne 4.69"
+  }
+]

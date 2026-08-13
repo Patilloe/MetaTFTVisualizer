@@ -1,0 +1,70 @@
+name: Recap TFT quotidien
+
+on:
+  schedule:
+    # 06:00 UTC, apres la bascule de patch cote Riot
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      set:
+        description: "Profil de set (vide = set live, ex: 18-pbe)"
+        required: false
+        default: ""
+      comps:
+        description: "Fichier de comps"
+        required: false
+        default: "comps.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recap
+  cancel-in-progress: false
+
+jobs:
+  recap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependances
+        run: pip install requests matplotlib pillow
+
+      # le cache evite de retaper l'API et le CDN d'icones a chaque run
+      - name: Cache API / icones
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: metatft-cache-${{ github.run_id }}
+          restore-keys: metatft-cache-
+
+      - name: Generation
+        run: |
+          python metatft.py \
+            ${{ inputs.set && format('--set {0}', inputs.set) || '' }} \
+            --comps "${{ inputs.comps || 'comps.json' }}" \
+            --output site
+
+      - name: Publication (docs/ + Discord)
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          DISCORD_WEBHOOK_GENERAL: ${{ secrets.DISCORD_WEBHOOK_GENERAL }}
+          DISCORD_WEBHOOK_BLACKTHORN: ${{ secrets.DISCORD_WEBHOOK_BLACKTHORN }}
+          DISCORD_WEBHOOK_JUGGERNAUT: ${{ secrets.DISCORD_WEBHOOK_JUGGERNAUT }}
+          DISCORD_WEBHOOK_PRIMAL: ${{ secrets.DISCORD_WEBHOOK_PRIMAL }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python publish.py --site site --deploy --notify
+
+      # le snapshot doit survivre d'un run a l'autre pour detecter les mouvements
+      - name: Conserver le snapshot
+        run: |
+          git add data/last_run.json || true
+          git diff --cached --quiet || git commit -m "snapshot recap"
+          git push

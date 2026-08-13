@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# cache API + icones
+.cache/
+
+# generations locales : seul `docs/` est publie
+output/
+output_*/
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/

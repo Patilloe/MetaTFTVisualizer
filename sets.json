@@ -1,0 +1,27 @@
+{
+  "_comment": "Profils de set. La cle est la valeur passee a --set. queue/patch remplacent les valeurs par defaut de la CLI. Sans --set, le script prend ce qui est live sur la queue demandee.",
+  "16": {
+    "label": "Set 16 - Lore & Legends",
+    "set_param": "TFTSet16"
+  },
+  "17": {
+    "label": "Set 17 - Space Gods",
+    "set_param": "TFTSet17"
+  },
+  "18": {
+    "label": "Set 18 - Enchanted Wilds",
+    "set_param": "TFTSet18"
+  },
+  "18-pbe": {
+    "label": "Set 18 - Enchanted Wilds (PBE)",
+    "queue": "PBE",
+    "patch": "current",
+    "rank": ""
+  },
+  "pbe": {
+    "label": "PBE (set en cours de test)",
+    "queue": "PBE",
+    "patch": "current",
+    "rank": ""
+  }
+}

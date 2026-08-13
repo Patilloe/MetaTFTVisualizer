@@ -1,0 +1,288 @@
+[
+  {
+    "name": "Viego",
+    "champ": "Viego",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&extra_traits=!TFT16_Vanquisher-2plus&unit=TFT16_Viego-1_3,4_3&trait=TFT16_ShadowIsles_2,TFT16_ShadowIsles_3,TFT16_ShadowIsles_4&unit_item=!TFT16_Viego-1%26TFT_Item_InfinityEdge-1&unit_item=!TFT16_Viego-1%26TFT_Item_SteraksGage-1"
+  },
+  {
+    "name": "Rumble Hero",
+    "champ": "Rumble",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&extra_traits=!TFT16_Yordle-2plus&unit=TFT16_Rumble-1_3,4_3&unit_item=!TFT16_Rumble-1%26TFT_Item_GargoyleStoneplate-1&unit_item=!TFT16_Rumble-1%26TFT_Item_WarmogsArmor-1&unit_item=!TFT16_Rumble-1%26TFT_Item_RedBuff-1&unit_item=!TFT16_Rumble-1%26TFT_Item_Redemption-1&unit_item=!TFT16_Rumble-1%26TFT_Item_NightHarvester-1&unit_item=!TFT16_Rumble-1%26TFT_Item_DragonsClaw-1&unit_item=!TFT16_Rumble-1%26TFT_Item_BrambleVest-1&unit_item=!TFT16_Rumble-1%26TFT_Item_IonicSpark-1&unit_item=!TFT16_Rumble-1%26TFT_Item_FrozenHeart-1&unit_item=!TFT16_Rumble-1%26TFT_Item_SpectralGauntlet-1&unit_item=!TFT16_Rumble-1%26TFT_Item_Crownguard-1&unit_item=!TFT16_Rumble-1%26TFT_Item_GuinsoosRageblade-3"
+  },
+  {
+    "name": "Illaoi Hero Bruisers",
+    "champ": "Illaoi",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Illaoi-1&extra_traits=!TFT16_Brawler-2plus&unit=TFT16_Illaoi-1_3,4_3&unit_item=!TFT16_Illaoi-1%26TFT_Item_GargoyleStoneplate-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_WarmogsArmor-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_Redemption-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_RedBuff-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_DragonsClaw-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_SpectralGauntlet-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_NightHarvester-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_BrambleVest-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_FrozenHeart-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_IonicSpark-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_AdaptiveHelm-1&unit_item=!TFT16_Illaoi-1%26TFT_Item_GuinsoosRageblade-3"
+  },
+  {
+    "name": "Sona Anivia",
+    "champ": "Sona",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Anivia-1_3_x&unit=TFT16_Sona-1_3_3&unit=TFT16_JarvanIV-1_3_x&unit=TFT16_Rumble-1_3_x&unit_item=!TFT16_Rumble-1%26TFT_Item_GuinsoosRageblade-1&unit=TFT16_Sejuani-1&unit=TFT16_Lissandra-1&unit=TFT16_Garen-1"
+  },
+  {
+    "name": "Sona Anivia",
+    "champ": "Anivia",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Anivia-1_3_x&unit=TFT16_Sona-1_3_3&unit=TFT16_JarvanIV-1_3_x&unit=TFT16_Rumble-1_3_x&unit_item=!TFT16_Rumble-1%26TFT_Item_GuinsoosRageblade-1&unit=TFT16_Sejuani-1&unit=TFT16_Lissandra-1&unit=TFT16_Garen-1"
+  },
+  {
+    "name": "Sion Bard Aphelios",
+    "champ": "Sion",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Aphelios-1&unit=TFT16_Bard-1_3,4_3&unit=TFT16_Sion-1_3,4_3&trait=TFT16_Brawler_2,TFT16_Brawler_3&unit=TFT16_Aphelios-1_3,4_x"
+  },
+  {
+    "name": "Sion Bard Aphelios",
+    "champ": "Bard",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Aphelios-1&unit=TFT16_Bard-1_3,4_3&unit=TFT16_Sion-1_3,4_3&trait=TFT16_Brawler_2,TFT16_Brawler_3&unit=TFT16_Aphelios-1_3,4_x"
+  },
+   {
+    "name": "Sion Bard Aphelios",
+    "champ": "Aphelios",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Aphelios-1&unit=TFT16_Bard-1_3,4_3&unit=TFT16_Sion-1_3,4_3&trait=TFT16_Brawler_2,TFT16_Brawler_3&unit=TFT16_Aphelios-1_3,4_x"
+  },
+  {
+    "name": "Ixtal Orianna Bard",
+    "champ": "Orianna",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8&unit=TFT16_Bard-1_2,3,4_3&trait=TFT16_Explorer&unit=TFT16_Orianna-1&unit=TFT16_Neeko-1_2,3,4_3&unit=TFT16_Vi-1&unit=TFT16_Milio-1"
+  },
+  {
+    "name": "Ixtal Orianna Bard",
+    "champ": "Bard",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8&unit=TFT16_Bard-1_2,3,4_3&trait=TFT16_Explorer&unit=TFT16_Orianna-1&unit=TFT16_Neeko-1_2,3,4_3&unit=TFT16_Vi-1&unit=TFT16_Milio-1"
+  },
+  {
+    "name": "Ixtal Orianna Bard",
+    "champ": "Milio",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8&unit=TFT16_Bard-1_2,3,4_3&trait=TFT16_Explorer&unit=TFT16_Orianna-1&unit=TFT16_Neeko-1_2,3,4_3&unit=TFT16_Vi-1&unit=TFT16_Milio-1"
+  },
+  {
+    "name": "Yasuo Yone",
+    "champ": "Yasuo",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Yasuo-1_3,4_3&unit=!TFT16_Zaahen-1_2_3&unit=TFT16_Yone-1_2_3&trait=TFT16_Ionia_3"
+  },
+  {
+    "name": "Yasuo Yone",
+    "champ": "Yone",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Yasuo-1_3,4_3&unit=!TFT16_Zaahen-1_2_3&unit=TFT16_Yone-1_2_3&trait=TFT16_Ionia_3"
+  },
+    {
+    "name": "Graves",
+    "champ": "Graves",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Graves-1_3,4_3"
+  },
+  {
+    "name": "Graves",
+    "champ": "TwistedFate",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Graves-1_3,4_3"
+  },
+  {
+    "name": "Graves",
+    "champ": "MissFortune",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Graves-1_3,4_3"
+  },
+  {
+    "name": "Ekko",
+    "champ": "Ekko",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8&unit=TFT16_Ekko-1_3_3&unit=TFT16_Bard-1_3,4_x"
+  },
+  {
+    "name": "Ashe Trynda",
+    "champ": "Ashe",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Ashe-1_3_3&unit=TFT16_Tryndamere-1_3_3&trait=TFT16_Freljord"
+  },
+  {
+    "name": "Ashe Trynda",
+    "champ": "Tryndamere",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Ashe-1_3_3&unit=TFT16_Tryndamere-1_3_3&trait=TFT16_Freljord"
+  },
+  {
+    "name": "Xin Hero",
+    "champ": "Zaheen",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Zaahen-1_2_3"
+  },
+  {
+    "name": "Teemo",
+    "champ": "Teemo",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&unit=TFT16_Teemo-1_3_3&trait=TFT16_Yordle_3,TFT16_Yordle_4,TFT16_Yordle_5"
+  },
+    {
+    "name": "Zoé Léona Double Trouble",
+    "champ": "Zoe",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&unit=TFT16_Zoe-1_3_3&duplicate_unit_count=2-any&unit=TFT16_Leona-1_3_3"
+  },
+  {
+    "name": "Draven Naut GP",
+    "champ": "Draven",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Draven-1_3_3&unit=TFT16_Gangplank-1_3_x&unit=TFT16_Nautilus-1_3_3&unit=!TFT16_Ashe-1_3,4_x&unit=!TFT16_Tryndamere-1_3,4_x&unit=!TFT16_Briar-1_3,4_x"
+  },
+  {
+    "name": "Draven Naut GP",
+    "champ": "Nautilus",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Draven-1_3_3&unit=TFT16_Gangplank-1_3_x&unit=TFT16_Nautilus-1_3_3&unit=!TFT16_Ashe-1_3,4_x&unit=!TFT16_Tryndamere-1_3,4_x&unit=!TFT16_Briar-1_3,4_x"
+  },
+  {
+    "name": "Draven Naut GP",
+    "champ": "Gangplank",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Draven-1_3_3&unit=TFT16_Gangplank-1_3_x&unit=TFT16_Nautilus-1_3_3&unit=!TFT16_Ashe-1_3,4_x&unit=!TFT16_Tryndamere-1_3,4_x&unit=!TFT16_Briar-1_3,4_x"
+  },
+  {
+    "name": "Demacia",
+    "champ": "Vayne",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Garen-1&4_star_count=!1-any&unit=TFT16_Garen-1_2_x&unit=TFT16_Galio-1_1,2_x&trait=TFT16_Demacia_2,TFT16_Demacia_3&unit=!TFT16_Zaahen-1"
+  },
+  {
+    "name": "Demacia",
+    "champ": "Lux",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Garen-1&4_star_count=!1-any&unit=TFT16_Garen-1_2_x&unit=TFT16_Galio-1_1,2_x&trait=TFT16_Demacia_2,TFT16_Demacia_3&unit=!TFT16_Zaahen-1"
+  },
+  {
+    "name": "Demacia",
+    "champ": "Garen",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Garen-1&4_star_count=!1-any&unit=TFT16_Garen-1_2_x&unit=TFT16_Galio-1_1,2_x&trait=TFT16_Demacia_2,TFT16_Demacia_3&unit=!TFT16_Zaahen-1"
+  },
+  {
+    "name": "Demacia",
+    "champ": "Galio",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Garen-1&4_star_count=!1-any&unit=TFT16_Garen-1_2_x&unit=TFT16_Galio-1_1,2_x&trait=TFT16_Demacia_2,TFT16_Demacia_3&unit=!TFT16_Zaahen-1"
+  },    
+  {
+    "name": "Demacia",
+    "champ": "Lissandra",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Garen-1&4_star_count=!1-any&unit=TFT16_Garen-1_2_x&unit=TFT16_Galio-1_1,2_x&trait=TFT16_Demacia_2,TFT16_Demacia_3&unit=!TFT16_Zaahen-1"
+  },
+  {
+    "name": "Demacia",
+    "champ": "KaiSa",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Garen-1&4_star_count=!1-any&unit=TFT16_Garen-1_2_x&unit=TFT16_Galio-1_1,2_x&trait=TFT16_Demacia_2,TFT16_Demacia_3&unit=!TFT16_Zaahen-1"
+  },
+  {
+    "name": "GP Vanquishers",
+    "champ": "Gangplank",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Gangplank-1_3_3&unit=!TFT16_Draven-1"
+  },
+    {
+    "name": "GP Vanquishers",
+    "champ": "Ambessa",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Gangplank-1_3_3&unit=!TFT16_Draven-1"
+  },
+    {
+    "name": "GP Vanquishers",
+    "champ": "BelVeth",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Gangplank-1_3_3&unit=!TFT16_Draven-1"
+  },
+  {
+    "name": "Ahri Ionia",
+    "champ": "Ahri",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Ahri-1_3_3&trait=TFT16_Ionia_3"
+  },
+  {
+    "name": "Draven Darius",
+    "champ": "Draven",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Draven-1_3_3&unit=!TFT16_Ashe-1_3,4_x&unit=!TFT16_Tryndamere-1_3,4_x&unit=!TFT16_Briar-1_3,4_x&unit=!TFT16_Nautilus-1&unit=!TFT16_Gangplank-1&unit=TFT16_Darius-1_3_3"
+  },
+  {
+    "name": "Draven Darius",
+    "champ": "Darius",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Draven-1_3_3&unit=!TFT16_Ashe-1_3,4_x&unit=!TFT16_Tryndamere-1_3,4_x&unit=!TFT16_Briar-1_3,4_x&unit=!TFT16_Nautilus-1&unit=!TFT16_Gangplank-1&unit=TFT16_Darius-1_3_3"
+  },
+  {
+    "name": "Ahri Ixtal",
+    "champ": "Ahri",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Ahri-1_3_3&unit=TFT16_Kennen-1&unit=TFT16_Neeko-1&unit=TFT16_Milio-1&unit=TFT16_Kobuko-1"
+  },
+  {
+    "name": "Yunara",
+    "champ": "Yunara",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Yunara-1_2_3&3_star_count=!1-any&4_star_count=!1-any&unit=!TFT16_Zaahen-1"
+  },
+  {
+    "name": "MF Bilge",
+    "champ": "MissFortune",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_MissFortune-1&unit=TFT16_MissFortune-1_2,3_x&unit=TFT16_Nautilus-1_2,3_x&trait=TFT16_Bilgewater_1,TFT16_Bilgewater_2,TFT16_Bilgewater_3&unit=!TFT16_Jinx-1_3_x"
+  },
+  {
+    "name": "Veigar Yordle",
+    "champ": "Veigar",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Veigar-1_2_3&trait=TFT16_Yordle_4&unit=TFT16_Kennen-1_3_3"
+  },
+  {
+    "name": "Belveth Slayers",
+    "champ": "Belveth",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&extra_traits=!TFT16_Slayer-2plus&unit=TFT16_BelVeth-1_x_3&trait=TFT16_Slayer_1,TFT16_Slayer_2&trait=!TFT16_Void_2,TFT16_Void_3,TFT16_Void_4"
+  },
+  {
+    "name": "Kai'Sa",
+    "champ": "KaiSa",
+    "explorer_url": "https://www.metatft.com/explorer?tab=items&item_holder=true&item_holder_unit=TFT16_Kaisa-1&unit=TFT16_Kaisa-1_1,2_3&3_star_count=!1-any&4_star_count=!1-any&trait=TFT16_Void&unit_item=TFT16_Kaisa-1%26TFT_Item_GuinsoosRageblade-1&unit=TFT16_RiftHerald-1_1,2_3"
+  },
+  {
+    "name": "Kalista Shadow Isles",
+    "champ": "Kalista",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Kalista-1_2_3&3_star_count=!1-any&4_star_count=!1-any"
+  },  
+  {
+    "name": "Kalista Shadow Isles",
+    "champ": "Thresh",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=8,9&unit=TFT16_Kalista-1_2_3&3_star_count=!1-any&4_star_count=!1-any"
+  },
+  
+  {
+    "name": "Annie Sylas",
+    "champ": "Annie",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&unit=TFT16_Annie-1_2,3_3"
+  },
+  {
+    "name": "Mel Tronc",
+    "champ": "Mel",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&extra_traits=!TFT16_Noxus-2plus&unit=TFT16_Swain-1&unit=TFT16_Neeko-1&unit=TFT16_Vi-1&unit=TFT16_Seraphine-1&trait=TFT16_Noxus_1&unit=!TFT16_Sylas-1"
+  },
+  {
+    "name": "T-Hex",
+    "champ": "THex",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&unit=TFT16_THex-1_x_3"
+  },
+  {
+    "name": "Sett no Sylas",
+    "champ": "Sett",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Sett-1_2_x&3_star_count=!1-any&4_star_count=!1-any&unit=!TFT16_Sylas-1&extra_traits_count=!1-any"
+  },
+  {
+    "name": "Aurelion Sol",
+    "champ": "AurelionSol",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&duplicate_unit_count=!1-any&unit=TFT16_AurelionSol-1_x_3&unit=TFT16_Taric-1&unit=TFT16_Zoe-1&unit=TFT16_Aphelios-1&unit=TFT16_Leona-1&unit=TFT16_Diana-1&unit=TFT16_Skarner-1"
+  },
+  {
+    "name": "Lissandra Freljord",
+    "champ": "Lissandra",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&3_star_count=!1-any&4_star_count=!1-any&unit=TFT16_Lissandra-1_2,3_3&unit=TFT16_Braum-1_2,3_3"
+  },
+  {
+    "name": "Lissandra Freljord",
+    "champ": "Volibear",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&3_star_count=!1-any&4_star_count=!1-any&unit=TFT16_Lissandra-1_2,3_3&unit=TFT16_Braum-1_2,3_3"
+  },
+  {
+    "name": "WW Freljord",
+    "champ": "Warwick",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Warwick-1_2,3_3&3_star_count=!1-any&4_star_count=!1-any&trait=TFT16_Freljord_1&unit=TFT16_Braum-1&unit=TFT16_Sejuani-1&unit=TFT16_Vi-1&unit=TFT16_Jinx-1"
+  },
+  {
+    "name": "Singed Seraphine",
+    "champ": "Singed",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Singed-1_2,3_3&unit=TFT16_Seraphine-1&3_star_count=!1-any&4_star_count=!1-any&unit=TFT16_Vi-1&unit=TFT16_Swain-1"
+  },
+    {
+    "name": "Singed Seraphine",
+    "champ": "Seraphine",
+    "explorer_url": "https://www.metatft.com/explorer?tab=comps&num_unit_slots=9&unit=TFT16_Singed-1_2,3_3&unit=TFT16_Seraphine-1&3_star_count=!1-any&4_star_count=!1-any&unit=TFT16_Vi-1&unit=TFT16_Swain-1"
+  },
+      {
+    "name": "Nidalee",
+    "champ": "Nidalee",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&unit=TFT16_Nidalee-1_2_3"
+  },
+        {
+    "name": "Ziggs",
+    "champ": "Ziggs",
+    "explorer_url": "https://www.metatft.com/explorer?tab=units&unit=TFT16_Ziggs-1_2_3"
+  }
+]

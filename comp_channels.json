@@ -1,0 +1,20 @@
+{
+  "_comment": "Routage des recaps vers les channels Discord de comp. La cle est le slug du channel. `webhook_env` nomme la variable d'environnement qui porte l'URL du webhook : l'URL elle-meme ne doit jamais figurer ici. `champions` accepte le nom de comp affiche dans summary.csv ou l'identifiant du carry (colonne champ).",
+  "_exemple": {
+    "webhook_env": "DISCORD_WEBHOOK_EXEMPLE",
+    "champions": ["Ahri", "DA_18_Ahri"]
+  },
+
+  "blackthorn": {
+    "webhook_env": "DISCORD_WEBHOOK_BLACKTHORN",
+    "champions": ["Ahri", "Le Blanc", "Kennen"]
+  },
+  "juggernaut": {
+    "webhook_env": "DISCORD_WEBHOOK_JUGGERNAUT",
+    "champions": ["Sentinel", "Sett", "Alistar"]
+  },
+  "primal": {
+    "webhook_env": "DISCORD_WEBHOOK_PRIMAL",
+    "champions": ["Gnar Small", "Ivern", "Maokai"]
+  }
+}
