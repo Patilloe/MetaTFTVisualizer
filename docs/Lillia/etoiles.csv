@@ -1,0 +1,3 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Lillia 2*,28625,1.0058329526687515,3.545,3.545,-0.002,-0.002,0.0,0.0023,0.0009,0.1674,0.3669,0.6911,1.965,-0.14,0.8854,False
+populaire,Lillia 1*,200,0.007027653817772936,3.665,3.578,0.031,0.117,0.0,-0.0002,0.0147,0.06,0.32,0.705,1.787,0.93,0.35453,False
