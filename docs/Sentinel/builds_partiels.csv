@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Thiefs Gloves,44,0.0005430958934544602,3.227,3.957,-0.02,-0.75,-0.183,0.0,0.1223,0.2273,0.4318,0.7273,1.917,-2.59,0.00952,True
+populaire,Thiefs Gloves,52,0.0005950541842608168,3.423,3.962,-0.016,-0.555,-0.008,0.0,0.0684,0.2308,0.4038,0.6731,2.013,-1.99,0.04674,True
