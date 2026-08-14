@@ -41,6 +41,9 @@ import requests
 
 API_BASE = "https://api-hc.metatft.com/tft-explorer-api/"
 CDN_ITEM = "https://cdn.metatft.com/file/metatft/items/{name}.png"
+# Contenu du set (cout des unites, traits...). L'API de stats ne donne pas le
+# cout : il vient de ce lookup statique. Cle = TFTSet18_pbe, TFTSet17_latest...
+LOOKUP_URL = "https://data.metatft.com/lookups/{key}_en_us.json"
 
 TAB_BUILDS = "unit_builds"
 TAB_ITEMS_UNIQUE = "unit_items_unique"
@@ -192,8 +195,10 @@ class ApiClient:
         return os.path.join(self.cache_dir, kind, f"{digest}.{ext}")
 
     def get_json(self, path: str, params: Sequence[tuple[str, str]]) -> dict[str, Any]:
-        query = urlencode(params, safe=".*!,|-")
-        url = f"{API_BASE}{path}?{query}"
+        return self.get_url_json(f"{API_BASE}{path}?{urlencode(params, safe='.*!,|-')}")
+
+    def get_url_json(self, url: str) -> dict[str, Any]:
+        """Recupere un JSON, avec cache disque et reessais."""
         cache = self._cache_path(url, "json", "json")
         if self.ttl > 0 and os.path.exists(cache) and time.time() - os.path.getmtime(cache) < self.ttl:
             with open(cache, "r", encoding="utf-8") as f:
@@ -211,7 +216,7 @@ class ApiClient:
             except Exception as exc:  # noqa: BLE001
                 last = exc
                 if self.verbose:
-                    print(f"    retry {attempt + 1}/{self.retries} sur {path}: {exc}")
+                    print(f"    retry {attempt + 1}/{self.retries} sur {url}: {exc}")
                 time.sleep(1.5 * (attempt + 1))
         raise RuntimeError(f"echec API {url}: {last}")
 
@@ -267,13 +272,16 @@ class SetProfile:
     units: set[str] = field(default_factory=set)
     traits: set[str] = field(default_factory=set)
     items: set[str] = field(default_factory=set)
+    costs: dict[str, int] = field(default_factory=dict)
     _unit_idx: dict[str, str] = field(default_factory=dict)
+    _units_by_norm: dict[str, list[str]] = field(default_factory=dict)
     _trait_idx: dict[str, str] = field(default_factory=dict)
     _item_idx: dict[str, str] = field(default_factory=dict)
 
     def index(self) -> None:
         for name in self.units:
             self._unit_idx.setdefault(norm_name(name), name)
+            self._units_by_norm.setdefault(norm_name(name), []).append(name)
         for name in self.traits:
             self._trait_idx.setdefault(norm_name(name), name)
         for name in self.items:
@@ -281,6 +289,11 @@ class SetProfile:
 
     def resolve_unit(self, token: str) -> str | None:
         return token if token in self.units else self._unit_idx.get(norm_name(token))
+
+    def units_named(self, token: str) -> list[str]:
+        """Toutes les unites portant ce nom, formes alternatives comprises
+        (DA_18_Akali_AD et TFT18_Akali sont le meme personnage)."""
+        return self._units_by_norm.get(norm_name(token), [])
 
     def resolve_trait(self, token: str) -> str | None:
         return token if token in self.traits else self._trait_idx.get(norm_name(token))
@@ -340,9 +353,58 @@ def resolve_set(api: ApiClient, base_params: list[tuple[str, str]],
     profile.items = {r["items"] for r in api.get_json("items", params).get("data", [])
                      if r.get("items")}
     profile.index()
+    # le cout des unites n'est pas charge ici : c'est un lookup de 1,4 Mo que
+    # seul `--discover --cost` consomme (cf. load_costs)
     if not forced and profile.units:
         profile.label = f"set live ({profile.unit_prefix.rstrip('_')})"
     return profile
+
+
+def lookup_key(profile: SetProfile) -> str | None:
+    """Cle du lookup de contenu, deduite du profil : `TFTSet18_pbe`,
+    `TFTSet17_latest`...
+
+    Rien n'est fige en configuration : le numero vient des identifiants
+    d'unites du set, le canal de la queue interrogee. Un profil generique
+    comme `--set pbe` suit donc automatiquement le set en test du moment.
+    """
+    number = re.search(r"\d+", profile.unit_prefix)
+    if not number:  # prefixe sans numero (DA_Karma18) : on cherche ailleurs
+        for unit in sorted(profile.units):
+            number = re.match(r"(?:TFT|DA)_?(\d+)", unit)
+            if number:
+                break
+    if not number:
+        return None
+    queue = next((v for k, v in profile.params if k == "queue"), "")
+    channel = "pbe" if queue.upper() == "PBE" else "latest"
+    return f"TFTSet{number.group(len(number.groups()))}_{channel}"
+
+
+def load_costs(api: ApiClient, profile: SetProfile) -> None:
+    """Renseigne le cout des unites depuis le lookup de contenu du set.
+
+    Les identifiants du lookup (TFT18_Ahri) ne sont pas ceux de l'API de stats
+    (DA_18_Ahri) : on rapproche par nom normalise, et on applique le cout a
+    toutes les variantes portant ce nom (formes alternatives incluses).
+    """
+    if profile.costs:
+        return
+    key = lookup_key(profile)
+    if not key:
+        return
+    try:
+        data = api.get_url_json(LOOKUP_URL.format(key=key))
+    except Exception as exc:  # noqa: BLE001
+        print(f"⚠ cout des unites indisponible ({key}): {exc}", file=sys.stderr)
+        return
+
+    for entry in data.get("units", []):
+        cost, name = entry.get("cost"), entry.get("apiName") or ""
+        if not cost or not name:
+            continue
+        for unit in profile.units_named(name):
+            profile.costs[unit] = int(cost)
 
 
 # les jokers `.*` de l'URL explorer font partie des groupes etoiles / nb items
@@ -862,8 +924,10 @@ def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
                     frameon=False, box_alignment=(0.0, 0.5), annotation_clip=False)
                 ax_img.add_artist(ab)
 
-    fig.tight_layout()
-    # sans facecolor explicite, savefig repasse la figure en blanc
+    # pas de tight_layout ici : les colonnes texte/icones portent des artistes
+    # hors axes, matplotlib previent qu'il ne sait pas les mesurer. Le recadrage
+    # est de toute facon fait par bbox_inches="tight" au moment du rendu.
+    # Sans facecolor explicite, savefig repasse la figure en blanc.
     fig.savefig(path, dpi=140, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
 
@@ -1315,8 +1379,17 @@ def cmd_validate(comps: list[dict], profile: SetProfile) -> int:
 
 
 def cmd_discover(api: ApiClient, base_params: list[tuple[str, str]],
-                 profile: SetProfile, top: int, path: str) -> None:
-    """Genere un comps.json de depart pour un set : les carries les plus joues."""
+                 profile: SetProfile, top: int, path: str,
+                 costs: set[int], unit_filter: str) -> None:
+    """Genere un comps.json de depart : une entree par carry, sans filtre de
+    comp — seulement l'unite, son niveau d'etoile et son nombre d'items.
+
+    `unit_filter` est la fin de la valeur `unit` de l'URL explorer, dans sa
+    grammaire d'origine (`2_3`, `x_3`...) : elle est relue plus tard par
+    translate_filter, qui sait deja traduire le joker `x`.
+    """
+    if costs:
+        load_costs(api, profile)
     # Ce qui distingue un carry d'une invocation n'est pas son nom (le Set 18
     # rend jouables Sentry, Sentinel, Krug, Scuttlecrab, Elder Dragon...) mais
     # le fait de pouvoir porter des items : on lit donc la table unit_items.
@@ -1326,29 +1399,41 @@ def cmd_discover(api: ApiClient, base_params: list[tuple[str, str]],
         if pair:
             holders.add(pair.split("&", 1)[0])
 
-    rows = []
+    unknown_cost, rows = [], []
     for row in api.get_json("units", base_params).get("data", []):
         unit = row.get("units")
         if not unit or unit not in profile.units:
             continue
         if holders and unit not in holders:
             continue
-        st = Stats.from_counts(row["placement_count"])
-        rows.append((unit, st))
+        if costs:
+            if unit not in profile.costs:
+                unknown_cost.append(unit)
+                continue
+            if profile.costs[unit] not in costs:
+                continue
+        rows.append((unit, Stats.from_counts(row["placement_count"])))
     rows.sort(key=lambda t: t[1].n, reverse=True)
+    if unknown_cost:
+        # nommees et non comptees : le lookup PBE est parfois incomplet, il
+        # faut pouvoir verifier a la main si une unite manque a l'appel
+        print("⚠ cout inconnu, ecartees du filtre : " + ", ".join(sorted(unknown_cost)),
+              file=sys.stderr)
 
     comps = []
     for unit, st in rows[:top]:
-        query = urlencode([("tab", "items"), ("unit", f"{unit}-1_.*_3")], safe=".*!,|-")
+        query = urlencode([("tab", "items"), ("unit", f"{unit}-1_{unit_filter}")],
+                          safe=".*!,|-")
+        cost = f"cout {profile.costs[unit]} — " if unit in profile.costs else ""
         comps.append({
             "name": pretty_item(unit),
             "champ": unit,
             "explorer_url": f"https://www.metatft.com/explorer?{query}",
-            "_note": f"{st.n} parties, place moyenne {st.avg:.2f}",
+            "_note": f"{cost}{st.n} parties, place moyenne {st.avg:.2f}",
         })
     with open(path, "w", encoding="utf-8") as f:
         json.dump(comps, f, ensure_ascii=False, indent=2)
-    print(f"{len(comps)} comps generees dans {path} — a affiner dans l'explorer MetaTFT.")
+    print(f"{len(comps)} unites generees dans {path} (filtre unit=_{unit_filter})")
 
 
 # --------------------------------------------------------------------------- #
@@ -1412,9 +1497,17 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
                    help="verifie la compatibilite des comps avec le set cible")
     p.add_argument("--discover", type=int, metavar="N",
                    help="genere un comps.json avec les N carries les plus joues")
+    disc = p.add_argument_group("options de --discover")
+    disc.add_argument("--cost", default="",
+                      help="ne garder que ces couts (ex: 4 ou 3,4)")
+    disc.add_argument("--stars", default="x",
+                      help="niveau d'etoile filtre, `x` = tous (defaut: x)")
+    disc.add_argument("--items", default="3",
+                      help="nombre d'items filtre, `x` = tous (defaut: 3)")
     p.add_argument("-v", "--verbose", action="store_true")
     cfg = p.parse_args(argv)
     cfg.plot_tables = {t.strip() for t in cfg.plot_tables.split(",") if t.strip()}
+    cfg.cost = {int(c) for c in re.findall(r"\d+", cfg.cost)}
     return cfg
 
 
@@ -1445,7 +1538,10 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     if cfg.discover:
         slug = re.sub(r"[^\w\-]", "", profile.key)
-        cmd_discover(api, base_params, profile, cfg.discover, f"comps.{slug}.json")
+        if cfg.cost:
+            slug += "-cost" + "".join(str(c) for c in sorted(cfg.cost))
+        cmd_discover(api, base_params, profile, cfg.discover,
+                     f"comps.{slug}.json", cfg.cost, f"{cfg.stars}_{cfg.items}")
         return 0
 
     with open(cfg.comps, "r", encoding="utf-8") as f:
