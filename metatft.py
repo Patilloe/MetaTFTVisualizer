@@ -715,9 +715,10 @@ def analyse_comp(comp: dict, api: ApiClient, profile: SetProfile,
         "win": round(base.win, 4),
         "top4": round(base.top4, 4),
         "top4_ci": [round(base.top4_lo, 4), round(base.top4_hi, 4)],
-        "d_avg_vs_meta": round(base.avg - meta_total.avg, 3),
-        "meta_avg_place": round(meta_total.avg, 3),
     }
+    # pas de "delta vs meta" : la place moyenne d'une partie vaut 4.5 par
+    # construction (8 joueurs), l'ecart n'est donc que `avg_place - 4.5`,
+    # une translation d'avg_place qui n'apporte aucune information propre.
     if base.n < cfg.min_games:
         result["error"] = f"echantillon insuffisant ({base.n} parties)"
         return result
@@ -812,24 +813,46 @@ def write_csv(path: str, rows: list[dict]) -> None:
 
 # Palette des graphiques, alignee sur le theme sombre des pages HTML : le PNG
 # est le contenu principal du report, il ne doit pas y apparaitre comme un
-# rectangle blanc.
-MPL_BG = "#2b2d31"      # = --panel
-MPL_TEXT = "#dbdee1"    # = --text
-MPL_GRID = "#4a4d54"
+# rectangle blanc. Encres hierarchisees (titre > valeurs > axes) plutot qu'une
+# seule couleur de texte : le graphique se lit par niveaux.
+MPL_BG = "#2b2d31"       # surface = --panel
+MPL_INK = "#ffffff"      # encre primaire : titre
+MPL_INK_2 = "#c3c2b7"    # encre secondaire : valeurs, libelles de barres
+MPL_MUTED = "#898781"    # encre discrete : axes, graduations
+MPL_GRID = "#3b3d42"     # filet de grille, un ton au-dessus de la surface
+
+# Echelle divergente bleu <-> gris neutre <-> rouge. Le vert/rouge precedent
+# etait indistinguable en vision daltonienne (dE 5.1 en proto/deuteranopie,
+# sous le plancher de 6) : or c'est justement la distinction que le graphique
+# porte. Cette paire est mesuree a dE 19.2, contraste 3.8:1 et 4.3:1 sur la
+# surface du panneau.
+MPL_GOOD = "#3987e5"
+MPL_NEUTRAL = "#383835"
+MPL_BAD = "#e66767"
+
+
+def diverging_cmap():
+    import matplotlib.colors as mcolors
+
+    return mcolors.LinearSegmentedColormap.from_list(
+        "tft_div", [MPL_GOOD, MPL_NEUTRAL, MPL_BAD])
 
 
 def apply_dark_style(fig, axes) -> None:
     fig.patch.set_facecolor(MPL_BG)
     for ax in axes:
         ax.set_facecolor(MPL_BG)
-        ax.tick_params(colors=MPL_TEXT, labelsize=8)
-        for spine in ax.spines.values():
+        ax.tick_params(colors=MPL_MUTED, labelsize=8, length=0)
+        for side, spine in ax.spines.items():
+            # cadre supprime, seule la ligne de base subsiste en filet
+            spine.set_visible(side == "bottom")
             spine.set_color(MPL_GRID)
-        ax.xaxis.label.set_color(MPL_TEXT)
-        ax.yaxis.label.set_color(MPL_TEXT)
+            spine.set_linewidth(0.8)
+        ax.xaxis.label.set_color(MPL_MUTED)
+        ax.yaxis.label.set_color(MPL_MUTED)
         # sans condition : le titre est pose apres cet appel, il serait sinon
         # laisse en noir sur fond sombre
-        ax.title.set_color(MPL_TEXT)
+        ax.title.set_color(MPL_INK)
 
 
 def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
@@ -853,7 +876,7 @@ def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
 
     span = max(0.35, max(abs(v) for v in deltas))
     norm = mcolors.TwoSlopeNorm(vmin=-span, vcenter=0.0, vmax=span)
-    cmap = plt.get_cmap("RdYlGn_r")
+    cmap = diverging_cmap()
     colors = [cmap(norm(d)) for d in deltas]
 
     # L'epaisseur de la barre porte la part d'echantillon : une ligne jouee
@@ -875,12 +898,15 @@ def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
         extra.axis("off")
     apply_dark_style(fig, (ax, ax_txt, ax_img))
 
+    # bord a la couleur de la surface : c'est l'espacement entre barres, pas
+    # un contour decoratif
     ax.barh(ys, deltas, height=heights, color=colors, edgecolor=MPL_BG,
-            linewidth=0.8, zorder=3)
+            linewidth=1.0, zorder=3)
     ax.errorbar(deltas, ys, xerr=[[d - lo for d, lo in zip(deltas, los)],
                                   [hi - d for d, hi in zip(deltas, his)]],
-                fmt="none", ecolor=MPL_TEXT, elinewidth=1.0, capsize=3, zorder=4)
-    ax.axvline(0, color=MPL_TEXT, linewidth=1.2, zorder=2)
+                fmt="none", ecolor=MPL_INK_2, elinewidth=1.0, capsize=2.5,
+                alpha=0.75, zorder=4)
+    ax.axvline(0, color=MPL_MUTED, linewidth=1.0, zorder=2)
 
     txt_tr = mtransforms.blended_transform_factory(ax_txt.transAxes, ax_txt.transData)
     for y, r in zip(ys, rows):
@@ -889,21 +915,28 @@ def plot_ranked(rows: list[dict], title: str, path: str, api: ApiClient,
                     f"{r['avg_place']:.2f} | {100 * r['share']:5.1f}% "
                     f"| n={r['n']:<6} | top4 {100 * r['top4']:3.0f}%{mark}",
                     transform=txt_tr, va="center", ha="left", fontsize=8,
-                    family="monospace", color=MPL_TEXT)
+                    family="monospace", color=MPL_INK_2)
 
-    # losange : la place moyenne lissee, celle qui sert au classement
+    # losange : la place moyenne lissee, celle qui sert au classement.
+    # Anneau a la couleur de la surface pour rester lisible sur la barre.
     ax.scatter([r["score"] for r in rows], ys, marker="D", s=30,
-               facecolor="white", edgecolor=MPL_BG, linewidth=0.8, zorder=5,
+               facecolor=MPL_INK, edgecolor=MPL_BG, linewidth=1.2, zorder=5,
                label="valeur lissee (classement)")
 
     ax.set_yticks(ys)
-    ax.set_yticklabels(labels, fontsize=8, color=MPL_TEXT)
+    ax.set_yticklabels(labels, fontsize=8, color=MPL_INK_2)
     ax.set_xlabel("Delta de place moyenne vs la comp (negatif = meilleur) — "
-                  "epaisseur de barre = part de l'echantillon")
-    ax.set_title(title, fontsize=14, fontweight="bold")
-    ax.legend(fontsize=8, loc="upper left", framealpha=0.9, facecolor=MPL_BG,
-              edgecolor=MPL_GRID, labelcolor=MPL_TEXT)
-    ax.grid(axis="x", linestyle="--", alpha=0.25, color=MPL_GRID, zorder=1)
+                  "epaisseur de barre = part de l'echantillon", fontsize=9)
+    # couleur explicite : `loc="left"` ecrit dans un objet titre distinct de
+    # `ax.title`, que apply_dark_style ne peut pas atteindre
+    ax.set_title(title, fontsize=14, fontweight="bold", loc="left", pad=14,
+                 color=MPL_INK)
+    leg = ax.legend(fontsize=8, loc="upper left", framealpha=0.0,
+                    labelcolor=MPL_MUTED, handletextpad=0.4, borderpad=0.2)
+    leg.get_frame().set_linewidth(0)
+    # filet continu et discret : un grid en pointilles se lit comme un seuil
+    ax.grid(axis="x", linestyle="-", linewidth=0.8, color=MPL_GRID, zorder=1)
+    ax.set_axisbelow(True)
     ax.margins(x=0.08)
 
     # icones dans la marge droite : la colonne de gauche reste lisible.
@@ -945,20 +978,24 @@ def plot_scatter(rows: list[dict], title: str, path: str) -> None:
     ys = [r["n"] for r in rows]
     span = max(0.35, max(abs(r["d_avg"]) for r in rows))
     norm = mcolors.TwoSlopeNorm(vmin=-span, vcenter=0.0, vmax=span)
-    cmap = plt.get_cmap("RdYlGn_r")
+    cmap = diverging_cmap()
 
     fig, ax = plt.subplots(figsize=(13, 8))
     apply_dark_style(fig, (ax,))
     ax.scatter(xs, ys, s=140, c=[cmap(norm(r["d_avg"])) for r in rows],
-               edgecolor=MPL_BG, zorder=3)
+               edgecolor=MPL_BG, linewidth=1.2, zorder=3)
     ax.set_yscale("log")
     for x, y, r in zip(xs, ys, rows):
         ax.annotate(r["label"], (x, y), textcoords="offset points", xytext=(0, 10),
-                    ha="center", fontsize=7, color=MPL_TEXT)
+                    ha="center", fontsize=7, color=MPL_INK_2)
     ax.set_xlabel("Place moyenne")
     ax.set_ylabel("Parties (echelle log)")
-    ax.set_title(title, fontsize=14, fontweight="bold")
-    ax.grid(True, linestyle="--", alpha=0.25, color=MPL_GRID, zorder=1)
+    # couleur explicite : `loc="left"` ecrit dans un objet titre distinct de
+    # `ax.title`, que apply_dark_style ne peut pas atteindre
+    ax.set_title(title, fontsize=14, fontweight="bold", loc="left", pad=14,
+                 color=MPL_INK)
+    ax.grid(True, linestyle="-", linewidth=0.8, color=MPL_GRID, zorder=1)
+    ax.set_axisbelow(True)
     fig.tight_layout()
     fig.savefig(path, dpi=140, bbox_inches="tight", facecolor=fig.get_facecolor())
     plt.close(fig)
@@ -994,7 +1031,9 @@ REPORT_HEAD = """<!DOCTYPE html>
   :root{
     --bg:#1e1f22; --panel:#2b2d31; --panel-2:#313338; --border:#3b3d42;
     --text:#dbdee1; --muted:#949ba4; --accent:oklch(72% 0.14 275);
-    --good:oklch(70% 0.15 150); --bad:oklch(68% 0.17 30);
+    /* bleu <-> rouge : le vert/rouge d'origine etait indistinguable en
+       vision daltonienne, alors que c'est la distinction que la page porte */
+    --good:#3987e5; --bad:#e66767;
     --good-bg:color-mix(in oklch, var(--good) 16%, var(--panel));
     --bad-bg:color-mix(in oklch, var(--bad) 16%, var(--panel));
   }
@@ -1096,9 +1135,10 @@ def write_comp_html(result: dict, comp_dir: str, images: list[str]) -> None:
     m = result.get("meta")
     if m:
         parts.append(
-            f"<p><b>{m['games']}</b> parties ({100 * m['share_of_meta']:.2f}% du meta) — "
-            f"place moyenne <b>{m['avg_place']}</b> "
-            f"({m['d_avg_vs_meta']:+.2f} vs meta {m['meta_avg_place']}) — "
+            f"<p><b>{m['games']}</b> parties ({100 * m['share_of_meta']:.2f}% de la meta) — "
+            f"place moyenne <b>{m['avg_place']}</b>, soit "
+            f"{abs(m['avg_place'] - 4.5):.2f} "
+            f"{'sous' if m['avg_place'] < 4.5 else 'au-dessus de'} la moyenne — "
             f"top4 {100 * m['top4']:.1f}% [{100 * m['top4_ci'][0]:.1f}–{100 * m['top4_ci'][1]:.1f}%]</p>")
     for warn in result.get("warnings", []):
         parts.append(f"<p style='color:#b71c1c'>⚠ {html.escape(warn)}</p>")
@@ -1165,7 +1205,7 @@ INDEX_HEAD = """<!DOCTYPE html>
 <style>
   :root{--bg:#1e1f22; --panel:#2b2d31; --panel-2:#313338; --border:#3b3d42;
     --text:#dbdee1; --muted:#949ba4; --accent:oklch(72% 0.14 275);
-    --good:oklch(70% 0.15 150); --bad:oklch(68% 0.17 30)}
+    --good:#3987e5; --bad:#e66767}
   *{box-sizing:border-box}
   body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
     background:var(--bg); color:var(--text); margin:0; padding:2.5rem 1.5rem}
@@ -1230,9 +1270,8 @@ const COLUMNS = [
   {key:"comp", label:"Comp", align:"left"},
   {key:"champ", label:"Champ", align:"left"},
   {key:"games", label:"Games", fmt:"int"},
-  {key:"share_of_meta", label:"% Meta", fmt:"pct1", bar:true},
-  {key:"avg_place", label:"Avg Place", fmt:"place", tint:true},
-  {key:"d_avg_vs_meta", label:"Δ vs Meta", fmt:"delta", tint:true},
+  {key:"share_of_meta", label:"Part de la meta", fmt:"pct1", bar:true},
+  {key:"avg_place", label:"Place moyenne", fmt:"place", tint:true},
   {key:"top4", label:"Top 4", fmt:"pct1"},
   {key:"win", label:"Win", fmt:"pct1"},
 ];
@@ -1291,8 +1330,8 @@ function render(){
         const text = fmt(raw, c.fmt);
         let style = "";
         if (c.tint && raw !== "" && raw !== null){
-          const delta = c.key === "avg_place" ? r.d_avg_vs_meta : raw;
-          style = `style="color:${tintColor(delta)};font-weight:700"`;
+          // 4.5 = place moyenne d'une partie a 8 joueurs, le point neutre
+          style = `style="color:${tintColor(raw - 4.5)};font-weight:700"`;
         }
         if (c.bar && typeof raw === "number"){
           return `<td class="bar-cell"><span class="bar" style="width:${Math.min(100, raw/0.15*100)}%"></span><span ${style}>${text}</span></td>`;
@@ -1323,7 +1362,6 @@ def write_summary(results: list[dict], out_dir: str, cfg: argparse.Namespace,
             "games": m.get("games", 0),
             "share_of_meta": round(m.get("share_of_meta", 0), 5),
             "avg_place": m.get("avg_place", ""),
-            "d_avg_vs_meta": m.get("d_avg_vs_meta", ""),
             "top4": m.get("top4", ""),
             "win": m.get("win", ""),
             "erreur": r.get("error", ""),
@@ -1571,8 +1609,10 @@ def main(argv: Sequence[str] | None = None) -> int:
             print(f"  ✗ {result['name']}: {result['error']}")
         else:
             m = result["meta"]
+            ecart = m["avg_place"] - 4.5
             print(f"  ✓ {result['name']:<32} {m['games']:>7} parties  "
-                  f"place {m['avg_place']:.2f} ({m['d_avg_vs_meta']:+.2f} vs meta)")
+                  f"place {m['avg_place']:.2f} "
+                  f"({abs(ecart):.2f} {'sous' if ecart < 0 else 'au-dessus de'} la moyenne)")
         write_outputs(result, cfg.output, api, cfg)
 
     write_summary(results, cfg.output, cfg, profile)

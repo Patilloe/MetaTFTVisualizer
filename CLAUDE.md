@@ -18,7 +18,9 @@ Python 3.10+, deux modules, aucune dépendance à un serveur.
 `python metatft.py --output <dir>` écrit dans `<dir>` :
 
 - `index.html` — tableau de toutes les comps (`games`, `share_of_meta`, `avg_place`,
-  `d_avg_vs_meta`, `top4`, `win`), liens **URL-encodés** vers chaque report ;
+  `top4`, `win`), liens **URL-encodés** vers chaque report. Pas de « delta vs
+  meta » : la place moyenne d'une partie vaut 4.5 par construction, l'écart
+  n'est qu'une translation d'`avg_place` ;
 - `summary.csv` — mêmes colonnes, plus `champ` et `erreur`. C'est **la seule
   entrée de `publish.py`** ;
 - `<Comp>/report.html` — report détaillé, un dossier par comp ;

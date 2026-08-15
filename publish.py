@@ -39,9 +39,11 @@ CHANNELS_DEFAULT = "comp_channels.json"
 # c'est du bruit d'echantillonnage d'un jour a l'autre.
 DEFAULT_THRESHOLD = 0.10
 
-COLOR_BETTER = 0x2ECC71
-COLOR_WORSE = 0xE74C3C
-COLOR_NEUTRAL = 0x5865F2
+# meme paire divergente que les graphiques et les pages : bleu / rouge, le
+# vert/rouge etant indistinguable en vision daltonienne
+COLOR_BETTER = 0x3987E5
+COLOR_WORSE = 0xE66767
+COLOR_NEUTRAL = 0x898781
 
 
 # --------------------------------------------------------------------------- #
@@ -64,7 +66,6 @@ def read_summary(site_dir: str) -> dict[str, dict[str, Any]]:
                     "champ": row.get("champ", ""),
                     "games": int(row.get("games") or 0),
                     "avg_place": float(row["avg_place"]),
-                    "d_avg_vs_meta": float(row.get("d_avg_vs_meta") or 0.0),
                     "top4": float(row.get("top4") or 0.0),
                     "win": float(row.get("win") or 0.0),
                 }
@@ -94,7 +95,8 @@ class Change:
     def line(self) -> str:
         if self.is_new:
             return f"**{self.comp}** — nouvelle entree, place {self.avg_place:.2f}"
-        arrow = "🟢" if self.delta < 0 else "🔴"
+        # forme et non couleur : lisible aussi en vision daltonienne
+        arrow = "▼" if self.delta < 0 else "▲"
         return (f"{arrow} **{self.comp}** {self.previous:.2f} → "
                 f"{self.avg_place:.2f} ({self.delta:+.2f})")
 
