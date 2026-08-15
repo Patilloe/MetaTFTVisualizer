@@ -7,7 +7,7 @@
 <style>
   :root{--bg:#1e1f22; --panel:#2b2d31; --panel-2:#313338; --border:#3b3d42;
     --text:#dbdee1; --muted:#949ba4; --accent:oklch(72% 0.14 275);
-    --good:#3987e5; --bad:#e66767}
+    --good:oklch(70% 0.15 150); --bad:oklch(68% 0.17 30)}
   *{box-sizing:border-box}
   body{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
     background:var(--bg); color:var(--text); margin:0; padding:2.5rem 1.5rem}
@@ -56,7 +56,7 @@
 <body>
 <div class="wrap">
   <h1>Comps analysées</h1>
-  <p class="meta">Set 18 - Enchanted Wilds (PBE) — généré le 2026-08-14 16:12 UTC — 14 comps</p>
+  <p class="meta">Set 18 - Enchanted Wilds (PBE) — généré le 2026-08-15 06:33 UTC — 14 comps</p>
   <div class="toolbar">
     <div class="search">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
@@ -67,13 +67,14 @@
   <table><thead><tr id="head-row"></tr></thead><tbody id="tbody"></tbody></table>
 </div>
 <script>
-const ROWS = [{"comp": "Sett", "champ": "DA_18_Sett", "games": 70797, "share_of_meta": 0.07808, "avg_place": 3.334, "top4": 0.7258, "win": 0.2121, "erreur": "", "href": "Sett/report.html"}, {"comp": "Ezreal", "champ": "DA_18_Ezreal", "games": 61357, "share_of_meta": 0.06767, "avg_place": 3.363, "top4": 0.712, "win": 0.2263, "erreur": "", "href": "Ezreal/report.html"}, {"comp": "Sivir", "champ": "DA_18_Sivir", "games": 31885, "share_of_meta": 0.03516, "avg_place": 3.397, "top4": 0.7185, "win": 0.1939, "erreur": "", "href": "Sivir/report.html"}, {"comp": "Ahri", "champ": "DA_18_Ahri", "games": 77322, "share_of_meta": 0.08528, "avg_place": 3.399, "top4": 0.7113, "win": 0.2108, "erreur": "", "href": "Ahri/report.html"}, {"comp": "Nidalee A P", "champ": "DA_Nidalee18_AP", "games": 36068, "share_of_meta": 0.03978, "avg_place": 3.535, "top4": 0.7066, "win": 0.139, "erreur": "", "href": "Nidalee%20A%20P/report.html"}, {"comp": "Malphite", "champ": "DA_18_Malphite", "games": 54782, "share_of_meta": 0.06042, "avg_place": 3.546, "top4": 0.6834, "win": 0.1901, "erreur": "", "href": "Malphite/report.html"}, {"comp": "Lillia", "champ": "DA_18_Lillia", "games": 28823, "share_of_meta": 0.03179, "avg_place": 3.549, "top4": 0.6902, "win": 0.1672, "erreur": "", "href": "Lillia/report.html"}, {"comp": "Zyra", "champ": "DA_18_Zyra", "games": 32792, "share_of_meta": 0.03617, "avg_place": 3.607, "top4": 0.6859, "win": 0.1523, "erreur": "", "href": "Zyra/report.html"}, {"comp": "Soraka", "champ": "DA_18_Soraka", "games": 42571, "share_of_meta": 0.04695, "avg_place": 3.608, "top4": 0.6767, "win": 0.1704, "erreur": "", "href": "Soraka/report.html"}, {"comp": "Sentinel", "champ": "DA_Sentinel18", "games": 74727, "share_of_meta": 0.08241, "avg_place": 3.617, "top4": 0.6818, "win": 0.1552, "erreur": "", "href": "Sentinel/report.html"}, {"comp": "Aphelios", "champ": "DA_18_Aphelios", "games": 41080, "share_of_meta": 0.04531, "avg_place": 3.751, "top4": 0.6596, "win": 0.1285, "erreur": "", "href": "Aphelios/report.html"}, {"comp": "Brambleback", "champ": "DA_Brambleback18", "games": 39345, "share_of_meta": 0.04339, "avg_place": 3.772, "top4": 0.6606, "win": 0.1151, "erreur": "", "href": "Brambleback/report.html"}, {"comp": "Amumu", "champ": "DA_Amumu18", "games": 46681, "share_of_meta": 0.05148, "avg_place": 3.805, "top4": 0.6372, "win": 0.1521, "erreur": "", "href": "Amumu/report.html"}, {"comp": "Morgana", "champ": "DA_18_Morgana", "games": 38769, "share_of_meta": 0.04276, "avg_place": 3.872, "top4": 0.6203, "win": 0.1522, "erreur": "", "href": "Morgana/report.html"}];
+const ROWS = [{"comp": "Sett", "champ": "DA_18_Sett", "games": 78943, "share_of_meta": 0.07744, "avg_place": 3.339, "d_avg_vs_meta": -1.161, "top4": 0.7248, "win": 0.2104, "erreur": "", "href": "Sett/report.html"}, {"comp": "Ezreal", "champ": "DA_18_Ezreal", "games": 68881, "share_of_meta": 0.06757, "avg_place": 3.363, "d_avg_vs_meta": -1.137, "top4": 0.7118, "win": 0.2267, "erreur": "", "href": "Ezreal/report.html"}, {"comp": "Sivir", "champ": "DA_18_Sivir", "games": 35997, "share_of_meta": 0.03531, "avg_place": 3.393, "d_avg_vs_meta": -1.107, "top4": 0.7185, "win": 0.196, "erreur": "", "href": "Sivir/report.html"}, {"comp": "Ahri", "champ": "DA_18_Ahri", "games": 86302, "share_of_meta": 0.08466, "avg_place": 3.406, "d_avg_vs_meta": -1.094, "top4": 0.71, "win": 0.2093, "erreur": "", "href": "Ahri/report.html"}, {"comp": "Nidalee A P", "champ": "DA_Nidalee18_AP", "games": 41644, "share_of_meta": 0.04085, "avg_place": 3.528, "d_avg_vs_meta": -0.972, "top4": 0.7086, "win": 0.1405, "erreur": "", "href": "Nidalee%20A%20P/report.html"}, {"comp": "Malphite", "champ": "DA_18_Malphite", "games": 62234, "share_of_meta": 0.06105, "avg_place": 3.539, "d_avg_vs_meta": -0.961, "top4": 0.6863, "win": 0.1879, "erreur": "", "href": "Malphite/report.html"}, {"comp": "Lillia", "champ": "DA_18_Lillia", "games": 32837, "share_of_meta": 0.03221, "avg_place": 3.544, "d_avg_vs_meta": -0.956, "top4": 0.6904, "win": 0.1681, "erreur": "", "href": "Lillia/report.html"}, {"comp": "Sentinel", "champ": "DA_Sentinel18", "games": 83742, "share_of_meta": 0.08215, "avg_place": 3.607, "d_avg_vs_meta": -0.893, "top4": 0.6839, "win": 0.1569, "erreur": "", "href": "Sentinel/report.html"}, {"comp": "Soraka", "champ": "DA_18_Soraka", "games": 47583, "share_of_meta": 0.04668, "avg_place": 3.611, "d_avg_vs_meta": -0.889, "top4": 0.6761, "win": 0.1706, "erreur": "", "href": "Soraka/report.html"}, {"comp": "Zyra", "champ": "DA_18_Zyra", "games": 36934, "share_of_meta": 0.03623, "avg_place": 3.612, "d_avg_vs_meta": -0.888, "top4": 0.6836, "win": 0.1533, "erreur": "", "href": "Zyra/report.html"}, {"comp": "Aphelios", "champ": "DA_18_Aphelios", "games": 45429, "share_of_meta": 0.04456, "avg_place": 3.743, "d_avg_vs_meta": -0.757, "top4": 0.6616, "win": 0.1302, "erreur": "", "href": "Aphelios/report.html"}, {"comp": "Brambleback", "champ": "DA_Brambleback18", "games": 44221, "share_of_meta": 0.04338, "avg_place": 3.751, "d_avg_vs_meta": -0.749, "top4": 0.6645, "win": 0.1184, "erreur": "", "href": "Brambleback/report.html"}, {"comp": "Amumu", "champ": "DA_Amumu18", "games": 52242, "share_of_meta": 0.05125, "avg_place": 3.807, "d_avg_vs_meta": -0.693, "top4": 0.6369, "win": 0.1523, "erreur": "", "href": "Amumu/report.html"}, {"comp": "Morgana", "champ": "DA_18_Morgana", "games": 44097, "share_of_meta": 0.04326, "avg_place": 3.851, "d_avg_vs_meta": -0.649, "top4": 0.6246, "win": 0.1545, "erreur": "", "href": "Morgana/report.html"}];
 const COLUMNS = [
   {key:"comp", label:"Comp", align:"left"},
   {key:"champ", label:"Champ", align:"left"},
   {key:"games", label:"Games", fmt:"int"},
-  {key:"share_of_meta", label:"Part de la meta", fmt:"pct1", bar:true},
-  {key:"avg_place", label:"Place moyenne", fmt:"place", tint:true},
+  {key:"share_of_meta", label:"% Meta", fmt:"pct1", bar:true},
+  {key:"avg_place", label:"Avg Place", fmt:"place", tint:true},
+  {key:"d_avg_vs_meta", label:"Δ vs Meta", fmt:"delta", tint:true},
   {key:"top4", label:"Top 4", fmt:"pct1"},
   {key:"win", label:"Win", fmt:"pct1"},
 ];
@@ -132,8 +133,8 @@ function render(){
         const text = fmt(raw, c.fmt);
         let style = "";
         if (c.tint && raw !== "" && raw !== null){
-          // 4.5 = place moyenne d'une partie a 8 joueurs, le point neutre
-          style = `style="color:${tintColor(raw - 4.5)};font-weight:700"`;
+          const delta = c.key === "avg_place" ? r.d_avg_vs_meta : raw;
+          style = `style="color:${tintColor(delta)};font-weight:700"`;
         }
         if (c.bar && typeof raw === "number"){
           return `<td class="bar-cell"><span class="bar" style="width:${Math.min(100, raw/0.15*100)}%"></span><span ${style}>${text}</span></td>`;
