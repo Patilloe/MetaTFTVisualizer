@@ -1,132 +1,143 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Guinsoos Rageblade + Rabadons Deathcap + Spear Of Shojin,1308,0.03140908654307944,3.333,3.409,-0.119,-0.195,-0.097,0.0037,0.0398,0.1514,0.3907,0.7485,1.778,-3.89,0.0001,True
-pepite,Archangels Staff + Guinsoos Rageblade + Spear Of Shojin,270,0.006483527038709058,3.052,3.412,-0.117,-0.476,-0.266,0.0008,0.0766,0.2,0.4741,0.7852,1.757,-4.44,1e-05,True
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Strikers Flail,3764,0.09038516953222553,3.399,3.422,-0.106,-0.129,-0.069,0.0096,0.0371,0.1496,0.3696,0.7457,1.801,-4.2,3e-05,True
-pepite,Giant Slayer + Guinsoos Rageblade + Spear Of Shojin,248,0.005955239650369801,3.149,3.441,-0.087,-0.379,-0.14,0.0005,0.0172,0.2298,0.4879,0.7258,1.913,-3.11,0.00187,True
-pepite,Giant Slayer + Guinsoos Rageblade + Rabadons Deathcap,384,0.00922101623283066,3.328,3.465,-0.063,-0.2,-0.032,0.0006,0.0518,0.1328,0.3594,0.7604,1.668,-2.34,0.01951,False
-pepite,Guinsoos Rageblade Radiant + Jeweled Gauntlet + Strikers Flail,80,0.0019210450485063874,2.9,3.473,-0.055,-0.628,-0.28,0.0001,0.1164,0.2125,0.4875,0.825,1.586,-3.54,0.0004,True
-pepite,Navori Flickerblade + Guinsoos Rageblade + Jeweled Gauntlet,222,0.005330900009605225,3.279,3.476,-0.052,-0.249,-0.015,0.0003,0.0481,0.1577,0.4234,0.7568,1.774,-2.08,0.03719,False
-pepite,Guinsoos Rageblade + Guinsoos Rageblade + Rabadons Deathcap,182,0.004370377485352031,3.242,3.477,-0.051,-0.286,-0.054,0.0002,0.0826,0.1209,0.3901,0.7912,1.592,-2.42,0.01556,False
-populaire,Archangels Staff + Guinsoos Rageblade + Jeweled Gauntlet,735,0.017649601383152434,3.42,3.478,-0.05,-0.108,0.0,0.0009,0.0329,0.1333,0.3673,0.7415,1.774,-1.63,0.1031,False
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Rabadons Deathcap,1598,0.03837287484391509,3.454,3.48,-0.048,-0.074,0.0,0.0019,0.0285,0.1339,0.3486,0.7372,1.787,-1.62,0.10581,False
-,Jeweled Gauntlet + Nashors Tooth + Strikers Flail,235,0.005643069829987513,3.319,3.482,-0.046,-0.209,0.0,0.0003,0.0361,0.1787,0.3617,0.7447,1.757,-1.82,0.06909,False
-,Blue Buff + Guinsoos Rageblade + Rabadons Deathcap,55,0.0013207184708481413,2.855,3.486,-0.042,-0.674,-0.221,0.0001,0.1277,0.2182,0.5636,0.8364,1.71,-2.92,0.00351,True
-,Guinsoos Rageblade + Hextech Gunblade + Rabadons Deathcap,235,0.005643069829987513,3.345,3.488,-0.04,-0.183,0.0,0.0002,0.0318,0.1915,0.3872,0.7404,1.825,-1.54,0.12459,False
-,Archangels Staff + Giant Slayer + Guinsoos Rageblade,226,0.0054269522620305445,3.354,3.491,-0.037,-0.174,0.0,0.0002,0.0259,0.146,0.385,0.7345,1.732,-1.51,0.13185,False
-,Guinsoos Rageblade + Nashors Tooth + Strikers Flail,85,0.0020411103640380368,3.141,3.492,-0.036,-0.387,-0.022,0.0001,0.0914,0.1647,0.4471,0.8,1.716,-2.08,0.03787,False
-,Guinsoos Rageblade + Rabadons Deathcap + Rabadons Deathcap,122,0.002929593698972241,3.254,3.493,-0.035,-0.274,0.0,0.0001,0.0947,0.1311,0.3607,0.8033,1.627,-1.86,0.06344,False
-populaire,Guinsoos Rageblade + Guinsoos Rageblade + Jeweled Gauntlet,517,0.01241475362597253,3.443,3.495,-0.033,-0.085,0.0,0.0004,0.0109,0.1528,0.352,0.7195,1.829,-1.05,0.29285,False
-,Rabadons Deathcap + Red Buff + Spear Of Shojin,57,0.001368744597060801,3.035,3.497,-0.032,-0.493,0.0,0.0,0.0107,0.2632,0.5789,0.7193,2.017,-1.84,0.06516,False
-,Guinsoos Rageblade + Hextech Gunblade + Red Buff,45,0.001080587839784843,2.911,3.496,-0.032,-0.617,-0.128,0.0,0.1358,0.1778,0.4889,0.8444,1.671,-2.48,0.01331,False
-,Archangels Staff + Guinsoos Rageblade + Nashors Tooth,99,0.0023772932475266545,3.232,3.497,-0.031,-0.296,0.0,0.0001,0.0894,0.1616,0.4343,0.798,1.863,-1.58,0.11464,False
-,Jeweled Gauntlet + Red Buff + Strikers Flail,46,0.0011046009028911727,2.957,3.498,-0.03,-0.572,-0.064,0.0,0.0957,0.2609,0.4783,0.8043,1.756,-2.21,0.0274,False
-,Archangels Staff + Guinsoos Rageblade + Rabadons Deathcap,182,0.004370377485352031,3.368,3.499,-0.029,-0.16,0.0,0.0001,0.0276,0.1429,0.3516,0.7363,1.688,-1.28,0.20218,False
-,Navori Flickerblade + Jeweled Gauntlet + Strikers Flail,64,0.00153683603880511,3.125,3.499,-0.029,-0.403,-0.002,0.0,0.1039,0.1406,0.4219,0.8125,1.635,-1.97,0.04874,False
-,Ludens Tempest + Guinsoos Rageblade + Jeweled Gauntlet,131,0.0031457112669292095,3.328,3.501,-0.027,-0.2,0.0,0.0001,0.0395,0.1679,0.3588,0.7481,1.736,-1.32,0.18847,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Quicksilver,119,0.0028575545096532515,3.319,3.502,-0.026,-0.209,0.0,0.0001,0.0729,0.1429,0.3445,0.7815,1.7,-1.34,0.18108,False
-,Navori Flickerblade + Jeweled Gauntlet + Nashors Tooth,51,0.001224666218422822,3.078,3.502,-0.026,-0.45,0.0,0.0,0.0561,0.2745,0.4706,0.7647,2.008,-1.6,0.11,False
-,Giant Slayer + Guinsoos Rageblade + Guinsoos Rageblade,109,0.0026174238785899528,3.312,3.503,-0.025,-0.216,0.0,0.0001,0.0161,0.156,0.4587,0.7248,1.875,-1.2,0.22943,False
-,Guinsoos Rageblade + Spear Of Shojin + Strikers Flail,161,0.0038661031601191047,3.379,3.504,-0.024,-0.149,0.0,0.0001,0.0181,0.1677,0.3975,0.7267,1.807,-1.05,0.29582,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Morellonomicon,83,0.001993084237825377,3.277,3.505,-0.023,-0.251,0.0,0.0,0.0263,0.2289,0.3976,0.7349,1.865,-1.22,0.22058,False
-,Lich Bane + Guinsoos Rageblade + Spear Of Shojin,48,0.0011526270291038324,3.104,3.505,-0.023,-0.424,0.0,0.0,0.0622,0.1667,0.4792,0.7708,1.851,-1.59,0.1128,False
-,Guinsoos Rageblade + Rabadons Deathcap + Red Buff,81,0.0019450581116127173,3.284,3.506,-0.022,-0.244,0.0,0.0,0.0692,0.1235,0.3951,0.7778,1.709,-1.28,0.19895,False
-,Giant Slayer + Guinsoos Rageblade + Morellonomicon,41,0.0009845355873595236,3.049,3.506,-0.022,-0.479,-0.001,0.0,0.0963,0.1951,0.3902,0.8049,1.561,-1.96,0.04944,False
-,Guinsoos Rageblade + Guinsoos Rageblade + Spear Of Shojin,85,0.0020411103640380368,3.318,3.509,-0.019,-0.21,0.0,0.0,-0.0145,0.1529,0.4118,0.6941,1.77,-1.09,0.27365,False
-,Archangels Staff + Archangels Staff + Guinsoos Rageblade,81,0.0019450581116127173,3.309,3.509,-0.019,-0.219,0.0,0.0,0.0445,0.1605,0.3333,0.7531,1.63,-1.21,0.22629,False
-,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,176,0.004226299106714053,3.426,3.51,-0.018,-0.102,0.0,0.0001,0.0471,0.1591,0.3523,0.7557,1.842,-0.73,0.46366,False
-,Guinsoos Rageblade + Spear Of Shojin + Void Staff,109,0.0026174238785899528,3.376,3.511,-0.018,-0.152,0.0,0.0,0.0253,0.1651,0.3761,0.7339,1.816,-0.87,0.38308,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Rabadons Deathcap Radiant,76,0.0018249927960810681,3.316,3.51,-0.018,-0.212,0.0,0.0,0.0677,0.1447,0.3684,0.7763,1.711,-1.08,0.27981,False
-,Guinsoos Rageblade + Spear Of Shojin + Spear Of Shojin,40,0.0009605225242531937,3.15,3.511,-0.017,-0.378,0.0,0.0,0.1414,0.1,0.35,0.85,1.37,-1.74,0.08122,False
-,Guinsoos Rageblade + Jeweled Gauntlet Radiant + Strikers Flail,63,0.00151282297569878,3.302,3.512,-0.016,-0.227,0.0,0.0,0.085,0.2222,0.3968,0.7937,1.849,-0.97,0.33112,False
-,Giant Slayer + Guinsoos Rageblade + Red Buff,60,0.0014407837863797907,3.283,3.512,-0.016,-0.245,0.0,0.0,0.058,0.1333,0.3833,0.7667,1.694,-1.12,0.26348,False
-,Archangels Staff + Guinsoos Rageblade + Hextech Gunblade,158,0.003794063970800115,3.437,3.514,-0.015,-0.091,0.0,0.0001,0.0192,0.1329,0.4114,0.7278,1.877,-0.61,0.54137,False
-,Jeweled Gauntlet + Spear Of Shojin + Void Staff,72,0.0017289405436557487,3.333,3.513,-0.015,-0.195,0.0,0.0,-0.0003,0.1528,0.4028,0.7083,1.78,-0.93,0.3535,False
-,Emblem Invoker + Jeweled Gauntlet + Strikers Flail,46,0.0011046009028911727,3.261,3.514,-0.014,-0.267,0.0,0.0,0.0522,0.1957,0.3913,0.7609,1.799,-1.01,0.31399,False
-,Navori Flickerblade + Giant Slayer + Guinsoos Rageblade,40,0.0009605225242531937,3.225,3.514,-0.014,-0.303,0.0,0.0,0.0914,0.175,0.425,0.8,1.823,-1.05,0.29333,False
-,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,228,0.005474978388243204,3.474,3.516,-0.012,-0.054,0.0,0.0001,0.0063,0.1272,0.3596,0.7149,1.815,-0.45,0.65167,False
-,Guinsoos Rageblade + Red Buff + Spear Of Shojin,90,0.002161175679569686,3.4,3.516,-0.012,-0.128,0.0,0.0,0.0358,0.1667,0.4,0.7444,1.943,-0.62,0.53199,False
-,Archangels Staff + Guinsoos Rageblade + Red Buff,54,0.0012967054077418114,3.333,3.516,-0.012,-0.195,0.0,0.0,0.0136,0.2037,0.3889,0.7222,1.905,-0.75,0.4528,False
-,Emblem Executioner + Guinsoos Rageblade + Rabadons Deathcap,45,0.001080587839784843,3.289,3.516,-0.012,-0.239,0.0,0.0,0.0469,0.2667,0.4222,0.7556,2.094,-0.77,0.4436,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Red Buff,216,0.005186821630967246,3.477,3.518,-0.011,-0.051,0.0,0.0001,0.0136,0.1343,0.3426,0.7222,1.735,-0.43,0.66509,False
-,Jeweled Gauntlet + Nashors Tooth + Nashors Tooth,210,0.005042743252329267,3.471,3.517,-0.011,-0.057,0.0,0.0001,0.0533,0.119,0.3429,0.7619,1.749,-0.47,0.63964,False
-,Jeweled Gauntlet + Rabadons Deathcap + Strikers Flail,51,0.001224666218422822,3.333,3.517,-0.011,-0.195,0.0,0.0,0.0365,0.2157,0.3137,0.7451,1.7,-0.82,0.41352,False
-,Bloodthirster + Edge Of Night + Titans Resolve,45,0.001080587839784843,3.311,3.517,-0.011,-0.217,0.0,0.0,0.0247,0.1556,0.4,0.7333,1.723,-0.84,0.39862,False
-,Guinsoos Rageblade + Red Buff + Void Staff,44,0.0010565747766785132,3.318,3.518,-0.011,-0.21,0.0,0.0,0.1096,0.0682,0.4091,0.8182,1.634,-0.85,0.39459,False
-,Jeweled Gauntlet + Nashors Tooth + Rabadons Deathcap,143,0.0034338680242051675,3.462,3.518,-0.01,-0.067,0.0,0.0,0.0466,0.0909,0.3287,0.7552,1.638,-0.48,0.62774,False
-,Guinsoos Rageblade + Rabadons Deathcap Radiant + Spear Of Shojin,41,0.0009845355873595236,3.317,3.518,-0.01,-0.211,0.0,0.0,0.0719,0.2195,0.3902,0.7805,2.03,-0.67,0.50573,False
-,Statikk Shiv + Guinsoos Rageblade + Rabadons Deathcap,80,0.0019210450485063874,3.425,3.519,-0.009,-0.103,0.0,0.0,0.0414,0.15,0.3375,0.75,1.73,-0.53,0.59452,False
-populaire,Giant Slayer + Guinsoos Rageblade + Jeweled Gauntlet,1590,0.03818077033906445,3.516,3.52,-0.008,-0.012,0.0,0.0003,0.0077,0.1522,0.3358,0.7164,1.842,-0.25,0.80301,False
-,Giant Slayer + Jeweled Gauntlet + Spear Of Shojin,148,0.003553933339736817,3.473,3.52,-0.008,-0.055,0.0,0.0,-0.0127,0.1486,0.3919,0.6959,1.898,-0.35,0.72424,False
-,Archangels Staff + Guinsoos Rageblade + Void Staff,92,0.0022092018057823454,3.446,3.52,-0.008,-0.082,0.0,0.0,0.0414,0.1413,0.3913,0.75,1.873,-0.42,0.67321,False
-,Emblem Invoker + Guinsoos Rageblade + Rabadons Deathcap,55,0.0013207184708481413,3.4,3.52,-0.008,-0.128,0.0,0.0,0.0368,0.1636,0.4,0.7455,1.941,-0.49,0.62474,False
-,Giant Slayer + Guinsoos Rageblade + Hextech Gunblade,175,0.004202286043607723,3.486,3.521,-0.007,-0.042,0.0,0.0,-0.0115,0.1314,0.36,0.6971,1.798,-0.31,0.7557,False
-,Guinsoos Rageblade + Hextech Gunblade + Nashors Tooth,59,0.0014167707232734608,3.424,3.521,-0.007,-0.104,0.0,0.0,-0.0137,0.1864,0.4237,0.6949,1.959,-0.41,0.68256,False
-,Hand Of Justice + Infinity Edge + Titans Resolve,60,0.0014407837863797907,3.433,3.522,-0.006,-0.095,0.0,0.0,0.0247,0.1333,0.4333,0.7333,1.901,-0.39,0.69954,False
-,Blue Buff + Jeweled Gauntlet + Rabadons Deathcap,55,0.0013207184708481413,3.436,3.522,-0.006,-0.092,0.0,0.0,0.0914,0.0909,0.3455,0.8,1.692,-0.4,0.68793,False
-,Archangels Staff + Statikk Shiv + Guinsoos Rageblade,40,0.0009605225242531937,3.4,3.522,-0.006,-0.128,0.0,0.0,0.0914,0.075,0.325,0.8,1.463,-0.55,0.58001,False
-,Hextech Gunblade + Jeweled Gauntlet + Nashors Tooth,50,0.0012006531553164922,3.44,3.523,-0.005,-0.088,0.0,0.0,0.0514,0.08,0.38,0.76,1.614,-0.39,0.69984,False
-,Eternal Pact + Guinsoos Rageblade + Jeweled Gauntlet,41,0.0009845355873595236,3.415,3.523,-0.005,-0.113,0.0,0.0,0.0719,0.122,0.3415,0.7805,1.725,-0.42,0.67375,False
-,Guinsoos Rageblade + Hextech Gunblade + Strikers Flail,79,0.0018970319854000575,3.481,3.524,-0.004,-0.047,0.0,0.0,-0.0251,0.1392,0.3418,0.6835,1.675,-0.25,0.80297,False
-,Lich Bane + Guinsoos Rageblade + Jeweled Gauntlet,176,0.004226299106714053,3.511,3.525,-0.003,-0.017,0.0,0.0,-0.0041,0.125,0.3636,0.7045,1.818,-0.12,0.90306,False
-,Emblem Invoker + Guinsoos Rageblade + Spear Of Shojin,41,0.0009845355873595236,3.463,3.525,-0.003,-0.065,0.0,0.0,-0.0501,0.1707,0.439,0.6585,1.927,-0.21,0.82988,False
-,Giant Slayer + Guinsoos Rageblade + Void Staff,107,0.0025693977523772935,3.514,3.526,-0.002,-0.014,0.0,0.0,0.0297,0.1682,0.3551,0.7383,1.954,-0.07,0.94068,False
-,Giant Slayer + Jeweled Gauntlet + Nashors Tooth,90,0.002161175679569686,3.511,3.526,-0.002,-0.017,0.0,0.0,0.0136,0.1333,0.3444,0.7222,1.784,-0.09,0.92813,False
-,Bloodthirster + Edge Of Night + Infinity Edge,89,0.0021371626164633562,3.506,3.526,-0.002,-0.022,0.0,0.0,-0.012,0.1011,0.3596,0.6966,1.755,-0.12,0.90396,False
-,Guinsoos Rageblade + Nashors Tooth + Rabadons Deathcap,117,0.0028095283834405917,3.521,3.527,-0.001,-0.007,0.0,0.0,-0.0163,0.1624,0.359,0.6923,1.838,-0.04,0.96846,False
-,Guinsoos Rageblade + Guinsoos Rageblade + Hextech Gunblade,85,0.0020411103640380368,3.529,3.528,0.0,0.001,0.0,-0.0,-0.038,0.1529,0.3294,0.6706,1.844,0.01,0.99476,False
-,Guinsoos Rageblade + Nashors Tooth + Spear Of Shojin,75,0.0018009797329747383,3.533,3.529,0.0,0.005,0.0,-0.0,0.038,0.1067,0.3467,0.7467,1.784,0.03,0.97973,False
-,Guinsoos Rageblade + Hand Of Justice + Spear Of Shojin,41,0.0009845355873595236,3.537,3.528,0.0,0.008,0.0,-0.0,-0.0257,0.1463,0.3415,0.6829,1.901,0.03,0.9772,False
-,Guinsoos Rageblade + Hand Of Justice + Jeweled Gauntlet,158,0.003794063970800115,3.532,3.529,0.001,0.004,0.0,-0.0,0.0066,0.1013,0.3481,0.7152,1.774,0.03,0.97997,False
-,Emblem Executioner + Guinsoos Rageblade + Jeweled Gauntlet,77,0.001849005859187398,3.545,3.53,0.001,0.017,0.0,-0.0,0.0316,0.1688,0.2987,0.7403,1.755,0.09,0.93089,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Strikers Flail Radiant,54,0.0012967054077418114,3.537,3.529,0.001,0.009,0.0,-0.0,-0.0234,0.1667,0.3333,0.6852,1.833,0.04,0.97142,False
-,Bloodthirster + Edge Of Night + Steraks Gage,48,0.0011526270291038324,3.542,3.529,0.001,0.014,0.0,-0.0,-0.0003,0.1042,0.3333,0.7083,1.802,0.05,0.95842,False
-,Statikk Shiv + Giant Slayer + Guinsoos Rageblade,44,0.0010565747766785132,3.545,3.529,0.001,0.017,0.0,-0.0,0.0186,0.1136,0.3409,0.7273,1.802,0.06,0.94908,False
-,Archangels Staff + Blue Buff + Jeweled Gauntlet,40,0.0009605225242531937,3.55,3.529,0.001,0.022,0.0,-0.0,0.0664,0.175,0.325,0.775,1.83,0.08,0.93967,False
-,Archangels Staff + Guinsoos Rageblade + Guinsoos Rageblade,108,0.002593410815483623,3.546,3.53,0.002,0.018,0.0,-0.0,0.0136,0.1389,0.3148,0.7222,1.766,0.11,0.91482,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Tacticians Crown,51,0.001224666218422822,3.569,3.53,0.002,0.041,0.0,-0.0,0.0169,0.1373,0.3137,0.7255,1.695,0.17,0.8645,False
-,Giant Slayer + Jeweled Gauntlet + Strikers Flail,50,0.0012006531553164922,3.56,3.53,0.002,0.032,0.0,-0.0,0.0114,0.12,0.42,0.72,1.992,0.11,0.90986,False
-,Giant Slayer + Guinsoos Rageblade + Nashors Tooth,93,0.0022332148688886753,3.559,3.531,0.003,0.031,0.0,-0.0,-0.0312,0.1398,0.3548,0.6774,1.892,0.16,0.87441,False
-,Emblem Rapidfire + Guinsoos Rageblade + Jeweled Gauntlet,51,0.001224666218422822,3.588,3.532,0.003,0.06,0.0,-0.0,-0.0224,0.1765,0.3333,0.6863,1.922,0.22,0.82326,False
-,Giant Slayer + Rabadons Deathcap + Spear Of Shojin,44,0.0010565747766785132,3.591,3.531,0.003,0.063,0.0,-0.0,0.0186,0.1136,0.2955,0.7273,1.683,0.25,0.8046,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Jeweled Gauntlet,82,0.001969071174719047,3.573,3.532,0.004,0.045,0.0,-0.0,-0.0257,0.122,0.3537,0.6829,1.801,0.23,0.82092,False
-,Hextech Gunblade + Jeweled Gauntlet + Spear Of Shojin,57,0.001368744597060801,3.596,3.532,0.004,0.068,0.0,-0.0,0.0282,0.1228,0.386,0.7368,1.853,0.28,0.78065,False
-,Statikk Shiv + Guinsoos Rageblade + Jeweled Gauntlet,264,0.006339448660071079,3.549,3.533,0.005,0.021,0.0,-0.0,-0.0003,0.125,0.3182,0.7083,1.744,0.2,0.8444,False
-,Guinsoos Rageblade + Hextech Gunblade + Void Staff,82,0.001969071174719047,3.585,3.533,0.005,0.057,0.0,-0.0,0.0353,0.061,0.3659,0.7439,1.78,0.29,0.77106,False
-,Emblem Inferno + Guinsoos Rageblade + Jeweled Gauntlet,58,0.001392757660167131,3.603,3.533,0.005,0.075,0.0,-0.0,-0.019,0.1724,0.3621,0.6897,2.025,0.28,0.77702,False
-,Emblem Blossom + Guinsoos Rageblade + Jeweled Gauntlet,54,0.0012967054077418114,3.611,3.533,0.005,0.083,0.0,-0.0,-0.0234,0.1852,0.3519,0.6852,2.059,0.3,0.76709,False
-,Seekers Armguard + Guinsoos Rageblade + Jeweled Gauntlet,48,0.0011526270291038324,3.646,3.535,0.006,0.118,0.0,-0.0,-0.0003,0.1042,0.375,0.7083,1.92,0.42,0.67114,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Nashors Tooth Radiant,47,0.0011286139659975026,3.66,3.535,0.007,0.131,0.0,-0.0,-0.0278,0.0426,0.2979,0.6809,1.418,0.63,0.5255,False
-,Guinsoos Rageblade + Rabadons Deathcap + Strikers Flail,171,0.004106233791182403,3.573,3.536,0.008,0.045,0.0,-0.0,-0.001,0.1287,0.3216,0.7076,1.806,0.33,0.74508,False
-,Guinsoos Rageblade + Morellonomicon + Spear Of Shojin,54,0.0012967054077418114,3.667,3.537,0.008,0.139,0.0,-0.0,-0.116,0.2222,0.4444,0.5926,2.228,0.46,0.64776,False
-,Guinsoos Rageblade + Guinsoos Rageblade + Nashors Tooth,47,0.0011286139659975026,3.681,3.536,0.008,0.153,0.0,-0.0,0.0148,0.0851,0.2979,0.7234,1.846,0.57,0.57079,False
-,Guinsoos Rageblade + Rabadons Deathcap + Void Staff,156,0.0037460378445874558,3.59,3.538,0.01,0.062,0.0,-0.0,-0.0099,0.109,0.3397,0.6987,1.846,0.42,0.67721,False
-,Archangels Staff + Guinsoos Rageblade + Strikers Flail,80,0.0019210450485063874,3.638,3.538,0.01,0.109,0.0,-0.0,-0.0086,0.125,0.2625,0.7,1.866,0.52,0.6003,False
-,Emblem Slayer + Guinsoos Rageblade + Jeweled Gauntlet,50,0.0012006531553164922,3.7,3.538,0.01,0.172,0.0,-0.0,-0.0286,0.06,0.28,0.68,1.676,0.72,0.4687,False
-,Guinsoos Rageblade + Hextech Gunblade + Spear Of Shojin,119,0.0028575545096532515,3.613,3.539,0.011,0.085,0.0,-0.0,0.0141,0.0924,0.3193,0.7227,1.825,0.51,0.6104,False
-,Jeweled Gauntlet + Red Buff + Spear Of Shojin,72,0.0017289405436557487,3.667,3.539,0.011,0.139,0.0,-0.0,0.0136,0.0694,0.3194,0.7222,1.856,0.63,0.52673,False
-,Emblem Executioner + Guinsoos Rageblade + Strikers Flail,55,0.0013207184708481413,3.709,3.539,0.011,0.181,0.0,-0.0,-0.0723,0.1455,0.4182,0.6364,2.163,0.62,0.5351,False
-,Emblem Invoker + Guinsoos Rageblade + Jeweled Gauntlet,205,0.004922677936797618,3.59,3.54,0.012,0.062,0.0,-0.0001,-0.0306,0.122,0.3951,0.678,1.953,0.45,0.64932,False
-,Blue Buff + Jeweled Gauntlet + Nashors Tooth,67,0.0016088752281240995,3.701,3.541,0.013,0.173,0.0,-0.0,-0.0221,0.1343,0.2836,0.6866,1.845,0.77,0.44206,False
-,Guinsoos Rageblade + Nashors Tooth + Void Staff,74,0.0017769666698684084,3.703,3.542,0.014,0.175,0.0,-0.0,-0.0465,0.0811,0.3378,0.6622,1.791,0.84,0.4022,False
-,Archangels Staff + Jeweled Gauntlet + Spear Of Shojin,92,0.0022092018057823454,3.685,3.544,0.016,0.157,0.0,-0.0,-0.0456,0.1087,0.337,0.663,1.775,0.85,0.39773,False
-,Blue Buff + Guinsoos Rageblade + Jeweled Gauntlet,168,0.004034194601863414,3.631,3.545,0.017,0.103,0.0,-0.0001,-0.042,0.125,0.3095,0.6667,1.785,0.75,0.45605,False
-,Adaptive Helm + Guinsoos Rageblade + Jeweled Gauntlet,57,0.001368744597060801,3.789,3.545,0.017,0.261,0.0,-0.0,-0.0595,0.1053,0.3158,0.6491,1.935,1.02,0.30818,False
-,Bloodthirster + Hand Of Justice + Infinity Edge,44,0.0010565747766785132,3.864,3.545,0.017,0.336,0.0,-0.0,-0.0495,0.0909,0.25,0.6591,1.66,1.34,0.18016,False
-,Bloodthirster + Hand Of Justice + Titans Resolve,46,0.0011046009028911727,3.87,3.546,0.018,0.341,0.0,-0.0,-0.0565,0.087,0.2609,0.6522,1.872,1.24,0.2163,False
-,Wits End + Guinsoos Rageblade + Jeweled Gauntlet,104,0.002497358563058304,3.702,3.547,0.019,0.174,0.0,-0.0,-0.0452,0.125,0.3365,0.6635,1.97,0.9,0.36882,False
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Nashors Tooth,1669,0.040077802324464507,3.56,3.549,0.021,0.032,0.0,-0.0008,-0.0088,0.1396,0.3349,0.6998,1.84,0.69,0.49283,False
-,Manazane + Guinsoos Rageblade + Jeweled Gauntlet,41,0.0009845355873595236,3.976,3.549,0.021,0.448,0.0,-0.0,-0.0501,0.122,0.2439,0.6585,1.994,1.44,0.15082,False
-populaire,Guinsoos Rageblade + Hextech Gunblade + Jeweled Gauntlet,695,0.01668907885889924,3.576,3.55,0.022,0.047,0.0,-0.0004,-0.0194,0.141,0.364,0.6892,1.926,0.64,0.51928,False
-,Dawncore + Guinsoos Rageblade + Jeweled Gauntlet,69,0.0016569013543367593,3.812,3.55,0.022,0.283,0.0,-0.0,-0.013,0.087,0.2029,0.6957,1.679,1.4,0.16121,False
-,Jeweled Gauntlet + Nashors Tooth + Void Staff,68,0.0016328882912304294,3.882,3.555,0.027,0.354,0.0,-0.0,-0.0616,0.0735,0.1912,0.6471,1.614,1.81,0.07054,False
-,Archangels Staff + Jeweled Gauntlet + Nashors Tooth,84,0.002017097300931707,3.833,3.556,0.028,0.305,0.0,-0.0001,-0.0539,0.119,0.3095,0.6548,2.017,1.39,0.16576,False
-,Component Needlessly Large Rod + Guinsoos Rageblade + Jeweled Gauntlet,42,0.0010085486504658534,4.119,3.556,0.028,0.591,0.058,-0.0,-0.1134,0.0476,0.1667,0.5952,1.762,2.17,0.02984,False
-,Bloodthirster + Infinity Edge + Titans Resolve,70,0.0016809144174430891,3.914,3.558,0.03,0.386,0.0,-0.0001,-0.0801,0.0857,0.2571,0.6286,1.803,1.79,0.07333,False
-,Emblem Spellweaver + Guinsoos Rageblade + Jeweled Gauntlet,49,0.0011766400922101623,4.163,3.563,0.035,0.635,0.074,-0.0,-0.0964,0.102,0.2041,0.6122,2.004,2.22,0.02655,False
-,Edge Of Night + Hand Of Justice + Infinity Edge,147,0.003529920276630487,3.776,3.565,0.037,0.247,0.0,-0.0001,-0.0556,0.1156,0.2993,0.6531,1.894,1.58,0.11394,False
-,Giant Slayer + Guinsoos Rageblade + Strikers Flail,160,0.003842090097012775,3.775,3.568,0.04,0.247,0.0,-0.0002,-0.0336,0.1,0.2687,0.675,1.844,1.69,0.09091,False
-,Gamblers Blade + Guinsoos Rageblade + Jeweled Gauntlet,62,0.0014888099125924502,4.129,3.57,0.042,0.601,0.141,-0.0001,-0.1119,0.0484,0.2258,0.5968,1.845,2.56,0.01037,False
-,Bloodthirster + Steraks Gage + Titans Resolve,107,0.0025693977523772935,3.963,3.578,0.049,0.435,0.06,-0.0001,-0.0638,0.1215,0.2336,0.6449,1.976,2.27,0.02309,False
-,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,259,0.006219383344539429,3.757,3.582,0.054,0.229,0.0,-0.0003,-0.0329,0.1158,0.3012,0.6757,1.935,1.9,0.0579,False
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Spear Of Shojin,1845,0.044304101431178564,3.616,3.589,0.061,0.088,0.002,-0.0027,-0.0176,0.1214,0.3268,0.6911,1.849,2.0,0.04504,False
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Void Staff,466,0.011190087407549707,3.794,3.623,0.095,0.266,0.091,-0.0011,-0.0584,0.1245,0.2897,0.6502,1.915,2.98,0.00286,True
+populaire,Guinsoos Rageblade + Jeweled Gauntlet + Strikers Flail,4498,0.09780174381944294,3.39,3.413,-0.117,-0.141,-0.086,0.0114,0.0364,0.1485,0.3713,0.7437,1.791,-5.01,0.0,True
+populaire,Guinsoos Rageblade + Rabadons Deathcap + Spear Of Shojin,1398,0.030397251636189688,3.337,3.414,-0.117,-0.193,-0.098,0.0035,0.0409,0.1502,0.392,0.7482,1.785,-3.98,7e-05,True
+pepite,Archangels Staff + Guinsoos Rageblade + Spear Of Shojin,292,0.006349068295970951,3.086,3.423,-0.107,-0.445,-0.242,0.0007,0.0735,0.1918,0.4658,0.7808,1.756,-4.31,2e-05,True
+pepite,Giant Slayer + Guinsoos Rageblade + Spear Of Shojin,262,0.005696766758713661,3.137,3.443,-0.087,-0.393,-0.161,0.0005,0.0217,0.229,0.4924,0.729,1.905,-3.33,0.00087,True
+pepite,Giant Slayer + Guinsoos Rageblade + Rabadons Deathcap,433,0.009414885521080212,3.342,3.47,-0.06,-0.188,-0.027,0.0006,0.0456,0.1432,0.3603,0.7529,1.701,-2.29,0.02194,False
+pepite,Guinsoos Rageblade Radiant + Jeweled Gauntlet + Strikers Flail,99,0.0021525950729490554,2.99,3.478,-0.053,-0.54,-0.229,0.0001,0.1109,0.202,0.4444,0.8182,1.58,-3.4,0.00068,True
+populaire,Archangels Staff + Guinsoos Rageblade + Jeweled Gauntlet,813,0.017677371659672543,3.419,3.478,-0.052,-0.111,0.0,0.0009,0.0307,0.139,0.369,0.738,1.791,-1.75,0.08064,False
+pepite,Guinsoos Rageblade + Guinsoos Rageblade + Rabadons Deathcap,198,0.004305190145898111,3.247,3.48,-0.05,-0.283,-0.053,0.0002,0.0755,0.1313,0.399,0.7828,1.647,-2.41,0.01598,False
+populaire,Guinsoos Rageblade + Jeweled Gauntlet + Rabadons Deathcap,1793,0.03898588854341067,3.457,3.482,-0.049,-0.073,0.0,0.0019,0.0278,0.135,0.3486,0.7351,1.788,-1.7,0.08854,False
+pepite,Navori Flickerblade + Guinsoos Rageblade + Jeweled Gauntlet,255,0.00554456306668696,3.314,3.483,-0.047,-0.216,0.0,0.0003,0.0496,0.1608,0.4118,0.7569,1.805,-1.91,0.0562,False
+,Archangels Staff + Giant Slayer + Guinsoos Rageblade,255,0.00554456306668696,3.318,3.484,-0.046,-0.213,0.0,0.0003,0.0339,0.1529,0.3922,0.7412,1.732,-1.95,0.0508,False
+,Jeweled Gauntlet + Nashors Tooth + Strikers Flail,253,0.005501076297536474,3.316,3.484,-0.046,-0.214,0.0,0.0003,0.0358,0.1779,0.3597,0.7431,1.761,-1.93,0.05399,False
+,Guinsoos Rageblade + Rabadons Deathcap + Rabadons Deathcap,136,0.0029571003022330457,3.206,3.488,-0.042,-0.324,-0.038,0.0001,0.1015,0.1544,0.3897,0.8088,1.698,-2.22,0.0262,False
+,Guinsoos Rageblade + Hextech Gunblade + Rabadons Deathcap,257,0.0055880498358374464,3.35,3.491,-0.039,-0.18,0.0,0.0002,0.032,0.1868,0.3852,0.7393,1.823,-1.58,0.11454,False
+,Blue Buff + Guinsoos Rageblade + Rabadons Deathcap,60,0.0013046030745145789,2.933,3.494,-0.037,-0.597,-0.142,0.0,0.126,0.2167,0.55,0.8333,1.797,-2.57,0.01014,False
+,Guinsoos Rageblade + Rabadons Deathcap + Red Buff,94,0.0020438781500728403,3.181,3.498,-0.032,-0.349,-0.005,0.0001,0.0799,0.117,0.4574,0.7872,1.701,-1.99,0.0467,False
+,Archangels Staff + Guinsoos Rageblade + Rabadons Deathcap,199,0.004326933530473353,3.357,3.499,-0.031,-0.173,0.0,0.0001,0.0314,0.1508,0.3618,0.7387,1.713,-1.42,0.15419,False
+,Guinsoos Rageblade + Nashors Tooth + Strikers Flail,91,0.001978647996347111,3.187,3.499,-0.031,-0.343,0.0,0.0001,0.0839,0.1538,0.4286,0.7912,1.703,-1.92,0.05465,False
+,Navori Flickerblade + Jeweled Gauntlet + Strikers Flail,70,0.0015220369202670087,3.086,3.499,-0.031,-0.444,-0.069,0.0,0.1213,0.1429,0.4286,0.8286,1.601,-2.32,0.02034,False
+,Rabadons Deathcap + Red Buff + Spear Of Shojin,59,0.001282859689939336,3.017,3.499,-0.031,-0.513,-0.006,0.0,0.0215,0.2542,0.5763,0.7288,1.987,-1.98,0.04739,False
+,Ludens Tempest + Guinsoos Rageblade + Jeweled Gauntlet,150,0.0032615076862864472,3.32,3.501,-0.029,-0.21,0.0,0.0001,0.046,0.1867,0.36,0.7533,1.79,-1.44,0.15108,False
+,Jeweled Gauntlet + Red Buff + Strikers Flail,51,0.001108912613337392,2.98,3.501,-0.029,-0.55,-0.068,0.0,0.0966,0.2549,0.4706,0.8039,1.754,-2.24,0.02531,False
+,Guinsoos Rageblade + Hextech Gunblade + Red Buff,48,0.0010436824596116632,2.938,3.501,-0.029,-0.593,-0.129,0.0,0.1469,0.1667,0.4792,0.8542,1.638,-2.51,0.01224,False
+,Blue Buff + Giant Slayer + Guinsoos Rageblade,44,0.0009567089213106913,2.909,3.502,-0.028,-0.621,-0.15,0.0,0.1336,0.1818,0.5227,0.8409,1.593,-2.58,0.00974,False
+,Emblem Fae + Guinsoos Rageblade + Jeweled Gauntlet,40,0.0008697353830097193,2.875,3.503,-0.027,-0.655,-0.216,0.0,0.1927,0.15,0.5,0.9,1.418,-2.92,0.00349,True
+,Jeweled Gauntlet + Nashors Tooth + Rabadons Deathcap,154,0.0033484812245874193,3.357,3.505,-0.025,-0.173,0.0,0.0001,0.0654,0.1104,0.3636,0.7727,1.646,-1.3,0.19297,False
+,Giant Slayer + Guinsoos Rageblade + Morellonomicon,46,0.0010001956904611771,3.022,3.506,-0.024,-0.508,-0.055,0.0,0.097,0.2174,0.3913,0.8043,1.567,-2.2,0.02788,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Quicksilver,127,0.002761409841055859,3.339,3.507,-0.023,-0.192,0.0,0.0001,0.0722,0.1339,0.3386,0.7795,1.694,-1.27,0.20312,False
+,Guinsoos Rageblade + Spear Of Shojin + Void Staff,113,0.002457002457002457,3.319,3.507,-0.023,-0.212,0.0,0.0001,0.0361,0.177,0.3894,0.7434,1.816,-1.24,0.21594,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Morellonomicon,92,0.0020003913809223542,3.283,3.508,-0.023,-0.248,0.0,0.0,0.0318,0.2174,0.4022,0.7391,1.849,-1.28,0.19953,False
+,Guinsoos Rageblade + Jeweled Gauntlet Radiant + Strikers Flail,79,0.0017177273814441955,3.241,3.507,-0.023,-0.29,0.0,0.0,0.0902,0.2278,0.4177,0.7975,1.857,-1.39,0.16592,False
+,Jeweled Gauntlet + Nashors Tooth + Red Buff,41,0.0008914787675849623,3.0,3.508,-0.023,-0.53,-0.011,0.0,0.0976,0.2195,0.4878,0.8049,1.696,-2.0,0.04549,False
+,Guinsoos Rageblade + Guinsoos Rageblade + Spear Of Shojin,92,0.0020003913809223542,3.293,3.509,-0.022,-0.237,0.0,0.0,-0.0008,0.163,0.4022,0.7065,1.748,-1.3,0.19442,False
+,Navori Flickerblade + Jeweled Gauntlet + Nashors Tooth,53,0.001152399382487878,3.132,3.509,-0.022,-0.398,0.0,0.0,0.0474,0.2642,0.4528,0.7547,2.01,-1.44,0.14945,False
+,Giant Slayer + Guinsoos Rageblade + Red Buff,63,0.001369833228240308,3.222,3.51,-0.02,-0.308,0.0,0.0,0.0705,0.127,0.4127,0.7778,1.676,-1.46,0.14493,False
+,Lich Bane + Guinsoos Rageblade + Spear Of Shojin,52,0.001130655997912635,3.154,3.51,-0.02,-0.376,0.0,0.0,0.0427,0.1731,0.4808,0.75,1.905,-1.42,0.15454,False
+,Jeweled Gauntlet + Nashors Tooth + Nashors Tooth,234,0.005087951990606858,3.436,3.511,-0.019,-0.094,0.0,0.0001,0.0534,0.1282,0.3462,0.7607,1.731,-0.83,0.40608,False
+,Archangels Staff + Guinsoos Rageblade + Nashors Tooth,109,0.0023700289187014853,3.358,3.512,-0.018,-0.172,0.0,0.0,0.0817,0.1468,0.3945,0.789,1.884,-0.95,0.34001,False
+,Emblem Invoker + Jeweled Gauntlet + Strikers Flail,51,0.001108912613337392,3.196,3.513,-0.018,-0.334,0.0,0.0,0.0574,0.1961,0.4118,0.7647,1.771,-1.35,0.17824,False
+,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,251,0.005457589528385988,3.45,3.513,-0.017,-0.08,0.0,0.0001,0.0058,0.1394,0.3625,0.7131,1.819,-0.7,0.48701,False
+,Giant Slayer + Guinsoos Rageblade + Guinsoos Rageblade,121,0.0026309495336044007,3.38,3.513,-0.017,-0.15,0.0,0.0,-0.0131,0.1653,0.4545,0.6942,1.942,-0.85,0.39604,False
+,Blue Buff + Jeweled Gauntlet + Strikers Flail,41,0.0008914787675849623,3.122,3.513,-0.017,-0.408,0.0,0.0,0.0976,0.1463,0.439,0.8049,1.626,-1.61,0.10809,False
+,Guinsoos Rageblade + Red Buff + Spear Of Shojin,95,0.0020656215346480833,3.358,3.514,-0.016,-0.172,0.0,0.0,0.0506,0.1579,0.4,0.7579,1.902,-0.88,0.3778,False
+,Archangels Staff + Archangels Staff + Guinsoos Rageblade,84,0.0018264443043204104,3.333,3.514,-0.016,-0.197,0.0,0.0,0.0308,0.1548,0.3333,0.7381,1.628,-1.11,0.26831,False
+,Jeweled Gauntlet + Rabadons Deathcap + Strikers Flail,55,0.001195886151638364,3.255,3.515,-0.016,-0.276,0.0,0.0,0.0563,0.2,0.3455,0.7636,1.665,-1.23,0.21979,False
+,Guinsoos Rageblade + Morellonomicon + Rabadons Deathcap,42,0.0009132221521602052,3.167,3.514,-0.016,-0.364,0.0,0.0,0.0546,0.2143,0.3571,0.7619,1.745,-1.35,0.17709,False
+,Jeweled Gauntlet + Spear Of Shojin + Void Staff,79,0.0017177273814441955,3.354,3.516,-0.014,-0.176,0.0,0.0,0.0015,0.1519,0.3924,0.7089,1.786,-0.87,0.38221,False
+,Guinsoos Rageblade + Spear Of Shojin + Spear Of Shojin,44,0.0009567089213106913,3.227,3.516,-0.014,-0.303,0.0,0.0,0.1109,0.1136,0.3409,0.8182,1.444,-1.39,0.16433,False
+,Archangels Staff + Guinsoos Rageblade + Hextech Gunblade,172,0.003739862146941793,3.448,3.517,-0.013,-0.083,0.0,0.0,0.0136,0.1395,0.4012,0.7209,1.89,-0.57,0.56756,False
+,Emblem Invoker + Guinsoos Rageblade + Rabadons Deathcap,67,0.0014568067665412798,3.343,3.518,-0.013,-0.187,0.0,0.0,0.039,0.1642,0.4179,0.7463,1.889,-0.81,0.4183,False
+,Navori Flickerblade + Guinsoos Rageblade + Rabadons Deathcap,41,0.0008914787675849623,3.22,3.517,-0.013,-0.311,0.0,0.0,0.0488,0.1707,0.5122,0.7561,1.969,-1.01,0.31261,False
+,Guinsoos Rageblade + Spear Of Shojin + Strikers Flail,174,0.003783348916092279,3.454,3.518,-0.012,-0.076,0.0,0.0,-0.0004,0.1552,0.3793,0.7069,1.805,-0.56,0.57851,False
+,Hand Of Justice + Infinity Edge + Titans Resolve,64,0.001391576612815551,3.359,3.519,-0.011,-0.171,0.0,0.0,0.0271,0.1562,0.4531,0.7344,1.907,-0.72,0.47386,False
+,Archangels Staff + Guinsoos Rageblade + Red Buff,54,0.0011741427670631211,3.333,3.519,-0.011,-0.197,0.0,0.0,0.0149,0.2037,0.3889,0.7222,1.905,-0.76,0.44787,False
+,Bloodthirster + Edge Of Night + Titans Resolve,54,0.0011741427670631211,3.333,3.519,-0.011,-0.197,0.0,0.0,-0.0036,0.1667,0.4074,0.7037,1.774,-0.81,0.41515,False
+,Giant Slayer + Jeweled Gauntlet + Spear Of Shojin,159,0.003457198147463634,3.465,3.521,-0.01,-0.065,0.0,0.0,-0.0092,0.1509,0.3962,0.6981,1.912,-0.43,0.66969,False
+,Navori Flickerblade + Giant Slayer + Guinsoos Rageblade,43,0.0009349655367354482,3.302,3.52,-0.01,-0.228,0.0,0.0,0.0601,0.1628,0.3953,0.7674,1.798,-0.83,0.40624,False
+,Emblem Executioner + Guinsoos Rageblade + Rabadons Deathcap,50,0.0010871692287621492,3.36,3.521,-0.009,-0.17,0.0,0.0,0.0327,0.28,0.42,0.74,2.18,-0.55,0.58095,False
+,Guinsoos Rageblade + Rabadons Deathcap Radiant + Spear Of Shojin,44,0.0009567089213106913,3.341,3.522,-0.009,-0.189,0.0,0.0,0.0654,0.2045,0.3636,0.7727,1.976,-0.64,0.5254,False
+,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,197,0.004283446761322867,3.482,3.522,-0.008,-0.048,0.0,0.0,0.0389,0.1523,0.3401,0.7462,1.854,-0.36,0.71703,False
+,Guinsoos Rageblade + Hextech Gunblade + Nashors Tooth,62,0.001348089843665065,3.403,3.522,-0.008,-0.127,0.0,0.0,0.0024,0.1774,0.4194,0.7097,1.922,-0.52,0.60304,False
+,Archangels Staff + Statikk Shiv + Guinsoos Rageblade,44,0.0009567089213106913,3.364,3.523,-0.008,-0.167,0.0,0.0,0.1109,0.0682,0.3182,0.8182,1.416,-0.78,0.43547,False
+populaire,Giant Slayer + Guinsoos Rageblade + Jeweled Gauntlet,1800,0.03913809223543737,3.519,3.523,-0.007,-0.011,0.0,0.0003,0.0044,0.1511,0.3394,0.7117,1.847,-0.26,0.79861,False
+,Lich Bane + Guinsoos Rageblade + Jeweled Gauntlet,208,0.00452262399165054,3.49,3.523,-0.007,-0.04,0.0,0.0,0.009,0.1202,0.3606,0.7163,1.781,-0.32,0.7477,False
+,Giant Slayer + Guinsoos Rageblade + Hextech Gunblade,188,0.0040877563001456806,3.489,3.523,-0.007,-0.041,0.0,0.0,-0.0105,0.1223,0.3564,0.6968,1.77,-0.32,0.7522,False
+,Archangels Staff + Guinsoos Rageblade + Void Staff,101,0.002196081842099541,3.455,3.523,-0.007,-0.075,0.0,0.0,0.0452,0.1584,0.3861,0.7525,1.891,-0.4,0.69137,False
+,Guinsoos Rageblade + Guinsoos Rageblade + Hextech Gunblade,92,0.0020003913809223542,3.457,3.524,-0.007,-0.074,0.0,0.0,-0.0225,0.1739,0.3587,0.6848,1.879,-0.38,0.70707,False
+,Eternal Pact + Guinsoos Rageblade + Jeweled Gauntlet,48,0.0010436824596116632,3.417,3.525,-0.006,-0.114,0.0,0.0,0.0635,0.125,0.3333,0.7708,1.681,-0.47,0.64005,False
+,Guinsoos Rageblade + Red Buff + Void Staff,46,0.0010001956904611771,3.413,3.525,-0.006,-0.117,0.0,0.0,0.0753,0.0652,0.3913,0.7826,1.663,-0.48,0.63288,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Red Buff,232,0.005044465221456372,3.504,3.525,-0.005,-0.026,0.0,0.0,0.0039,0.1336,0.3319,0.7112,1.732,-0.23,0.82033,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Jeweled Gauntlet,92,0.0020003913809223542,3.478,3.525,-0.005,-0.052,0.0,0.0,-0.0008,0.1413,0.3587,0.7065,1.778,-0.28,0.77956,False
+populaire,Guinsoos Rageblade + Guinsoos Rageblade + Jeweled Gauntlet,571,0.012415472592463743,3.52,3.526,-0.004,-0.01,0.0,0.0,0.0037,0.1454,0.3398,0.711,1.868,-0.13,0.8981,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Rabadons Deathcap Radiant,88,0.0019134178426213825,3.489,3.527,-0.004,-0.042,0.0,0.0,0.02,0.125,0.3295,0.7273,1.739,-0.22,0.82269,False
+,Giant Slayer + Jeweled Gauntlet + Nashors Tooth,95,0.0020656215346480833,3.495,3.527,-0.003,-0.035,0.0,0.0,0.0295,0.1263,0.3368,0.7368,1.746,-0.2,0.84323,False
+,Hextech Gunblade + Jeweled Gauntlet + Nashors Tooth,56,0.001217629536213607,3.482,3.527,-0.003,-0.048,0.0,0.0,0.0248,0.0893,0.375,0.7321,1.658,-0.22,0.82839,False
+,Bloodthirster + Edge Of Night + Steraks Gage,52,0.001130655997912635,3.481,3.528,-0.003,-0.049,0.0,0.0,0.0042,0.1346,0.3462,0.7115,1.834,-0.19,0.84598,False
+,Emblem Invoker + Guinsoos Rageblade + Spear Of Shojin,44,0.0009567089213106913,3.455,3.527,-0.003,-0.076,0.0,0.0,-0.0482,0.1818,0.4318,0.6591,1.912,-0.26,0.79306,False
+,Blue Buff + Jeweled Gauntlet + Rabadons Deathcap,59,0.001282859689939336,3.492,3.528,-0.002,-0.039,0.0,0.0,0.0723,0.0847,0.322,0.7797,1.661,-0.18,0.85811,False
+,Bloodthirster + Edge Of Night + Infinity Edge,96,0.0020873649192233263,3.521,3.529,-0.001,-0.009,0.0,0.0,-0.0198,0.1042,0.3646,0.6875,1.785,-0.05,0.95899,False
+,Emblem Lunar + Guinsoos Rageblade + Jeweled Gauntlet,45,0.0009784523058859343,3.511,3.529,-0.001,-0.019,0.0,0.0,-0.0406,0.1778,0.4222,0.6667,1.962,-0.07,0.94795,False
+,Guinsoos Rageblade + Hextech Gunblade + Void Staff,90,0.0019569046117718686,3.533,3.53,0.0,0.003,0.0,-0.0,0.0482,0.0778,0.3778,0.7556,1.796,0.02,0.98686,False
+,Guinsoos Rageblade + Nashors Tooth + Spear Of Shojin,76,0.0016524972277184666,3.526,3.53,-0.0,-0.004,0.0,0.0,0.0427,0.1053,0.3421,0.75,1.773,-0.02,0.98473,False
+,Giant Slayer + Jeweled Gauntlet + Strikers Flail,55,0.001195886151638364,3.527,3.53,-0.0,-0.003,0.0,0.0,0.0381,0.1273,0.4,0.7455,1.934,-0.01,0.99101,False
+,Statikk Shiv + Giant Slayer + Guinsoos Rageblade,48,0.0010436824596116632,3.521,3.53,-0.0,-0.009,0.0,0.0,0.0219,0.1458,0.3542,0.7292,1.915,-0.03,0.97294,False
+,Statikk Shiv + Guinsoos Rageblade + Jeweled Gauntlet,299,0.006501271987997652,3.535,3.531,0.001,0.005,0.0,-0.0,0.0017,0.1237,0.3144,0.709,1.737,0.05,0.96121,False
+,Guinsoos Rageblade + Hand Of Justice + Jeweled Gauntlet,184,0.0040007827618447084,3.538,3.532,0.001,0.008,0.0,-0.0,-0.0008,0.1033,0.3315,0.7065,1.741,0.06,0.95146,False
+,Emblem Blossom + Guinsoos Rageblade + Jeweled Gauntlet,59,0.001282859689939336,3.542,3.531,0.001,0.012,0.0,-0.0,0.0046,0.1864,0.3559,0.7119,2.011,0.05,0.96298,False
+,Guinsoos Rageblade + Nashors Tooth + Rabadons Deathcap,129,0.0028048966102063445,3.543,3.532,0.002,0.012,0.0,-0.0,-0.0174,0.155,0.3488,0.6899,1.813,0.08,0.93806,False
+,Archangels Staff + Guinsoos Rageblade + Guinsoos Rageblade,117,0.002543975995303429,3.547,3.532,0.002,0.017,0.0,-0.0,0.0192,0.1282,0.3162,0.7265,1.752,0.1,0.91751,False
+,Emblem Rapidfire + Guinsoos Rageblade + Jeweled Gauntlet,54,0.0011741427670631211,3.574,3.533,0.002,0.044,0.0,-0.0,-0.0036,0.1667,0.3333,0.7037,1.882,0.17,0.86407,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Nashors Tooth Radiant,50,0.0010871692287621492,3.56,3.532,0.002,0.03,0.0,-0.0,-0.0073,0.04,0.34,0.7,1.431,0.15,0.88305,False
+,Hand Of Justice + Infinity Edge + Steraks Gage,41,0.0008914787675849623,3.585,3.533,0.002,0.055,0.0,-0.0,0.0,0.1707,0.3415,0.7073,1.975,0.18,0.85815,False
+,Giant Slayer + Guinsoos Rageblade + Nashors Tooth,98,0.0021308516883738124,3.561,3.533,0.003,0.031,0.0,-0.0,-0.0236,0.1327,0.3469,0.6837,1.868,0.16,0.86962,False
+,Statikk Shiv + Guinsoos Rageblade + Rabadons Deathcap,91,0.001978647996347111,3.56,3.533,0.003,0.03,0.0,-0.0,0.007,0.1319,0.3297,0.7143,1.793,0.16,0.87234,False
+,Giant Slayer + Rabadons Deathcap + Spear Of Shojin,51,0.001108912613337392,3.588,3.533,0.003,0.058,0.0,-0.0,0.0182,0.098,0.3137,0.7255,1.682,0.25,0.80558,False
+,Guinsoos Rageblade + Rabadons Deathcap + Strikers Flail,204,0.004435650453349568,3.554,3.535,0.004,0.024,0.0,-0.0,0.0035,0.1422,0.3333,0.7108,1.871,0.18,0.85671,False
+,Blue Buff + Guinsoos Rageblade + Jeweled Gauntlet,189,0.004109499684720924,3.556,3.535,0.004,0.025,0.0,-0.0,-0.0248,0.1429,0.3228,0.6825,1.792,0.19,0.84615,False
+,Guinsoos Rageblade + Morellonomicon + Spear Of Shojin,59,0.001282859689939336,3.593,3.534,0.004,0.063,0.0,-0.0,-0.0802,0.2373,0.4407,0.6271,2.187,0.22,0.82496,False
+,Emblem Invoker + Giant Slayer + Guinsoos Rageblade,40,0.0008697353830097193,3.625,3.534,0.004,0.095,0.0,-0.0,0.0677,0.025,0.35,0.775,1.853,0.32,0.74643,False
+,Emblem Invoker + Guinsoos Rageblade + Jeweled Gauntlet,241,0.005240155682633559,3.556,3.536,0.005,0.026,0.0,-0.0,-0.0185,0.1328,0.3859,0.6888,1.925,0.21,0.83559,False
+,Guinsoos Rageblade + Hextech Gunblade + Spear Of Shojin,130,0.0028266399947815875,3.569,3.535,0.005,0.039,0.0,-0.0,0.0235,0.1,0.3308,0.7308,1.801,0.25,0.80523,False
+,Guinsoos Rageblade + Hextech Gunblade + Strikers Flail,97,0.0021091083037985694,3.588,3.536,0.005,0.057,0.0,-0.0,-0.0269,0.1237,0.3402,0.6804,1.745,0.32,0.74624,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Tacticians Crown,55,0.001195886151638364,3.618,3.535,0.005,0.088,0.0,-0.0,0.0018,0.1273,0.3091,0.7091,1.689,0.39,0.69958,False
+,Archangels Staff + Blue Buff + Jeweled Gauntlet,41,0.0008914787675849623,3.659,3.536,0.005,0.128,0.0,-0.0,0.0488,0.1707,0.3171,0.7561,1.933,0.42,0.67093,False
+,Archangels Staff + Guinsoos Rageblade + Strikers Flail,84,0.0018264443043204104,3.607,3.537,0.006,0.077,0.0,-0.0,0.007,0.119,0.2738,0.7143,1.839,0.38,0.70166,False
+,Guinsoos Rageblade + Jeweled Gauntlet + Strikers Flail Radiant,63,0.001369833228240308,3.619,3.536,0.006,0.089,0.0,-0.0,-0.0565,0.1587,0.3333,0.6508,1.889,0.37,0.70916,False
+,Hextech Gunblade + Jeweled Gauntlet + Spear Of Shojin,61,0.0013263464590898219,3.623,3.536,0.006,0.093,0.0,-0.0,0.014,0.1148,0.3934,0.7213,1.874,0.39,0.69938,False
+,Guinsoos Rageblade + Hand Of Justice + Spear Of Shojin,45,0.0009784523058859343,3.667,3.537,0.006,0.136,0.0,-0.0,-0.0184,0.1333,0.3111,0.6889,1.932,0.47,0.63583,False
+,Giant Slayer + Guinsoos Rageblade + Void Staff,111,0.002413515687851971,3.595,3.537,0.007,0.064,0.0,-0.0,0.0134,0.1622,0.3423,0.7207,1.975,0.34,0.73148,False
+,Emblem Executioner + Guinsoos Rageblade + Strikers Flail,60,0.0013046030745145789,3.683,3.54,0.009,0.153,0.0,-0.0,-0.074,0.15,0.4167,0.6333,2.141,0.55,0.57975,False
+,Seekers Armguard + Guinsoos Rageblade + Jeweled Gauntlet,53,0.001152399382487878,3.698,3.539,0.009,0.168,0.0,-0.0,-0.0092,0.0943,0.3585,0.6981,1.948,0.63,0.53061,False
+,Giant Slayer + Guinsoos Rageblade + Hand Of Justice,41,0.0008914787675849623,3.732,3.539,0.009,0.201,0.0,-0.0,0.0,0.0976,0.3171,0.7073,1.963,0.66,0.51127,False
+,Emblem Slayer + Guinsoos Rageblade + Jeweled Gauntlet,57,0.00123937292078885,3.702,3.54,0.01,0.172,0.0,-0.0,-0.0406,0.0877,0.2982,0.6667,1.787,0.72,0.4688,False
+,Guinsoos Rageblade + Guinsoos Rageblade + Nashors Tooth,48,0.0010436824596116632,3.729,3.54,0.01,0.199,0.0,-0.0,0.001,0.0833,0.2917,0.7083,1.857,0.74,0.4581,False
+,Jeweled Gauntlet + Red Buff + Spear Of Shojin,74,0.0016090104585679806,3.676,3.541,0.011,0.145,0.0,-0.0,0.0089,0.0676,0.3243,0.7162,1.861,0.67,0.50162,False
+,Adaptive Helm + Guinsoos Rageblade + Jeweled Gauntlet,62,0.001348089843665065,3.726,3.543,0.012,0.196,0.0,-0.0,-0.0299,0.1129,0.3065,0.6774,1.894,0.81,0.41636,False
+,Dawncore + Guinsoos Rageblade + Jeweled Gauntlet,76,0.0016524972277184666,3.711,3.544,0.014,0.18,0.0,-0.0,0.0032,0.0789,0.2368,0.7105,1.661,0.95,0.3444,False
+,Emblem Executioner + Guinsoos Rageblade + Jeweled Gauntlet,86,0.0018699310734708965,3.709,3.546,0.015,0.179,0.0,-0.0,0.002,0.1512,0.2674,0.7093,1.784,0.93,0.35239,False
+,Guinsoos Rageblade + Nashors Tooth + Void Staff,81,0.0017612141505946816,3.716,3.545,0.015,0.186,0.0,-0.0,-0.053,0.0864,0.321,0.6543,1.793,0.93,0.35143,False
+,Bloodthirster + Hand Of Justice + Infinity Edge,44,0.0009567089213106913,3.864,3.545,0.015,0.333,0.0,-0.0,-0.0482,0.0909,0.25,0.6591,1.66,1.33,0.1829,False
+,Navori Flickerblade + Giant Slayer + Jeweled Gauntlet,42,0.0009132221521602052,3.881,3.546,0.015,0.351,0.0,-0.0,-0.0645,0.1429,0.3333,0.6429,2.162,1.05,0.29336,False
+populaire,Guinsoos Rageblade + Jeweled Gauntlet + Nashors Tooth,1833,0.039855623926420385,3.556,3.548,0.017,0.026,0.0,-0.0007,-0.0085,0.1391,0.3355,0.6989,1.834,0.6,0.54817,False
+,Bloodthirster + Hand Of Justice + Titans Resolve,49,0.0010654258441869062,3.857,3.547,0.017,0.327,0.0,-0.0,-0.0543,0.102,0.2857,0.6531,1.969,1.16,0.24539,False
+,Blue Buff + Jeweled Gauntlet + Nashors Tooth,70,0.0015220369202670087,3.786,3.548,0.018,0.256,0.0,-0.0,-0.0359,0.1286,0.2714,0.6714,1.897,1.13,0.26003,False
+,Jeweled Gauntlet + Nashors Tooth + Void Staff,71,0.0015437803048422517,3.789,3.549,0.019,0.259,0.0,-0.0,-0.0453,0.0845,0.2254,0.662,1.644,1.32,0.18553,False
+,Emblem Inferno + Guinsoos Rageblade + Jeweled Gauntlet,65,0.0014133199973907938,3.846,3.551,0.021,0.316,0.0,-0.0,-0.0612,0.1538,0.3231,0.6462,2.085,1.22,0.222,False
+populaire,Guinsoos Rageblade + Hextech Gunblade + Jeweled Gauntlet,770,0.016742406122937096,3.578,3.552,0.022,0.048,0.0,-0.0004,-0.0177,0.1442,0.361,0.6896,1.926,0.68,0.49516,False
+,Wits End + Guinsoos Rageblade + Jeweled Gauntlet,118,0.002565719379878672,3.737,3.554,0.024,0.207,0.0,-0.0001,-0.0632,0.1186,0.322,0.6441,1.937,1.16,0.24615,False
+,Manazane + Guinsoos Rageblade + Jeweled Gauntlet,45,0.0009784523058859343,4.044,3.554,0.024,0.514,0.0,-0.0,-0.0851,0.1111,0.2444,0.6222,1.988,1.73,0.08289,False
+,Archangels Staff + Jeweled Gauntlet + Spear Of Shojin,105,0.002283055380400513,3.781,3.556,0.026,0.251,0.0,-0.0001,-0.0597,0.0952,0.3143,0.6476,1.789,1.43,0.1514,False
+,Component Needlessly Large Rod + Guinsoos Rageblade + Jeweled Gauntlet,46,0.0010001956904611771,4.087,3.557,0.027,0.557,0.035,-0.0,-0.0986,0.0652,0.1739,0.6087,1.804,2.09,0.0364,False
+,Guinsoos Rageblade + Rabadons Deathcap + Void Staff,170,0.003696375377791307,3.712,3.559,0.028,0.182,0.0,-0.0001,-0.0367,0.1,0.3176,0.6706,1.883,1.25,0.20957,False
+,Bloodthirster + Infinity Edge + Titans Resolve,71,0.0015437803048422517,3.915,3.558,0.028,0.385,0.0,-0.0,-0.0735,0.0845,0.2535,0.6338,1.79,1.81,0.06997,False
+,Gamblers Blade + Guinsoos Rageblade + Jeweled Gauntlet,67,0.0014568067665412798,4.06,3.566,0.036,0.529,0.09,-0.0001,-0.0954,0.0448,0.2388,0.6119,1.836,2.36,0.01831,False
+,Emblem Spellweaver + Guinsoos Rageblade + Jeweled Gauntlet,55,0.001195886151638364,4.182,3.567,0.037,0.652,0.132,-0.0,-0.1073,0.0909,0.2,0.6,1.964,2.46,0.01393,False
+,Giant Slayer + Guinsoos Rageblade + Strikers Flail,182,0.003957295992694222,3.78,3.572,0.041,0.25,0.0,-0.0002,-0.048,0.0989,0.2802,0.6593,1.847,1.82,0.06846,False
+,Edge Of Night + Hand Of Justice + Infinity Edge,154,0.0033484812245874193,3.818,3.572,0.041,0.288,0.0,-0.0001,-0.0645,0.1234,0.3052,0.6429,1.965,1.82,0.06945,False
+,Bloodthirster + Steraks Gage + Titans Resolve,110,0.002391772303276728,3.918,3.572,0.041,0.388,0.019,-0.0001,-0.0528,0.1273,0.2364,0.6545,1.973,2.06,0.0394,False
+,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,280,0.006088147681068035,3.721,3.575,0.045,0.191,0.0,-0.0003,-0.0252,0.1143,0.3107,0.6821,1.922,1.66,0.0969,False
+,Archangels Staff + Jeweled Gauntlet + Nashors Tooth,97,0.0021091083037985694,4.0,3.575,0.045,0.47,0.065,-0.0001,-0.0991,0.1031,0.2887,0.6082,2.031,2.28,0.02282,False
+populaire,Guinsoos Rageblade + Jeweled Gauntlet + Spear Of Shojin,2023,0.04398686699571655,3.64,3.605,0.075,0.109,0.027,-0.0033,-0.0212,0.1201,0.3233,0.6861,1.858,2.59,0.00951,False
+populaire,Guinsoos Rageblade + Jeweled Gauntlet + Void Staff,519,0.011284816594551108,3.802,3.628,0.098,0.271,0.105,-0.0011,-0.0599,0.1233,0.2929,0.6474,1.923,3.2,0.00138,True
