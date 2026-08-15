@@ -1,121 +1,121 @@
 {
- "generated_at": "2026-08-14T14:58:50Z",
+ "generated_at": "2026-08-15T06:33:33Z",
  "meta": {
   "set_label": "",
-  "site_dir": "output_4cost"
+  "site_dir": "site"
  },
  "comps": {
   "Sett": {
    "champ": "DA_18_Sett",
-   "games": 69990,
-   "avg_place": 3.332,
-   "d_avg_vs_meta": -1.168,
-   "top4": 0.7261,
-   "win": 0.2122
+   "games": 78943,
+   "avg_place": 3.339,
+   "d_avg_vs_meta": -1.161,
+   "top4": 0.7248,
+   "win": 0.2104
   },
   "Ezreal": {
    "champ": "DA_18_Ezreal",
-   "games": 60608,
-   "avg_place": 3.364,
-   "d_avg_vs_meta": -1.136,
-   "top4": 0.7117,
-   "win": 0.2261
-  },
-  "Ahri": {
-   "champ": "DA_18_Ahri",
-   "games": 76467,
-   "avg_place": 3.398,
-   "d_avg_vs_meta": -1.102,
-   "top4": 0.7115,
-   "win": 0.2112
+   "games": 68881,
+   "avg_place": 3.363,
+   "d_avg_vs_meta": -1.137,
+   "top4": 0.7118,
+   "win": 0.2267
   },
   "Sivir": {
    "champ": "DA_18_Sivir",
-   "games": 31432,
-   "avg_place": 3.399,
-   "d_avg_vs_meta": -1.101,
-   "top4": 0.7182,
-   "win": 0.1936
+   "games": 35997,
+   "avg_place": 3.393,
+   "d_avg_vs_meta": -1.107,
+   "top4": 0.7185,
+   "win": 0.196
+  },
+  "Ahri": {
+   "champ": "DA_18_Ahri",
+   "games": 86302,
+   "avg_place": 3.406,
+   "d_avg_vs_meta": -1.094,
+   "top4": 0.71,
+   "win": 0.2093
   },
   "Nidalee A P": {
    "champ": "DA_Nidalee18_AP",
-   "games": 35533,
-   "avg_place": 3.536,
-   "d_avg_vs_meta": -0.964,
-   "top4": 0.7068,
-   "win": 0.139
+   "games": 41644,
+   "avg_place": 3.528,
+   "d_avg_vs_meta": -0.972,
+   "top4": 0.7086,
+   "win": 0.1405
   },
   "Malphite": {
    "champ": "DA_18_Malphite",
-   "games": 54063,
-   "avg_place": 3.547,
-   "d_avg_vs_meta": -0.953,
-   "top4": 0.6829,
-   "win": 0.1903
+   "games": 62234,
+   "avg_place": 3.539,
+   "d_avg_vs_meta": -0.961,
+   "top4": 0.6863,
+   "win": 0.1879
   },
   "Lillia": {
    "champ": "DA_18_Lillia",
-   "games": 28459,
-   "avg_place": 3.548,
-   "d_avg_vs_meta": -0.952,
-   "top4": 0.6903,
-   "win": 0.1675
-  },
-  "Soraka": {
-   "champ": "DA_18_Soraka",
-   "games": 42069,
-   "avg_place": 3.608,
-   "d_avg_vs_meta": -0.892,
-   "top4": 0.6768,
-   "win": 0.1703
-  },
-  "Zyra": {
-   "champ": "DA_18_Zyra",
-   "games": 32419,
-   "avg_place": 3.608,
-   "d_avg_vs_meta": -0.892,
-   "top4": 0.6857,
-   "win": 0.1523
+   "games": 32837,
+   "avg_place": 3.544,
+   "d_avg_vs_meta": -0.956,
+   "top4": 0.6904,
+   "win": 0.1681
   },
   "Sentinel": {
    "champ": "DA_Sentinel18",
-   "games": 73850,
-   "avg_place": 3.617,
-   "d_avg_vs_meta": -0.883,
-   "top4": 0.6818,
-   "win": 0.1553
+   "games": 83742,
+   "avg_place": 3.607,
+   "d_avg_vs_meta": -0.893,
+   "top4": 0.6839,
+   "win": 0.1569
+  },
+  "Soraka": {
+   "champ": "DA_18_Soraka",
+   "games": 47583,
+   "avg_place": 3.611,
+   "d_avg_vs_meta": -0.889,
+   "top4": 0.6761,
+   "win": 0.1706
+  },
+  "Zyra": {
+   "champ": "DA_18_Zyra",
+   "games": 36934,
+   "avg_place": 3.612,
+   "d_avg_vs_meta": -0.888,
+   "top4": 0.6836,
+   "win": 0.1533
   },
   "Aphelios": {
    "champ": "DA_18_Aphelios",
-   "games": 40706,
-   "avg_place": 3.751,
-   "d_avg_vs_meta": -0.749,
-   "top4": 0.6597,
-   "win": 0.1285
+   "games": 45429,
+   "avg_place": 3.743,
+   "d_avg_vs_meta": -0.757,
+   "top4": 0.6616,
+   "win": 0.1302
   },
   "Brambleback": {
    "champ": "DA_Brambleback18",
-   "games": 38865,
-   "avg_place": 3.773,
-   "d_avg_vs_meta": -0.727,
-   "top4": 0.6605,
-   "win": 0.115
+   "games": 44221,
+   "avg_place": 3.751,
+   "d_avg_vs_meta": -0.749,
+   "top4": 0.6645,
+   "win": 0.1184
   },
   "Amumu": {
    "champ": "DA_Amumu18",
-   "games": 46105,
-   "avg_place": 3.803,
-   "d_avg_vs_meta": -0.697,
-   "top4": 0.6377,
+   "games": 52242,
+   "avg_place": 3.807,
+   "d_avg_vs_meta": -0.693,
+   "top4": 0.6369,
    "win": 0.1523
   },
   "Morgana": {
    "champ": "DA_18_Morgana",
-   "games": 38263,
-   "avg_place": 3.874,
-   "d_avg_vs_meta": -0.626,
-   "top4": 0.6201,
-   "win": 0.1522
+   "games": 44097,
+   "avg_place": 3.851,
+   "d_avg_vs_meta": -0.649,
+   "top4": 0.6246,
+   "win": 0.1545
   }
  }
 }
