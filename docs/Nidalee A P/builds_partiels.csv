@@ -1,2 +1,3 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Thiefs Gloves,120,0.0015298317185109638,2.775,3.477,-0.054,-0.756,-0.46,0.0001,0.1524,0.2417,0.5333,0.8583,1.651,-5.01,0.0,True
+populaire,Thiefs Gloves,142,0.0015279167608164672,2.803,3.482,-0.052,-0.731,-0.469,0.0001,0.1405,0.2324,0.507,0.8451,1.589,-5.47,0.0,True
+populaire,Guinsoos Rageblade,42,0.0004519190419316311,3.548,3.534,0.0,0.014,0.0,-0.0,-0.038,0.1905,0.4048,0.6667,2.107,0.04,0.96518,False
