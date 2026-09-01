@@ -1,77 +1,40 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Crownguard + Gargoyle Stoneplate + Warmogs Armor,824,0.04115884115884116,3.411,3.536,-0.257,-0.382,-0.25,0.0106,0.093,0.1748,0.3811,0.7403,1.898,-5.66,0.0,True
-pepite,Crownguard + Gargoyle Stoneplate + Gargoyle Stoneplate,292,0.014585414585414586,3.356,3.609,-0.185,-0.438,-0.205,0.0027,0.0719,0.2295,0.4212,0.7192,2.016,-3.68,0.00023,True
-pepite,Bramble Vest + Gargoyle Stoneplate + Warmogs Armor,260,0.012987012987012988,3.442,3.655,-0.138,-0.351,-0.114,0.0018,0.0642,0.1731,0.3962,0.7115,1.94,-2.9,0.0037,True
-populaire,Crownguard + Gargoyle Stoneplate + Spirit Visage,367,0.01833166833166833,3.51,3.658,-0.136,-0.284,-0.086,0.0025,0.0448,0.1689,0.3678,0.6921,1.921,-2.81,0.00499,True
-pepite,Crownguard + Evenshroud + Gargoyle Stoneplate,57,0.0028471528471528474,2.737,3.662,-0.132,-1.057,-0.573,0.0004,0.1948,0.2456,0.6316,0.8421,1.859,-4.28,2e-05,True
-pepite,Crownguard + Dragons Claw + Gargoyle Stoneplate,117,0.005844155844155844,3.256,3.672,-0.122,-0.537,-0.219,0.0007,0.1476,0.1368,0.4188,0.7949,1.75,-3.31,0.00094,True
-pepite,Emblem Juggernaut + Gargoyle Stoneplate + Warmogs Armor,63,0.003146853146853147,2.952,3.679,-0.114,-0.841,-0.362,0.0004,0.0987,0.3016,0.5238,0.746,1.939,-3.44,0.00058,True
-pepite,Bramble Vest + Crownguard + Gargoyle Stoneplate,51,0.0025474525474525477,3.02,3.706,-0.087,-0.774,-0.289,0.0002,0.137,0.2549,0.451,0.7843,1.766,-3.13,0.00177,True
-populaire,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,1150,0.05744255744255744,3.683,3.712,-0.082,-0.11,0.0,0.0047,0.0223,0.1374,0.3348,0.6696,1.937,-1.87,0.0608,False
-,Crownguard + Gargoyle Stoneplate + Steadfast Heart,162,0.008091908091908092,3.519,3.715,-0.079,-0.275,0.0,0.0006,0.0441,0.1173,0.3642,0.6914,1.833,-1.9,0.05714,False
-,Crownguard + Gargoyle Stoneplate + Protectors Vow,84,0.004195804195804196,3.381,3.722,-0.072,-0.413,0.0,0.0003,0.0789,0.1905,0.4048,0.7262,2.064,-1.83,0.06728,False
-populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,1640,0.08191808191808192,3.708,3.725,-0.069,-0.086,0.0,0.0057,0.0216,0.1348,0.303,0.6689,1.89,-1.76,0.0782,False
-,Bramble Vest + Gargoyle Stoneplate + Gargoyle Stoneplate,89,0.004445554445554446,3.438,3.729,-0.065,-0.356,0.0,0.0003,0.0606,0.1685,0.3371,0.7079,1.823,-1.83,0.06651,False
-populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Spirit Visage,639,0.03191808191808192,3.693,3.732,-0.062,-0.101,0.0,0.002,0.0272,0.1408,0.3255,0.6745,1.942,-1.29,0.19803,False
-,Dragons Claw + Gargoyle Stoneplate + Spirit Visage,209,0.010439560439560439,3.612,3.732,-0.062,-0.181,0.0,0.0006,0.0226,0.1818,0.3301,0.6699,1.924,-1.36,0.17533,False
-,Evenshroud + Gargoyle Stoneplate + Sunfire Cape,78,0.003896103896103896,3.449,3.738,-0.056,-0.345,0.0,0.0002,0.1219,0.1538,0.2692,0.7692,1.654,-1.84,0.06609,False
-,Bramble Vest + Gargoyle Stoneplate + Steadfast Heart,63,0.003146853146853147,3.381,3.738,-0.056,-0.413,0.0,0.0002,0.0987,0.127,0.4127,0.746,1.803,-1.81,0.06972,False
-populaire,Gargoyle Stoneplate + Protectors Vow + Warmogs Armor,373,0.01863136863136863,3.686,3.742,-0.052,-0.107,0.0,0.001,0.0256,0.1689,0.3217,0.6729,2.004,-1.03,0.30476,False
-,Evenshroud + Gargoyle Stoneplate + Warmogs Armor,88,0.004395604395604396,3.523,3.745,-0.049,-0.271,0.0,0.0002,0.0572,0.1591,0.3295,0.7045,1.883,-1.35,0.17788,False
-,Crownguard + Dragons Claw + Warmogs Armor,50,0.0024975024975024975,3.36,3.746,-0.048,-0.434,0.0,0.0001,0.0727,0.12,0.38,0.72,1.682,-1.82,0.06874,False
-,Bramble Vest + Gargoyle Stoneplate + Spirit Visage,173,0.008641358641358642,3.647,3.75,-0.044,-0.146,0.0,0.0004,0.0406,0.1503,0.2948,0.6879,1.877,-1.02,0.30726,False
-,Gargoyle Stoneplate + Warmogs Armor + Warmogs Armor,288,0.014385614385614386,3.691,3.751,-0.043,-0.103,0.0,0.0006,0.0228,0.1319,0.2986,0.6701,1.905,-0.91,0.36345,False
-,Evenshroud + Gargoyle Stoneplate + Spirit Visage,83,0.004145854145854146,3.578,3.757,-0.037,-0.215,0.0,0.0002,0.0756,0.1446,0.3735,0.7229,1.976,-0.99,0.32159,False
-,Bramble Vest + Gargoyle Stoneplate + Sunfire Cape,54,0.0026973026973026973,3.481,3.757,-0.037,-0.312,0.0,0.0001,0.0194,0.2222,0.4444,0.6667,2.088,-1.1,0.27233,False
-,Crownguard + Gargoyle Stoneplate + Sunfire Cape,64,0.003196803196803197,3.531,3.758,-0.036,-0.263,0.0,0.0001,0.0871,0.1406,0.3125,0.7344,1.785,-1.17,0.24026,False
-,Gargoyle Stoneplate + Ionic Spark + Sunfire Cape,52,0.0025974025974025974,3.481,3.758,-0.036,-0.313,0.0,0.0001,0.1027,0.0962,0.2692,0.75,1.538,-1.46,0.14302,False
-,Gargoyle Stoneplate + Steadfast Heart + Sunfire Cape,67,0.003346653346653347,3.552,3.759,-0.035,-0.242,0.0,0.0001,0.0542,0.1791,0.3433,0.7015,1.911,-1.03,0.30158,False
-,Gargoyle Stoneplate + Gargoyle Stoneplate + Steadfast Heart,210,0.01048951048951049,3.71,3.765,-0.029,-0.084,0.0,0.0003,0.0003,0.1429,0.3524,0.6476,2.035,-0.6,0.5503,False
-,Dragons Claw + Gargoyle Stoneplate + Steadfast Heart,95,0.004745254745254745,3.663,3.769,-0.025,-0.131,0.0,0.0001,0.0474,0.1263,0.2947,0.6947,1.845,-0.69,0.49116,False
-,Evenshroud + Gargoyle Stoneplate + Gargoyle Stoneplate,47,0.002347652347652348,3.553,3.769,-0.025,-0.241,0.0,0.0001,0.0974,0.0851,0.383,0.7447,1.854,-0.89,0.37435,False
-,Crownguard + Protectors Vow + Warmogs Armor,40,0.001998001998001998,3.55,3.772,-0.022,-0.244,0.0,0.0,0.0277,0.15,0.375,0.675,1.962,-0.79,0.43228,False
-,Emblem Brawler + Gargoyle Stoneplate + Spirit Visage,43,0.002147852147852148,3.581,3.773,-0.021,-0.212,0.0,0.0,0.0039,0.186,0.3256,0.6512,1.944,-0.72,0.47413,False
-populaire,Dragons Claw + Gargoyle Stoneplate + Warmogs Armor,451,0.022527472527472527,3.756,3.774,-0.02,-0.038,0.0,0.0004,0.0024,0.1353,0.3193,0.6497,1.982,-0.4,0.68947,False
-,Dragons Claw + Gargoyle Stoneplate + Gargoyle Stoneplate,126,0.006293706293706294,3.714,3.775,-0.019,-0.08,0.0,0.0001,0.0273,0.119,0.2937,0.6746,1.959,-0.45,0.64976,False
-,Gargoyle Stoneplate + Spirit Visage + Spirit Visage,99,0.004945054945054945,3.697,3.775,-0.019,-0.097,0.0,0.0001,-0.0412,0.1616,0.3737,0.6061,1.987,-0.48,0.62861,False
-,Crownguard + Spirit Visage + Warmogs Armor,49,0.0024475524475524478,3.633,3.776,-0.018,-0.161,0.0,0.0,0.067,0.102,0.3878,0.7143,1.966,-0.57,0.56659,False
-,Gargoyle Stoneplate + Gargoyle Stoneplate + Ionic Spark,60,0.002997002997002997,3.667,3.777,-0.017,-0.127,0.0,0.0,0.0027,0.1333,0.3667,0.65,1.955,-0.5,0.615,False
-,The Indomitable + Gargoyle Stoneplate + Spirit Visage,44,0.002197802197802198,3.636,3.778,-0.016,-0.157,0.0,0.0,0.0572,0.1136,0.3409,0.7045,1.872,-0.56,0.57738,False
-populaire,Gargoyle Stoneplate + Spirit Visage + Steadfast Heart,325,0.016233766233766232,3.763,3.78,-0.014,-0.031,0.0,0.0002,0.0142,0.1385,0.3262,0.6615,2.024,-0.27,0.7859,False
-,Dragons Claw + Gargoyle Stoneplate + Protectors Vow,62,0.003096903096903097,3.774,3.791,-0.003,-0.02,0.0,0.0,0.014,0.129,0.2581,0.6613,1.8,-0.09,0.93175,False
-,Emblem Defender + Gargoyle Stoneplate + Warmogs Armor,48,0.0023976023976023976,3.771,3.791,-0.002,-0.023,0.0,0.0,0.061,0.1458,0.3125,0.7083,2.182,-0.07,0.9419,False
-,Emblem Brawler + Gargoyle Stoneplate + Warmogs Armor,51,0.0025474525474525477,3.804,3.795,0.001,0.01,0.0,-0.0,0.1174,0.0196,0.1961,0.7647,1.521,0.05,0.96221,False
-,Bramble Vest + Dragons Claw + Gargoyle Stoneplate,117,0.005844155844155844,3.803,3.796,0.002,0.01,0.0,-0.0,0.0279,0.1111,0.2991,0.6752,1.896,0.05,0.9564,False
-,Bramble Vest + Gargoyle Stoneplate + Protectors Vow,47,0.002347652347652348,3.83,3.798,0.004,0.036,0.0,-0.0,-0.0303,0.0851,0.3617,0.617,1.993,0.12,0.9016,False
-,Adaptive Helm + Gargoyle Stoneplate + Gargoyle Stoneplate,54,0.0026973026973026973,3.833,3.799,0.005,0.04,0.0,-0.0,-0.0177,0.1296,0.2407,0.6296,1.853,0.16,0.87566,False
-,Gargoyle Stoneplate + Gargoyle Stoneplate + Gargoyle Stoneplate,262,0.013086913086913086,3.813,3.801,0.008,0.019,0.0,-0.0001,-0.0213,0.0992,0.3168,0.626,1.9,0.16,0.87118,False
-,Moguls Mail + Gargoyle Stoneplate + Spirit Visage,78,0.003896103896103896,3.859,3.804,0.011,0.065,0.0,-0.0,0.0194,0.1795,0.3205,0.6667,2.194,0.26,0.79339,False
-,Moguls Mail + Gargoyle Stoneplate + Gargoyle Stoneplate,69,0.0034465534465534468,3.87,3.805,0.011,0.076,0.0,-0.0,-0.0531,0.2174,0.2754,0.5942,2.049,0.31,0.75918,False
-,The Indomitable + Gargoyle Stoneplate + Warmogs Armor,60,0.002997002997002997,3.917,3.81,0.016,0.123,0.0,-0.0,0.0194,0.1167,0.3,0.6667,2.108,0.45,0.65207,False
-,Gargoyle Stoneplate + Ionic Spark + Spirit Visage,100,0.004995004995004995,3.88,3.811,0.017,0.086,0.0,-0.0001,-0.0373,0.13,0.28,0.61,1.976,0.44,0.66353,False
-,Lightshield Crest + Gargoyle Stoneplate + Warmogs Armor,52,0.0025974025974025974,3.942,3.811,0.017,0.149,0.0,-0.0,0.0065,0.1538,0.2308,0.6538,1.975,0.54,0.58816,False
-,Dragons Claw + Steadfast Heart + Warmogs Armor,52,0.0025974025974025974,3.942,3.811,0.017,0.149,0.0,-0.0,-0.0511,0.0962,0.2115,0.5962,1.791,0.6,0.55057,False
-,Bramble Vest + Dragons Claw + Spirit Visage,62,0.003096903096903097,3.935,3.813,0.019,0.142,0.0,-0.0001,0.014,0.0968,0.2903,0.6613,1.958,0.57,0.56951,False
-,Bramble Vest + Spirit Visage + Warmogs Armor,66,0.0032967032967032967,3.939,3.814,0.021,0.146,0.0,-0.0001,-0.0109,0.0909,0.2576,0.6364,1.984,0.6,0.55171,False
-,Bramble Vest + Dragons Claw + Warmogs Armor,129,0.006443556443556444,3.884,3.816,0.022,0.09,0.0,-0.0001,0.0271,0.0698,0.2713,0.6744,1.841,0.55,0.58053,False
-,Gargoyle Stoneplate + Protectors Vow + Steadfast Heart,92,0.004595404595404595,3.924,3.818,0.024,0.13,0.0,-0.0001,-0.0495,0.1304,0.3261,0.5978,2.076,0.6,0.54858,False
-,Crownguard + Steadfast Heart + Warmogs Armor,52,0.0025974025974025974,4.0,3.818,0.024,0.206,0.0,-0.0001,-0.0319,0.1731,0.3077,0.6154,2.201,0.67,0.49986,False
-,Dragons Claw + Spirit Visage + Warmogs Armor,67,0.003346653346653347,3.97,3.819,0.025,0.176,0.0,-0.0001,-0.0951,0.1343,0.2836,0.5522,1.977,0.73,0.46614,False
-,Adaptive Helm + Gargoyle Stoneplate + Warmogs Armor,131,0.006543456543456543,3.901,3.82,0.026,0.107,0.0,-0.0002,-0.0213,0.1145,0.3282,0.626,2.071,0.59,0.55559,False
-populaire,Gargoyle Stoneplate + Steadfast Heart + Warmogs Armor,533,0.026623376623376622,3.848,3.825,0.031,0.054,0.0,-0.0008,-0.0075,0.122,0.3058,0.6398,2.001,0.62,0.53695,False
-,Dragons Claw + Sunfire Cape + Warmogs Armor,49,0.0024475524475524478,4.082,3.825,0.031,0.288,0.0,-0.0001,-0.0759,0.0816,0.2449,0.5714,1.861,1.08,0.2796,False
-,Gargoyle Stoneplate + Gargoyle Stoneplate + Sunfire Cape,114,0.005694305694305695,3.965,3.832,0.038,0.171,0.0,-0.0002,-0.042,0.1316,0.3158,0.6053,2.03,0.9,0.36949,False
-,Adaptive Helm + Gargoyle Stoneplate + Spirit Visage,90,0.004495504495504496,4.011,3.834,0.04,0.217,0.0,-0.0002,-0.0806,0.1,0.3,0.5667,1.964,1.05,0.29487,False
-,Gargoyle Stoneplate + Gargoyle Stoneplate + Protectors Vow,149,0.007442557442557443,3.946,3.835,0.041,0.153,0.0,-0.0003,-0.0299,0.1141,0.3289,0.6174,2.078,0.89,0.37204,False
-,Gargoyle Stoneplate + Spirit Visage + Sunfire Cape,217,0.010839160839160839,3.922,3.839,0.045,0.128,0.0,-0.0005,-0.0436,0.0922,0.2857,0.6037,1.831,1.02,0.3068,False
-populaire,Gargoyle Stoneplate + Sunfire Cape + Warmogs Armor,294,0.014685314685314685,3.901,3.839,0.046,0.108,0.0,-0.0007,-0.0351,0.1395,0.3061,0.6122,2.06,0.89,0.37403,False
-,Dragons Claw + Protectors Vow + Warmogs Armor,45,0.002247752247752248,4.244,3.839,0.046,0.451,0.0,-0.0001,-0.1362,0.1333,0.2444,0.5111,2.056,1.47,0.14199,False
-,Dragons Claw + Gargoyle Stoneplate + Sunfire Cape,99,0.004945054945054945,4.03,3.841,0.047,0.236,0.0,-0.0002,-0.0614,0.0707,0.2828,0.5859,1.982,1.18,0.2363,False
-,Spirit Visage + Steadfast Heart + Warmogs Armor,56,0.002797202797202797,4.196,3.843,0.049,0.403,0.0,-0.0001,-0.058,0.0714,0.25,0.5893,2.03,1.48,0.13834,False
-,Gargoyle Stoneplate + Protectors Vow + Spirit Visage,205,0.01023976023976024,3.946,3.845,0.052,0.153,0.0,-0.0005,-0.018,0.1268,0.2927,0.6293,2.072,1.05,0.29422,False
-,Adaptive Helm + Gargoyle Stoneplate + Protectors Vow,41,0.002047952047952048,4.415,3.851,0.058,0.621,0.0,-0.0001,-0.0619,0.0976,0.1951,0.5854,2.083,1.91,0.05661,False
-,Moguls Mail + Gargoyle Stoneplate + Warmogs Armor,125,0.006243756243756244,4.096,3.866,0.072,0.302,0.0,-0.0004,-0.0793,0.16,0.28,0.568,2.13,1.58,0.11359,False
-,Protectors Vow + Spirit Visage + Warmogs Armor,55,0.0027472527472527475,4.4,3.867,0.073,0.606,0.102,-0.0002,-0.1564,0.0909,0.1818,0.4909,1.903,2.36,0.01834,False
-,Spirit Visage + Sunfire Cape + Warmogs Armor,46,0.0022977022977022977,4.522,3.869,0.075,0.728,0.135,-0.0002,-0.1473,0.087,0.1739,0.5,2.051,2.4,0.01619,False
-,Gargoyle Stoneplate + Protectors Vow + Sunfire Cape,83,0.004145854145854146,4.277,3.877,0.083,0.483,0.069,-0.0003,-0.1172,0.0602,0.241,0.5301,1.922,2.29,0.02227,False
-,Gargoyle Stoneplate + Ionic Spark + Warmogs Armor,133,0.006643356643356644,4.203,3.896,0.102,0.409,0.072,-0.0007,-0.0533,0.0677,0.2406,0.594,1.976,2.38,0.01733,False
+populaire,Crownguard + Gargoyle Stoneplate + Warmogs Armor,432,0.04267509631532154,3.315,3.456,-0.301,-0.442,-0.259,0.0128,0.1053,0.1875,0.412,0.7639,1.897,-4.73,0.0,True
+populaire,Crownguard + Gargoyle Stoneplate + Gargoyle Stoneplate,165,0.016299515953768644,3.43,3.61,-0.147,-0.326,-0.007,0.0024,0.0566,0.2242,0.4242,0.7152,2.078,-2.0,0.04524,False
+populaire,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,632,0.06243208535019263,3.593,3.633,-0.124,-0.163,-0.008,0.0077,0.036,0.1456,0.3497,0.6946,1.928,-2.06,0.03915,False
+populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Spirit Visage,340,0.03358688135928085,3.559,3.633,-0.124,-0.198,0.0,0.0042,0.0355,0.1529,0.3588,0.6941,1.92,-1.87,0.06201,False
+pepite,Crownguard + Dragons Claw + Gargoyle Stoneplate,51,0.005038032203892127,3.176,3.64,-0.117,-0.58,-0.075,0.0006,0.1453,0.1373,0.4902,0.8039,1.833,-2.25,0.02424,False
+pepite,Gargoyle Stoneplate + Warmogs Armor + Warmogs Armor,135,0.013335967598537982,3.504,3.655,-0.101,-0.253,0.0,0.0013,0.0895,0.1556,0.3333,0.7481,1.932,-1.51,0.13088,False
+pepite,Crownguard + Gargoyle Stoneplate + Steadfast Heart,69,0.006816161217030525,3.391,3.664,-0.093,-0.365,0.0,0.0006,0.066,0.1159,0.4058,0.7246,1.779,-1.7,0.08945,False
+pepite,Bramble Vest + Gargoyle Stoneplate + Warmogs Armor,137,0.013533537488886693,3.533,3.666,-0.09,-0.224,0.0,0.0012,0.0348,0.146,0.3796,0.6934,1.952,-1.33,0.18274,False
+pepite,Crownguard + Gargoyle Stoneplate + Protectors Vow,47,0.004642892423194705,3.277,3.666,-0.09,-0.48,0.0,0.0004,0.1074,0.1915,0.3617,0.766,1.887,-1.74,0.08199,False
+pepite,Evenshroud + Gargoyle Stoneplate + Spirit Visage,41,0.004050182752148573,3.293,3.678,-0.078,-0.464,0.0,0.0003,0.1219,0.1707,0.439,0.7805,1.978,-1.5,0.13403,False
+,Bramble Vest + Gargoyle Stoneplate + Spirit Visage,85,0.008396720339820212,3.529,3.689,-0.067,-0.227,0.0,0.0006,0.012,0.1765,0.3294,0.6706,1.889,-1.1,0.2696,False
+populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Gargoyle Stoneplate,151,0.014916526721327669,3.603,3.691,-0.066,-0.154,0.0,0.001,0.0037,0.1258,0.3775,0.6623,1.926,-0.97,0.32977,False
+,Dragons Claw + Gargoyle Stoneplate + Spirit Visage,113,0.011162698804702163,3.593,3.698,-0.059,-0.164,0.0,0.0007,-0.0037,0.177,0.3274,0.6549,1.856,-0.93,0.35156,False
+,Evenshroud + Gargoyle Stoneplate + Warmogs Armor,42,0.004148967697322928,3.476,3.708,-0.048,-0.28,0.0,0.0002,0.1033,0.1667,0.381,0.7619,1.979,-0.92,0.35945,False
+,Bramble Vest + Gargoyle Stoneplate + Gargoyle Stoneplate,41,0.004050182752148573,3.488,3.711,-0.045,-0.269,0.0,0.0002,-0.0001,0.2195,0.3659,0.6585,2.038,-0.84,0.39922,False
+,Evenshroud + Gargoyle Stoneplate + Sunfire Cape,42,0.004148967697322928,3.524,3.717,-0.04,-0.233,0.0,0.0002,0.1033,0.1429,0.2381,0.7619,1.665,-0.9,0.36637,False
+,Gargoyle Stoneplate + Gargoyle Stoneplate + Sunfire Cape,58,0.0057295268201126145,3.603,3.722,-0.034,-0.153,0.0,0.0002,0.0138,0.1034,0.3103,0.6724,1.681,-0.69,0.48948,False
+populaire,Crownguard + Gargoyle Stoneplate + Spirit Visage,190,0.018769139583127533,3.695,3.727,-0.03,-0.062,0.0,0.0006,-0.0007,0.1263,0.3263,0.6579,1.889,-0.45,0.65507,False
+,Gargoyle Stoneplate + Spirit Visage + Steadfast Heart,143,0.014126247159932825,3.699,3.733,-0.024,-0.057,0.0,0.0003,0.0617,0.1119,0.3287,0.7203,1.99,-0.34,0.73236,False
+,Gargoyle Stoneplate + Spirit Visage + Sunfire Cape,104,0.010273634298132965,3.702,3.738,-0.019,-0.055,0.0,0.0002,0.0145,0.0577,0.3558,0.6731,1.742,-0.32,0.75057,False
+,Adaptive Helm + Gargoyle Stoneplate + Warmogs Armor,59,0.00582831176528697,3.678,3.739,-0.018,-0.079,0.0,0.0001,-0.0654,0.1525,0.3559,0.5932,1.935,-0.31,0.75565,False
+,Gargoyle Stoneplate + Gargoyle Stoneplate + Steadfast Heart,110,0.010866343969179097,3.718,3.743,-0.014,-0.038,0.0,0.0001,-0.0404,0.1636,0.3545,0.6182,2.054,-0.2,0.84529,False
+populaire,Dragons Claw + Gargoyle Stoneplate + Warmogs Armor,228,0.02252296749975304,3.732,3.744,-0.013,-0.024,0.0,0.0003,0.0212,0.1184,0.2851,0.6798,1.895,-0.19,0.84928,False
+populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,941,0.09295663340906846,3.756,3.756,-0.001,-0.001,0.0,0.0001,-0.0008,0.1233,0.2912,0.6578,1.891,-0.02,0.98748,False
+,Dragons Claw + Gargoyle Stoneplate + Steadfast Heart,42,0.004148967697322928,3.762,3.758,0.001,0.005,0.0,-0.0,0.0081,0.0952,0.2381,0.6667,1.743,0.02,0.98429,False
+populaire,Gargoyle Stoneplate + Protectors Vow + Warmogs Armor,187,0.018472784747604463,3.775,3.766,0.009,0.019,0.0,-0.0002,-0.0115,0.123,0.3048,0.6471,1.933,0.13,0.89514,False
+,Gargoyle Stoneplate + Spirit Visage + Spirit Visage,47,0.004642892423194705,3.83,3.77,0.014,0.073,0.0,-0.0001,-0.0629,0.0851,0.3404,0.5957,1.883,0.27,0.79038,False
+,Gargoyle Stoneplate + Sunfire Cape + Warmogs Armor,134,0.013237182653363627,3.799,3.773,0.017,0.042,0.0,-0.0002,-0.0019,0.1343,0.2761,0.6567,1.958,0.25,0.80554,False
+,Moguls Mail + Gargoyle Stoneplate + Warmogs Armor,61,0.0060258816556356815,3.852,3.779,0.022,0.096,0.0,-0.0001,-0.052,0.1967,0.3115,0.6066,2.126,0.35,0.72537,False
+,Gargoyle Stoneplate + Gargoyle Stoneplate + Protectors Vow,77,0.007606440778425368,3.844,3.781,0.024,0.088,0.0,-0.0002,0.0037,0.1299,0.3377,0.6623,2.114,0.36,0.71716,False
+,Dragons Claw + Gargoyle Stoneplate + Sunfire Cape,45,0.004445322532845995,3.889,3.781,0.024,0.132,0.0,-0.0001,-0.0586,0.0667,0.2667,0.6,1.841,0.48,0.63056,False
+,Bramble Vest + Dragons Claw + Warmogs Armor,65,0.006421021436333103,3.877,3.786,0.029,0.12,0.0,-0.0002,0.0183,0.0615,0.2769,0.6769,1.852,0.52,0.60178,False
+,Dragons Claw + Gargoyle Stoneplate + Gargoyle Stoneplate,66,0.006519806381507458,3.894,3.79,0.034,0.137,0.0,-0.0002,-0.0374,0.1212,0.2273,0.6212,1.924,0.58,0.56324,False
+,Bramble Vest + Dragons Claw + Gargoyle Stoneplate,66,0.006519806381507458,3.924,3.798,0.041,0.168,0.0,-0.0003,0.0535,0.0758,0.2727,0.7121,1.917,0.71,0.47899,False
+populaire,Gargoyle Stoneplate + Steadfast Heart + Warmogs Armor,277,0.027363429813296453,3.852,3.812,0.055,0.095,0.0,-0.0015,-0.0232,0.1155,0.3105,0.6354,2.026,0.77,0.43912,False
+,Adaptive Helm + Gargoyle Stoneplate + Spirit Visage,52,0.005136817149066482,4.038,3.814,0.058,0.282,0.0,-0.0003,-0.1201,0.0577,0.3077,0.5385,1.881,1.08,0.28116,False
+,Gargoyle Stoneplate + Protectors Vow + Sunfire Cape,45,0.004445322532845995,4.2,3.837,0.081,0.443,0.0,-0.0004,-0.1475,0.0444,0.2667,0.5111,1.857,1.6,0.11012,False
+,Gargoyle Stoneplate + Ionic Spark + Warmogs Armor,66,0.006519806381507458,4.152,3.854,0.097,0.395,0.0,-0.0006,-0.0828,0.0909,0.2273,0.5758,1.979,1.62,0.1061,False
+,Gargoyle Stoneplate + Protectors Vow + Spirit Visage,97,0.009582139681912476,4.062,3.855,0.099,0.305,0.0,-0.0009,-0.04,0.134,0.3093,0.6186,2.247,1.33,0.18245,False
