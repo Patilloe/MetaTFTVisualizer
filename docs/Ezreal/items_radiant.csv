@@ -1,3 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Deathblade Radiant,64,0.007120605251446373,3.531,3.461,0.025,0.095,0.0,-0.0002,-0.0412,0.2031,0.3438,0.6562,1.887,0.4,0.68768,False
-populaire,Spear Of Shojin Radiant,46,0.005117935024477081,3.87,3.524,0.088,0.434,0.0,-0.0005,-0.0671,0.1957,0.3043,0.6304,2.081,1.41,0.15869,False

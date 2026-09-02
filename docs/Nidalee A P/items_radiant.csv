@@ -1,4 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Jeweled Gauntlet Radiant,93,0.008937151643282721,3.903,3.811,0.041,0.134,0.0,-0.0004,-0.0255,0.086,0.2903,0.6344,1.884,0.68,0.49592,False
-populaire,Rabadons Deathcap Radiant,57,0.00547760907168941,4.053,3.83,0.061,0.283,0.0,-0.0003,-0.0459,0.1053,0.2807,0.614,2.139,1.0,0.31887,False
-populaire,Guinsoos Rageblade Radiant,129,0.012396694214876033,3.969,3.846,0.076,0.199,0.0,-0.0009,-0.063,0.124,0.3023,0.5969,2.031,1.11,0.26735,False

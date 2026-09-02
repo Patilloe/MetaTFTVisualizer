@@ -1,40 +1,6 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-pepite,Blighting Jewel + Morellonomicon + Void Staff,111,0.00796784150455818,2.586,3.272,-0.274,-0.96,-0.634,0.0022,0.1573,0.3694,0.6126,0.8468,1.747,-5.76,0.0,True
-pepite,Emblem Spellweaver + Morellonomicon + Void Staff,90,0.006460412030722848,2.689,3.337,-0.209,-0.857,-0.453,0.0014,0.1216,0.3556,0.6444,0.8111,1.947,-4.16,3e-05,True
-populaire,Hextech Gunblade + Morellonomicon + Void Staff,343,0.024621348072643743,3.262,3.389,-0.156,-0.284,-0.081,0.0039,0.0597,0.207,0.4082,0.7493,1.886,-2.75,0.00602,True
-populaire,Giant Slayer + Morellonomicon + Void Staff,179,0.012849041705548776,3.207,3.413,-0.133,-0.339,-0.037,0.0017,0.0591,0.2793,0.4525,0.7486,2.049,-2.2,0.02766,False
-populaire,Jeweled Gauntlet + Rabadons Deathcap + Void Staff,178,0.012777259349651855,3.236,3.425,-0.121,-0.31,-0.018,0.0015,0.0183,0.2697,0.4438,0.7079,1.972,-2.08,0.03716,False
-pepite,Morellonomicon + Rabadons Deathcap Radiant + Void Staff,68,0.004881200200990596,2.941,3.427,-0.119,-0.605,-0.172,0.0006,0.0752,0.2794,0.5,0.7647,1.814,-2.74,0.00612,True
-populaire,Morellonomicon + Rabadons Deathcap + Void Staff,1366,0.09805469815519345,3.408,3.432,-0.114,-0.137,-0.025,0.0112,0.0198,0.2094,0.4136,0.7094,2.021,-2.4,0.01632,True
-pepite,Emblem Lunar + Morellonomicon + Void Staff,45,0.003230206015361424,2.8,3.442,-0.104,-0.746,-0.29,0.0003,0.1993,0.2,0.5111,0.8889,1.558,-3.2,0.00136,True
-populaire,Adaptive Helm + Archangels Staff + Morellonomicon,331,0.023759959801880698,3.372,3.451,-0.095,-0.174,0.0,0.0022,0.0627,0.1511,0.3807,0.7523,1.831,-1.71,0.08746,False
-pepite,Hextech Gunblade + Red Buff + Void Staff,48,0.003445553083052186,2.938,3.457,-0.089,-0.608,-0.119,0.0003,0.0813,0.2292,0.5,0.7708,1.725,-2.44,0.01475,True
-pepite,Blighting Jewel + Morellonomicon + Rabadons Deathcap,61,0.004378723709712153,3.066,3.46,-0.086,-0.48,-0.018,0.0004,0.0646,0.3115,0.4426,0.7541,1.837,-2.04,0.04157,False
-,Rabadons Deathcap + Red Buff + Void Staff,74,0.0053118943363721196,3.162,3.465,-0.081,-0.384,0.0,0.0004,0.0537,0.2432,0.3919,0.7432,1.823,-1.8,0.07109,False
-populaire,Adaptive Helm + Morellonomicon + Void Staff,441,0.03165601895054196,3.417,3.467,-0.079,-0.129,0.0,0.0025,0.0247,0.1882,0.39,0.7143,1.923,-1.38,0.16688,False
-populaire,Jeweled Gauntlet + Morellonomicon + Void Staff,386,0.02770798937621133,3.415,3.47,-0.076,-0.131,0.0,0.0021,0.0307,0.2306,0.3808,0.7202,1.995,-1.28,0.20149,False
-,Adaptive Helm + Giant Slayer + Morellonomicon,62,0.004450506065609074,3.194,3.482,-0.064,-0.352,0.0,0.0003,0.0847,0.1774,0.371,0.7742,1.605,-1.72,0.08484,False
-,Jeweled Gauntlet + Red Buff + Void Staff,56,0.00401981193022755,3.161,3.482,-0.064,-0.385,0.0,0.0003,0.0426,0.2857,0.5,0.7321,2.103,-1.37,0.17108,False
-,Archangels Staff + Jeweled Gauntlet + Morellonomicon,70,0.005024764912784438,3.243,3.485,-0.061,-0.303,0.0,0.0003,0.0676,0.2,0.3714,0.7571,1.736,-1.46,0.1453,False
-,Adaptive Helm + Hextech Gunblade + Morellonomicon,59,0.0042351589979183115,3.237,3.492,-0.054,-0.309,0.0,0.0002,0.0732,0.1695,0.4068,0.7627,1.711,-1.38,0.16698,False
-,Jeweled Gauntlet + Morellonomicon + Spear Of Shojin,61,0.004378723709712153,3.328,3.507,-0.039,-0.218,0.0,0.0002,0.0154,0.1475,0.4098,0.7049,1.79,-0.95,0.34257,False
-,Adaptive Helm + Morellonomicon + Rabadons Deathcap,142,0.010193094537362717,3.458,3.516,-0.03,-0.088,0.0,0.0003,0.0499,0.162,0.3592,0.7394,1.868,-0.56,0.57567,False
-,Blue Buff + Morellonomicon + Rabadons Deathcap,42,0.0030148589476706625,3.333,3.518,-0.028,-0.213,0.0,0.0001,0.0247,0.1905,0.381,0.7143,1.96,-0.7,0.48266,False
-,Hextech Gunblade + Jeweled Gauntlet + Void Staff,40,0.0028712942358768215,3.325,3.518,-0.028,-0.221,0.0,0.0001,-0.0145,0.275,0.375,0.675,1.876,-0.74,0.45702,False
-,Giant Slayer + Morellonomicon + Rabadons Deathcap,72,0.005168329624578279,3.431,3.522,-0.024,-0.115,0.0,0.0001,-0.009,0.1806,0.4028,0.6806,1.914,-0.51,0.6098,False
-,Hand Of Justice + Morellonomicon + Void Staff,40,0.0028712942358768215,3.45,3.534,-0.012,-0.096,0.0,0.0,0.0105,0.125,0.4,0.7,1.87,-0.32,0.7459,False
-,Adaptive Helm + Jeweled Gauntlet + Morellonomicon,69,0.004952982556887517,3.493,3.535,-0.011,-0.053,0.0,0.0001,0.0496,0.1594,0.3333,0.7391,1.908,-0.23,0.81727,False
-,Archangels Staff + Morellonomicon + Rabadons Deathcap,81,0.005814370827650564,3.506,3.537,-0.009,-0.04,0.0,0.0001,-0.0105,0.1358,0.358,0.679,1.867,-0.19,0.84831,False
-,Jeweled Gauntlet + Morellonomicon + Rabadons Deathcap,110,0.007896059148661259,3.518,3.538,-0.008,-0.028,0.0,0.0001,0.0014,0.1909,0.3636,0.6909,1.971,-0.15,0.88291,False
-,Giant Slayer + Jeweled Gauntlet + Morellonomicon,43,0.003086641303567583,3.488,3.538,-0.008,-0.058,0.0,0.0,0.0314,0.2093,0.4186,0.7209,2.161,-0.17,0.8614,False
-,Archangels Staff + Giant Slayer + Morellonomicon,44,0.0031584236594645035,3.5,3.54,-0.006,-0.046,0.0,0.0,0.0377,0.1591,0.3409,0.7273,1.84,-0.17,0.86861,False
-,Morellonomicon + Rabadons Deathcap + Spear Of Shojin,57,0.004091594286124471,3.561,3.549,0.003,0.015,0.0,-0.0,0.0648,0.1228,0.2632,0.7544,1.727,0.07,0.94638,False
-,Archangels Staff + Hextech Gunblade + Morellonomicon,67,0.004809417845093676,3.582,3.553,0.007,0.036,0.0,-0.0,-0.0179,0.1642,0.3731,0.6716,1.925,0.15,0.87828,False
-,Hextech Gunblade + Morellonomicon + Rabadons Deathcap,66,0.004737635489196756,3.591,3.555,0.009,0.045,0.0,-0.0,0.0377,0.1818,0.303,0.7273,1.842,0.2,0.84335,False
-,Hextech Gunblade + Jeweled Gauntlet + Morellonomicon,48,0.003445553083052186,3.604,3.555,0.009,0.058,0.0,-0.0,-0.002,0.1667,0.4167,0.6875,2.119,0.19,0.84932,False
-,Red Buff + Spear Of Shojin + Void Staff,41,0.002943076591773742,3.707,3.567,0.021,0.161,0.0,-0.0001,-0.0798,0.1951,0.3659,0.6098,2.027,0.51,0.61083,False
-populaire,Morellonomicon + Spear Of Shojin + Void Staff,187,0.01342330055272414,3.642,3.584,0.038,0.096,0.0,-0.0005,-0.0211,0.1925,0.369,0.6684,2.103,0.62,0.53606,False
-populaire,Archangels Staff + Morellonomicon + Void Staff,319,0.022898571531117653,3.624,3.588,0.042,0.078,0.0,-0.001,0.0158,0.1505,0.3354,0.7053,1.969,0.7,0.48522,False
-populaire,Blue Buff + Morellonomicon + Void Staff,174,0.012490129926064174,3.684,3.599,0.053,0.138,0.0,-0.0007,-0.0171,0.1667,0.3161,0.6724,1.991,0.91,0.36376,False
-,Blue Buff + Jeweled Gauntlet + Morellonomicon,58,0.004163376642021391,3.914,3.609,0.063,0.368,0.0,-0.0003,-0.0344,0.069,0.2586,0.6552,1.841,1.52,0.12904,False
-,Seekers Armguard + Morellonomicon + Void Staff,44,0.0031584236594645035,4.25,3.642,0.096,0.704,0.095,-0.0003,-0.1214,0.0682,0.25,0.5682,2.057,2.27,0.02342,False
+populaire,Hextech Gunblade + Morellonomicon + Void Staff,41,0.02036761053154496,2.561,2.841,-0.285,-0.566,-0.04,0.0058,0.0423,0.3902,0.6098,0.8049,1.697,-2.11,0.03506,False
+populaire,Morellonomicon + Rabadons Deathcap + Void Staff,147,0.07302533532041729,2.85,2.91,-0.217,-0.276,0.0,0.0158,0.0402,0.2993,0.551,0.8027,1.871,-1.73,0.08417,False
+populaire,Archangels Staff + Morellonomicon + Void Staff,41,0.02036761053154496,2.78,2.952,-0.175,-0.346,0.0,0.0036,0.0911,0.3171,0.5366,0.8537,1.841,-1.19,0.23365,False
+populaire,Adaptive Helm + Morellonomicon + Void Staff,54,0.026825633383010434,2.907,3.001,-0.126,-0.219,0.0,0.0034,0.0523,0.2037,0.537,0.8148,1.647,-0.96,0.33644,False
+populaire,Jeweled Gauntlet + Morellonomicon + Void Staff,46,0.022851465474416296,2.978,3.048,-0.079,-0.148,0.0,0.0018,0.0635,0.2609,0.5,0.8261,1.859,-0.54,0.59255,False

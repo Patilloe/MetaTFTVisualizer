@@ -1,56 +1,13 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Blue Buff + Jeweled Gauntlet + Strikers Flail,399,0.02296138573977096,3.228,3.386,-0.181,-0.339,-0.142,0.0042,0.0598,0.2581,0.4361,0.7393,1.979,-3.38,0.00073,True
-populaire,Jeweled Gauntlet + Nashors Tooth + Strikers Flail,407,0.023421764401220003,3.317,3.432,-0.135,-0.25,-0.057,0.0032,0.0551,0.2211,0.4349,0.7346,1.958,-2.54,0.011,True
-populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,3271,0.188237325199977,3.43,3.443,-0.124,-0.137,-0.061,0.0233,0.0214,0.2143,0.4087,0.701,2.02,-3.55,0.00038,True
-pepite,Blue Buff + Giant Slayer + Jeweled Gauntlet,93,0.005351901939345111,3.086,3.465,-0.101,-0.481,-0.096,0.0005,0.1269,0.2366,0.4731,0.8065,1.887,-2.45,0.01433,True
-pepite,Adaptive Helm + Jeweled Gauntlet + Strikers Flail,71,0.004085860620360246,2.972,3.466,-0.101,-0.595,-0.121,0.0004,0.1232,0.3239,0.507,0.8028,2.035,-2.46,0.01394,True
-pepite,Adaptive Helm + Jeweled Gauntlet + Spear Of Shojin,139,0.007999079242677102,3.223,3.469,-0.098,-0.344,-0.004,0.0008,0.083,0.2446,0.4317,0.7626,2.036,-1.98,0.04737,False
-pepite,Hextech Gunblade + Jeweled Gauntlet + Spear Of Shojin,107,0.006157564596880934,3.196,3.48,-0.087,-0.371,-0.034,0.0005,0.0774,0.215,0.4112,0.757,1.769,-2.16,0.03095,False
-pepite,Morellonomicon + Spear Of Shojin + Void Staff,65,0.0037405766242734648,3.062,3.487,-0.08,-0.505,-0.043,0.0003,0.1204,0.2308,0.4615,0.8,1.896,-2.14,0.03208,False
-pepite,Blue Buff + Rabadons Deathcap + Spear Of Shojin,40,0.002301893307245209,2.825,3.49,-0.077,-0.742,-0.261,0.0002,0.1454,0.275,0.475,0.825,1.547,-3.03,0.00248,True
-,Blue Buff + Jeweled Gauntlet + Rabadons Deathcap,249,0.014329285837601426,3.386,3.491,-0.076,-0.181,0.0,0.0011,0.0232,0.2329,0.4177,0.7028,2.031,-1.4,0.16203,False
-populaire,Blue Buff + Jeweled Gauntlet + Nashors Tooth,318,0.018300051792599414,3.415,3.494,-0.072,-0.152,0.0,0.0013,0.0626,0.1792,0.3805,0.7421,1.908,-1.4,0.16045,False
-,Emblem Flora Fatalis Augment + Jeweled Gauntlet + Spear Of Shojin,54,0.0031075559647810325,3.204,3.518,-0.049,-0.363,0.0,0.0002,0.0797,0.2593,0.4444,0.7593,2.049,-1.3,0.19359,False
-,Adaptive Helm + Jeweled Gauntlet + Nashors Tooth,65,0.0037405766242734648,3.308,3.526,-0.041,-0.259,0.0,0.0002,0.0897,0.1846,0.4154,0.7692,1.953,-1.07,0.28571,False
-,Giant Slayer + Rabadons Deathcap + Spear Of Shojin,56,0.0032226506301432927,3.268,3.525,-0.041,-0.299,0.0,0.0001,0.0347,0.2679,0.4107,0.7143,1.968,-1.13,0.25659,False
-,Archangels Staff + Blue Buff + Jeweled Gauntlet,101,0.0058122806007941535,3.396,3.528,-0.038,-0.171,0.0,0.0002,0.0234,0.1485,0.4059,0.703,1.764,-0.97,0.33243,False
-populaire,Archangels Staff + Jeweled Gauntlet + Spear Of Shojin,336,0.019335903780859757,3.494,3.531,-0.036,-0.073,0.0,0.0007,0.0288,0.1607,0.3423,0.7083,1.806,-0.73,0.46576,False
-,Eternal Pact + Jeweled Gauntlet + Spear Of Shojin,49,0.002819819301375381,3.286,3.532,-0.035,-0.281,0.0,0.0001,0.0755,0.2245,0.4286,0.7551,1.959,-1.0,0.31589,False
-,Archangels Staff + Rabadons Deathcap + Spear Of Shojin,44,0.00253208263796973,3.273,3.534,-0.033,-0.294,0.0,0.0001,0.025,0.2045,0.4318,0.7045,1.776,-1.1,0.27277,False
-,Adaptive Helm + Blue Buff + Jeweled Gauntlet,96,0.005524543937388502,3.427,3.537,-0.03,-0.14,0.0,0.0002,0.0392,0.2292,0.375,0.7188,2.014,-0.68,0.49799,False
-,Jeweled Gauntlet + Nashors Tooth + Rabadons Deathcap,205,0.011797203199631697,3.488,3.537,-0.029,-0.079,0.0,0.0003,-0.0113,0.2439,0.4,0.6683,2.09,-0.54,0.59047,False
-populaire,Jeweled Gauntlet + Nashors Tooth + Nashors Tooth,467,0.026874604362087818,3.518,3.539,-0.028,-0.049,0.0,0.0007,0.0206,0.1734,0.3619,0.7002,1.919,-0.54,0.58993,False
-,Jeweled Gauntlet + Morellonomicon + Void Staff,41,0.0023594406399263393,3.317,3.54,-0.026,-0.25,0.0,0.0001,0.0277,0.1463,0.4634,0.7073,1.773,-0.9,0.36788,False
-populaire,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,874,0.05029636876330782,3.538,3.546,-0.021,-0.029,0.0,0.001,-0.0034,0.2105,0.3822,0.6762,2.072,-0.4,0.68579,False
-,Archangels Staff + Archangels Staff + Jeweled Gauntlet,62,0.0035679346262300743,3.452,3.549,-0.017,-0.115,0.0,0.0001,0.0462,0.1452,0.371,0.7258,1.748,-0.52,0.60469,False
-,Rabadons Deathcap + Rabadons Deathcap + Spear Of Shojin,47,0.002704724636013121,3.468,3.555,-0.012,-0.099,0.0,0.0,0.0013,0.1277,0.3404,0.6809,1.699,-0.4,0.69104,False
-,Jeweled Gauntlet + Rabadons Deathcap + Void Staff,41,0.0023594406399263393,3.488,3.558,-0.008,-0.079,0.0,0.0,0.0521,0.1463,0.3171,0.7317,1.796,-0.28,0.77859,False
-,Emblem Executioner + Jeweled Gauntlet + Spear Of Shojin,85,0.00489152327789607,3.553,3.564,-0.003,-0.014,0.0,0.0,0.0381,0.1294,0.3647,0.7176,1.869,-0.07,0.94572,False
-,Jeweled Gauntlet Radiant + Spear Of Shojin + Strikers Flail,50,0.0028773666340565114,3.56,3.566,-0.001,-0.007,0.0,0.0,0.0004,0.14,0.4,0.68,2.002,-0.02,0.98091,False
-,Rabadons Deathcap + Spear Of Shojin + Strikers Flail,92,0.0052943546066639815,3.565,3.566,-0.0,-0.002,0.0,0.0,0.0052,0.163,0.3696,0.6848,1.985,-0.01,0.99398,False
-,Blue Buff + Hextech Gunblade + Jeweled Gauntlet,51,0.0029349139667376417,3.588,3.57,0.003,0.021,0.0,-0.0,0.0263,0.098,0.3725,0.7059,1.922,0.08,0.93657,False
-,Emblem Executioner + Rabadons Deathcap + Spear Of Shojin,96,0.005524543937388502,3.583,3.57,0.004,0.017,0.0,-0.0,-0.0129,0.2083,0.3229,0.6667,2.029,0.08,0.93649,False
-,Blue Buff + Jeweled Gauntlet + Spear Of Shojin,215,0.012372676526443,3.609,3.583,0.016,0.043,0.0,-0.0002,-0.0238,0.1721,0.3209,0.6558,1.901,0.33,0.7447,False
-,Archangels Staff + Jeweled Gauntlet + Nashors Tooth,98,0.005639638602750762,3.643,3.584,0.017,0.076,0.0,-0.0001,0.0041,0.1224,0.3163,0.6837,1.88,0.4,0.68975,False
-,Manazane + Jeweled Gauntlet + Strikers Flail,45,0.0025896299706508604,3.711,3.583,0.017,0.144,0.0,-0.0,-0.0796,0.2222,0.3778,0.6,2.083,0.46,0.64248,False
-,Giant Slayer + Jeweled Gauntlet + Nashors Tooth,68,0.003913218622316856,3.691,3.587,0.02,0.124,0.0,-0.0001,-0.0325,0.1912,0.3824,0.6471,2.164,0.47,0.63611,False
-,Adaptive Helm + Jeweled Gauntlet + Rabadons Deathcap,60,0.0034528399608678138,3.717,3.589,0.022,0.15,0.0,-0.0001,0.0204,0.1667,0.3167,0.7,1.976,0.59,0.55748,False
-,Adaptive Helm + Jeweled Gauntlet + Void Staff,40,0.002301893307245209,3.825,3.593,0.027,0.258,0.0,-0.0001,-0.0046,0.075,0.3,0.675,1.948,0.84,0.4024,False
-,Jeweled Gauntlet + Rabadons Deathcap Radiant + Spear Of Shojin,41,0.0023594406399263393,3.902,3.602,0.035,0.336,0.0,-0.0001,-0.0698,0.1463,0.3171,0.6098,2.139,1.0,0.31554,False
-,Jeweled Gauntlet + Jeweled Gauntlet + Spear Of Shojin,57,0.003280197962824423,3.842,3.606,0.039,0.275,0.0,-0.0001,-0.0831,0.1579,0.3509,0.5965,2.118,0.98,0.327,False
-,Ludens Tempest + Jeweled Gauntlet + Spear Of Shojin,109,0.006272659262243195,3.761,3.613,0.046,0.195,0.0,-0.0003,-0.0557,0.156,0.3486,0.6239,2.045,0.99,0.32173,False
-,Guinsoos Rageblade + Jeweled Gauntlet + Spear Of Shojin,59,0.0033952926281866835,3.898,3.615,0.048,0.332,0.0,-0.0002,-0.0694,0.1356,0.2542,0.6102,1.911,1.33,0.18345,False
-,Jeweled Gauntlet + Morellonomicon + Spear Of Shojin,109,0.006272659262243195,3.789,3.62,0.053,0.222,0.0,-0.0003,-0.0007,0.1927,0.3486,0.6789,2.23,1.04,0.29949,False
-,Emblem Executioner + Spear Of Shojin + Strikers Flail,80,0.004603786614490418,3.862,3.622,0.055,0.296,0.0,-0.0003,-0.0671,0.1125,0.2875,0.6125,1.896,1.39,0.16404,False
-,Blue Buff + Jeweled Gauntlet + Void Staff,108,0.006215111929562065,3.806,3.623,0.057,0.239,0.0,-0.0004,-0.0314,0.1574,0.3056,0.6481,2.025,1.22,0.22189,False
-,Ludens Tempest + Jeweled Gauntlet + Nashors Tooth,49,0.002819819301375381,4.041,3.625,0.059,0.474,0.0,-0.0002,-0.0877,0.1224,0.2857,0.5918,2.03,1.63,0.10261,False
-,Rabadons Deathcap + Spear Of Shojin + Void Staff,75,0.004316049951084767,3.907,3.627,0.06,0.34,0.0,-0.0003,-0.0796,0.16,0.3467,0.6,2.198,1.34,0.18132,False
-,Nashors Tooth + Rabadons Deathcap + Spear Of Shojin,69,0.0039707659549979854,3.928,3.627,0.06,0.361,0.0,-0.0002,-0.1144,0.087,0.3043,0.5652,1.891,1.58,0.11379,False
-,Jeweled Gauntlet + Nashors Tooth + Void Staff,129,0.0074236059158658,3.822,3.636,0.069,0.255,0.0,-0.0005,-0.0362,0.1318,0.3178,0.6434,2.002,1.44,0.1496,False
-populaire,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,1014,0.05835299533866605,3.668,3.642,0.075,0.101,0.0,-0.0044,-0.0169,0.1815,0.3501,0.6627,2.041,1.53,0.1259,False
-,Emblem Flora Fatalis + Jeweled Gauntlet + Spear Of Shojin,50,0.0028773666340565114,4.2,3.646,0.08,0.633,0.018,-0.0002,-0.1796,0.14,0.3,0.5,2.218,2.02,0.04378,False
-populaire,Giant Slayer + Jeweled Gauntlet + Spear Of Shojin,301,0.0173217471370202,3.754,3.654,0.087,0.187,0.0,-0.0015,-0.0417,0.1429,0.3455,0.6379,2.041,1.58,0.11426,False
-,Manazane + Jeweled Gauntlet + Spear Of Shojin,48,0.002762271968694251,4.521,3.683,0.116,0.954,0.387,-0.0003,-0.1587,0.0833,0.1667,0.5208,2.0,3.3,0.00097,True
-,Jeweled Gauntlet + Red Buff + Spear Of Shojin,70,0.004028313287679116,4.357,3.699,0.133,0.79,0.272,-0.0005,-0.151,0.1286,0.2571,0.5286,2.211,2.99,0.00282,True
-,Jeweled Gauntlet + Spear Of Shojin + Spear Of Shojin,81,0.004661333947171549,4.469,3.737,0.171,0.902,0.421,-0.0008,-0.124,0.0988,0.2346,0.5556,2.206,3.67,0.00024,True
-populaire,Jeweled Gauntlet + Spear Of Shojin + Void Staff,400,0.02301893307245209,3.888,3.738,0.172,0.321,0.118,-0.004,-0.0846,0.14,0.33,0.595,2.043,3.1,0.00191,True
+populaire,Blue Buff + Jeweled Gauntlet + Nashors Tooth,78,0.026933701657458564,2.821,2.94,-0.161,-0.281,0.0,0.0043,0.0654,0.2308,0.5385,0.8333,1.677,-1.45,0.14588,False
+pepite,Jeweled Gauntlet + Nashors Tooth + Strikers Flail,46,0.015883977900552487,2.804,2.97,-0.132,-0.297,0.0,0.0021,0.0799,0.2609,0.5652,0.8478,1.765,-1.13,0.25777,False
+populaire,Jeweled Gauntlet + Nashors Tooth + Nashors Tooth,77,0.02658839779005525,2.896,2.984,-0.117,-0.205,0.0,0.0031,0.0762,0.2857,0.4935,0.8442,1.835,-0.97,0.33274,False
+populaire,Giant Slayer + Jeweled Gauntlet + Spear Of Shojin,57,0.01968232044198895,2.877,2.99,-0.111,-0.224,0.0,0.0022,0.0566,0.2281,0.4561,0.8246,1.601,-1.04,0.29686,False
+populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,418,0.14433701657458564,2.988,3.002,-0.1,-0.113,0.0,0.0144,0.0048,0.2775,0.5072,0.7727,1.901,-1.14,0.2543,False
+populaire,Blue Buff + Jeweled Gauntlet + Rabadons Deathcap,55,0.01899171270718232,2.909,3.008,-0.094,-0.192,0.0,0.0018,0.0139,0.3636,0.5273,0.7818,2.074,-0.68,0.49483,False
+populaire,Blue Buff + Jeweled Gauntlet + Strikers Flail,50,0.017265193370165747,3.04,3.073,-0.029,-0.062,0.0,0.0005,-0.028,0.3,0.44,0.74,1.843,-0.23,0.81513,False
+populaire,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,187,0.06457182320441988,3.166,3.151,0.049,0.064,0.0,-0.0032,-0.0139,0.246,0.4652,0.754,1.918,0.44,0.65696,False
+populaire,Archangels Staff + Jeweled Gauntlet + Spear Of Shojin,50,0.017265193370165747,3.32,3.203,0.101,0.218,0.0,-0.0017,-0.048,0.24,0.4,0.72,1.902,0.81,0.42067,False
+populaire,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,129,0.04454419889502762,3.264,3.213,0.112,0.162,0.0,-0.005,-0.0393,0.2016,0.4186,0.7287,1.89,0.95,0.34104,False
+,Blue Buff + Jeweled Gauntlet + Spear Of Shojin,40,0.013812154696132596,3.375,3.213,0.112,0.273,0.0,-0.0015,-0.118,0.275,0.4,0.65,1.996,0.86,0.3892,False
+populaire,Jeweled Gauntlet + Spear Of Shojin + Void Staff,50,0.017265193370165747,3.4,3.24,0.138,0.298,0.0,-0.0024,-0.068,0.22,0.36,0.7,1.949,1.07,0.2829,False
