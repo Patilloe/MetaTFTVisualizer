@@ -1,13 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Gargoyle Stoneplate + Ionic Spark + Warmogs Armor,112,0.041604754829123326,2.714,2.823,-0.225,-0.334,-0.022,0.0094,0.0555,0.3304,0.5,0.8393,1.639,-2.1,0.03582,False
-populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Spirit Visage,49,0.018202080237741457,2.776,2.918,-0.13,-0.272,0.0,0.0024,0.0121,0.2653,0.6735,0.7959,1.909,-0.99,0.32193,False
-populaire,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,170,0.06315007429420505,2.882,2.922,-0.126,-0.166,0.0,0.0079,0.0338,0.3,0.4941,0.8176,1.843,-1.14,0.25627,False
-populaire,Gargoyle Stoneplate + Spirit Visage + Sunfire Cape,46,0.017087667161961365,2.913,2.986,-0.062,-0.135,0.0,0.0011,0.064,0.1957,0.4348,0.8478,1.558,-0.58,0.56181,False
-populaire,Gargoyle Stoneplate + Protectors Vow + Warmogs Armor,70,0.02600297176820208,3.029,3.037,-0.011,-0.019,0.0,0.0003,-0.0124,0.2571,0.5,0.7714,1.912,-0.08,0.93334,False
-,Gargoyle Stoneplate + Warmogs Armor + Warmogs Armor,41,0.015230312035661218,3.049,3.048,0.0,0.001,0.0,-0.0,-0.0033,0.2195,0.5122,0.7805,1.86,0.0,0.99765,False
-populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,90,0.033432392273402674,3.067,3.06,0.012,0.019,0.0,-0.0004,-0.0171,0.2889,0.4667,0.7667,1.937,0.09,0.92793,False
-populaire,Bramble Vest + Dragons Claw + Warmogs Armor,54,0.020059435364041606,3.093,3.07,0.022,0.045,0.0,-0.0004,-0.0616,0.2037,0.5185,0.7222,1.878,0.17,0.86259,False
-populaire,Gargoyle Stoneplate + Steadfast Heart + Warmogs Armor,66,0.02451708766716196,3.091,3.072,0.024,0.043,0.0,-0.0006,0.0344,0.2273,0.4242,0.8182,1.823,0.19,0.84999,False
-populaire,Gargoyle Stoneplate + Sunfire Cape + Warmogs Armor,62,0.023031203566121844,3.113,3.083,0.035,0.065,0.0,-0.0008,0.0065,0.2258,0.4194,0.7903,1.761,0.29,0.77415,False
-populaire,Dragons Claw + Gargoyle Stoneplate + Warmogs Armor,72,0.02674591381872214,3.153,3.108,0.06,0.105,0.0,-0.0016,-0.0199,0.2639,0.3889,0.7639,1.823,0.48,0.63024,False
-,Gargoyle Stoneplate + Spirit Visage + Steadfast Heart,44,0.01634472511144131,3.273,3.149,0.101,0.225,0.0,-0.0017,-0.0565,0.2273,0.4318,0.7273,1.875,0.79,0.43017,False
+populaire,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,70,0.06334841628959276,2.2,2.327,-0.295,-0.422,-0.085,0.0187,0.0625,0.4143,0.6429,0.9286,1.379,-2.45,0.01415,True

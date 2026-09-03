@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Emblem Executioner,129,0.11802378774016468,2.713,2.779,-0.283,-0.349,-0.036,0.0334,0.0426,0.3101,0.5426,0.8295,1.708,-2.19,0.02876,True
+populaire,Emblem Executioner,53,0.12383177570093458,2.113,2.302,-0.334,-0.522,-0.158,0.0413,0.0836,0.3962,0.717,0.9434,1.239,-2.81,0.00493,True

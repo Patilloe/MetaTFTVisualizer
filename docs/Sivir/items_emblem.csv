@@ -1,3 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Emblem Fae,97,0.060099132589838906,2.515,2.635,-0.358,-0.478,-0.138,0.0215,0.0539,0.3711,0.6186,0.8557,1.65,-2.75,0.0059,True
-populaire,Emblem Blossom,61,0.037794299876084264,3.262,3.169,0.176,0.269,0.0,-0.0067,-0.0312,0.2951,0.3934,0.7705,2.134,0.97,0.33115,False

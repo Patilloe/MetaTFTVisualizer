@@ -1,6 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Hextech Gunblade + Morellonomicon + Void Staff,41,0.02036761053154496,2.561,2.841,-0.285,-0.566,-0.04,0.0058,0.0423,0.3902,0.6098,0.8049,1.697,-2.11,0.03506,False
-populaire,Morellonomicon + Rabadons Deathcap + Void Staff,147,0.07302533532041729,2.85,2.91,-0.217,-0.276,0.0,0.0158,0.0402,0.2993,0.551,0.8027,1.871,-1.73,0.08417,False
-populaire,Archangels Staff + Morellonomicon + Void Staff,41,0.02036761053154496,2.78,2.952,-0.175,-0.346,0.0,0.0036,0.0911,0.3171,0.5366,0.8537,1.841,-1.19,0.23365,False
-populaire,Adaptive Helm + Morellonomicon + Void Staff,54,0.026825633383010434,2.907,3.001,-0.126,-0.219,0.0,0.0034,0.0523,0.2037,0.537,0.8148,1.647,-0.96,0.33644,False
-populaire,Jeweled Gauntlet + Morellonomicon + Void Staff,46,0.022851465474416296,2.978,3.048,-0.079,-0.148,0.0,0.0018,0.0635,0.2609,0.5,0.8261,1.859,-0.54,0.59255,False
+populaire,Morellonomicon + Rabadons Deathcap + Void Staff,45,0.05166475315729047,2.311,2.463,-0.228,-0.38,0.0,0.0118,0.0462,0.4,0.6444,0.8889,1.575,-1.57,0.11549,False

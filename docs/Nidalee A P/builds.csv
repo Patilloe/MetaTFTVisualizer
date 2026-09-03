@@ -1,5 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Strikers Flail,193,0.13477653631284917,3.062,3.098,-0.232,-0.268,-0.008,0.0313,0.05,0.1813,0.4508,0.7979,1.72,-2.02,0.04334,False
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Rabadons Deathcap,46,0.03212290502793296,3.152,3.222,-0.108,-0.178,0.0,0.0035,0.013,0.2174,0.4783,0.7609,1.829,-0.65,0.51547,False
-populaire,Giant Slayer + Guinsoos Rageblade + Jeweled Gauntlet,45,0.031424581005586594,3.156,3.225,-0.105,-0.175,0.0,0.0033,0.0521,0.1556,0.3778,0.8,1.619,-0.71,0.47743,False
-populaire,Guinsoos Rageblade + Jeweled Gauntlet + Spear Of Shojin,55,0.03840782122905028,3.527,3.458,0.127,0.197,0.0,-0.0049,-0.057,0.1636,0.3455,0.6909,1.787,0.8,0.42273,False
+populaire,Guinsoos Rageblade + Jeweled Gauntlet + Strikers Flail,60,0.10657193605683836,2.633,2.708,-0.149,-0.223,0.0,0.0158,0.0432,0.2667,0.5667,0.8833,1.633,-1.0,0.31545,False

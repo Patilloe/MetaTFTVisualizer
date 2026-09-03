@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Amumu18 2*,1297,1.0093385214007782,3.306,3.306,-0.001,-0.001,0.0,0.0005,0.0009,0.2113,0.4071,0.7325,1.895,-0.01,0.9944,False
+populaire,Amumu18 2*,574,1.0105633802816902,2.808,2.808,0.0,0.0,0.0,-0.0003,0.0018,0.2787,0.5122,0.8275,1.68,0.0,0.99789,False

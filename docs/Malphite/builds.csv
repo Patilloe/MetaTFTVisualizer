@@ -1,5 +1,3 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Crownguard + Gargoyle Stoneplate + Warmogs Armor,90,0.05579665220086795,2.744,2.889,-0.403,-0.547,-0.138,0.0225,0.0869,0.3222,0.6,0.8333,1.93,-2.62,0.00873,True
-populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Spirit Visage,42,0.026038437693738377,2.952,3.1,-0.192,-0.339,0.0,0.005,0.0631,0.2381,0.5476,0.8095,1.825,-1.19,0.23485,False
-populaire,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,84,0.052076875387476754,3.06,3.124,-0.168,-0.232,0.0,0.0087,0.0512,0.2381,0.4167,0.7976,1.728,-1.19,0.23212,False
-populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,144,0.08927464352138871,3.111,3.144,-0.147,-0.18,0.0,0.0131,0.0452,0.1806,0.4236,0.7917,1.688,-1.22,0.2232,False
+populaire,Crownguard + Gargoyle Stoneplate + Warmogs Armor,41,0.061933534743202415,2.195,2.476,-0.384,-0.664,-0.208,0.0238,0.0822,0.3902,0.7317,0.9024,1.435,-2.85,0.00436,True
+populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,51,0.0770392749244713,2.588,2.689,-0.171,-0.271,0.0,0.0132,0.0817,0.2157,0.5882,0.902,1.389,-1.33,0.18499,False

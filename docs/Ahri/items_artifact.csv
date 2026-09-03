@@ -1,3 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Ludens Tempest,51,0.01761049723756906,3.0,3.054,-0.048,-0.102,0.0,0.0008,-0.0425,0.3333,0.451,0.7255,1.815,-0.4,0.6924,False
-populaire,Manazane,51,0.01761049723756906,3.765,3.412,0.311,0.663,0.095,-0.0055,-0.1601,0.1569,0.3529,0.6078,2.054,2.29,0.02212,True

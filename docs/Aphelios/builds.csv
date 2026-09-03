@@ -1,11 +1,5 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Deathblade + Guinsoos Rageblade + Infinity Edge,80,0.037418147801683815,2.612,2.738,-0.235,-0.361,-0.032,0.0088,0.0891,0.2125,0.6,0.8875,1.462,-2.15,0.03131,False
-populaire,Deathblade + Giant Slayer + Red Buff,108,0.050514499532273154,2.704,2.78,-0.193,-0.27,0.0,0.0098,0.0534,0.2315,0.5463,0.8519,1.6,-1.7,0.08854,False
-populaire,Giant Slayer + Guinsoos Rageblade + Krakens Fury,152,0.07109448082319925,2.776,2.82,-0.154,-0.197,0.0,0.011,0.0108,0.3026,0.5329,0.8092,1.663,-1.41,0.15877,False
-populaire,Guinsoos Rageblade + Infinity Edge + Krakens Fury,175,0.08185219831618334,2.897,2.912,-0.062,-0.077,0.0,0.005,0.0016,0.2686,0.4857,0.8,1.653,-0.59,0.5572,False
-populaire,Guinsoos Rageblade + Krakens Fury + Last Whisper,43,0.020112254443405052,2.907,2.94,-0.034,-0.067,0.0,0.0007,0.0388,0.3023,0.4651,0.8372,1.853,-0.23,0.81467,False
-populaire,Guinsoos Rageblade + Infinity Edge + Last Whisper,85,0.039756782039289056,2.976,2.976,0.002,0.003,0.0,-0.0001,-0.0337,0.2471,0.5176,0.7647,1.853,0.01,0.98961,False
-populaire,Giant Slayer + Guinsoos Rageblade + Infinity Edge,74,0.03461178671655753,3.0,2.99,0.017,0.026,0.0,-0.0006,0.0259,0.2703,0.4189,0.8243,1.677,0.13,0.89506,False
-populaire,Deathblade + Guinsoos Rageblade + Krakens Fury,116,0.05425631431244153,3.147,3.1,0.126,0.173,0.0,-0.0068,-0.0312,0.25,0.4483,0.7672,1.899,0.96,0.3383,False
-populaire,Deathblade + Giant Slayer + Guinsoos Rageblade,47,0.021983161833489244,3.255,3.121,0.147,0.282,0.0,-0.0032,0.0101,0.0851,0.3404,0.8085,1.522,1.25,0.21148,False
-populaire,Deathblade + Guinsoos Rageblade + Last Whisper,45,0.021047708138447148,3.444,3.215,0.241,0.471,0.0,-0.0051,-0.1317,0.2444,0.4222,0.6667,1.961,1.6,0.11043,False
+populaire,Giant Slayer + Guinsoos Rageblade + Krakens Fury,57,0.06209150326797386,2.281,2.347,-0.125,-0.191,0.0,0.0078,-0.0303,0.386,0.7018,0.8596,1.436,-0.97,0.33075,False
+populaire,Deathblade + Guinsoos Rageblade + Krakens Fury,46,0.05010893246187364,2.478,2.476,0.004,0.007,0.0,-0.0002,0.0013,0.3478,0.587,0.8913,1.471,0.03,0.97637,False
+populaire,Deathblade + Giant Slayer + Red Buff,54,0.058823529411764705,2.593,2.549,0.078,0.121,0.0,-0.0046,-0.0196,0.2222,0.5926,0.8704,1.534,0.56,0.57272,False
+populaire,Guinsoos Rageblade + Infinity Edge + Krakens Fury,81,0.08823529411764706,2.58,2.551,0.079,0.109,0.0,-0.007,-0.0381,0.3086,0.5926,0.8519,1.53,0.61,0.53947,False

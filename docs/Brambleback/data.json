@@ -14,96 +14,30 @@
      "DA_SteraksGage"
     ],
     "label": "Edge Of Night + Quicksilver + Steraks Gage",
-    "n": 62,
-    "share": 0.04192021636240703,
-    "avg_place": 2.71,
-    "sd": 1.474,
-    "win": 0.2097,
-    "top2": 0.5,
-    "top4": 0.871,
+    "n": 43,
+    "share": 0.06351550960118169,
+    "avg_place": 2.465,
+    "sd": 1.282,
+    "win": 0.2791,
+    "top2": 0.5349,
+    "top4": 0.907,
     "top4_ci": [
-     0.7655,
-     0.9331
+     0.784,
+     0.9632
     ],
-    "d_avg": -0.359,
+    "d_avg": -0.222,
     "d_avg_ci": [
-     -0.737,
-     0.018
+     -0.623,
+     0.18
     ],
-    "d_top4": 0.0637,
-    "d_win": 0.0116,
-    "shrunk_avg": 2.827,
-    "score": -0.242,
+    "d_top4": 0.0384,
+    "d_win": 0.0132,
+    "shrunk_avg": 2.556,
+    "score": -0.131,
     "d_avg_pess": 0.0,
-    "impact": 0.0102,
-    "z": -1.87,
-    "p": 0.06193,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_EdgeOfNight",
-     "DA_GiantSlayer",
-     "DA_Quicksilver"
-    ],
-    "label": "Edge Of Night + Giant Slayer + Quicksilver",
-    "n": 81,
-    "share": 0.05476673427991886,
-    "avg_place": 2.827,
-    "sd": 1.646,
-    "win": 0.2469,
-    "top2": 0.5185,
-    "top4": 0.8519,
-    "top4_ci": [
-     0.7587,
-     0.9132
-    ],
-    "d_avg": -0.242,
-    "d_avg_ci": [
-     -0.611,
-     0.127
-    ],
-    "d_top4": 0.0445,
-    "d_win": 0.0488,
-    "shrunk_avg": 2.893,
-    "score": -0.176,
-    "d_avg_pess": 0.0,
-    "impact": 0.0097,
-    "z": -1.28,
-    "p": 0.19904,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster",
-     "DA_SteraksGage",
-     "DA_TitansResolve"
-    ],
-    "label": "Bloodthirster + Steraks Gage + Titans Resolve",
-    "n": 62,
-    "share": 0.04192021636240703,
-    "avg_place": 3.113,
-    "sd": 1.567,
-    "win": 0.1935,
-    "top2": 0.3871,
-    "top4": 0.7903,
-    "top4_ci": [
-     0.6736,
-     0.8732
-    ],
-    "d_avg": 0.044,
-    "d_avg_ci": [
-     -0.356,
-     0.444
-    ],
-    "d_top4": -0.017,
-    "d_win": -0.0046,
-    "shrunk_avg": 3.099,
-    "score": 0.03,
-    "d_avg_pess": 0.0,
-    "impact": -0.0012,
-    "z": 0.22,
-    "p": 0.82939,
+    "impact": 0.0083,
+    "z": -1.08,
+    "p": 0.27925,
     "significant": false
    }
   ],
@@ -111,64 +45,33 @@
   "item_lift": [
    {
     "key": [
-     "DA_SteraksGage"
+     "DA_HandOfJustice"
     ],
-    "label": "Steraks Gage",
-    "n": 477,
-    "share": 0.3225152129817444,
-    "avg_place": 2.883,
-    "sd": 1.602,
-    "win": 0.2117,
-    "top2": 0.4927,
-    "top4": 0.8428,
+    "label": "Hand Of Justice",
+    "n": 132,
+    "share": 0.19497784342688332,
+    "avg_place": 2.47,
+    "sd": 1.593,
+    "win": 0.303,
+    "top2": 0.6515,
+    "top4": 0.8939,
     "top4_ci": [
-     0.8074,
-     0.8727
-    ],
-    "d_avg": -0.186,
-    "d_avg_ci": [
-     -0.355,
-     -0.018
-    ],
-    "d_top4": 0.0355,
-    "d_win": 0.0136,
-    "shrunk_avg": 2.894,
-    "score": -0.175,
-    "d_avg_pess": -0.018,
-    "impact": 0.0565,
-    "z": -2.17,
-    "p": 0.02982,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_LastWhisper"
-    ],
-    "label": "Last Whisper",
-    "n": 61,
-    "share": 0.041244083840432724,
-    "avg_place": 2.852,
-    "sd": 1.556,
-    "win": 0.1639,
-    "top2": 0.541,
-    "top4": 0.8525,
-    "top4_ci": [
-     0.7428,
-     0.9204
+     0.8298,
+     0.9358
     ],
     "d_avg": -0.217,
     "d_avg_ci": [
-     -0.617,
-     0.184
+     -0.514,
+     0.08
     ],
-    "d_top4": 0.0452,
-    "d_win": -0.0342,
-    "shrunk_avg": 2.924,
-    "score": -0.145,
+    "d_top4": 0.0254,
+    "d_win": 0.0372,
+    "shrunk_avg": 2.51,
+    "score": -0.177,
     "d_avg_pess": 0.0,
-    "impact": 0.006,
-    "z": -1.06,
-    "p": 0.28885,
+    "impact": 0.0345,
+    "z": -1.43,
+    "p": 0.152,
     "significant": false
    },
    {
@@ -176,61 +79,61 @@
      "DA_Quicksilver"
     ],
     "label": "Quicksilver",
-    "n": 406,
-    "share": 0.27450980392156865,
-    "avg_place": 2.929,
-    "sd": 1.707,
-    "win": 0.2143,
-    "top2": 0.5,
-    "top4": 0.83,
+    "n": 187,
+    "share": 0.276218611521418,
+    "avg_place": 2.529,
+    "sd": 1.456,
+    "win": 0.262,
+    "top2": 0.5989,
+    "top4": 0.8984,
     "top4_ci": [
-     0.7905,
-     0.8635
+     0.8468,
+     0.934
     ],
-    "d_avg": -0.14,
+    "d_avg": -0.157,
     "d_avg_ci": [
-     -0.328,
-     0.047
+     -0.398,
+     0.083
     ],
-    "d_top4": 0.0227,
-    "d_win": 0.0162,
-    "shrunk_avg": 2.938,
-    "score": -0.131,
+    "d_top4": 0.0299,
+    "d_win": -0.0038,
+    "shrunk_avg": 2.551,
+    "score": -0.136,
     "d_avg_pess": 0.0,
-    "impact": 0.0359,
-    "z": -1.47,
-    "p": 0.14236,
+    "impact": 0.0375,
+    "z": -1.28,
+    "p": 0.20013,
     "significant": false
    },
    {
     "key": [
-     "DA_StrikersFlail"
+     "DA_SteraksGage"
     ],
-    "label": "Strikers Flail",
-    "n": 57,
-    "share": 0.038539553752535496,
-    "avg_place": 2.895,
-    "sd": 1.651,
-    "win": 0.2281,
-    "top2": 0.4912,
-    "top4": 0.8421,
+    "label": "Steraks Gage",
+    "n": 249,
+    "share": 0.36779911373707536,
+    "avg_place": 2.554,
+    "sd": 1.425,
+    "win": 0.2771,
+    "top2": 0.5542,
+    "top4": 0.8996,
     "top4_ci": [
-     0.7264,
-     0.9146
+     0.856,
+     0.9311
     ],
-    "d_avg": -0.174,
+    "d_avg": -0.133,
     "d_avg_ci": [
-     -0.612,
-     0.263
+     -0.347,
+     0.081
     ],
-    "d_top4": 0.0348,
-    "d_win": 0.03,
-    "shrunk_avg": 2.955,
-    "score": -0.114,
+    "d_top4": 0.0311,
+    "d_win": 0.0112,
+    "shrunk_avg": 2.568,
+    "score": -0.118,
     "d_avg_pess": 0.0,
-    "impact": 0.0044,
-    "z": -0.78,
-    "p": 0.43497,
+    "impact": 0.0435,
+    "z": -1.22,
+    "p": 0.2243,
     "significant": false
    },
    {
@@ -238,30 +141,30 @@
      "DA_EdgeOfNight"
     ],
     "label": "Edge Of Night",
-    "n": 522,
-    "share": 0.35294117647058826,
-    "avg_place": 2.981,
-    "sd": 1.731,
-    "win": 0.2146,
-    "top2": 0.4789,
-    "top4": 0.8218,
+    "n": 243,
+    "share": 0.35893648449039883,
+    "avg_place": 2.576,
+    "sd": 1.672,
+    "win": 0.3169,
+    "top2": 0.5967,
+    "top4": 0.8683,
     "top4_ci": [
-     0.7867,
-     0.8523
+     0.82,
+     0.9052
     ],
-    "d_avg": -0.088,
+    "d_avg": -0.111,
     "d_avg_ci": [
-     -0.26,
-     0.084
+     -0.353,
+     0.131
     ],
-    "d_top4": 0.0145,
-    "d_win": 0.0165,
-    "shrunk_avg": 2.986,
-    "score": -0.083,
+    "d_top4": -0.0002,
+    "d_win": 0.051,
+    "shrunk_avg": 2.588,
+    "score": -0.099,
     "d_avg_pess": 0.0,
-    "impact": 0.0294,
-    "z": -1.0,
-    "p": 0.31591,
+    "impact": 0.0354,
+    "z": -0.9,
+    "p": 0.37017,
     "significant": false
    },
    {
@@ -269,185 +172,30 @@
      "DA_GiantSlayer"
     ],
     "label": "Giant Slayer",
-    "n": 270,
-    "share": 0.18255578093306288,
-    "avg_place": 3.0,
-    "sd": 1.741,
-    "win": 0.2259,
-    "top2": 0.4889,
-    "top4": 0.8,
+    "n": 98,
+    "share": 0.1447562776957164,
+    "avg_place": 2.592,
+    "sd": 1.659,
+    "win": 0.3061,
+    "top2": 0.602,
+    "top4": 0.8673,
     "top4_ci": [
-     0.7482,
-     0.8434
+     0.7862,
+     0.9208
     ],
-    "d_avg": -0.069,
+    "d_avg": -0.095,
     "d_avg_ci": [
-     -0.294,
-     0.156
+     -0.445,
+     0.255
     ],
-    "d_top4": -0.0073,
-    "d_win": 0.0278,
-    "shrunk_avg": 3.007,
-    "score": -0.062,
+    "d_top4": -0.0012,
+    "d_win": 0.0402,
+    "shrunk_avg": 2.614,
+    "score": -0.073,
     "d_avg_pess": 0.0,
-    "impact": 0.0113,
-    "z": -0.6,
-    "p": 0.54837,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Deathblade"
-    ],
-    "label": "Deathblade",
-    "n": 142,
-    "share": 0.09601081812035159,
-    "avg_place": 3.056,
-    "sd": 1.861,
-    "win": 0.2394,
-    "top2": 0.4859,
-    "top4": 0.8028,
-    "top4_ci": [
-     0.7298,
-     0.8599
-    ],
-    "d_avg": -0.013,
-    "d_avg_ci": [
-     -0.331,
-     0.306
-    ],
-    "d_top4": -0.0045,
-    "d_win": 0.0413,
-    "shrunk_avg": 3.059,
-    "score": -0.01,
-    "d_avg_pess": 0.0,
-    "impact": 0.001,
-    "z": -0.08,
-    "p": 0.93801,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_HandOfJustice"
-    ],
-    "label": "Hand Of Justice",
-    "n": 250,
-    "share": 0.16903313049357674,
-    "avg_place": 3.068,
-    "sd": 1.798,
-    "win": 0.22,
-    "top2": 0.476,
-    "top4": 0.8,
-    "top4_ci": [
-     0.746,
-     0.8449
-    ],
-    "d_avg": -0.001,
-    "d_avg_ci": [
-     -0.24,
-     0.238
-    ],
-    "d_top4": -0.0073,
-    "d_win": 0.0219,
-    "shrunk_avg": 3.068,
-    "score": -0.001,
-    "d_avg_pess": 0.0,
-    "impact": 0.0001,
-    "z": -0.01,
-    "p": 0.99369,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_InfinityEdge"
-    ],
-    "label": "Infinity Edge",
-    "n": 192,
-    "share": 0.12981744421906694,
-    "avg_place": 3.089,
-    "sd": 1.776,
-    "win": 0.2031,
-    "top2": 0.4427,
-    "top4": 0.8229,
-    "top4_ci": [
-     0.7627,
-     0.8704
-    ],
-    "d_avg": 0.02,
-    "d_avg_ci": [
-     -0.246,
-     0.285
-    ],
-    "d_top4": 0.0156,
-    "d_win": 0.005,
-    "shrunk_avg": 3.086,
-    "score": 0.017,
-    "d_avg_pess": 0.0,
-    "impact": -0.0022,
-    "z": 0.14,
-    "p": 0.88527,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster"
-    ],
-    "label": "Bloodthirster",
-    "n": 498,
-    "share": 0.3367139959432049,
-    "avg_place": 3.141,
-    "sd": 1.677,
-    "win": 0.1747,
-    "top2": 0.4277,
-    "top4": 0.7932,
-    "top4_ci": [
-     0.7554,
-     0.8264
-    ],
-    "d_avg": 0.072,
-    "d_avg_ci": [
-     -0.1,
-     0.243
-    ],
-    "d_top4": -0.0141,
-    "d_win": -0.0234,
-    "shrunk_avg": 3.136,
-    "score": 0.068,
-    "d_avg_pess": 0.0,
-    "impact": -0.0227,
-    "z": 0.82,
-    "p": 0.41234,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_GuinsoosRageblade"
-    ],
-    "label": "Guinsoos Rageblade",
-    "n": 101,
-    "share": 0.068289384719405,
-    "avg_place": 3.178,
-    "sd": 1.72,
-    "win": 0.2079,
-    "top2": 0.3762,
-    "top4": 0.802,
-    "top4_ci": [
-     0.7138,
-     0.868
-    ],
-    "d_avg": 0.109,
-    "d_avg_ci": [
-     -0.237,
-     0.456
-    ],
-    "d_top4": -0.0053,
-    "d_win": 0.0098,
-    "shrunk_avg": 3.153,
-    "score": 0.084,
-    "d_avg_pess": 0.0,
-    "impact": -0.0058,
-    "z": 0.62,
-    "p": 0.5367,
+    "impact": 0.0105,
+    "z": -0.53,
+    "p": 0.59438,
     "significant": false
    },
    {
@@ -455,128 +203,188 @@
      "DA_TitansResolve"
     ],
     "label": "Titans Resolve",
-    "n": 367,
-    "share": 0.24814063556457067,
-    "avg_place": 3.188,
-    "sd": 1.725,
-    "win": 0.1935,
-    "top2": 0.406,
-    "top4": 0.7766,
+    "n": 179,
+    "share": 0.26440177252584934,
+    "avg_place": 2.804,
+    "sd": 1.61,
+    "win": 0.2626,
+    "top2": 0.4804,
+    "top4": 0.8547,
     "top4_ci": [
-     0.7312,
-     0.8162
+     0.7957,
+     0.8989
     ],
-    "d_avg": 0.119,
+    "d_avg": 0.118,
     "d_avg_ci": [
-     -0.078,
-     0.316
+     -0.147,
+     0.382
     ],
-    "d_top4": -0.0307,
-    "d_win": -0.0046,
-    "shrunk_avg": 3.179,
-    "score": 0.11,
+    "d_top4": -0.0138,
+    "d_win": -0.0033,
+    "shrunk_avg": 2.788,
+    "score": 0.101,
     "d_avg_pess": 0.0,
-    "impact": -0.0273,
-    "z": 1.19,
-    "p": 0.23595,
+    "impact": -0.0266,
+    "z": 0.87,
+    "p": 0.38392,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_GuinsoosRageblade"
+    ],
+    "label": "Guinsoos Rageblade",
+    "n": 59,
+    "share": 0.08714918759231906,
+    "avg_place": 2.847,
+    "sd": 1.635,
+    "win": 0.2542,
+    "top2": 0.4746,
+    "top4": 0.8305,
+    "top4_ci": [
+     0.7154,
+     0.9052
+    ],
+    "d_avg": 0.161,
+    "d_avg_ci": [
+     -0.273,
+     0.595
+    ],
+    "d_top4": -0.038,
+    "d_win": -0.0116,
+    "shrunk_avg": 2.793,
+    "score": 0.106,
+    "d_avg_pess": 0.0,
+    "impact": -0.0093,
+    "z": 0.73,
+    "p": 0.46832,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Deathblade"
+    ],
+    "label": "Deathblade",
+    "n": 62,
+    "share": 0.0915805022156573,
+    "avg_place": 2.855,
+    "sd": 1.795,
+    "win": 0.2419,
+    "top2": 0.5645,
+    "top4": 0.8226,
+    "top4_ci": [
+     0.7096,
+     0.8979
+    ],
+    "d_avg": 0.168,
+    "d_avg_ci": [
+     -0.295,
+     0.631
+    ],
+    "d_top4": -0.046,
+    "d_win": -0.0239,
+    "shrunk_avg": 2.8,
+    "score": 0.113,
+    "d_avg_pess": 0.0,
+    "impact": -0.0104,
+    "z": 0.71,
+    "p": 0.47664,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_InfinityEdge"
+    ],
+    "label": "Infinity Edge",
+    "n": 106,
+    "share": 0.15657311669128507,
+    "avg_place": 2.849,
+    "sd": 1.731,
+    "win": 0.2736,
+    "top2": 0.4906,
+    "top4": 0.8585,
+    "top4_ci": [
+     0.7796,
+     0.9123
+    ],
+    "d_avg": 0.162,
+    "d_avg_ci": [
+     -0.189,
+     0.513
+    ],
+    "d_top4": -0.01,
+    "d_win": 0.0077,
+    "shrunk_avg": 2.813,
+    "score": 0.126,
+    "d_avg_pess": 0.0,
+    "impact": -0.0198,
+    "z": 0.91,
+    "p": 0.36474,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Bloodthirster"
+    ],
+    "label": "Bloodthirster",
+    "n": 231,
+    "share": 0.3412112259970458,
+    "avg_place": 2.831,
+    "sd": 1.601,
+    "win": 0.2338,
+    "top2": 0.4978,
+    "top4": 0.8528,
+    "top4_ci": [
+     0.8014,
+     0.8927
+    ],
+    "d_avg": 0.144,
+    "d_avg_ci": [
+     -0.095,
+     0.383
+    ],
+    "d_top4": -0.0157,
+    "d_win": -0.0321,
+    "shrunk_avg": 2.815,
+    "score": 0.128,
+    "d_avg_pess": 0.0,
+    "impact": -0.0436,
+    "z": 1.18,
+    "p": 0.23651,
     "significant": false
    }
   ],
   "paires": [
    {
     "key": [
-     "DA_Quicksilver",
-     "DA_SteraksGage"
-    ],
-    "label": "Quicksilver + Steraks Gage",
-    "n": 129,
-    "share": 0.0872210953346856,
-    "avg_place": 2.558,
-    "sd": 1.435,
-    "win": 0.2558,
-    "top2": 0.5659,
-    "top4": 0.907,
-    "top4_ci": [
-     0.8444,
-     0.946
-    ],
-    "d_avg": -0.511,
-    "d_avg_ci": [
-     -0.773,
-     -0.248
-    ],
-    "d_top4": 0.0997,
-    "d_win": 0.0577,
-    "shrunk_avg": 2.655,
-    "score": -0.414,
-    "d_avg_pess": -0.248,
-    "impact": 0.0361,
-    "z": -3.81,
-    "p": 0.00014,
-    "significant": true
-   },
-   {
-    "key": [
      "DA_EdgeOfNight",
      "DA_GiantSlayer"
     ],
     "label": "Edge Of Night + Giant Slayer",
-    "n": 135,
-    "share": 0.09127789046653144,
-    "avg_place": 2.822,
-    "sd": 1.641,
-    "win": 0.237,
-    "top2": 0.5407,
-    "top4": 0.8444,
+    "n": 41,
+    "share": 0.060561299852289516,
+    "avg_place": 2.195,
+    "sd": 1.418,
+    "win": 0.3659,
+    "top2": 0.7317,
+    "top4": 0.9512,
     "top4_ci": [
-     0.7739,
-     0.8959
+     0.8386,
+     0.9865
     ],
-    "d_avg": -0.247,
+    "d_avg": -0.492,
     "d_avg_ci": [
-     -0.537,
-     0.044
+     -0.942,
+     -0.041
     ],
-    "d_top4": 0.0371,
-    "d_win": 0.0389,
-    "shrunk_avg": 2.867,
-    "score": -0.202,
-    "d_avg_pess": 0.0,
-    "impact": 0.0184,
-    "z": -1.67,
-    "p": 0.09575,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_SteraksGage",
-     "DA_TitansResolve"
-    ],
-    "label": "Steraks Gage + Titans Resolve",
-    "n": 129,
-    "share": 0.0872210953346856,
-    "avg_place": 2.845,
-    "sd": 1.512,
-    "win": 0.2326,
-    "top2": 0.4729,
-    "top4": 0.8527,
-    "top4_ci": [
-     0.7814,
-     0.9036
-    ],
-    "d_avg": -0.224,
-    "d_avg_ci": [
-     -0.499,
-     0.051
-    ],
-    "d_top4": 0.0454,
-    "d_win": 0.0345,
-    "shrunk_avg": 2.887,
-    "score": -0.182,
-    "d_avg_pess": 0.0,
-    "impact": 0.0159,
-    "z": -1.6,
-    "p": 0.11052,
+    "d_top4": 0.0827,
+    "d_win": 0.1,
+    "shrunk_avg": 2.403,
+    "score": -0.284,
+    "d_avg_pess": -0.041,
+    "impact": 0.0172,
+    "z": -2.14,
+    "p": 0.03236,
     "significant": false
    },
    {
@@ -585,94 +393,62 @@
      "DA_SteraksGage"
     ],
     "label": "Edge Of Night + Steraks Gage",
-    "n": 162,
-    "share": 0.10953346855983773,
-    "avg_place": 2.87,
-    "sd": 1.693,
-    "win": 0.2222,
-    "top2": 0.5,
-    "top4": 0.8333,
+    "n": 83,
+    "share": 0.12259970457902511,
+    "avg_place": 2.422,
+    "sd": 1.398,
+    "win": 0.3133,
+    "top2": 0.5783,
+    "top4": 0.9036,
     "top4_ci": [
-     0.7684,
-     0.8829
+     0.8212,
+     0.9503
     ],
-    "d_avg": -0.199,
+    "d_avg": -0.265,
     "d_avg_ci": [
-     -0.474,
-     0.076
+     -0.589,
+     0.059
     ],
-    "d_top4": 0.026,
-    "d_win": 0.0241,
-    "shrunk_avg": 2.901,
-    "score": -0.168,
+    "d_top4": 0.0351,
+    "d_win": 0.0474,
+    "shrunk_avg": 2.492,
+    "score": -0.195,
     "d_avg_pess": 0.0,
-    "impact": 0.0184,
-    "z": -1.42,
-    "p": 0.1568,
+    "impact": 0.0239,
+    "z": -1.6,
+    "p": 0.1086,
     "significant": false
    },
    {
     "key": [
-     "DA_EdgeOfNight",
-     "DA_InfinityEdge"
-    ],
-    "label": "Edge Of Night + Infinity Edge",
-    "n": 49,
-    "share": 0.03313049357674104,
-    "avg_place": 2.816,
-    "sd": 1.494,
-    "win": 0.1837,
-    "top2": 0.4898,
-    "top4": 0.898,
-    "top4_ci": [
-     0.7824,
-     0.9556
-    ],
-    "d_avg": -0.253,
-    "d_avg_ci": [
-     -0.68,
-     0.175
-    ],
-    "d_top4": 0.0907,
-    "d_win": -0.0144,
-    "shrunk_avg": 2.912,
-    "score": -0.157,
-    "d_avg_pess": 0.0,
-    "impact": 0.0052,
-    "z": -1.16,
-    "p": 0.2465,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster",
+     "DA_Quicksilver",
      "DA_SteraksGage"
     ],
-    "label": "Bloodthirster + Steraks Gage",
-    "n": 163,
-    "share": 0.11020960108181203,
-    "avg_place": 2.926,
-    "sd": 1.513,
-    "win": 0.184,
-    "top2": 0.4663,
-    "top4": 0.8282,
+    "label": "Quicksilver + Steraks Gage",
+    "n": 73,
+    "share": 0.10782865583456426,
+    "avg_place": 2.466,
+    "sd": 1.325,
+    "win": 0.274,
+    "top2": 0.5616,
+    "top4": 0.9178,
     "top4_ci": [
-     0.7629,
-     0.8784
+     0.8321,
+     0.9618
     ],
-    "d_avg": -0.143,
+    "d_avg": -0.221,
     "d_avg_ci": [
-     -0.391,
+     -0.548,
      0.106
     ],
-    "d_top4": 0.0209,
-    "d_win": -0.0141,
-    "shrunk_avg": 2.949,
-    "score": -0.12,
+    "d_top4": 0.0493,
+    "d_win": 0.0081,
+    "shrunk_avg": 2.53,
+    "score": -0.157,
     "d_avg_pess": 0.0,
-    "impact": 0.0133,
-    "z": -1.13,
-    "p": 0.26002,
+    "impact": 0.0169,
+    "z": -1.33,
+    "p": 0.1849,
     "significant": false
    },
    {
@@ -681,382 +457,94 @@
      "DA_Quicksilver"
     ],
     "label": "Edge Of Night + Quicksilver",
-    "n": 223,
-    "share": 0.15077755240027046,
-    "avg_place": 2.937,
-    "sd": 1.732,
-    "win": 0.2063,
-    "top2": 0.4978,
-    "top4": 0.8341,
+    "n": 106,
+    "share": 0.15657311669128507,
+    "avg_place": 2.5,
+    "sd": 1.549,
+    "win": 0.2925,
+    "top2": 0.6226,
+    "top4": 0.8868,
     "top4_ci": [
-     0.7797,
-     0.8772
+     0.8125,
+     0.934
     ],
-    "d_avg": -0.132,
+    "d_avg": -0.187,
     "d_avg_ci": [
-     -0.375,
-     0.112
+     -0.505,
+     0.132
     ],
-    "d_top4": 0.0268,
-    "d_win": 0.0082,
-    "shrunk_avg": 2.953,
-    "score": -0.116,
+    "d_top4": 0.0183,
+    "d_win": 0.0266,
+    "shrunk_avg": 2.541,
+    "score": -0.146,
     "d_avg_pess": 0.0,
-    "impact": 0.0175,
-    "z": -1.06,
-    "p": 0.28898,
+    "impact": 0.0228,
+    "z": -1.15,
+    "p": 0.25024,
     "significant": false
    },
    {
     "key": [
-     "DA_EdgeOfNight",
-     "DA_HandOfJustice"
-    ],
-    "label": "Edge Of Night + Hand Of Justice",
-    "n": 69,
-    "share": 0.04665314401622718,
-    "avg_place": 2.913,
-    "sd": 1.734,
-    "win": 0.2319,
-    "top2": 0.5217,
-    "top4": 0.8261,
-    "top4_ci": [
-     0.7202,
-     0.8976
-    ],
-    "d_avg": -0.156,
-    "d_avg_ci": [
-     -0.574,
-     0.262
-    ],
-    "d_top4": 0.0188,
-    "d_win": 0.0338,
-    "shrunk_avg": 2.96,
-    "score": -0.109,
-    "d_avg_pess": 0.0,
-    "impact": 0.0051,
-    "z": -0.73,
-    "p": 0.46509,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Deathblade",
-     "DA_EdgeOfNight"
-    ],
-    "label": "Deathblade + Edge Of Night",
-    "n": 49,
-    "share": 0.03313049357674104,
-    "avg_place": 2.898,
-    "sd": 1.843,
-    "win": 0.2449,
-    "top2": 0.5714,
-    "top4": 0.8163,
-    "top4_ci": [
-     0.6864,
-     0.9002
-    ],
-    "d_avg": -0.171,
-    "d_avg_ci": [
-     -0.694,
-     0.352
-    ],
-    "d_top4": 0.009,
-    "d_win": 0.0468,
-    "shrunk_avg": 2.963,
-    "score": -0.106,
-    "d_avg_pess": 0.0,
-    "impact": 0.0035,
-    "z": -0.64,
-    "p": 0.52197,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Deathblade",
+     "DA_Bloodthirster",
      "DA_SteraksGage"
     ],
-    "label": "Deathblade + Steraks Gage",
-    "n": 42,
-    "share": 0.028397565922920892,
-    "avg_place": 2.976,
-    "sd": 1.883,
-    "win": 0.2619,
-    "top2": 0.5238,
-    "top4": 0.7857,
+    "label": "Bloodthirster + Steraks Gage",
+    "n": 75,
+    "share": 0.11078286558345643,
+    "avg_place": 2.667,
+    "sd": 1.436,
+    "win": 0.2667,
+    "top2": 0.5067,
+    "top4": 0.88,
     "top4_ci": [
-     0.6406,
-     0.8829
+     0.7874,
+     0.9356
     ],
-    "d_avg": -0.093,
+    "d_avg": -0.02,
     "d_avg_ci": [
-     -0.669,
-     0.483
+     -0.367,
+     0.326
     ],
-    "d_top4": -0.0216,
-    "d_win": 0.0638,
-    "shrunk_avg": 3.015,
-    "score": -0.054,
+    "d_top4": 0.0115,
+    "d_win": 0.0008,
+    "shrunk_avg": 2.672,
+    "score": -0.014,
     "d_avg_pess": 0.0,
-    "impact": 0.0015,
-    "z": -0.32,
-    "p": 0.75233,
+    "impact": 0.0016,
+    "z": -0.11,
+    "p": 0.90909,
     "significant": false
    },
    {
     "key": [
-     "DA_GiantSlayer",
-     "DA_SteraksGage"
-    ],
-    "label": "Giant Slayer + Steraks Gage",
-    "n": 45,
-    "share": 0.030425963488843813,
-    "avg_place": 3.0,
-    "sd": 1.764,
-    "win": 0.2222,
-    "top2": 0.5111,
-    "top4": 0.8222,
-    "top4_ci": [
-     0.6867,
-     0.9071
-    ],
-    "d_avg": -0.069,
-    "d_avg_ci": [
-     -0.592,
-     0.454
-    ],
-    "d_top4": 0.0149,
-    "d_win": 0.0241,
-    "shrunk_avg": 3.028,
-    "score": -0.041,
-    "d_avg_pess": 0.0,
-    "impact": 0.0013,
-    "z": -0.26,
-    "p": 0.79594,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_GiantSlayer",
-     "DA_Quicksilver"
-    ],
-    "label": "Giant Slayer + Quicksilver",
-    "n": 125,
-    "share": 0.08451656524678837,
-    "avg_place": 3.08,
-    "sd": 1.709,
-    "win": 0.2,
-    "top2": 0.448,
-    "top4": 0.8,
-    "top4_ci": [
-     0.7214,
-     0.8607
-    ],
-    "d_avg": 0.011,
-    "d_avg_ci": [
-     -0.301,
-     0.323
-    ],
-    "d_top4": -0.0073,
-    "d_win": 0.0019,
-    "shrunk_avg": 3.078,
-    "score": 0.009,
-    "d_avg_pess": 0.0,
-    "impact": -0.0008,
-    "z": 0.07,
-    "p": 0.94475,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster",
-     "DA_Quicksilver"
-    ],
-    "label": "Bloodthirster + Quicksilver",
-    "n": 65,
-    "share": 0.04394861392832995,
-    "avg_place": 3.092,
-    "sd": 1.615,
-    "win": 0.1231,
-    "top2": 0.4923,
-    "top4": 0.7846,
-    "top4_ci": [
-     0.6703,
-     0.8671
-    ],
-    "d_avg": 0.023,
-    "d_avg_ci": [
-     -0.379,
-     0.425
-    ],
-    "d_top4": -0.0227,
-    "d_win": -0.075,
-    "shrunk_avg": 3.085,
-    "score": 0.016,
-    "d_avg_pess": 0.0,
-    "impact": -0.0007,
-    "z": 0.11,
-    "p": 0.90941,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster",
-     "DA_EdgeOfNight"
-    ],
-    "label": "Bloodthirster + Edge Of Night",
-    "n": 110,
-    "share": 0.07437457741717377,
-    "avg_place": 3.109,
-    "sd": 1.755,
-    "win": 0.1818,
-    "top2": 0.4455,
-    "top4": 0.7909,
-    "top4_ci": [
-     0.7057,
-     0.8564
-    ],
-    "d_avg": 0.04,
-    "d_avg_ci": [
-     -0.299,
-     0.379
-    ],
-    "d_top4": -0.0164,
-    "d_win": -0.0163,
-    "shrunk_avg": 3.1,
-    "score": 0.032,
-    "d_avg_pess": 0.0,
-    "impact": -0.0023,
-    "z": 0.23,
-    "p": 0.81672,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster",
-     "DA_GiantSlayer"
-    ],
-    "label": "Bloodthirster + Giant Slayer",
-    "n": 45,
-    "share": 0.030425963488843813,
-    "avg_place": 3.133,
-    "sd": 1.558,
-    "win": 0.1556,
-    "top2": 0.4,
-    "top4": 0.8,
-    "top4_ci": [
-     0.6618,
-     0.891
-    ],
-    "d_avg": 0.064,
-    "d_avg_ci": [
-     -0.399,
-     0.528
-    ],
-    "d_top4": -0.0073,
-    "d_win": -0.0426,
-    "shrunk_avg": 3.108,
-    "score": 0.039,
-    "d_avg_pess": 0.0,
-    "impact": -0.0012,
-    "z": 0.27,
-    "p": 0.78545,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster",
-     "DA_InfinityEdge"
-    ],
-    "label": "Bloodthirster + Infinity Edge",
-    "n": 52,
-    "share": 0.03515889114266396,
-    "avg_place": 3.212,
-    "sd": 1.843,
-    "win": 0.1923,
-    "top2": 0.4423,
-    "top4": 0.7692,
-    "top4_ci": [
-     0.6387,
-     0.8628
-    ],
-    "d_avg": 0.143,
-    "d_avg_ci": [
-     -0.366,
-     0.651
-    ],
-    "d_top4": -0.0381,
-    "d_win": -0.0058,
-    "shrunk_avg": 3.159,
-    "score": 0.09,
-    "d_avg_pess": 0.0,
-    "impact": -0.0032,
-    "z": 0.55,
-    "p": 0.58266,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_HandOfJustice",
-     "DA_SteraksGage"
-    ],
-    "label": "Hand Of Justice + Steraks Gage",
-    "n": 51,
-    "share": 0.034482758620689655,
-    "avg_place": 3.216,
-    "sd": 1.764,
-    "win": 0.1569,
-    "top2": 0.4706,
-    "top4": 0.7647,
-    "top4_ci": [
-     0.6324,
-     0.86
-    ],
-    "d_avg": 0.147,
-    "d_avg_ci": [
-     -0.345,
-     0.639
-    ],
-    "d_top4": -0.0426,
-    "d_win": -0.0412,
-    "shrunk_avg": 3.161,
-    "score": 0.092,
-    "d_avg_pess": 0.0,
-    "impact": -0.0032,
-    "z": 0.58,
-    "p": 0.55875,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_HandOfJustice",
+     "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "label": "Hand Of Justice + Titans Resolve",
-    "n": 61,
-    "share": 0.041244083840432724,
-    "avg_place": 3.23,
-    "sd": 1.74,
-    "win": 0.1803,
-    "top2": 0.3934,
-    "top4": 0.7541,
+    "label": "Steraks Gage + Titans Resolve",
+    "n": 63,
+    "share": 0.0930576070901034,
+    "avg_place": 2.698,
+    "sd": 1.454,
+    "win": 0.2857,
+    "top2": 0.4603,
+    "top4": 0.8889,
     "top4_ci": [
-     0.6332,
-     0.8449
+     0.788,
+     0.9451
     ],
-    "d_avg": 0.161,
+    "d_avg": 0.012,
     "d_avg_ci": [
-     -0.285,
-     0.606
+     -0.367,
+     0.39
     ],
-    "d_top4": -0.0532,
-    "d_win": -0.0178,
-    "shrunk_avg": 3.177,
-    "score": 0.108,
+    "d_top4": 0.0204,
+    "d_win": 0.0198,
+    "shrunk_avg": 2.695,
+    "score": 0.008,
     "d_avg_pess": 0.0,
-    "impact": -0.0044,
-    "z": 0.71,
-    "p": 0.4799,
+    "impact": -0.0007,
+    "z": 0.06,
+    "p": 0.9523,
     "significant": false
    },
    {
@@ -1065,62 +553,62 @@
      "DA_HandOfJustice"
     ],
     "label": "Bloodthirster + Hand Of Justice",
-    "n": 82,
-    "share": 0.05544286680189317,
-    "avg_place": 3.22,
-    "sd": 1.788,
-    "win": 0.1707,
-    "top2": 0.439,
-    "top4": 0.7805,
+    "n": 40,
+    "share": 0.059084194977843424,
+    "avg_place": 2.9,
+    "sd": 1.625,
+    "win": 0.15,
+    "top2": 0.55,
+    "top4": 0.85,
     "top4_ci": [
-     0.6795,
-     0.8564
+     0.7093,
+     0.9294
     ],
-    "d_avg": 0.151,
+    "d_avg": 0.213,
     "d_avg_ci": [
-     -0.246,
-     0.547
+     -0.305,
+     0.731
     ],
-    "d_top4": -0.0268,
-    "d_win": -0.0274,
-    "shrunk_avg": 3.179,
-    "score": 0.11,
+    "d_top4": -0.0185,
+    "d_win": -0.1159,
+    "shrunk_avg": 2.809,
+    "score": 0.122,
     "d_avg_pess": 0.0,
-    "impact": -0.0061,
-    "z": 0.74,
-    "p": 0.45693,
+    "impact": -0.0072,
+    "z": 0.81,
+    "p": 0.41967,
     "significant": false
    },
    {
     "key": [
-     "DA_EdgeOfNight",
-     "DA_TitansResolve"
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight"
     ],
-    "label": "Edge Of Night + Titans Resolve",
-    "n": 78,
-    "share": 0.05273833671399594,
-    "avg_place": 3.269,
-    "sd": 1.886,
-    "win": 0.2179,
-    "top2": 0.4103,
-    "top4": 0.7692,
+    "label": "Bloodthirster + Edge Of Night",
+    "n": 48,
+    "share": 0.07090103397341212,
+    "avg_place": 2.938,
+    "sd": 1.83,
+    "win": 0.25,
+    "top2": 0.4792,
+    "top4": 0.8333,
     "top4_ci": [
-     0.6644,
-     0.8487
+     0.7042,
+     0.913
     ],
-    "d_avg": 0.2,
+    "d_avg": 0.251,
     "d_avg_ci": [
-     -0.227,
-     0.628
+     -0.281,
+     0.782
     ],
-    "d_top4": -0.0381,
-    "d_win": 0.0198,
-    "shrunk_avg": 3.214,
-    "score": 0.145,
+    "d_top4": -0.0352,
+    "d_win": -0.0159,
+    "shrunk_avg": 2.841,
+    "score": 0.154,
     "d_avg_pess": 0.0,
-    "impact": -0.0076,
+    "impact": -0.0109,
     "z": 0.92,
-    "p": 0.3585,
+    "p": 0.3554,
     "significant": false
    },
    {
@@ -1129,30 +617,30 @@
      "DA_TitansResolve"
     ],
     "label": "Bloodthirster + Titans Resolve",
-    "n": 184,
-    "share": 0.12440838404327248,
-    "avg_place": 3.38,
-    "sd": 1.731,
-    "win": 0.1576,
-    "top2": 0.3587,
-    "top4": 0.7446,
+    "n": 86,
+    "share": 0.12703101920236337,
+    "avg_place": 3.0,
+    "sd": 1.664,
+    "win": 0.2326,
+    "top2": 0.4186,
+    "top4": 0.8372,
     "top4_ci": [
-     0.677,
-     0.8021
+     0.7451,
+     0.9005
     ],
-    "d_avg": 0.311,
+    "d_avg": 0.313,
     "d_avg_ci": [
-     0.047,
-     0.576
+     -0.058,
+     0.685
     ],
-    "d_top4": -0.0627,
-    "d_win": -0.0405,
-    "shrunk_avg": 3.337,
-    "score": 0.268,
-    "d_avg_pess": 0.047,
-    "impact": -0.0333,
-    "z": 2.3,
-    "p": 0.02119,
+    "d_top4": -0.0313,
+    "d_win": -0.0333,
+    "shrunk_avg": 2.919,
+    "score": 0.232,
+    "d_avg_pess": 0.0,
+    "impact": -0.0295,
+    "z": 1.65,
+    "p": 0.09858,
     "significant": false
    }
   ],
@@ -1160,95 +648,33 @@
   "items_craftable": [
    {
     "key": [
-     "DA_LastWhisper-1"
+     "DA_HandOfJustice-1"
     ],
-    "label": "Last Whisper",
-    "n": 70,
-    "share": 0.04732927653820149,
-    "avg_place": 2.771,
-    "sd": 1.532,
-    "win": 0.1857,
-    "top2": 0.5571,
-    "top4": 0.8571,
+    "label": "Hand Of Justice",
+    "n": 132,
+    "share": 0.19497784342688332,
+    "avg_place": 2.47,
+    "sd": 1.593,
+    "win": 0.303,
+    "top2": 0.6515,
+    "top4": 0.8939,
     "top4_ci": [
-     0.7566,
-     0.9205
+     0.8298,
+     0.9358
     ],
-    "d_avg": -0.298,
+    "d_avg": -0.217,
     "d_avg_ci": [
-     -0.667,
-     0.072
+     -0.514,
+     0.08
     ],
-    "d_top4": 0.0498,
-    "d_win": -0.0124,
-    "shrunk_avg": 2.861,
-    "score": -0.208,
+    "d_top4": 0.0254,
+    "d_win": 0.0372,
+    "shrunk_avg": 2.51,
+    "score": -0.177,
     "d_avg_pess": 0.0,
-    "impact": 0.0099,
-    "z": -1.58,
-    "p": 0.11441,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_SteraksGage-1"
-    ],
-    "label": "Steraks Gage",
-    "n": 515,
-    "share": 0.3482082488167681,
-    "avg_place": 2.889,
-    "sd": 1.603,
-    "win": 0.2117,
-    "top2": 0.4893,
-    "top4": 0.8388,
-    "top4_ci": [
-     0.8046,
-     0.8681
-    ],
-    "d_avg": -0.18,
-    "d_avg_ci": [
-     -0.343,
-     -0.016
-    ],
-    "d_top4": 0.0315,
-    "d_win": 0.0135,
-    "shrunk_avg": 2.899,
-    "score": -0.17,
-    "d_avg_pess": -0.016,
-    "impact": 0.0591,
-    "z": -2.15,
-    "p": 0.0314,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_StrikersFlail-1"
-    ],
-    "label": "Strikers Flail",
-    "n": 71,
-    "share": 0.048005409060175794,
-    "avg_place": 2.831,
-    "sd": 1.61,
-    "win": 0.2254,
-    "top2": 0.507,
-    "top4": 0.8451,
-    "top4_ci": [
-     0.7435,
-     0.9112
-    ],
-    "d_avg": -0.238,
-    "d_avg_ci": [
-     -0.622,
-     0.146
-    ],
-    "d_top4": 0.0378,
-    "d_win": 0.0272,
-    "shrunk_avg": 2.902,
-    "score": -0.167,
-    "d_avg_pess": 0.0,
-    "impact": 0.008,
-    "z": -1.21,
-    "p": 0.22505,
+    "impact": 0.0345,
+    "z": -1.43,
+    "p": 0.152,
     "significant": false
    },
    {
@@ -1256,30 +682,61 @@
      "DA_Quicksilver-1"
     ],
     "label": "Quicksilver",
-    "n": 429,
-    "share": 0.29006085192697767,
-    "avg_place": 2.935,
-    "sd": 1.702,
-    "win": 0.2098,
-    "top2": 0.5012,
-    "top4": 0.8275,
+    "n": 187,
+    "share": 0.276218611521418,
+    "avg_place": 2.529,
+    "sd": 1.456,
+    "win": 0.262,
+    "top2": 0.5989,
+    "top4": 0.8984,
     "top4_ci": [
-     0.7889,
-     0.8603
+     0.8468,
+     0.934
     ],
-    "d_avg": -0.134,
+    "d_avg": -0.157,
     "d_avg_ci": [
-     -0.317,
-     0.049
+     -0.398,
+     0.083
     ],
-    "d_top4": 0.0202,
-    "d_win": 0.0117,
-    "shrunk_avg": 2.944,
-    "score": -0.125,
+    "d_top4": 0.0299,
+    "d_win": -0.0038,
+    "shrunk_avg": 2.551,
+    "score": -0.136,
     "d_avg_pess": 0.0,
-    "impact": 0.0364,
-    "z": -1.44,
-    "p": 0.15084,
+    "impact": 0.0375,
+    "z": -1.28,
+    "p": 0.20013,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_SteraksGage-1"
+    ],
+    "label": "Steraks Gage",
+    "n": 249,
+    "share": 0.36779911373707536,
+    "avg_place": 2.554,
+    "sd": 1.425,
+    "win": 0.2771,
+    "top2": 0.5542,
+    "top4": 0.8996,
+    "top4_ci": [
+     0.856,
+     0.9311
+    ],
+    "d_avg": -0.133,
+    "d_avg_ci": [
+     -0.347,
+     0.081
+    ],
+    "d_top4": 0.0311,
+    "d_win": 0.0112,
+    "shrunk_avg": 2.568,
+    "score": -0.118,
+    "d_avg_pess": 0.0,
+    "impact": 0.0435,
+    "z": -1.22,
+    "p": 0.2243,
     "significant": false
    },
    {
@@ -1287,30 +744,30 @@
      "DA_EdgeOfNight-1"
     ],
     "label": "Edge Of Night",
-    "n": 535,
-    "share": 0.36173089925625423,
-    "avg_place": 2.972,
-    "sd": 1.726,
-    "win": 0.2168,
-    "top2": 0.4804,
-    "top4": 0.8243,
+    "n": 242,
+    "share": 0.35745937961595275,
+    "avg_place": 2.579,
+    "sd": 1.675,
+    "win": 0.3182,
+    "top2": 0.595,
+    "top4": 0.8678,
     "top4_ci": [
-     0.7898,
-     0.8542
+     0.8193,
+     0.9048
     ],
-    "d_avg": -0.097,
+    "d_avg": -0.108,
     "d_avg_ci": [
-     -0.267,
-     0.073
+     -0.351,
+     0.135
     ],
-    "d_top4": 0.017,
-    "d_win": 0.0187,
-    "shrunk_avg": 2.977,
-    "score": -0.092,
+    "d_top4": -0.0008,
+    "d_win": 0.0523,
+    "shrunk_avg": 2.59,
+    "score": -0.096,
     "d_avg_pess": 0.0,
-    "impact": 0.0332,
-    "z": -1.12,
-    "p": 0.26435,
+    "impact": 0.0345,
+    "z": -0.87,
+    "p": 0.38194,
     "significant": false
    },
    {
@@ -1318,185 +775,30 @@
      "DA_GiantSlayer-1"
     ],
     "label": "Giant Slayer",
-    "n": 293,
-    "share": 0.19810682893847195,
-    "avg_place": 3.014,
-    "sd": 1.719,
-    "win": 0.2218,
-    "top2": 0.4744,
-    "top4": 0.7986,
+    "n": 97,
+    "share": 0.1432791728212703,
+    "avg_place": 2.598,
+    "sd": 1.666,
+    "win": 0.3093,
+    "top2": 0.5979,
+    "top4": 0.866,
     "top4_ci": [
-     0.749,
-     0.8406
+     0.7841,
+     0.92
     ],
-    "d_avg": -0.055,
+    "d_avg": -0.089,
     "d_avg_ci": [
-     -0.271,
-     0.16
+     -0.442,
+     0.264
     ],
-    "d_top4": -0.0087,
-    "d_win": 0.0237,
-    "shrunk_avg": 3.019,
-    "score": -0.05,
+    "d_top4": -0.0026,
+    "d_win": 0.0434,
+    "shrunk_avg": 2.619,
+    "score": -0.068,
     "d_avg_pess": 0.0,
-    "impact": 0.0099,
-    "z": -0.5,
-    "p": 0.61461,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_HandOfJustice-1"
-    ],
-    "label": "Hand Of Justice",
-    "n": 274,
-    "share": 0.1852603110209601,
-    "avg_place": 3.044,
-    "sd": 1.798,
-    "win": 0.219,
-    "top2": 0.4891,
-    "top4": 0.8029,
-    "top4_ci": [
-     0.7518,
-     0.8457
-    ],
-    "d_avg": -0.025,
-    "d_avg_ci": [
-     -0.255,
-     0.205
-    ],
-    "d_top4": -0.0044,
-    "d_win": 0.0209,
-    "shrunk_avg": 3.046,
-    "score": -0.023,
-    "d_avg_pess": 0.0,
-    "impact": 0.0042,
-    "z": -0.21,
-    "p": 0.8302,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Deathblade-1"
-    ],
-    "label": "Deathblade",
-    "n": 141,
-    "share": 0.09533468559837728,
-    "avg_place": 3.064,
-    "sd": 1.865,
-    "win": 0.2411,
-    "top2": 0.4823,
-    "top4": 0.8014,
-    "top4_ci": [
-     0.728,
-     0.8589
-    ],
-    "d_avg": -0.005,
-    "d_avg_ci": [
-     -0.325,
-     0.315
-    ],
-    "d_top4": -0.0059,
-    "d_win": 0.043,
-    "shrunk_avg": 3.065,
-    "score": -0.004,
-    "d_avg_pess": 0.0,
-    "impact": 0.0004,
-    "z": -0.03,
-    "p": 0.9749,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_InfinityEdge-1"
-    ],
-    "label": "Infinity Edge",
-    "n": 218,
-    "share": 0.14739688979039892,
-    "avg_place": 3.119,
-    "sd": 1.749,
-    "win": 0.1972,
-    "top2": 0.4266,
-    "top4": 0.8119,
-    "top4_ci": [
-     0.7548,
-     0.8582
-    ],
-    "d_avg": 0.05,
-    "d_avg_ci": [
-     -0.198,
-     0.298
-    ],
-    "d_top4": 0.0046,
-    "d_win": -0.0009,
-    "shrunk_avg": 3.113,
-    "score": 0.044,
-    "d_avg_pess": 0.0,
-    "impact": -0.0065,
-    "z": 0.4,
-    "p": 0.69101,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Bloodthirster-1"
-    ],
-    "label": "Bloodthirster",
-    "n": 498,
-    "share": 0.3367139959432049,
-    "avg_place": 3.141,
-    "sd": 1.677,
-    "win": 0.1747,
-    "top2": 0.4277,
-    "top4": 0.7932,
-    "top4_ci": [
-     0.7554,
-     0.8264
-    ],
-    "d_avg": 0.072,
-    "d_avg_ci": [
-     -0.1,
-     0.243
-    ],
-    "d_top4": -0.0141,
-    "d_win": -0.0234,
-    "shrunk_avg": 3.136,
-    "score": 0.068,
-    "d_avg_pess": 0.0,
-    "impact": -0.0227,
-    "z": 0.82,
-    "p": 0.41234,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_GuinsoosRageblade-1"
-    ],
-    "label": "Guinsoos Rageblade",
-    "n": 122,
-    "share": 0.08248816768086545,
-    "avg_place": 3.156,
-    "sd": 1.732,
-    "win": 0.2213,
-    "top2": 0.3852,
-    "top4": 0.7951,
-    "top4_ci": [
-     0.715,
-     0.8572
-    ],
-    "d_avg": 0.087,
-    "d_avg_ci": [
-     -0.233,
-     0.406
-    ],
-    "d_top4": -0.0122,
-    "d_win": 0.0232,
-    "shrunk_avg": 3.139,
-    "score": 0.07,
-    "d_avg_pess": 0.0,
-    "impact": -0.0057,
-    "z": 0.53,
-    "p": 0.59453,
+    "impact": 0.0097,
+    "z": -0.49,
+    "p": 0.62124,
     "significant": false
    },
    {
@@ -1504,30 +806,154 @@
      "DA_TitansResolve-1"
     ],
     "label": "Titans Resolve",
-    "n": 397,
-    "share": 0.26842461122379985,
-    "avg_place": 3.164,
-    "sd": 1.713,
-    "win": 0.194,
-    "top2": 0.4106,
-    "top4": 0.7834,
+    "n": 178,
+    "share": 0.26292466765140327,
+    "avg_place": 2.809,
+    "sd": 1.614,
+    "win": 0.264,
+    "top2": 0.4775,
+    "top4": 0.8539,
     "top4_ci": [
-     0.7402,
-     0.8211
+     0.7946,
+     0.8983
     ],
-    "d_avg": 0.095,
+    "d_avg": 0.122,
+    "d_avg_ci": [
+     -0.144,
+     0.388
+    ],
+    "d_top4": -0.0146,
+    "d_win": -0.0018,
+    "shrunk_avg": 2.791,
+    "score": 0.105,
+    "d_avg_pess": 0.0,
+    "impact": -0.0275,
+    "z": 0.9,
+    "p": 0.36778,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_GuinsoosRageblade-1"
+    ],
+    "label": "Guinsoos Rageblade",
+    "n": 59,
+    "share": 0.08714918759231906,
+    "avg_place": 2.847,
+    "sd": 1.635,
+    "win": 0.2542,
+    "top2": 0.4746,
+    "top4": 0.8305,
+    "top4_ci": [
+     0.7154,
+     0.9052
+    ],
+    "d_avg": 0.161,
+    "d_avg_ci": [
+     -0.273,
+     0.595
+    ],
+    "d_top4": -0.038,
+    "d_win": -0.0116,
+    "shrunk_avg": 2.793,
+    "score": 0.106,
+    "d_avg_pess": 0.0,
+    "impact": -0.0093,
+    "z": 0.73,
+    "p": 0.46832,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Deathblade-1"
+    ],
+    "label": "Deathblade",
+    "n": 61,
+    "share": 0.09010339734121123,
+    "avg_place": 2.869,
+    "sd": 1.806,
+    "win": 0.2459,
+    "top2": 0.5574,
+    "top4": 0.8197,
+    "top4_ci": [
+     0.7053,
+     0.8962
+    ],
+    "d_avg": 0.182,
+    "d_avg_ci": [
+     -0.287,
+     0.651
+    ],
+    "d_top4": -0.0489,
+    "d_win": -0.02,
+    "shrunk_avg": 2.809,
+    "score": 0.122,
+    "d_avg_pess": 0.0,
+    "impact": -0.011,
+    "z": 0.76,
+    "p": 0.44678,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_InfinityEdge-1"
+    ],
+    "label": "Infinity Edge",
+    "n": 106,
+    "share": 0.15657311669128507,
+    "avg_place": 2.849,
+    "sd": 1.731,
+    "win": 0.2736,
+    "top2": 0.4906,
+    "top4": 0.8585,
+    "top4_ci": [
+     0.7796,
+     0.9123
+    ],
+    "d_avg": 0.162,
+    "d_avg_ci": [
+     -0.189,
+     0.513
+    ],
+    "d_top4": -0.01,
+    "d_win": 0.0077,
+    "shrunk_avg": 2.813,
+    "score": 0.126,
+    "d_avg_pess": 0.0,
+    "impact": -0.0198,
+    "z": 0.91,
+    "p": 0.36474,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Bloodthirster-1"
+    ],
+    "label": "Bloodthirster",
+    "n": 231,
+    "share": 0.3412112259970458,
+    "avg_place": 2.831,
+    "sd": 1.601,
+    "win": 0.2338,
+    "top2": 0.4978,
+    "top4": 0.8528,
+    "top4_ci": [
+     0.8014,
+     0.8927
+    ],
+    "d_avg": 0.144,
     "d_avg_ci": [
      -0.095,
-     0.284
+     0.383
     ],
-    "d_top4": -0.0239,
-    "d_win": -0.0042,
-    "shrunk_avg": 3.157,
-    "score": 0.088,
+    "d_top4": -0.0157,
+    "d_win": -0.0321,
+    "shrunk_avg": 2.815,
+    "score": 0.128,
     "d_avg_pess": 0.0,
-    "impact": -0.0236,
-    "z": 0.98,
-    "p": 0.32758,
+    "impact": -0.0436,
+    "z": 1.18,
+    "p": 0.23651,
     "significant": false
    }
   ],
@@ -1539,125 +965,94 @@
      "DA_Brambleback18 2*"
     ],
     "label": "Brambleback18 2*",
-    "n": 1502,
-    "share": 1.015551048005409,
-    "avg_place": 3.055,
-    "sd": 1.704,
-    "win": 0.1977,
-    "top2": 0.4501,
-    "top4": 0.8109,
+    "n": 689,
+    "share": 1.017725258493353,
+    "avg_place": 2.673,
+    "sd": 1.587,
+    "win": 0.2656,
+    "top2": 0.553,
+    "top4": 0.8708,
     "top4_ci": [
-     0.7903,
-     0.8299
+     0.8437,
+     0.8938
     ],
-    "d_avg": -0.014,
+    "d_avg": -0.013,
     "d_avg_ci": [
-     -0.137,
-     0.108
+     -0.182,
+     0.155
     ],
-    "d_top4": 0.0036,
-    "d_win": -0.0004,
-    "shrunk_avg": 3.055,
-    "score": -0.014,
+    "d_top4": 0.0023,
+    "d_win": -0.0003,
+    "shrunk_avg": 2.674,
+    "score": -0.013,
     "d_avg_pess": 0.0,
-    "impact": 0.0143,
-    "z": -0.23,
-    "p": 0.81831,
+    "impact": 0.0131,
+    "z": -0.16,
+    "p": 0.87622,
     "significant": false
    }
   ],
   "unites_flex": [
    {
     "key": [
-     "DA_18_Alune"
+     "DA_18_GnarSmall"
     ],
-    "label": "Alune",
-    "n": 323,
-    "share": 0.21839080459770116,
-    "avg_place": 2.526,
-    "sd": 1.498,
-    "win": 0.2848,
-    "top2": 0.6006,
-    "top4": 0.8916,
+    "label": "Gnar Small",
+    "n": 72,
+    "share": 0.10635155096011817,
+    "avg_place": 2.014,
+    "sd": 1.359,
+    "win": 0.5139,
+    "top2": 0.7361,
+    "top4": 0.9444,
     "top4_ci": [
-     0.853,
-     0.921
+     0.8657,
+     0.9782
     ],
-    "d_avg": -0.543,
+    "d_avg": -0.673,
     "d_avg_ci": [
-     -0.728,
-     -0.357
+     -1.009,
+     -0.337
     ],
-    "d_top4": 0.0843,
-    "d_win": 0.0867,
-    "shrunk_avg": 2.572,
-    "score": -0.497,
-    "d_avg_pess": -0.357,
-    "impact": 0.1084,
-    "z": -5.74,
-    "p": 0.0,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_Lux18_Base"
-    ],
-    "label": "Lux Base",
-    "n": 96,
-    "share": 0.06490872210953347,
-    "avg_place": 2.417,
-    "sd": 1.572,
-    "win": 0.3125,
-    "top2": 0.6667,
-    "top4": 0.9062,
-    "top4_ci": [
-     0.8313,
-     0.9499
-    ],
-    "d_avg": -0.652,
-    "d_avg_ci": [
-     -0.979,
-     -0.326
-    ],
-    "d_top4": 0.0989,
-    "d_win": 0.1144,
-    "shrunk_avg": 2.572,
-    "score": -0.497,
-    "d_avg_pess": -0.326,
-    "impact": 0.0323,
+    "d_top4": 0.0759,
+    "d_win": 0.248,
+    "shrunk_avg": 2.212,
+    "score": -0.475,
+    "d_avg_pess": -0.337,
+    "impact": 0.0505,
     "z": -3.92,
     "p": 9e-05,
     "significant": true
    },
    {
     "key": [
-     "DA_Taric18"
+     "DA_18_Alune"
     ],
-    "label": "Taric",
-    "n": 637,
-    "share": 0.4306964164976335,
-    "avg_place": 2.581,
-    "sd": 1.56,
-    "win": 0.281,
-    "top2": 0.5981,
-    "top4": 0.8728,
+    "label": "Alune",
+    "n": 123,
+    "share": 0.18168389955686853,
+    "avg_place": 2.163,
+    "sd": 1.199,
+    "win": 0.3821,
+    "top2": 0.6585,
+    "top4": 0.9675,
     "top4_ci": [
-     0.8447,
-     0.8965
+     0.9194,
+     0.9873
     ],
-    "d_avg": -0.488,
+    "d_avg": -0.524,
     "d_avg_ci": [
-     -0.637,
-     -0.339
+     -0.768,
+     -0.281
     ],
-    "d_top4": 0.0655,
-    "d_win": 0.0829,
-    "shrunk_avg": 2.603,
-    "score": -0.466,
-    "d_avg_pess": -0.339,
-    "impact": 0.2008,
-    "z": -6.41,
-    "p": 0.0,
+    "d_top4": 0.0989,
+    "d_win": 0.1162,
+    "shrunk_avg": 2.265,
+    "score": -0.421,
+    "d_avg_pess": -0.281,
+    "impact": 0.0766,
+    "z": -4.22,
+    "p": 2e-05,
     "significant": true
    },
    {
@@ -1665,61 +1060,61 @@
      "DA_18_ElderDragon"
     ],
     "label": "Elder Dragon",
-    "n": 325,
-    "share": 0.21974306964164977,
-    "avg_place": 2.569,
-    "sd": 1.492,
-    "win": 0.2954,
-    "top2": 0.5569,
-    "top4": 0.9046,
+    "n": 175,
+    "share": 0.258493353028065,
+    "avg_place": 2.211,
+    "sd": 1.321,
+    "win": 0.3886,
+    "top2": 0.6571,
+    "top4": 0.9429,
     "top4_ci": [
-     0.8678,
-     0.932
+     0.898,
+     0.9687
     ],
-    "d_avg": -0.5,
+    "d_avg": -0.475,
     "d_avg_ci": [
-     -0.684,
-     -0.316
+     -0.705,
+     -0.246
     ],
-    "d_top4": 0.0973,
-    "d_win": 0.0973,
-    "shrunk_avg": 2.611,
-    "score": -0.458,
-    "d_avg_pess": -0.316,
-    "impact": 0.1005,
-    "z": -5.32,
-    "p": 0.0,
+    "d_top4": 0.0743,
+    "d_win": 0.1227,
+    "shrunk_avg": 2.281,
+    "score": -0.406,
+    "d_avg_pess": -0.246,
+    "impact": 0.1049,
+    "z": -4.06,
+    "p": 5e-05,
     "significant": true
    },
    {
     "key": [
-     "DA_18_GnarSmall"
+     "DA_Taric18"
     ],
-    "label": "Gnar Small",
-    "n": 127,
-    "share": 0.08586883029073698,
-    "avg_place": 2.504,
-    "sd": 1.743,
-    "win": 0.3701,
-    "top2": 0.6535,
-    "top4": 0.8661,
+    "label": "Taric",
+    "n": 284,
+    "share": 0.4194977843426883,
+    "avg_place": 2.254,
+    "sd": 1.376,
+    "win": 0.3697,
+    "top2": 0.6725,
+    "top4": 0.912,
     "top4_ci": [
-     0.7961,
-     0.9147
+     0.8733,
+     0.9397
     ],
-    "d_avg": -0.565,
+    "d_avg": -0.433,
     "d_avg_ci": [
-     -0.88,
-     -0.25
+     -0.633,
+     -0.233
     ],
-    "d_top4": 0.0588,
-    "d_win": 0.172,
-    "shrunk_avg": 2.612,
-    "score": -0.457,
-    "d_avg_pess": -0.25,
-    "impact": 0.0392,
-    "z": -3.51,
-    "p": 0.00045,
+    "d_top4": 0.0434,
+    "d_win": 0.1038,
+    "shrunk_avg": 2.295,
+    "score": -0.392,
+    "d_avg_pess": -0.233,
+    "impact": 0.1644,
+    "z": -4.24,
+    "p": 2e-05,
     "significant": true
    },
    {
@@ -1727,402 +1122,61 @@
      "DA_18_Ivern"
     ],
     "label": "Ivern",
-    "n": 164,
-    "share": 0.11088573360378634,
-    "avg_place": 2.555,
-    "sd": 1.402,
-    "win": 0.2439,
-    "top2": 0.5732,
-    "top4": 0.9024,
+    "n": 91,
+    "share": 0.1344165435745938,
+    "avg_place": 2.22,
+    "sd": 1.146,
+    "win": 0.2967,
+    "top2": 0.6703,
+    "top4": 0.956,
     "top4_ci": [
-     0.8474,
-     0.9391
+     0.8924,
+     0.9828
     ],
-    "d_avg": -0.514,
+    "d_avg": -0.467,
     "d_avg_ci": [
-     -0.746,
-     -0.282
+     -0.732,
+     -0.203
     ],
-    "d_top4": 0.0951,
-    "d_win": 0.0458,
-    "shrunk_avg": 2.634,
-    "score": -0.435,
-    "d_avg_pess": -0.282,
-    "impact": 0.0482,
-    "z": -4.35,
-    "p": 1e-05,
+    "d_top4": 0.0875,
+    "d_win": 0.0308,
+    "shrunk_avg": 2.336,
+    "score": -0.351,
+    "d_avg_pess": -0.203,
+    "impact": 0.0472,
+    "z": -3.46,
+    "p": 0.00054,
     "significant": true
    },
    {
     "key": [
-     "DA_18_Zyra"
+     "DA_Lux18_Base"
     ],
-    "label": "Zyra",
-    "n": 277,
-    "share": 0.18728870858688304,
-    "avg_place": 2.773,
-    "sd": 1.593,
-    "win": 0.2274,
-    "top2": 0.5307,
-    "top4": 0.852,
+    "label": "Lux Base",
+    "n": 47,
+    "share": 0.06942392909896603,
+    "avg_place": 2.255,
+    "sd": 1.577,
+    "win": 0.3617,
+    "top2": 0.7447,
+    "top4": 0.9149,
     "top4_ci": [
-     0.8054,
-     0.889
+     0.8007,
+     0.9664
     ],
-    "d_avg": -0.296,
+    "d_avg": -0.432,
     "d_avg_ci": [
-     -0.503,
-     -0.09
+     -0.898,
+     0.035
     ],
-    "d_top4": 0.0447,
-    "d_win": 0.0293,
-    "shrunk_avg": 2.802,
-    "score": -0.267,
-    "d_avg_pess": -0.09,
-    "impact": 0.0501,
-    "z": -2.81,
-    "p": 0.00498,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Kennen"
-    ],
-    "label": "Kennen",
-    "n": 55,
-    "share": 0.03718728870858688,
-    "avg_place": 2.764,
-    "sd": 1.293,
-    "win": 0.1818,
-    "top2": 0.4727,
-    "top4": 0.8909,
-    "top4_ci": [
-     0.7817,
-     0.949
-    ],
-    "d_avg": -0.305,
-    "d_avg_ci": [
-     -0.658,
-     0.047
-    ],
-    "d_top4": 0.0836,
-    "d_win": -0.0163,
-    "shrunk_avg": 2.871,
-    "score": -0.198,
+    "d_top4": 0.0464,
+    "d_win": 0.0958,
+    "shrunk_avg": 2.423,
+    "score": -0.263,
     "d_avg_pess": 0.0,
-    "impact": 0.0073,
-    "z": -1.7,
-    "p": 0.08969,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Aphelios"
-    ],
-    "label": "Aphelios",
-    "n": 393,
-    "share": 0.2657200811359026,
-    "avg_place": 2.858,
-    "sd": 1.587,
-    "win": 0.2036,
-    "top2": 0.5064,
-    "top4": 0.8473,
-    "top4_ci": [
-     0.8084,
-     0.8795
-    ],
-    "d_avg": -0.211,
-    "d_avg_ci": [
-     -0.391,
-     -0.032
-    ],
-    "d_top4": 0.04,
-    "d_win": 0.0055,
-    "shrunk_avg": 2.873,
-    "score": -0.196,
-    "d_avg_pess": -0.032,
-    "impact": 0.0522,
-    "z": -2.31,
-    "p": 0.02098,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Hecarim"
-    ],
-    "label": "Hecarim",
-    "n": 569,
-    "share": 0.38471940500338064,
-    "avg_place": 2.872,
-    "sd": 1.699,
-    "win": 0.225,
-    "top2": 0.522,
-    "top4": 0.8313,
-    "top4_ci": [
-     0.7983,
-     0.8598
-    ],
-    "d_avg": -0.197,
-    "d_avg_ci": [
-     -0.362,
-     -0.033
-    ],
-    "d_top4": 0.024,
-    "d_win": 0.0268,
-    "shrunk_avg": 2.882,
-    "score": -0.187,
-    "d_avg_pess": -0.033,
-    "impact": 0.0721,
-    "z": -2.35,
-    "p": 0.01883,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_Cinderling18"
-    ],
-    "label": "Cinderling",
-    "n": 346,
-    "share": 0.2339418526031102,
-    "avg_place": 2.905,
-    "sd": 1.576,
-    "win": 0.2168,
-    "top2": 0.4653,
-    "top4": 0.8439,
-    "top4_ci": [
-     0.8019,
-     0.8784
-    ],
-    "d_avg": -0.164,
-    "d_avg_ci": [
-     -0.352,
-     0.023
-    ],
-    "d_top4": 0.0366,
-    "d_win": 0.0187,
-    "shrunk_avg": 2.918,
-    "score": -0.151,
-    "d_avg_pess": 0.0,
-    "impact": 0.0354,
-    "z": -1.72,
-    "p": 0.08603,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Rengar"
-    ],
-    "label": "Rengar",
-    "n": 50,
-    "share": 0.03380662609871535,
-    "avg_place": 2.84,
-    "sd": 1.782,
-    "win": 0.26,
-    "top2": 0.52,
-    "top4": 0.86,
-    "top4_ci": [
-     0.7381,
-     0.9305
-    ],
-    "d_avg": -0.229,
-    "d_avg_ci": [
-     -0.73,
-     0.273
-    ],
-    "d_top4": 0.0527,
-    "d_win": 0.0619,
-    "shrunk_avg": 2.926,
-    "score": -0.143,
-    "d_avg_pess": 0.0,
-    "impact": 0.0048,
-    "z": -0.89,
-    "p": 0.37087,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Maokai"
-    ],
-    "label": "Maokai",
-    "n": 115,
-    "share": 0.0777552400270453,
-    "avg_place": 2.904,
-    "sd": 1.818,
-    "win": 0.2609,
-    "top2": 0.5304,
-    "top4": 0.7913,
-    "top4_ci": [
-     0.7082,
-     0.8556
-    ],
-    "d_avg": -0.165,
-    "d_avg_ci": [
-     -0.508,
-     0.179
-    ],
-    "d_top4": -0.016,
-    "d_win": 0.0628,
-    "shrunk_avg": 2.938,
-    "score": -0.131,
-    "d_avg_pess": 0.0,
-    "impact": 0.0102,
-    "z": -0.94,
-    "p": 0.34755,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Diana"
-    ],
-    "label": "Diana",
-    "n": 784,
-    "share": 0.5300878972278567,
-    "avg_place": 2.934,
-    "sd": 1.664,
-    "win": 0.2054,
-    "top2": 0.4898,
-    "top4": 0.8304,
-    "top4_ci": [
-     0.8025,
-     0.855
-    ],
-    "d_avg": -0.135,
-    "d_avg_ci": [
-     -0.281,
-     0.01
-    ],
-    "d_top4": 0.0231,
-    "d_win": 0.0073,
-    "shrunk_avg": 2.939,
-    "score": -0.13,
-    "d_avg_pess": 0.0,
-    "impact": 0.0691,
-    "z": -1.82,
-    "p": 0.06844,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Sett"
-    ],
-    "label": "Sett",
-    "n": 52,
-    "share": 0.03515889114266396,
-    "avg_place": 2.904,
-    "sd": 1.596,
-    "win": 0.1923,
-    "top2": 0.5,
-    "top4": 0.8654,
-    "top4_ci": [
-     0.7473,
-     0.9332
-    ],
-    "d_avg": -0.165,
-    "d_avg_ci": [
-     -0.608,
-     0.277
-    ],
-    "d_top4": 0.0581,
-    "d_win": -0.0058,
-    "shrunk_avg": 2.964,
-    "score": -0.105,
-    "d_avg_pess": 0.0,
-    "impact": 0.0037,
-    "z": -0.73,
-    "p": 0.46464,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Sentinel18"
-    ],
-    "label": "Sentinel",
-    "n": 1276,
-    "share": 0.8627450980392157,
-    "avg_place": 2.964,
-    "sd": 1.668,
-    "win": 0.2163,
-    "top2": 0.4734,
-    "top4": 0.8229,
-    "top4_ci": [
-     0.801,
-     0.8429
-    ],
-    "d_avg": -0.105,
-    "d_avg_ci": [
-     -0.231,
-     0.021
-    ],
-    "d_top4": 0.0156,
-    "d_win": 0.0182,
-    "shrunk_avg": 2.966,
-    "score": -0.103,
-    "d_avg_pess": 0.0,
-    "impact": 0.0885,
-    "z": -1.63,
-    "p": 0.10353,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Sentry"
-    ],
-    "label": "Sentry",
-    "n": 774,
-    "share": 0.5233265720081136,
-    "avg_place": 2.968,
-    "sd": 1.686,
-    "win": 0.23,
-    "top2": 0.4716,
-    "top4": 0.8152,
-    "top4_ci": [
-     0.7864,
-     0.841
-    ],
-    "d_avg": -0.101,
-    "d_avg_ci": [
-     -0.249,
-     0.046
-    ],
-    "d_top4": 0.0079,
-    "d_win": 0.0319,
-    "shrunk_avg": 2.971,
-    "score": -0.097,
-    "d_avg_pess": 0.0,
-    "impact": 0.051,
-    "z": -1.35,
-    "p": 0.17808,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_CrimsonRaptor18"
-    ],
-    "label": "Crimson Raptor",
-    "n": 739,
-    "share": 0.49966193373901285,
-    "avg_place": 2.988,
-    "sd": 1.677,
-    "win": 0.2152,
-    "top2": 0.4601,
-    "top4": 0.8281,
-    "top4_ci": [
-     0.7993,
-     0.8536
-    ],
-    "d_avg": -0.081,
-    "d_avg_ci": [
-     -0.23,
-     0.068
-    ],
-    "d_top4": 0.0208,
-    "d_win": 0.017,
-    "shrunk_avg": 2.991,
-    "score": -0.078,
-    "d_avg_pess": 0.0,
-    "impact": 0.039,
-    "z": -1.07,
-    "p": 0.28618,
+    "impact": 0.0183,
+    "z": -1.81,
+    "p": 0.06994,
     "significant": false
    },
    {
@@ -2130,247 +1184,309 @@
      "DA_18_Morgana"
     ],
     "label": "Morgana",
-    "n": 376,
-    "share": 0.2542258282623394,
-    "avg_place": 3.024,
-    "sd": 1.849,
-    "win": 0.242,
-    "top2": 0.4947,
-    "top4": 0.7926,
+    "n": 125,
+    "share": 0.18463810930576072,
+    "avg_place": 2.376,
+    "sd": 1.563,
+    "win": 0.384,
+    "top2": 0.632,
+    "top4": 0.904,
     "top4_ci": [
-     0.7487,
-     0.8305
+     0.8397,
+     0.9442
     ],
-    "d_avg": -0.045,
+    "d_avg": -0.311,
     "d_avg_ci": [
-     -0.251,
-     0.161
+     -0.61,
+     -0.012
     ],
-    "d_top4": -0.0147,
-    "d_win": 0.0439,
-    "shrunk_avg": 3.027,
-    "score": -0.042,
-    "d_avg_pess": 0.0,
-    "impact": 0.0106,
-    "z": -0.43,
-    "p": 0.66866,
+    "d_top4": 0.0355,
+    "d_win": 0.1181,
+    "shrunk_avg": 2.436,
+    "score": -0.251,
+    "d_avg_pess": -0.012,
+    "impact": 0.0463,
+    "z": -2.04,
+    "p": 0.04171,
     "significant": false
    },
    {
     "key": [
-     "DA_18_Ashe"
+     "DA_18_Hecarim"
     ],
-    "label": "Ashe",
-    "n": 41,
-    "share": 0.027721433400946585,
-    "avg_place": 3.0,
-    "sd": 1.682,
-    "win": 0.1951,
-    "top2": 0.439,
-    "top4": 0.8537,
+    "label": "Hecarim",
+    "n": 215,
+    "share": 0.3175775480059084,
+    "avg_place": 2.409,
+    "sd": 1.381,
+    "win": 0.3023,
+    "top2": 0.6186,
+    "top4": 0.8977,
     "top4_ci": [
-     0.7156,
-     0.9312
+     0.8499,
+     0.9315
     ],
-    "d_avg": -0.069,
+    "d_avg": -0.278,
     "d_avg_ci": [
-     -0.591,
-     0.453
+     -0.498,
+     -0.057
     ],
-    "d_top4": 0.0464,
-    "d_win": -0.003,
-    "shrunk_avg": 3.029,
-    "score": -0.04,
+    "d_top4": 0.0291,
+    "d_win": 0.0364,
+    "shrunk_avg": 2.443,
+    "score": -0.244,
+    "d_avg_pess": -0.057,
+    "impact": 0.0774,
+    "z": -2.47,
+    "p": 0.01352,
+    "significant": true
+   },
+   {
+    "key": [
+     "DA_18_Zyra"
+    ],
+    "label": "Zyra",
+    "n": 130,
+    "share": 0.19202363367799113,
+    "avg_place": 2.408,
+    "sd": 1.275,
+    "win": 0.2615,
+    "top2": 0.6231,
+    "top4": 0.9077,
+    "top4_ci": [
+     0.8456,
+     0.9464
+    ],
+    "d_avg": -0.279,
+    "d_avg_ci": [
+     -0.529,
+     -0.029
+    ],
+    "d_top4": 0.0392,
+    "d_win": -0.0043,
+    "shrunk_avg": 2.46,
+    "score": -0.227,
+    "d_avg_pess": -0.029,
+    "impact": 0.0436,
+    "z": -2.19,
+    "p": 0.02862,
+    "significant": true
+   },
+   {
+    "key": [
+     "DA_Cinderling18"
+    ],
+    "label": "Cinderling",
+    "n": 194,
+    "share": 0.2865583456425406,
+    "avg_place": 2.454,
+    "sd": 1.45,
+    "win": 0.3041,
+    "top2": 0.5979,
+    "top4": 0.9227,
+    "top4_ci": [
+     0.8764,
+     0.9526
+    ],
+    "d_avg": -0.233,
+    "d_avg_ci": [
+     -0.47,
+     0.004
+    ],
+    "d_top4": 0.0541,
+    "d_win": 0.0382,
+    "shrunk_avg": 2.485,
+    "score": -0.202,
     "d_avg_pess": 0.0,
-    "impact": 0.0011,
-    "z": -0.26,
-    "p": 0.79576,
+    "impact": 0.0579,
+    "z": -1.93,
+    "p": 0.05359,
     "significant": false
    },
    {
     "key": [
-     "DA_Gromp18_AP"
+     "DA_18_Maokai"
     ],
-    "label": "Gromp A P",
-    "n": 386,
-    "share": 0.2609871534820825,
-    "avg_place": 3.031,
-    "sd": 1.622,
-    "win": 0.2047,
-    "top2": 0.4223,
-    "top4": 0.8212,
+    "label": "Maokai",
+    "n": 52,
+    "share": 0.07680945347119646,
+    "avg_place": 2.385,
+    "sd": 1.689,
+    "win": 0.3269,
+    "top2": 0.75,
+    "top4": 0.8462,
     "top4_ci": [
-     0.7799,
-     0.8562
+     0.7248,
+     0.9199
     ],
-    "d_avg": -0.038,
+    "d_avg": -0.302,
     "d_avg_ci": [
-     -0.222,
-     0.146
+     -0.777,
+     0.172
     ],
-    "d_top4": 0.0139,
-    "d_win": 0.0066,
-    "shrunk_avg": 3.034,
-    "score": -0.035,
+    "d_top4": -0.0224,
+    "d_win": 0.061,
+    "shrunk_avg": 2.495,
+    "score": -0.192,
     "d_avg_pess": 0.0,
-    "impact": 0.0092,
-    "z": -0.4,
-    "p": 0.68635,
+    "impact": 0.0147,
+    "z": -1.25,
+    "p": 0.21187,
     "significant": false
    },
    {
     "key": [
-     "DA_18_RekSai"
+     "DA_18_Aphelios"
     ],
-    "label": "Rek Sai",
-    "n": 83,
-    "share": 0.05611899932386748,
-    "avg_place": 3.024,
-    "sd": 1.628,
-    "win": 0.1687,
-    "top2": 0.4458,
-    "top4": 0.8434,
+    "label": "Aphelios",
+    "n": 179,
+    "share": 0.26440177252584934,
+    "avg_place": 2.514,
+    "sd": 1.359,
+    "win": 0.2458,
+    "top2": 0.6034,
+    "top4": 0.8939,
     "top4_ci": [
-     0.7502,
-     0.9061
+     0.8402,
+     0.931
     ],
-    "d_avg": -0.045,
+    "d_avg": -0.173,
     "d_avg_ci": [
-     -0.406,
-     0.316
+     -0.405,
+     0.06
     ],
-    "d_top4": 0.0361,
-    "d_win": -0.0294,
-    "shrunk_avg": 3.036,
-    "score": -0.033,
+    "d_top4": 0.0253,
+    "d_win": -0.0201,
+    "shrunk_avg": 2.539,
+    "score": -0.148,
     "d_avg_pess": 0.0,
-    "impact": 0.0018,
-    "z": -0.24,
-    "p": 0.80749,
+    "impact": 0.0392,
+    "z": -1.46,
+    "p": 0.14515,
     "significant": false
    },
    {
     "key": [
-     "DA_Draven18"
+     "DA_18_Diana"
     ],
-    "label": "Draven",
-    "n": 43,
-    "share": 0.0290736984448952,
-    "avg_place": 3.047,
-    "sd": 1.462,
-    "win": 0.186,
-    "top2": 0.3953,
-    "top4": 0.814,
+    "label": "Diana",
+    "n": 325,
+    "share": 0.48005908419497784,
+    "avg_place": 2.545,
+    "sd": 1.424,
+    "win": 0.2646,
+    "top2": 0.5785,
+    "top4": 0.8923,
     "top4_ci": [
-     0.6738,
-     0.9026
+     0.8539,
+     0.9215
     ],
-    "d_avg": -0.022,
+    "d_avg": -0.142,
     "d_avg_ci": [
-     -0.468,
-     0.423
+     -0.338,
+     0.054
     ],
-    "d_top4": 0.0067,
-    "d_win": -0.0121,
-    "shrunk_avg": 3.056,
-    "score": -0.013,
+    "d_top4": 0.0238,
+    "d_win": -0.0013,
+    "shrunk_avg": 2.557,
+    "score": -0.13,
     "d_avg_pess": 0.0,
-    "impact": 0.0004,
-    "z": -0.1,
-    "p": 0.92133,
+    "impact": 0.0625,
+    "z": -1.42,
+    "p": 0.15483,
     "significant": false
    },
    {
     "key": [
-     "DA_Murkwolf18"
+     "DA_18_Sentry"
     ],
-    "label": "Murkwolf",
-    "n": 715,
-    "share": 0.4834347532116295,
-    "avg_place": 3.066,
-    "sd": 1.639,
-    "win": 0.1958,
-    "top2": 0.421,
-    "top4": 0.8168,
+    "label": "Sentry",
+    "n": 347,
+    "share": 0.5125553914327917,
+    "avg_place": 2.553,
+    "sd": 1.587,
+    "win": 0.3285,
+    "top2": 0.5735,
+    "top4": 0.8818,
     "top4_ci": [
-     0.7868,
-     0.8434
+     0.8436,
+     0.9117
     ],
-    "d_avg": -0.003,
+    "d_avg": -0.134,
     "d_avg_ci": [
-     -0.152,
-     0.145
+     -0.339,
+     0.072
     ],
-    "d_top4": 0.0095,
-    "d_win": -0.0023,
-    "shrunk_avg": 3.066,
-    "score": -0.003,
+    "d_top4": 0.0133,
+    "d_win": 0.0627,
+    "shrunk_avg": 2.564,
+    "score": -0.123,
     "d_avg_pess": 0.0,
-    "impact": 0.0015,
-    "z": -0.04,
-    "p": 0.96597,
+    "impact": 0.063,
+    "z": -1.27,
+    "p": 0.20328,
     "significant": false
    },
    {
     "key": [
-     "DA_18_Rakan"
+     "DA_Sentinel18"
     ],
-    "label": "Rakan",
-    "n": 63,
-    "share": 0.04259634888438134,
-    "avg_place": 3.079,
-    "sd": 1.846,
-    "win": 0.2381,
-    "top2": 0.4444,
-    "top4": 0.7619,
+    "label": "Sentinel",
+    "n": 594,
+    "share": 0.8774002954209749,
+    "avg_place": 2.562,
+    "sd": 1.508,
+    "win": 0.2896,
+    "top2": 0.5741,
+    "top4": 0.8889,
     "top4_ci": [
-     0.6436,
-     0.8501
+     0.8611,
+     0.9117
     ],
-    "d_avg": 0.01,
+    "d_avg": -0.125,
     "d_avg_ci": [
-     -0.454,
-     0.474
+     -0.295,
+     0.046
     ],
-    "d_top4": -0.0454,
-    "d_win": 0.04,
-    "shrunk_avg": 3.076,
-    "score": 0.007,
+    "d_top4": 0.0204,
+    "d_win": 0.0237,
+    "shrunk_avg": 2.568,
+    "score": -0.119,
     "d_avg_pess": 0.0,
-    "impact": -0.0003,
-    "z": 0.04,
-    "p": 0.96496,
+    "impact": 0.104,
+    "z": -1.43,
+    "p": 0.15271,
     "significant": false
    },
    {
     "key": [
-     "DA_Krug18"
+     "DA_CrimsonRaptor18"
     ],
-    "label": "Krug",
-    "n": 686,
-    "share": 0.4638269100743746,
-    "avg_place": 3.102,
-    "sd": 1.704,
-    "win": 0.2026,
-    "top2": 0.4271,
-    "top4": 0.8017,
+    "label": "Crimson Raptor",
+    "n": 358,
+    "share": 0.5288035450516987,
+    "avg_place": 2.601,
+    "sd": 1.528,
+    "win": 0.2821,
+    "top2": 0.5587,
+    "top4": 0.8883,
     "top4_ci": [
-     0.7703,
-     0.8299
+     0.8514,
+     0.9169
     ],
-    "d_avg": 0.033,
+    "d_avg": -0.086,
     "d_avg_ci": [
-     -0.121,
-     0.188
+     -0.285,
+     0.112
     ],
-    "d_top4": -0.0056,
-    "d_win": 0.0045,
-    "shrunk_avg": 3.101,
-    "score": 0.032,
+    "d_top4": 0.0197,
+    "d_win": 0.0162,
+    "shrunk_avg": 2.607,
+    "score": -0.08,
     "d_avg_pess": 0.0,
-    "impact": -0.0147,
-    "z": 0.42,
-    "p": 0.67475,
+    "impact": 0.0421,
+    "z": -0.85,
+    "p": 0.39476,
     "significant": false
    },
    {
@@ -2378,30 +1494,61 @@
      "DA_KogMaw18_AD"
     ],
     "label": "Kog Maw A D",
-    "n": 298,
-    "share": 0.20148749154834347,
-    "avg_place": 3.134,
-    "sd": 1.827,
-    "win": 0.2081,
-    "top2": 0.4664,
-    "top4": 0.7752,
+    "n": 83,
+    "share": 0.12259970457902511,
+    "avg_place": 2.614,
+    "sd": 1.663,
+    "win": 0.3253,
+    "top2": 0.5904,
+    "top4": 0.8554,
     "top4_ci": [
-     0.7244,
-     0.8189
+     0.7641,
+     0.9153
     ],
-    "d_avg": 0.065,
+    "d_avg": -0.072,
     "d_avg_ci": [
-     -0.16,
-     0.29
+     -0.45,
+     0.305
     ],
-    "d_top4": -0.0321,
-    "d_win": 0.0099,
-    "shrunk_avg": 3.128,
-    "score": 0.059,
+    "d_top4": -0.0131,
+    "d_win": 0.0594,
+    "shrunk_avg": 2.634,
+    "score": -0.053,
     "d_avg_pess": 0.0,
-    "impact": -0.0119,
-    "z": 0.57,
-    "p": 0.56975,
+    "impact": 0.0065,
+    "z": -0.38,
+    "p": 0.70701,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Murkwolf18"
+    ],
+    "label": "Murkwolf",
+    "n": 367,
+    "share": 0.5420974889217134,
+    "avg_place": 2.749,
+    "sd": 1.628,
+    "win": 0.2643,
+    "top2": 0.5204,
+    "top4": 0.8665,
+    "top4_ci": [
+     0.8279,
+     0.8975
+    ],
+    "d_avg": 0.062,
+    "d_avg_ci": [
+     -0.143,
+     0.268
+    ],
+    "d_top4": -0.0021,
+    "d_win": -0.0016,
+    "shrunk_avg": 2.745,
+    "score": 0.058,
+    "d_avg_pess": 0.0,
+    "impact": -0.0313,
+    "z": 0.6,
+    "p": 0.55117,
     "significant": false
    },
    {
@@ -2409,30 +1556,92 @@
      "DA_Scuttlecrab18"
     ],
     "label": "Scuttlecrab",
-    "n": 557,
-    "share": 0.37660581473968896,
-    "avg_place": 3.147,
-    "sd": 1.692,
-    "win": 0.1903,
-    "top2": 0.4057,
-    "top4": 0.8079,
+    "n": 285,
+    "share": 0.42097488921713444,
+    "avg_place": 2.758,
+    "sd": 1.676,
+    "win": 0.2737,
+    "top2": 0.5228,
+    "top4": 0.8702,
     "top4_ci": [
-     0.7731,
-     0.8385
+     0.8262,
+     0.9043
     ],
-    "d_avg": 0.078,
+    "d_avg": 0.071,
     "d_avg_ci": [
-     -0.087,
-     0.244
+     -0.158,
+     0.3
     ],
-    "d_top4": 0.0006,
-    "d_win": -0.0078,
-    "shrunk_avg": 3.143,
-    "score": 0.074,
+    "d_top4": 0.0016,
+    "d_win": 0.0078,
+    "shrunk_avg": 2.751,
+    "score": 0.064,
     "d_avg_pess": 0.0,
-    "impact": -0.028,
-    "z": 0.93,
-    "p": 0.35371,
+    "impact": -0.0271,
+    "z": 0.61,
+    "p": 0.54261,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Gromp18_AP"
+    ],
+    "label": "Gromp A P",
+    "n": 205,
+    "share": 0.30280649926144754,
+    "avg_place": 2.776,
+    "sd": 1.637,
+    "win": 0.2732,
+    "top2": 0.4976,
+    "top4": 0.8683,
+    "top4_ci": [
+     0.8152,
+     0.9079
+    ],
+    "d_avg": 0.089,
+    "d_avg_ci": [
+     -0.166,
+     0.343
+    ],
+    "d_top4": -0.0002,
+    "d_win": 0.0073,
+    "shrunk_avg": 2.764,
+    "score": 0.077,
+    "d_avg_pess": 0.0,
+    "impact": -0.0234,
+    "z": 0.68,
+    "p": 0.49401,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Krug18"
+    ],
+    "label": "Krug",
+    "n": 351,
+    "share": 0.518463810930576,
+    "avg_place": 2.772,
+    "sd": 1.693,
+    "win": 0.2735,
+    "top2": 0.5299,
+    "top4": 0.8547,
+    "top4_ci": [
+     0.814,
+     0.8877
+    ],
+    "d_avg": 0.085,
+    "d_avg_ci": [
+     -0.129,
+     0.299
+    ],
+    "d_top4": -0.0138,
+    "d_win": 0.0076,
+    "shrunk_avg": 2.765,
+    "score": 0.079,
+    "d_avg_pess": 0.0,
+    "impact": -0.0407,
+    "z": 0.78,
+    "p": 0.43511,
     "significant": false
    },
    {
@@ -2440,123 +1649,61 @@
      "DA_18_Warwick"
     ],
     "label": "Warwick",
-    "n": 172,
-    "share": 0.1162947937795808,
-    "avg_place": 3.157,
-    "sd": 1.557,
-    "win": 0.1279,
-    "top2": 0.3779,
-    "top4": 0.8314,
+    "n": 81,
+    "share": 0.11964549483013294,
+    "avg_place": 2.901,
+    "sd": 1.615,
+    "win": 0.1852,
+    "top2": 0.4938,
+    "top4": 0.8519,
     "top4_ci": [
-     0.7683,
-     0.88
+     0.7587,
+     0.9132
     ],
-    "d_avg": 0.088,
+    "d_avg": 0.214,
     "d_avg_ci": [
-     -0.16,
-     0.336
+     -0.157,
+     0.586
     ],
-    "d_top4": 0.0241,
-    "d_win": -0.0702,
-    "shrunk_avg": 3.144,
-    "score": 0.075,
+    "d_top4": -0.0167,
+    "d_win": -0.0807,
+    "shrunk_avg": 2.843,
+    "score": 0.156,
     "d_avg_pess": 0.0,
-    "impact": -0.0087,
-    "z": 0.69,
-    "p": 0.4875,
+    "impact": -0.0187,
+    "z": 1.13,
+    "p": 0.25821,
     "significant": false
    },
    {
     "key": [
-     "DA_18_Azir"
+     "DA_18_Camille"
     ],
-    "label": "Azir",
-    "n": 82,
-    "share": 0.05544286680189317,
-    "avg_place": 3.207,
-    "sd": 1.82,
-    "win": 0.1707,
-    "top2": 0.4146,
-    "top4": 0.8049,
+    "label": "Camille",
+    "n": 56,
+    "share": 0.0827178729689808,
+    "avg_place": 3.125,
+    "sd": 1.793,
+    "win": 0.1786,
+    "top2": 0.4643,
+    "top4": 0.7857,
     "top4_ci": [
-     0.7063,
-     0.8762
+     0.6618,
+     0.8729
     ],
-    "d_avg": 0.138,
+    "d_avg": 0.438,
     "d_avg_ci": [
-     -0.265,
-     0.542
+     -0.047,
+     0.923
     ],
-    "d_top4": -0.0024,
-    "d_win": -0.0274,
-    "shrunk_avg": 3.17,
-    "score": 0.101,
+    "d_top4": -0.0828,
+    "d_win": -0.0873,
+    "shrunk_avg": 2.972,
+    "score": 0.285,
     "d_avg_pess": 0.0,
-    "impact": -0.0056,
-    "z": 0.67,
-    "p": 0.50143,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Malphite"
-    ],
-    "label": "Malphite",
-    "n": 100,
-    "share": 0.0676132521974307,
-    "avg_place": 3.25,
-    "sd": 1.682,
-    "win": 0.13,
-    "top2": 0.38,
-    "top4": 0.82,
-    "top4_ci": [
-     0.7333,
-     0.883
-    ],
-    "d_avg": 0.181,
-    "d_avg_ci": [
-     -0.16,
-     0.522
-    ],
-    "d_top4": 0.0127,
-    "d_win": -0.0681,
-    "shrunk_avg": 3.208,
-    "score": 0.139,
-    "d_avg_pess": 0.0,
-    "impact": -0.0094,
-    "z": 1.04,
-    "p": 0.29799,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_KhaZix"
-    ],
-    "label": "Kha Zix",
-    "n": 44,
-    "share": 0.029749830966869506,
-    "avg_place": 3.341,
-    "sd": 1.691,
-    "win": 0.0909,
-    "top2": 0.3864,
-    "top4": 0.7955,
-    "top4_ci": [
-     0.655,
-     0.8885
-    ],
-    "d_avg": 0.272,
-    "d_avg_ci": [
-     -0.235,
-     0.779
-    ],
-    "d_top4": -0.0118,
-    "d_win": -0.1072,
-    "shrunk_avg": 3.231,
-    "score": 0.162,
-    "d_avg_pess": 0.0,
-    "impact": -0.0048,
-    "z": 1.05,
-    "p": 0.29346,
+    "impact": -0.0236,
+    "z": 1.77,
+    "p": 0.07654,
     "significant": false
    },
    {
@@ -2564,185 +1711,30 @@
      "DA_18_Akali_AD"
     ],
     "label": "Akali A D",
-    "n": 99,
-    "share": 0.06693711967545639,
-    "avg_place": 3.495,
-    "sd": 1.493,
-    "win": 0.0808,
-    "top2": 0.2727,
-    "top4": 0.7576,
-    "top4_ci": [
-     0.6646,
-     0.8313
-    ],
-    "d_avg": 0.426,
-    "d_avg_ci": [
-     0.119,
-     0.733
-    ],
-    "d_top4": -0.0497,
-    "d_win": -0.1173,
-    "shrunk_avg": 3.396,
-    "score": 0.327,
-    "d_avg_pess": 0.119,
-    "impact": -0.0219,
-    "z": 2.72,
-    "p": 0.0065,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_Amumu18"
-    ],
-    "label": "Amumu",
-    "n": 66,
-    "share": 0.04462474645030426,
-    "avg_place": 3.591,
-    "sd": 1.758,
-    "win": 0.1061,
-    "top2": 0.2879,
-    "top4": 0.7273,
-    "top4_ci": [
-     0.6096,
-     0.82
-    ],
-    "d_avg": 0.522,
-    "d_avg_ci": [
-     0.089,
-     0.955
-    ],
-    "d_top4": -0.08,
-    "d_win": -0.092,
-    "shrunk_avg": 3.428,
-    "score": 0.359,
-    "d_avg_pess": 0.089,
-    "impact": -0.016,
-    "z": 2.36,
-    "p": 0.01814,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Camille"
-    ],
-    "label": "Camille",
-    "n": 92,
-    "share": 0.06220419202163624,
-    "avg_place": 3.598,
-    "sd": 1.877,
-    "win": 0.1087,
-    "top2": 0.3478,
-    "top4": 0.7174,
-    "top4_ci": [
-     0.6181,
-     0.7992
-    ],
-    "d_avg": 0.529,
-    "d_avg_ci": [
-     0.136,
-     0.922
-    ],
-    "d_top4": -0.0899,
-    "d_win": -0.0894,
-    "shrunk_avg": 3.468,
-    "score": 0.399,
-    "d_avg_pess": 0.136,
-    "impact": -0.0248,
-    "z": 2.64,
-    "p": 0.00841,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_Vi18"
-    ],
-    "label": "Vi",
-    "n": 40,
-    "share": 0.027045300878972278,
-    "avg_place": 3.775,
-    "sd": 1.904,
-    "win": 0.125,
-    "top2": 0.275,
-    "top4": 0.65,
-    "top4_ci": [
-     0.4951,
-     0.7787
-    ],
-    "d_avg": 0.706,
-    "d_avg_ci": [
-     0.11,
-     1.302
-    ],
-    "d_top4": -0.1573,
-    "d_win": -0.0731,
-    "shrunk_avg": 3.472,
-    "score": 0.403,
-    "d_avg_pess": 0.11,
-    "impact": -0.0109,
-    "z": 2.32,
-    "p": 0.02033,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_Nidalee18_AP"
-    ],
-    "label": "Nidalee A P",
-    "n": 44,
-    "share": 0.029749830966869506,
-    "avg_place": 3.818,
-    "sd": 1.585,
-    "win": 0.0455,
-    "top2": 0.25,
-    "top4": 0.6591,
-    "top4_ci": [
-     0.5114,
-     0.7812
-    ],
-    "d_avg": 0.749,
-    "d_avg_ci": [
-     0.273,
-     1.226
-    ],
-    "d_top4": -0.1482,
-    "d_win": -0.1527,
-    "shrunk_avg": 3.514,
-    "score": 0.445,
-    "d_avg_pess": 0.273,
-    "impact": -0.0133,
-    "z": 3.08,
-    "p": 0.00205,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Elise"
-    ],
-    "label": "Elise",
-    "n": 102,
-    "share": 0.06896551724137931,
-    "avg_place": 3.745,
-    "sd": 1.979,
-    "win": 0.1275,
+    "n": 51,
+    "share": 0.07533234859675036,
+    "avg_place": 3.294,
+    "sd": 1.499,
+    "win": 0.0784,
     "top2": 0.3529,
-    "top4": 0.6765,
+    "top4": 0.7843,
     "top4_ci": [
-     0.5807,
-     0.7594
+     0.6537,
+     0.8751
     ],
-    "d_avg": 0.676,
+    "d_avg": 0.607,
     "d_avg_ci": [
-     0.282,
-     1.07
+     0.179,
+     1.036
     ],
-    "d_top4": -0.1308,
-    "d_win": -0.0707,
-    "shrunk_avg": 3.591,
-    "score": 0.522,
-    "d_avg_pess": 0.282,
-    "impact": -0.036,
-    "z": 3.37,
-    "p": 0.00076,
+    "d_top4": -0.0842,
+    "d_win": -0.1874,
+    "shrunk_avg": 3.069,
+    "score": 0.382,
+    "d_avg_pess": 0.179,
+    "impact": -0.0288,
+    "z": 2.78,
+    "p": 0.00548,
     "significant": true
    }
   ],
@@ -2752,61 +1744,30 @@
      "DA_Riftbeast18_4"
     ],
     "label": "Riftbeast",
-    "n": 150,
-    "share": 0.10141987829614604,
-    "avg_place": 1.96,
-    "sd": 1.131,
-    "win": 0.4533,
-    "top2": 0.7333,
-    "top4": 0.9733,
+    "n": 81,
+    "share": 0.11964549483013294,
+    "avg_place": 1.691,
+    "sd": 1.026,
+    "win": 0.6049,
+    "top2": 0.8025,
+    "top4": 0.9753,
     "top4_ci": [
-     0.9334,
-     0.9896
+     0.9144,
+     0.9932
     ],
-    "d_avg": -1.109,
+    "d_avg": -0.995,
     "d_avg_ci": [
-     -1.31,
-     -0.908
+     -1.249,
+     -0.742
     ],
-    "d_top4": 0.166,
-    "d_win": 0.2552,
-    "shrunk_avg": 2.145,
-    "score": -0.924,
-    "d_avg_pess": -0.908,
-    "impact": 0.0937,
-    "z": -10.82,
+    "d_top4": 0.1068,
+    "d_win": 0.3391,
+    "shrunk_avg": 1.96,
+    "score": -0.726,
+    "d_avg_pess": -0.742,
+    "impact": 0.0869,
+    "z": -7.69,
     "p": 0.0,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_LuxUniqueTrait_1"
-    ],
-    "label": "Lux Unique Trait",
-    "n": 96,
-    "share": 0.06490872210953347,
-    "avg_place": 2.417,
-    "sd": 1.572,
-    "win": 0.3125,
-    "top2": 0.6667,
-    "top4": 0.9062,
-    "top4_ci": [
-     0.8313,
-     0.9499
-    ],
-    "d_avg": -0.652,
-    "d_avg_ci": [
-     -0.979,
-     -0.326
-    ],
-    "d_top4": 0.0989,
-    "d_win": 0.1144,
-    "shrunk_avg": 2.572,
-    "score": -0.497,
-    "d_avg_pess": -0.326,
-    "impact": 0.0323,
-    "z": -3.92,
-    "p": 9e-05,
     "significant": true
    },
    {
@@ -2814,30 +1775,30 @@
      "DA_AluneUniqueTrait18_1"
     ],
     "label": "Alune Unique Trait",
-    "n": 319,
-    "share": 0.21568627450980393,
-    "avg_place": 2.536,
-    "sd": 1.504,
-    "win": 0.2853,
-    "top2": 0.5956,
-    "top4": 0.8903,
+    "n": 123,
+    "share": 0.18168389955686853,
+    "avg_place": 2.163,
+    "sd": 1.199,
+    "win": 0.3821,
+    "top2": 0.6585,
+    "top4": 0.9675,
     "top4_ci": [
-     0.8512,
-     0.92
+     0.9194,
+     0.9873
     ],
-    "d_avg": -0.533,
+    "d_avg": -0.524,
     "d_avg_ci": [
-     -0.72,
-     -0.346
+     -0.768,
+     -0.281
     ],
-    "d_top4": 0.083,
-    "d_win": 0.0872,
-    "shrunk_avg": 2.582,
-    "score": -0.487,
-    "d_avg_pess": -0.346,
-    "impact": 0.1051,
-    "z": -5.6,
-    "p": 0.0,
+    "d_top4": 0.0989,
+    "d_win": 0.1162,
+    "shrunk_avg": 2.265,
+    "score": -0.421,
+    "d_avg_pess": -0.281,
+    "impact": 0.0766,
+    "z": -4.22,
+    "p": 2e-05,
     "significant": true
    },
    {
@@ -2845,30 +1806,30 @@
      "DA_Emerald18_1"
     ],
     "label": "Emerald",
-    "n": 633,
-    "share": 0.4279918864097363,
-    "avg_place": 2.58,
-    "sd": 1.558,
-    "win": 0.2812,
-    "top2": 0.5972,
-    "top4": 0.8736,
+    "n": 281,
+    "share": 0.4150664697193501,
+    "avg_place": 2.246,
+    "sd": 1.363,
+    "win": 0.3701,
+    "top2": 0.6726,
+    "top4": 0.9146,
     "top4_ci": [
-     0.8455,
-     0.8973
+     0.8761,
+     0.9419
     ],
-    "d_avg": -0.489,
+    "d_avg": -0.441,
     "d_avg_ci": [
-     -0.639,
-     -0.34
+     -0.641,
+     -0.242
     ],
-    "d_top4": 0.0663,
-    "d_win": 0.0831,
-    "shrunk_avg": 2.602,
-    "score": -0.467,
-    "d_avg_pess": -0.34,
-    "impact": 0.1999,
-    "z": -6.41,
-    "p": 0.0,
+    "d_top4": 0.0461,
+    "d_win": 0.1042,
+    "shrunk_avg": 2.288,
+    "score": -0.399,
+    "d_avg_pess": -0.242,
+    "impact": 0.1655,
+    "z": -4.33,
+    "p": 1e-05,
     "significant": true
    },
    {
@@ -2876,123 +1837,30 @@
      "DA_18_ApexPredator_1"
     ],
     "label": "Apex Predator",
-    "n": 323,
-    "share": 0.21839080459770116,
-    "avg_place": 2.573,
-    "sd": 1.496,
-    "win": 0.2972,
-    "top2": 0.5542,
-    "top4": 0.904,
+    "n": 172,
+    "share": 0.25406203840472674,
+    "avg_place": 2.221,
+    "sd": 1.329,
+    "win": 0.3895,
+    "top2": 0.6512,
+    "top4": 0.9419,
     "top4_ci": [
-     0.867,
-     0.9316
+     0.8963,
+     0.9681
     ],
-    "d_avg": -0.496,
+    "d_avg": -0.466,
     "d_avg_ci": [
-     -0.681,
-     -0.311
+     -0.698,
+     -0.234
     ],
-    "d_top4": 0.0967,
-    "d_win": 0.0991,
-    "shrunk_avg": 2.615,
-    "score": -0.454,
-    "d_avg_pess": -0.311,
-    "impact": 0.0992,
-    "z": -5.26,
-    "p": 0.0,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Greenfather_1"
-    ],
-    "label": "Greenfather",
-    "n": 163,
-    "share": 0.11020960108181203,
-    "avg_place": 2.534,
-    "sd": 1.38,
-    "win": 0.2454,
-    "top2": 0.5767,
-    "top4": 0.908,
-    "top4_ci": [
-     0.8537,
-     0.9434
-    ],
-    "d_avg": -0.535,
-    "d_avg_ci": [
-     -0.764,
-     -0.306
-    ],
-    "d_top4": 0.1007,
-    "d_win": 0.0473,
-    "shrunk_avg": 2.617,
-    "score": -0.452,
-    "d_avg_pess": -0.306,
-    "impact": 0.0498,
-    "z": -4.58,
-    "p": 0.0,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Lunar_2"
-    ],
-    "label": "Lunar",
-    "n": 107,
-    "share": 0.07234617985125084,
-    "avg_place": 2.505,
-    "sd": 1.494,
-    "win": 0.2804,
-    "top2": 0.6168,
-    "top4": 0.8785,
-    "top4_ci": [
-     0.8032,
-     0.9276
-    ],
-    "d_avg": -0.564,
-    "d_avg_ci": [
-     -0.86,
-     -0.268
-    ],
-    "d_top4": 0.0712,
-    "d_win": 0.0823,
-    "shrunk_avg": 2.628,
-    "score": -0.441,
-    "d_avg_pess": -0.268,
-    "impact": 0.0319,
-    "z": -3.73,
-    "p": 0.00019,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Brawler_1"
-    ],
-    "label": "Brawler",
-    "n": 242,
-    "share": 0.16362407031778228,
-    "avg_place": 2.624,
-    "sd": 1.672,
-    "win": 0.3058,
-    "top2": 0.5909,
-    "top4": 0.8678,
-    "top4_ci": [
-     0.8193,
-     0.9048
-    ],
-    "d_avg": -0.445,
-    "d_avg_ci": [
-     -0.673,
-     -0.217
-    ],
-    "d_top4": 0.0605,
-    "d_win": 0.1077,
-    "shrunk_avg": 2.673,
-    "score": -0.396,
-    "d_avg_pess": -0.217,
-    "impact": 0.0648,
-    "z": -3.82,
-    "p": 0.00013,
+    "d_top4": 0.0733,
+    "d_win": 0.1237,
+    "shrunk_avg": 2.29,
+    "score": -0.397,
+    "d_avg_pess": -0.234,
+    "impact": 0.1008,
+    "z": -3.93,
+    "p": 8e-05,
     "significant": true
    },
    {
@@ -3000,123 +1868,216 @@
      "DA_18_Vanguard_2"
     ],
     "label": "Vanguard",
-    "n": 506,
-    "share": 0.34212305611899935,
-    "avg_place": 2.711,
-    "sd": 1.588,
-    "win": 0.2411,
-    "top2": 0.5613,
-    "top4": 0.8577,
+    "n": 200,
+    "share": 0.29542097488921715,
+    "avg_place": 2.27,
+    "sd": 1.272,
+    "win": 0.32,
+    "top2": 0.665,
+    "top4": 0.915,
     "top4_ci": [
-     0.8246,
-     0.8855
+     0.8681,
+     0.9463
     ],
-    "d_avg": -0.358,
+    "d_avg": -0.417,
     "d_avg_ci": [
-     -0.521,
-     -0.194
+     -0.63,
+     -0.204
     ],
-    "d_top4": 0.0504,
-    "d_win": 0.043,
-    "shrunk_avg": 2.731,
-    "score": -0.337,
-    "d_avg_pess": -0.194,
-    "impact": 0.1155,
-    "z": -4.28,
-    "p": 2e-05,
+    "d_top4": 0.0465,
+    "d_win": 0.0541,
+    "shrunk_avg": 2.324,
+    "score": -0.362,
+    "d_avg_pess": -0.204,
+    "impact": 0.1071,
+    "z": -3.83,
+    "p": 0.00013,
     "significant": true
    },
    {
     "key": [
-     "DA_18_Invoker_4"
+     "DA_18_Greenfather_1"
     ],
-    "label": "Invoker",
-    "n": 89,
-    "share": 0.06017579445571332,
-    "avg_place": 2.674,
-    "sd": 1.708,
-    "win": 0.2697,
-    "top2": 0.618,
-    "top4": 0.8315,
+    "label": "Greenfather",
+    "n": 91,
+    "share": 0.1344165435745938,
+    "avg_place": 2.22,
+    "sd": 1.146,
+    "win": 0.2967,
+    "top2": 0.6703,
+    "top4": 0.956,
     "top4_ci": [
-     0.7404,
-     0.8951
+     0.8924,
+     0.9828
     ],
-    "d_avg": -0.395,
+    "d_avg": -0.467,
     "d_avg_ci": [
-     -0.76,
-     -0.029
+     -0.732,
+     -0.203
     ],
-    "d_top4": 0.0242,
-    "d_win": 0.0716,
-    "shrunk_avg": 2.774,
-    "score": -0.295,
-    "d_avg_pess": -0.029,
-    "impact": 0.0178,
-    "z": -2.12,
-    "p": 0.03418,
+    "d_top4": 0.0875,
+    "d_win": 0.0308,
+    "shrunk_avg": 2.336,
+    "score": -0.351,
+    "d_avg_pess": -0.203,
+    "impact": 0.0472,
+    "z": -3.46,
+    "p": 0.00054,
     "significant": true
    },
    {
     "key": [
-     "DA_18_ZyraUniqueTrait_1"
+     "DA_18_Brawler_1"
     ],
-    "label": "Zyra Unique Trait",
-    "n": 275,
-    "share": 0.18593644354293443,
-    "avg_place": 2.771,
-    "sd": 1.596,
-    "win": 0.2291,
-    "top2": 0.5309,
-    "top4": 0.8509,
+    "label": "Brawler",
+    "n": 123,
+    "share": 0.18168389955686853,
+    "avg_place": 2.285,
+    "sd": 1.595,
+    "win": 0.3984,
+    "top2": 0.7073,
+    "top4": 0.9106,
     "top4_ci": [
-     0.804,
-     0.8882
+     0.8469,
+     0.9493
     ],
-    "d_avg": -0.298,
+    "d_avg": -0.402,
     "d_avg_ci": [
-     -0.506,
-     -0.09
+     -0.709,
+     -0.096
     ],
-    "d_top4": 0.0436,
-    "d_win": 0.031,
-    "shrunk_avg": 2.8,
-    "score": -0.269,
-    "d_avg_pess": -0.09,
-    "impact": 0.05,
-    "z": -2.81,
-    "p": 0.00494,
+    "d_top4": 0.042,
+    "d_win": 0.1325,
+    "shrunk_avg": 2.363,
+    "score": -0.323,
+    "d_avg_pess": -0.096,
+    "impact": 0.0588,
+    "z": -2.57,
+    "p": 0.01009,
     "significant": true
+   },
+   {
+    "key": [
+     "DA_18_LuxUniqueTrait_1"
+    ],
+    "label": "Lux Unique Trait",
+    "n": 47,
+    "share": 0.06942392909896603,
+    "avg_place": 2.255,
+    "sd": 1.577,
+    "win": 0.3617,
+    "top2": 0.7447,
+    "top4": 0.9149,
+    "top4_ci": [
+     0.8007,
+     0.9664
+    ],
+    "d_avg": -0.432,
+    "d_avg_ci": [
+     -0.898,
+     0.035
+    ],
+    "d_top4": 0.0464,
+    "d_win": 0.0958,
+    "shrunk_avg": 2.423,
+    "score": -0.263,
+    "d_avg_pess": 0.0,
+    "impact": 0.0183,
+    "z": -1.81,
+    "p": 0.06994,
+    "significant": false
    },
    {
     "key": [
      "DA_18_Summoner_1"
     ],
     "label": "Summoner",
-    "n": 269,
-    "share": 0.18187964841108858,
-    "avg_place": 2.781,
-    "sd": 1.641,
-    "win": 0.2379,
-    "top2": 0.5242,
-    "top4": 0.8587,
+    "n": 126,
+    "share": 0.1861152141802068,
+    "avg_place": 2.365,
+    "sd": 1.307,
+    "win": 0.2778,
+    "top2": 0.6349,
+    "top4": 0.9206,
     "top4_ci": [
-     0.812,
-     0.8953
+     0.8601,
+     0.9563
     ],
-    "d_avg": -0.288,
+    "d_avg": -0.322,
     "d_avg_ci": [
-     -0.503,
-     -0.074
+     -0.58,
+     -0.064
     ],
-    "d_top4": 0.0514,
-    "d_win": 0.0398,
-    "shrunk_avg": 2.81,
-    "score": -0.259,
-    "d_avg_pess": -0.074,
-    "impact": 0.0472,
-    "z": -2.63,
-    "p": 0.00846,
+    "d_top4": 0.0521,
+    "d_win": 0.0119,
+    "shrunk_avg": 2.427,
+    "score": -0.26,
+    "d_avg_pess": -0.064,
+    "impact": 0.0484,
+    "z": -2.45,
+    "p": 0.01447,
+    "significant": true
+   },
+   {
+    "key": [
+     "DA_18_Invoker_3"
+    ],
+    "label": "Invoker",
+    "n": 44,
+    "share": 0.06499261447562776,
+    "avg_place": 2.273,
+    "sd": 1.498,
+    "win": 0.4318,
+    "top2": 0.6591,
+    "top4": 0.9091,
+    "top4_ci": [
+     0.7884,
+     0.9641
+    ],
+    "d_avg": -0.414,
+    "d_avg_ci": [
+     -0.873,
+     0.045
+    ],
+    "d_top4": 0.0406,
+    "d_win": 0.1659,
+    "shrunk_avg": 2.441,
+    "score": -0.246,
+    "d_avg_pess": 0.0,
+    "impact": 0.016,
+    "z": -1.77,
+    "p": 0.07677,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_ZyraUniqueTrait_1"
+    ],
+    "label": "Zyra Unique Trait",
+    "n": 129,
+    "share": 0.19054652880354506,
+    "avg_place": 2.395,
+    "sd": 1.272,
+    "win": 0.2636,
+    "top2": 0.6279,
+    "top4": 0.907,
+    "top4_ci": [
+     0.8444,
+     0.946
+    ],
+    "d_avg": -0.292,
+    "d_avg_ci": [
+     -0.542,
+     -0.041
+    ],
+    "d_top4": 0.0384,
+    "d_win": -0.0023,
+    "shrunk_avg": 2.45,
+    "score": -0.237,
+    "d_avg_pess": -0.041,
+    "impact": 0.0451,
+    "z": -2.28,
+    "p": 0.02246,
     "significant": true
    },
    {
@@ -3124,61 +2085,61 @@
      "DA_18_Lunar_1"
     ],
     "label": "Lunar",
-    "n": 439,
-    "share": 0.29682217714672077,
-    "avg_place": 2.8,
-    "sd": 1.599,
-    "win": 0.221,
-    "top2": 0.533,
-    "top4": 0.8542,
+    "n": 172,
+    "share": 0.25406203840472674,
+    "avg_place": 2.424,
+    "sd": 1.36,
+    "win": 0.2849,
+    "top2": 0.6279,
+    "top4": 0.907,
     "top4_ci": [
-     0.8181,
-     0.8842
+     0.8542,
+     0.9419
     ],
-    "d_avg": -0.269,
+    "d_avg": -0.262,
     "d_avg_ci": [
-     -0.443,
-     -0.096
+     -0.499,
+     -0.026
     ],
-    "d_top4": 0.0469,
-    "d_win": 0.0228,
-    "shrunk_avg": 2.817,
-    "score": -0.252,
-    "d_avg_pess": -0.096,
-    "impact": 0.0749,
-    "z": -3.05,
-    "p": 0.00229,
+    "d_top4": 0.0384,
+    "d_win": 0.019,
+    "shrunk_avg": 2.463,
+    "score": -0.223,
+    "d_avg_pess": -0.026,
+    "impact": 0.0568,
+    "z": -2.18,
+    "p": 0.02936,
     "significant": true
    },
    {
     "key": [
-     "DA_18_Spellweaver_1"
+     "DA_18_Lunar_2"
     ],
-    "label": "Spellweaver",
-    "n": 56,
-    "share": 0.03786342123056119,
-    "avg_place": 2.786,
-    "sd": 1.78,
-    "win": 0.3393,
-    "top2": 0.5357,
-    "top4": 0.8036,
+    "label": "Lunar",
+    "n": 46,
+    "share": 0.06794682422451995,
+    "avg_place": 2.326,
+    "sd": 1.217,
+    "win": 0.2826,
+    "top2": 0.6304,
+    "top4": 0.9348,
     "top4_ci": [
-     0.6816,
-     0.8866
+     0.825,
+     0.9776
     ],
-    "d_avg": -0.283,
+    "d_avg": -0.361,
     "d_avg_ci": [
-     -0.758,
-     0.191
+     -0.732,
+     0.011
     ],
-    "d_top4": -0.0037,
-    "d_win": 0.1412,
-    "shrunk_avg": 2.885,
-    "score": -0.184,
+    "d_top4": 0.0662,
+    "d_win": 0.0167,
+    "shrunk_avg": 2.468,
+    "score": -0.218,
     "d_avg_pess": 0.0,
-    "impact": 0.007,
-    "z": -1.17,
-    "p": 0.2418,
+    "impact": 0.0148,
+    "z": -1.9,
+    "p": 0.05707,
     "significant": false
    },
    {
@@ -3186,61 +2147,30 @@
      "DA_18_Maokai_UniqueTrait_1"
     ],
     "label": "Maokai Unique Trait",
-    "n": 112,
-    "share": 0.07572684246112238,
-    "avg_place": 2.884,
-    "sd": 1.831,
-    "win": 0.2679,
-    "top2": 0.5446,
-    "top4": 0.7946,
+    "n": 52,
+    "share": 0.07680945347119646,
+    "avg_place": 2.385,
+    "sd": 1.689,
+    "win": 0.3269,
+    "top2": 0.75,
+    "top4": 0.8462,
     "top4_ci": [
-     0.7107,
-     0.8591
+     0.7248,
+     0.9199
     ],
-    "d_avg": -0.185,
+    "d_avg": -0.302,
     "d_avg_ci": [
-     -0.535,
-     0.165
+     -0.777,
+     0.172
     ],
-    "d_top4": -0.0127,
-    "d_win": 0.0698,
-    "shrunk_avg": 2.923,
-    "score": -0.146,
+    "d_top4": -0.0224,
+    "d_win": 0.061,
+    "shrunk_avg": 2.495,
+    "score": -0.192,
     "d_avg_pess": 0.0,
-    "impact": 0.0111,
-    "z": -1.04,
-    "p": 0.30032,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Rapidfire_1"
-    ],
-    "label": "Rapidfire",
-    "n": 316,
-    "share": 0.213657876943881,
-    "avg_place": 2.924,
-    "sd": 1.605,
-    "win": 0.2089,
-    "top2": 0.4778,
-    "top4": 0.8418,
-    "top4_ci": [
-     0.7975,
-     0.8779
-    ],
-    "d_avg": -0.145,
-    "d_avg_ci": [
-     -0.342,
-     0.052
-    ],
-    "d_top4": 0.0345,
-    "d_win": 0.0108,
-    "shrunk_avg": 2.937,
-    "score": -0.132,
-    "d_avg_pess": 0.0,
-    "impact": 0.0283,
-    "z": -1.44,
-    "p": 0.15002,
+    "impact": 0.0147,
+    "z": -1.25,
+    "p": 0.21187,
     "significant": false
    },
    {
@@ -3248,92 +2178,30 @@
      "DA_Riftbeast18_1"
     ],
     "label": "Riftbeast",
-    "n": 751,
-    "share": 0.5077755240027045,
-    "avg_place": 2.935,
-    "sd": 1.693,
-    "win": 0.2104,
-    "top2": 0.494,
-    "top4": 0.8282,
+    "n": 298,
+    "share": 0.4401772525849335,
+    "avg_place": 2.487,
+    "sd": 1.424,
+    "win": 0.2752,
+    "top2": 0.6007,
+    "top4": 0.9027,
     "top4_ci": [
-     0.7996,
-     0.8535
+     0.8637,
+     0.9314
     ],
-    "d_avg": -0.134,
+    "d_avg": -0.2,
     "d_avg_ci": [
-     -0.283,
-     0.015
+     -0.402,
+     0.001
     ],
-    "d_top4": 0.0209,
-    "d_win": 0.0123,
-    "shrunk_avg": 2.94,
-    "score": -0.129,
+    "d_top4": 0.0341,
+    "d_win": 0.0093,
+    "shrunk_avg": 2.505,
+    "score": -0.182,
     "d_avg_pess": 0.0,
-    "impact": 0.0655,
-    "z": -1.76,
-    "p": 0.07803,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Rapidfire_2"
-    ],
-    "label": "Rapidfire",
-    "n": 49,
-    "share": 0.03313049357674104,
-    "avg_place": 2.898,
-    "sd": 1.752,
-    "win": 0.2245,
-    "top2": 0.5102,
-    "top4": 0.8367,
-    "top4_ci": [
-     0.7096,
-     0.9149
-    ],
-    "d_avg": -0.171,
-    "d_avg_ci": [
-     -0.669,
-     0.327
-    ],
-    "d_top4": 0.0294,
-    "d_win": 0.0264,
-    "shrunk_avg": 2.963,
-    "score": -0.106,
-    "d_avg_pess": 0.0,
-    "impact": 0.0035,
-    "z": -0.67,
-    "p": 0.50126,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Slayer_2"
-    ],
-    "label": "Slayer",
-    "n": 117,
-    "share": 0.07910750507099391,
-    "avg_place": 2.949,
-    "sd": 1.496,
-    "win": 0.188,
-    "top2": 0.4017,
-    "top4": 0.8547,
-    "top4_ci": [
-     0.7796,
-     0.9073
-    ],
-    "d_avg": -0.12,
-    "d_avg_ci": [
-     -0.405,
-     0.164
-    ],
-    "d_top4": 0.0474,
-    "d_win": -0.0101,
-    "shrunk_avg": 2.973,
-    "score": -0.096,
-    "d_avg_pess": 0.0,
-    "impact": 0.0076,
-    "z": -0.83,
-    "p": 0.40776,
+    "impact": 0.0801,
+    "z": -1.95,
+    "p": 0.05138,
     "significant": false
    },
    {
@@ -3341,278 +2209,61 @@
      "DA_18_Invoker_1"
     ],
     "label": "Invoker",
-    "n": 477,
-    "share": 0.3225152129817444,
-    "avg_place": 2.975,
-    "sd": 1.644,
-    "win": 0.2222,
-    "top2": 0.4654,
-    "top4": 0.8197,
+    "n": 252,
+    "share": 0.3722304283604136,
+    "avg_place": 2.552,
+    "sd": 1.523,
+    "win": 0.3016,
+    "top2": 0.5794,
+    "top4": 0.8968,
     "top4_ci": [
-     0.7827,
-     0.8516
+     0.8531,
+     0.9286
     ],
-    "d_avg": -0.094,
+    "d_avg": -0.135,
     "d_avg_ci": [
-     -0.266,
-     0.077
+     -0.358,
+     0.088
     ],
-    "d_top4": 0.0124,
-    "d_win": 0.0241,
-    "shrunk_avg": 2.98,
-    "score": -0.089,
+    "d_top4": 0.0283,
+    "d_win": 0.0357,
+    "shrunk_avg": 2.566,
+    "score": -0.121,
     "d_avg_pess": 0.0,
-    "impact": 0.0286,
-    "z": -1.08,
-    "p": 0.28187,
+    "impact": 0.045,
+    "z": -1.19,
+    "p": 0.23479,
     "significant": false
    },
    {
     "key": [
-     "DA_18_Hunter_1"
+     "DA_18_Rapidfire_1"
     ],
-    "label": "Hunter",
-    "n": 49,
-    "share": 0.03313049357674104,
-    "avg_place": 3.0,
-    "sd": 1.654,
-    "win": 0.2041,
-    "top2": 0.449,
-    "top4": 0.7959,
+    "label": "Rapidfire",
+    "n": 141,
+    "share": 0.20827178729689808,
+    "avg_place": 2.61,
+    "sd": 1.403,
+    "win": 0.2411,
+    "top2": 0.5603,
+    "top4": 0.8794,
     "top4_ci": [
-     0.6636,
-     0.8852
+     0.8154,
+     0.9233
     ],
-    "d_avg": -0.069,
+    "d_avg": -0.077,
     "d_avg_ci": [
-     -0.54,
-     0.402
+     -0.338,
+     0.184
     ],
-    "d_top4": -0.0114,
-    "d_win": 0.006,
-    "shrunk_avg": 3.026,
-    "score": -0.043,
+    "d_top4": 0.0109,
+    "d_win": -0.0247,
+    "shrunk_avg": 2.623,
+    "score": -0.063,
     "d_avg_pess": 0.0,
-    "impact": 0.0014,
-    "z": -0.29,
-    "p": 0.7742,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Slayer_1"
-    ],
-    "label": "Slayer",
-    "n": 1188,
-    "share": 0.8032454361054767,
-    "avg_place": 3.032,
-    "sd": 1.727,
-    "win": 0.2096,
-    "top2": 0.4655,
-    "top4": 0.8106,
-    "top4_ci": [
-     0.7873,
-     0.8319
-    ],
-    "d_avg": -0.037,
-    "d_avg_ci": [
-     -0.168,
-     0.094
-    ],
-    "d_top4": 0.0033,
-    "d_win": 0.0115,
-    "shrunk_avg": 3.033,
-    "score": -0.036,
-    "d_avg_pess": 0.0,
-    "impact": 0.029,
-    "z": -0.55,
-    "p": 0.58112,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Blackthorn_2"
-    ],
-    "label": "Blackthorn",
-    "n": 46,
-    "share": 0.03110209601081812,
-    "avg_place": 3.022,
-    "sd": 1.661,
-    "win": 0.1304,
-    "top2": 0.4348,
-    "top4": 0.8696,
-    "top4_ci": [
-     0.7433,
-     0.9388
-    ],
-    "d_avg": -0.047,
-    "d_avg_ci": [
-     -0.535,
-     0.441
-    ],
-    "d_top4": 0.0623,
-    "d_win": -0.0677,
-    "shrunk_avg": 3.04,
-    "score": -0.029,
-    "d_avg_pess": 0.0,
-    "impact": 0.0009,
-    "z": -0.19,
-    "p": 0.84956,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_DravenUniqueTrait18_1"
-    ],
-    "label": "Draven Unique Trait",
-    "n": 41,
-    "share": 0.027721433400946585,
-    "avg_place": 3.073,
-    "sd": 1.488,
-    "win": 0.1951,
-    "top2": 0.3902,
-    "top4": 0.8049,
-    "top4_ci": [
-     0.6599,
-     0.8977
-    ],
-    "d_avg": 0.004,
-    "d_avg_ci": [
-     -0.46,
-     0.468
-    ],
-    "d_top4": -0.0024,
-    "d_win": -0.003,
-    "shrunk_avg": 3.071,
-    "score": 0.002,
-    "d_avg_pess": 0.0,
-    "impact": -0.0001,
-    "z": 0.02,
-    "p": 0.98582,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Invoker_3"
-    ],
-    "label": "Invoker",
-    "n": 158,
-    "share": 0.1068289384719405,
-    "avg_place": 3.082,
-    "sd": 1.855,
-    "win": 0.2342,
-    "top2": 0.4747,
-    "top4": 0.7975,
-    "top4_ci": [
-     0.7281,
-     0.8527
-    ],
-    "d_avg": 0.013,
-    "d_avg_ci": [
-     -0.289,
-     0.315
-    ],
-    "d_top4": -0.0098,
-    "d_win": 0.0361,
-    "shrunk_avg": 3.08,
-    "score": 0.011,
-    "d_avg_pess": 0.0,
-    "impact": -0.0012,
-    "z": 0.09,
-    "p": 0.93119,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Invoker_2"
-    ],
-    "label": "Invoker",
-    "n": 101,
-    "share": 0.068289384719405,
-    "avg_place": 3.109,
-    "sd": 1.717,
-    "win": 0.2277,
-    "top2": 0.4158,
-    "top4": 0.7624,
-    "top4_ci": [
-     0.6707,
-     0.8348
-    ],
-    "d_avg": 0.04,
-    "d_avg_ci": [
-     -0.306,
-     0.386
-    ],
-    "d_top4": -0.0449,
-    "d_win": 0.0296,
-    "shrunk_avg": 3.1,
-    "score": 0.031,
-    "d_avg_pess": 0.0,
-    "impact": -0.0021,
-    "z": 0.23,
-    "p": 0.82102,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Rival_1"
-    ],
-    "label": "Rival",
-    "n": 79,
-    "share": 0.05341446923597025,
-    "avg_place": 3.127,
-    "sd": 1.872,
-    "win": 0.2152,
-    "top2": 0.443,
-    "top4": 0.7975,
-    "top4_ci": [
-     0.696,
-     0.8713
-    ],
-    "d_avg": 0.058,
-    "d_avg_ci": [
-     -0.364,
-     0.479
-    ],
-    "d_top4": -0.0098,
-    "d_win": 0.0171,
-    "shrunk_avg": 3.111,
-    "score": 0.042,
-    "d_avg_pess": 0.0,
-    "impact": -0.0022,
-    "z": 0.27,
-    "p": 0.78893,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Caustic_1"
-    ],
-    "label": "Caustic",
-    "n": 298,
-    "share": 0.20148749154834347,
-    "avg_place": 3.134,
-    "sd": 1.827,
-    "win": 0.2081,
-    "top2": 0.4664,
-    "top4": 0.7752,
-    "top4_ci": [
-     0.7244,
-     0.8189
-    ],
-    "d_avg": 0.065,
-    "d_avg_ci": [
-     -0.16,
-     0.29
-    ],
-    "d_top4": -0.0321,
-    "d_win": 0.0099,
-    "shrunk_avg": 3.128,
-    "score": 0.059,
-    "d_avg_pess": 0.0,
-    "impact": -0.0119,
-    "z": 0.57,
-    "p": 0.56975,
+    "impact": 0.0132,
+    "z": -0.58,
+    "p": 0.56336,
     "significant": false
    },
    {
@@ -3620,30 +2271,92 @@
      "DA_18_Vanguard_1"
     ],
     "label": "Vanguard",
-    "n": 386,
-    "share": 0.2609871534820825,
-    "avg_place": 3.135,
-    "sd": 1.856,
-    "win": 0.2358,
-    "top2": 0.443,
-    "top4": 0.7876,
+    "n": 177,
+    "share": 0.2614475627769572,
+    "avg_place": 2.616,
+    "sd": 1.626,
+    "win": 0.3277,
+    "top2": 0.5593,
+    "top4": 0.8814,
     "top4_ci": [
-     0.744,
-     0.8254
+     0.8254,
+     0.9211
     ],
-    "d_avg": 0.066,
+    "d_avg": -0.071,
     "d_avg_ci": [
-     -0.139,
-     0.27
+     -0.339,
+     0.197
     ],
-    "d_top4": -0.0197,
-    "d_win": 0.0376,
-    "shrunk_avg": 3.13,
-    "score": 0.061,
+    "d_top4": 0.0128,
+    "d_win": 0.0618,
+    "shrunk_avg": 2.626,
+    "score": -0.061,
     "d_avg_pess": 0.0,
-    "impact": -0.0159,
-    "z": 0.63,
-    "p": 0.52887,
+    "impact": 0.0159,
+    "z": -0.52,
+    "p": 0.60339,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Caustic_1"
+    ],
+    "label": "Caustic",
+    "n": 83,
+    "share": 0.12259970457902511,
+    "avg_place": 2.614,
+    "sd": 1.663,
+    "win": 0.3253,
+    "top2": 0.5904,
+    "top4": 0.8554,
+    "top4_ci": [
+     0.7641,
+     0.9153
+    ],
+    "d_avg": -0.072,
+    "d_avg_ci": [
+     -0.45,
+     0.305
+    ],
+    "d_top4": -0.0131,
+    "d_win": 0.0594,
+    "shrunk_avg": 2.634,
+    "score": -0.053,
+    "d_avg_pess": 0.0,
+    "impact": 0.0065,
+    "z": -0.38,
+    "p": 0.70701,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Slayer_1"
+    ],
+    "label": "Slayer",
+    "n": 542,
+    "share": 0.8005908419497785,
+    "avg_place": 2.649,
+    "sd": 1.606,
+    "win": 0.2804,
+    "top2": 0.5609,
+    "top4": 0.8727,
+    "top4_ci": [
+     0.842,
+     0.8982
+    ],
+    "d_avg": -0.037,
+    "d_avg_ci": [
+     -0.218,
+     0.143
+    ],
+    "d_top4": 0.0042,
+    "d_win": 0.0146,
+    "shrunk_avg": 2.651,
+    "score": -0.035,
+    "d_avg_pess": 0.0,
+    "impact": 0.0284,
+    "z": -0.41,
+    "p": 0.68524,
     "significant": false
    },
    {
@@ -3651,61 +2364,61 @@
      "DA_Juggernaut18_1"
     ],
     "label": "Juggernaut",
-    "n": 156,
-    "share": 0.10547667342799188,
-    "avg_place": 3.167,
-    "sd": 1.947,
-    "win": 0.2436,
-    "top2": 0.4615,
-    "top4": 0.7756,
+    "n": 71,
+    "share": 0.10487444608567208,
+    "avg_place": 2.648,
+    "sd": 1.907,
+    "win": 0.3521,
+    "top2": 0.6479,
+    "top4": 0.8451,
     "top4_ci": [
-     0.704,
-     0.834
+     0.7435,
+     0.9112
     ],
-    "d_avg": 0.098,
+    "d_avg": -0.039,
     "d_avg_ci": [
-     -0.22,
-     0.416
+     -0.499,
+     0.421
     ],
-    "d_top4": -0.0317,
-    "d_win": 0.0455,
-    "shrunk_avg": 3.151,
-    "score": 0.082,
+    "d_top4": -0.0235,
+    "d_win": 0.0862,
+    "shrunk_avg": 2.659,
+    "score": -0.027,
     "d_avg_pess": 0.0,
-    "impact": -0.0086,
-    "z": 0.6,
-    "p": 0.54683,
+    "impact": 0.0029,
+    "z": -0.17,
+    "p": 0.86801,
     "significant": false
    },
    {
     "key": [
-     "DA_18_Battlemage_1"
+     "DA_18_Slayer_2"
     ],
-    "label": "Battlemage",
-    "n": 99,
-    "share": 0.06693711967545639,
-    "avg_place": 3.242,
-    "sd": 1.688,
-    "win": 0.1313,
-    "top2": 0.3838,
-    "top4": 0.8182,
+    "label": "Slayer",
+    "n": 45,
+    "share": 0.06646971935007386,
+    "avg_place": 2.867,
+    "sd": 1.558,
+    "win": 0.2222,
+    "top2": 0.4222,
+    "top4": 0.8667,
     "top4_ci": [
-     0.7308,
-     0.8818
+     0.7382,
+     0.9374
     ],
-    "d_avg": 0.173,
+    "d_avg": 0.18,
     "d_avg_ci": [
-     -0.17,
-     0.517
+     -0.291,
+     0.651
     ],
-    "d_top4": 0.0109,
-    "d_win": -0.0668,
-    "shrunk_avg": 3.202,
-    "score": 0.133,
+    "d_top4": -0.0019,
+    "d_win": -0.0437,
+    "shrunk_avg": 2.795,
+    "score": 0.108,
     "d_avg_pess": 0.0,
-    "impact": -0.0089,
-    "z": 0.99,
-    "p": 0.32276,
+    "impact": -0.0072,
+    "z": 0.75,
+    "p": 0.45406,
     "significant": false
    },
    {
@@ -3713,154 +2426,61 @@
      "DA_18_Slayer_3"
     ],
     "label": "Slayer",
-    "n": 78,
-    "share": 0.05273833671399594,
-    "avg_place": 3.256,
-    "sd": 1.556,
-    "win": 0.1026,
-    "top2": 0.3846,
-    "top4": 0.8077,
-    "top4_ci": [
-     0.7066,
-     0.8798
-    ],
-    "d_avg": 0.187,
-    "d_avg_ci": [
-     -0.169,
-     0.544
-    ],
-    "d_top4": 0.0004,
-    "d_win": -0.0955,
-    "shrunk_avg": 3.204,
-    "score": 0.135,
-    "d_avg_pess": 0.0,
-    "impact": -0.0071,
-    "z": 1.03,
-    "p": 0.30233,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Blackthorn_1"
-    ],
-    "label": "Blackthorn",
     "n": 47,
-    "share": 0.03177822853279243,
-    "avg_place": 3.319,
-    "sd": 1.559,
-    "win": 0.0851,
-    "top2": 0.3617,
-    "top4": 0.7872,
+    "share": 0.06942392909896603,
+    "avg_place": 2.894,
+    "sd": 1.547,
+    "win": 0.1702,
+    "top2": 0.5319,
+    "top4": 0.8298,
     "top4_ci": [
-     0.651,
-     0.8801
+     0.6986,
+     0.9111
     ],
-    "d_avg": 0.25,
+    "d_avg": 0.207,
     "d_avg_ci": [
-     -0.204,
-     0.704
+     -0.252,
+     0.665
     ],
-    "d_top4": -0.0201,
-    "d_win": -0.113,
-    "shrunk_avg": 3.222,
-    "score": 0.153,
+    "d_top4": -0.0388,
+    "d_win": -0.0957,
+    "shrunk_avg": 2.813,
+    "score": 0.126,
     "d_avg_pess": 0.0,
-    "impact": -0.0049,
-    "z": 1.08,
-    "p": 0.28024,
+    "impact": -0.0088,
+    "z": 0.88,
+    "p": 0.37655,
     "significant": false
    },
    {
     "key": [
-     "DA_18_Adaptor_1"
+     "DA_18_Rival_1"
     ],
-    "label": "Adaptor",
-    "n": 76,
-    "share": 0.05138607167004733,
-    "avg_place": 3.303,
-    "sd": 1.63,
-    "win": 0.1447,
-    "top2": 0.3816,
-    "top4": 0.7632,
+    "label": "Rival",
+    "n": 41,
+    "share": 0.060561299852289516,
+    "avg_place": 3.049,
+    "sd": 1.975,
+    "win": 0.2683,
+    "top2": 0.4878,
+    "top4": 0.8049,
     "top4_ci": [
-     0.6564,
-     0.8446
+     0.6599,
+     0.8977
     ],
-    "d_avg": 0.234,
+    "d_avg": 0.362,
     "d_avg_ci": [
-     -0.143,
-     0.61
+     -0.254,
+     0.978
     ],
-    "d_top4": -0.0441,
-    "d_win": -0.0534,
-    "shrunk_avg": 3.236,
-    "score": 0.168,
+    "d_top4": -0.0637,
+    "d_win": 0.0024,
+    "shrunk_avg": 2.896,
+    "score": 0.209,
     "d_avg_pess": 0.0,
-    "impact": -0.0086,
-    "z": 1.22,
-    "p": 0.22421,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_FloraFatalis18_1"
-    ],
-    "label": "Flora Fatalis",
-    "n": 53,
-    "share": 0.03583502366463827,
-    "avg_place": 3.434,
-    "sd": 1.56,
-    "win": 0.1321,
-    "top2": 0.2453,
-    "top4": 0.8113,
-    "top4_ci": [
-     0.6864,
-     0.8941
-    ],
-    "d_avg": 0.365,
-    "d_avg_ci": [
-     -0.064,
-     0.794
-    ],
-    "d_top4": 0.004,
-    "d_win": -0.066,
-    "shrunk_avg": 3.302,
-    "score": 0.233,
-    "d_avg_pess": 0.0,
-    "impact": -0.0084,
-    "z": 1.67,
-    "p": 0.09542,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Primal18_1"
-    ],
-    "label": "Primal",
-    "n": 46,
-    "share": 0.03110209601081812,
-    "avg_place": 3.457,
-    "sd": 1.873,
-    "win": 0.1739,
-    "top2": 0.3696,
-    "top4": 0.7174,
-    "top4_ci": [
-     0.5745,
-     0.8268
-    ],
-    "d_avg": 0.388,
-    "d_avg_ci": [
-     -0.161,
-     0.936
-    ],
-    "d_top4": -0.0899,
-    "d_win": -0.0242,
-    "shrunk_avg": 3.304,
-    "score": 0.235,
-    "d_avg_pess": 0.0,
-    "impact": -0.0073,
-    "z": 1.39,
-    "p": 0.16595,
+    "impact": -0.0127,
+    "z": 1.15,
+    "p": 0.24975,
     "significant": false
    },
    {
@@ -3868,74 +2488,43 @@
      "DA_Riftbeast18_3"
     ],
     "label": "Riftbeast",
-    "n": 427,
-    "share": 0.2887085868830291,
-    "avg_place": 3.379,
-    "sd": 1.618,
-    "win": 0.1335,
-    "top2": 0.3279,
-    "top4": 0.7799,
+    "n": 229,
+    "share": 0.33825701624815363,
+    "avg_place": 3.004,
+    "sd": 1.62,
+    "win": 0.1834,
+    "top2": 0.441,
+    "top4": 0.8559,
     "top4_ci": [
-     0.7382,
-     0.8166
+     0.8045,
+     0.8955
     ],
-    "d_avg": 0.31,
+    "d_avg": 0.318,
     "d_avg_ci": [
-     0.134,
-     0.487
+     0.076,
+     0.559
     ],
-    "d_top4": -0.0274,
-    "d_win": -0.0646,
-    "shrunk_avg": 3.359,
-    "score": 0.29,
-    "d_avg_pess": 0.134,
-    "impact": -0.0837,
-    "z": 3.45,
-    "p": 0.00057,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_Riftbeast18_2"
-    ],
-    "label": "Riftbeast",
-    "n": 40,
-    "share": 0.027045300878972278,
-    "avg_place": 4.0,
-    "sd": 2.037,
-    "win": 0.1,
-    "top2": 0.35,
-    "top4": 0.55,
-    "top4_ci": [
-     0.3983,
-     0.6929
-    ],
-    "d_avg": 0.931,
-    "d_avg_ci": [
-     0.294,
-     1.568
-    ],
-    "d_top4": -0.2573,
-    "d_win": -0.0981,
-    "shrunk_avg": 3.601,
-    "score": 0.532,
-    "d_avg_pess": 0.294,
-    "impact": -0.0144,
-    "z": 2.86,
-    "p": 0.00419,
+    "d_top4": -0.0126,
+    "d_win": -0.0825,
+    "shrunk_avg": 2.968,
+    "score": 0.281,
+    "d_avg_pess": 0.076,
+    "impact": -0.095,
+    "z": 2.57,
+    "p": 0.01006,
     "significant": true
    }
   ]
  },
  "meta": {
-  "games": 1479,
-  "share_of_meta": 0.04001948210081987,
-  "avg_place": 3.069,
-  "win": 0.1981,
-  "top4": 0.8073,
+  "games": 677,
+  "share_of_meta": 0.040340841377666546,
+  "avg_place": 2.687,
+  "win": 0.2659,
+  "top4": 0.8685,
   "top4_ci": [
-   0.7864,
-   0.8266
+   0.841,
+   0.8919
   ],
   "prior_games": 30
  }

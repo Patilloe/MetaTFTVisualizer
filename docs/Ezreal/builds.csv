@@ -1,5 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Deathblade + Infinity Edge + Spear Of Shojin,40,0.024630541871921183,2.425,2.698,-0.336,-0.609,-0.048,0.0083,0.1034,0.4,0.675,0.875,1.787,-2.13,0.03352,False
-populaire,Last Whisper + Spear Of Shojin + Strikers Flail,49,0.03017241379310345,2.612,2.78,-0.254,-0.422,0.0,0.0077,0.0244,0.4082,0.551,0.7959,1.7,-1.7,0.08822,False
-populaire,Deathblade + Last Whisper + Spear Of Shojin,87,0.05357142857142857,3.023,3.026,-0.008,-0.011,0.0,0.0004,-0.0474,0.3448,0.5402,0.7241,2.079,-0.05,0.96189,False
-populaire,Infinity Edge + Last Whisper + Spear Of Shojin,57,0.035098522167487683,3.281,3.191,0.157,0.247,0.0,-0.0055,-0.0873,0.2807,0.4561,0.6842,2.05,0.9,0.37024,False
