@@ -1,4 +1,4 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,68,0.05541972290138549,2.485,2.559,-0.167,-0.24,0.0,0.0092,0.0339,0.3382,0.5882,0.8676,1.5,-1.27,0.20287,False
-populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,177,0.14425427872860636,2.627,2.641,-0.084,-0.098,0.0,0.0121,0.0137,0.339,0.5989,0.8475,1.781,-0.69,0.49131,False
-populaire,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,47,0.03830480847595762,3.213,3.023,0.298,0.487,0.0,-0.0114,-0.0891,0.1915,0.4255,0.7447,1.833,1.79,0.07301,False
+populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,129,0.14726027397260275,2.488,2.505,-0.07,-0.086,0.0,0.0103,0.0232,0.3876,0.6202,0.876,1.739,-0.53,0.59919,False
+populaire,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,47,0.05365296803652968,2.745,2.678,0.104,0.17,0.0,-0.0056,-0.0655,0.3404,0.5319,0.7872,1.694,0.67,0.5014,False
+populaire,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,40,0.045662100456621,3.025,2.832,0.258,0.451,0.0,-0.0118,-0.1027,0.225,0.45,0.75,1.681,1.66,0.0971,False

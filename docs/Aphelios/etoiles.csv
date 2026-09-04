@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Aphelios 2*,927,1.0098039215686274,2.469,2.469,-0.002,-0.002,0.0,0.0024,-0.0,0.3182,0.6073,0.89,1.48,-0.04,0.97197,False
+populaire,Aphelios 2*,615,1.0148514851485149,2.337,2.337,-0.0,-0.0,0.0,0.0,-0.0004,0.3447,0.6374,0.9171,1.382,-0.0,0.99951,False

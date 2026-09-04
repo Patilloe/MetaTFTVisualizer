@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Morgana 2*,888,1.0195177956371986,2.676,2.676,-0.015,-0.015,0.0,0.0153,0.003,0.3063,0.5563,0.8457,1.655,-0.2,0.84477,False
+populaire,Morgana 2*,594,1.0206185567010309,2.517,2.518,-0.018,-0.019,0.0,0.0187,0.0026,0.3333,0.6061,0.8721,1.575,-0.21,0.83437,False

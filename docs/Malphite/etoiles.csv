@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Malphite 2*,670,1.012084592145015,2.858,2.858,-0.001,-0.001,0.0,0.0013,0.0021,0.2313,0.4925,0.8224,1.635,-0.01,0.98838,False
+populaire,Malphite 2*,493,1.0123203285420945,2.744,2.744,-0.001,-0.001,0.0,0.0009,0.002,0.2576,0.5193,0.8398,1.599,-0.01,0.99253,False

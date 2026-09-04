@@ -1,3 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Crownguard + Gargoyle Stoneplate + Warmogs Armor,41,0.061933534743202415,2.195,2.476,-0.384,-0.664,-0.208,0.0238,0.0822,0.3902,0.7317,0.9024,1.435,-2.85,0.00436,True
-populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,51,0.0770392749244713,2.588,2.689,-0.171,-0.271,0.0,0.0132,0.0817,0.2157,0.5882,0.902,1.389,-1.33,0.18499,False
+populaire,Crownguard + Gargoyle Stoneplate + Warmogs Armor,40,0.08213552361396304,2.325,2.505,-0.24,-0.42,0.0,0.0197,0.0372,0.375,0.7,0.875,1.555,-1.64,0.10116,False

@@ -1,5 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Giant Slayer + Guinsoos Rageblade + Krakens Fury,57,0.06209150326797386,2.281,2.347,-0.125,-0.191,0.0,0.0078,-0.0303,0.386,0.7018,0.8596,1.436,-0.97,0.33075,False
-populaire,Deathblade + Guinsoos Rageblade + Krakens Fury,46,0.05010893246187364,2.478,2.476,0.004,0.007,0.0,-0.0002,0.0013,0.3478,0.587,0.8913,1.471,0.03,0.97637,False
-populaire,Deathblade + Giant Slayer + Red Buff,54,0.058823529411764705,2.593,2.549,0.078,0.121,0.0,-0.0046,-0.0196,0.2222,0.5926,0.8704,1.534,0.56,0.57272,False
-populaire,Guinsoos Rageblade + Infinity Edge + Krakens Fury,81,0.08823529411764706,2.58,2.551,0.079,0.109,0.0,-0.007,-0.0381,0.3086,0.5926,0.8519,1.53,0.61,0.53947,False
+populaire,Guinsoos Rageblade + Infinity Edge + Krakens Fury,47,0.07755775577557755,2.447,2.404,0.067,0.11,0.0,-0.0052,-0.0239,0.3404,0.5957,0.8936,1.441,0.51,0.61262,False

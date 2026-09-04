@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Ahri 2*,1253,1.0211898940505297,2.712,2.712,-0.013,-0.013,0.0,0.0134,0.0034,0.3017,0.5619,0.8372,1.726,-0.19,0.84647,False
+populaire,Ahri 2*,894,1.0205479452054795,2.557,2.558,-0.017,-0.017,0.0,0.0169,0.003,0.3378,0.6018,0.8557,1.672,-0.22,0.82953,False
