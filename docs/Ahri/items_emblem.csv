@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Emblem Invoker,46,0.05251141552511415,2.522,2.542,-0.032,-0.052,0.0,0.0017,-0.0049,0.3043,0.6739,0.8478,1.741,-0.2,0.84185,False
+populaire,Emblem Invoker,49,0.07227138643067847,2.327,2.383,-0.092,-0.148,0.0,0.0067,0.0322,0.3265,0.7143,0.898,1.596,-0.63,0.5309,False

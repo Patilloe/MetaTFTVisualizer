@@ -1,4 +1,3 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Gargoyle Stoneplate + Warmogs Armor,102,0.2518518518518518,2.784,2.773,0.037,0.049,0.0,-0.0094,-0.0037,0.3039,0.5098,0.8333,1.741,0.25,0.80072,False
-populaire,Gargoyle Stoneplate + Spirit Visage,84,0.2074074074074074,2.869,2.834,0.098,0.133,0.0,-0.0204,-0.0513,0.3095,0.5,0.7857,1.724,0.65,0.51845,False
-populaire,Spirit Visage + Warmogs Armor,45,0.1111111111111111,2.911,2.841,0.105,0.175,0.0,-0.0117,0.0074,0.2222,0.4667,0.8444,1.532,0.72,0.47188,False
+populaire,Gargoyle Stoneplate + Warmogs Armor,82,0.26366559485530544,2.72,2.711,0.023,0.031,0.0,-0.0061,0.0061,0.3293,0.5488,0.8293,1.803,0.14,0.88772,False
+populaire,Gargoyle Stoneplate + Spirit Visage,69,0.22186495176848875,2.928,2.855,0.167,0.239,0.0,-0.037,-0.055,0.3043,0.4928,0.7681,1.772,1.02,0.30883,False

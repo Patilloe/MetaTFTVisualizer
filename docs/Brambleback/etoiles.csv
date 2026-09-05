@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Brambleback18 2*,487,1.0145833333333334,2.534,2.534,-0.001,-0.002,0.0,0.0015,0.0016,0.306,0.5873,0.8871,1.516,-0.02,0.98746,False
+populaire,Brambleback18 2*,363,1.0225352112676056,2.452,2.452,-0.002,-0.002,0.0,0.0016,0.0025,0.3333,0.6253,0.8898,1.519,-0.02,0.98787,False

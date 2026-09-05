@@ -1,3 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Spear Of Shojin + Void Staff,49,0.16013071895424835,2.694,2.646,0.078,0.125,0.0,-0.0124,-0.0391,0.2653,0.6122,0.8367,1.705,0.48,0.62812,False
-populaire,Jeweled Gauntlet + Spear Of Shojin,60,0.19607843137254902,2.917,2.801,0.232,0.348,0.0,-0.0455,-0.0592,0.2167,0.4833,0.8167,1.686,1.48,0.13757,False
+populaire,Jeweled Gauntlet + Spear Of Shojin,45,0.1906779661016949,2.622,2.561,0.091,0.152,0.0,-0.0174,-0.0105,0.3111,0.5778,0.8667,1.742,0.55,0.58548,False

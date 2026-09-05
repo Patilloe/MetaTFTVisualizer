@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Ezreal 2*,450,1.0044642857142858,2.42,2.42,-0.004,-0.004,0.0,0.0039,0.0005,0.34,0.6378,0.8822,1.513,-0.04,0.96757,False
+populaire,Ezreal 2*,351,1.005730659025788,2.373,2.373,0.001,0.001,0.0,-0.0007,0.0007,0.3533,0.6581,0.886,1.517,0.01,0.99495,False
