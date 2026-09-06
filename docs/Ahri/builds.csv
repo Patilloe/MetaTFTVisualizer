@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,96,0.1415929203539823,2.479,2.478,0.003,0.004,0.0,-0.0005,0.0196,0.4062,0.6354,0.8854,1.82,0.02,0.98278,False
+populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,69,0.12849162011173185,2.551,2.5,0.118,0.169,0.0,-0.0151,-0.0113,0.3768,0.6232,0.8696,1.846,0.73,0.46795,False

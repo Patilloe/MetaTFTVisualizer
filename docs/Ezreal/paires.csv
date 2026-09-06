@@ -1,5 +1,4 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Infinity Edge + Spear Of Shojin,58,0.166189111747851,1.948,2.093,-0.28,-0.424,-0.071,0.0465,0.0456,0.4828,0.7586,0.931,1.224,-2.36,0.01852,True
-populaire,Last Whisper + Spear Of Shojin,56,0.16045845272206305,2.143,2.223,-0.15,-0.23,0.0,0.024,0.0075,0.4107,0.7857,0.8929,1.445,-1.1,0.27305,False
-populaire,Deathblade + Spear Of Shojin,57,0.16332378223495703,2.228,2.278,-0.095,-0.144,0.0,0.0155,0.0269,0.4035,0.7018,0.9123,1.487,-0.68,0.498,False
-populaire,Giant Slayer + Spear Of Shojin,41,0.1174785100286533,2.512,2.453,0.081,0.14,0.0,-0.0095,-0.0073,0.2439,0.6341,0.878,1.45,0.58,0.56164,False
+populaire,Infinity Edge + Spear Of Shojin,51,0.17894736842105263,1.922,2.062,-0.239,-0.38,-0.027,0.0428,0.0696,0.451,0.7647,0.9608,1.117,-2.11,0.03506,False
+populaire,Last Whisper + Spear Of Shojin,44,0.1543859649122807,1.977,2.109,-0.193,-0.324,0.0,0.0298,0.0406,0.4318,0.8182,0.9318,1.196,-1.61,0.10724,False
+populaire,Deathblade + Spear Of Shojin,40,0.14035087719298245,2.4,2.358,0.056,0.098,0.0,-0.0079,-0.0162,0.4,0.675,0.875,1.67,0.35,0.72467,False

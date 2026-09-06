@@ -1,3 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Morellonomicon + Rabadons Deathcap,40,0.08565310492505353,1.925,2.185,-0.346,-0.606,-0.205,0.0297,0.0678,0.475,0.8,0.95,1.212,-2.96,0.00308,True
-populaire,Morellonomicon + Void Staff,132,0.2826552462526767,2.144,2.216,-0.315,-0.387,-0.118,0.0892,0.0496,0.4091,0.7197,0.9318,1.344,-2.82,0.00484,True
+populaire,Morellonomicon + Void Staff,105,0.29085872576177285,2.124,2.216,-0.322,-0.414,-0.103,0.0936,0.0457,0.4381,0.7333,0.9238,1.385,-2.61,0.00907,True

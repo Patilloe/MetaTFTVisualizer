@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Guinsoos Rageblade + Jeweled Gauntlet,83,0.27759197324414714,2.602,2.591,0.032,0.044,0.0,-0.0089,0.0073,0.241,0.5663,0.9036,1.472,0.24,0.80981,False
+populaire,Guinsoos Rageblade + Jeweled Gauntlet,61,0.23552123552123552,2.77,2.702,0.139,0.207,0.0,-0.0326,-0.0278,0.2459,0.541,0.8525,1.654,0.89,0.37143,False

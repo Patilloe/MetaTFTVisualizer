@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Soraka 2*,337,1.0029761904761905,2.306,2.305,0.002,0.002,0.0,-0.0019,0.0002,0.3294,0.6617,0.9169,1.375,0.02,0.98446,False
+populaire,Soraka 2*,284,1.0035335689045937,2.225,2.225,0.002,0.003,0.0,-0.0025,0.0003,0.3732,0.669,0.9261,1.35,0.02,0.98075,False
