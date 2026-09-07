@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Morellonomicon + Void Staff,105,0.29085872576177285,2.124,2.216,-0.322,-0.414,-0.103,0.0936,0.0457,0.4381,0.7333,0.9238,1.385,-2.61,0.00907,True
+populaire,Morellonomicon + Void Staff,77,0.275,2.247,2.291,-0.113,-0.157,0.0,0.031,0.0019,0.4026,0.7013,0.9091,1.496,-0.82,0.41405,False

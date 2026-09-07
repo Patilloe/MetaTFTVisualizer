@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Nidalee A P 2*,263,1.0154440154440154,2.563,2.563,-0.001,-0.001,0.0,0.0009,-0.002,0.289,0.5741,0.8783,1.501,-0.01,0.99412,False
+populaire,Nidalee A P 2*,231,1.013157894736842,2.446,2.447,-0.009,-0.01,0.0,0.0092,0.0014,0.342,0.619,0.8918,1.513,-0.07,0.94227,False

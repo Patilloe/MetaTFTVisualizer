@@ -1,5 +1,4 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Deathblade + Guinsoos Rageblade,79,0.23511904761904762,2.089,2.129,-0.106,-0.147,0.0,0.025,0.0126,0.4051,0.6456,0.962,1.138,-1.0,0.31561,False
-populaire,Guinsoos Rageblade + Krakens Fury,90,0.26785714285714285,2.256,2.25,0.015,0.02,0.0,-0.0041,-0.005,0.3444,0.6444,0.9444,1.234,0.14,0.89001,False
-populaire,Guinsoos Rageblade + Infinity Edge,110,0.3273809523809524,2.373,2.343,0.108,0.138,0.0,-0.0354,0.0051,0.3455,0.5455,0.9545,1.299,0.97,0.33365,False
-populaire,Giant Slayer + Guinsoos Rageblade,48,0.14285714285714285,2.688,2.514,0.278,0.452,0.01,-0.0398,-0.0327,0.2708,0.4167,0.9167,1.488,2.0,0.04527,False
+populaire,Deathblade + Guinsoos Rageblade,64,0.22456140350877193,1.953,1.998,-0.096,-0.142,0.0,0.0217,0.0089,0.4531,0.6719,0.9844,1.022,-0.98,0.32512,False
+populaire,Guinsoos Rageblade + Krakens Fury,77,0.27017543859649124,2.182,2.157,0.063,0.087,0.0,-0.0169,-0.0014,0.3247,0.6623,0.974,1.09,0.62,0.53615,False
+populaire,Guinsoos Rageblade + Infinity Edge,93,0.3263157894736842,2.258,2.218,0.123,0.163,0.0,-0.0403,-0.0077,0.3978,0.5591,0.9677,1.252,1.12,0.2625,False
