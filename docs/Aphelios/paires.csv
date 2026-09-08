@@ -1,4 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Deathblade + Guinsoos Rageblade,64,0.22456140350877193,1.953,1.998,-0.096,-0.142,0.0,0.0217,0.0089,0.4531,0.6719,0.9844,1.022,-0.98,0.32512,False
-populaire,Guinsoos Rageblade + Krakens Fury,77,0.27017543859649124,2.182,2.157,0.063,0.087,0.0,-0.0169,-0.0014,0.3247,0.6623,0.974,1.09,0.62,0.53615,False
-populaire,Guinsoos Rageblade + Infinity Edge,93,0.3263157894736842,2.258,2.218,0.123,0.163,0.0,-0.0403,-0.0077,0.3978,0.5591,0.9677,1.252,1.12,0.2625,False

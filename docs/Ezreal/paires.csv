@@ -1,3 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Last Whisper + Spear Of Shojin,49,0.1975806451612903,1.857,1.951,-0.154,-0.248,0.0,0.0304,0.0154,0.4898,0.8571,0.9388,1.161,-1.33,0.1838,False
-populaire,Infinity Edge + Spear Of Shojin,48,0.1935483870967742,1.875,1.963,-0.141,-0.23,0.0,0.0274,0.0349,0.4792,0.7917,0.9583,1.13,-1.25,0.2114,False

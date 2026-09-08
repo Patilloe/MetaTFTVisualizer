@@ -1,4 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Void Staff,66,0.37714285714285717,2.318,2.337,-0.041,-0.059,0.0,0.0153,0.0271,0.3788,0.6061,0.9242,1.437,-0.28,0.78038,False
-populaire,Spear Of Shojin,96,0.5485714285714286,2.417,2.407,0.03,0.04,0.0,-0.0165,-0.0221,0.3542,0.625,0.875,1.532,0.2,0.83907,False
-populaire,Jeweled Gauntlet,58,0.3314285714285714,2.483,2.447,0.07,0.106,0.0,-0.0231,-0.0006,0.3621,0.6034,0.8966,1.694,0.42,0.6737,False

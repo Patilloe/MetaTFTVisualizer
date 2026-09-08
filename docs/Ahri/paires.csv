@@ -1,7 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Blue Buff + Jeweled Gauntlet,83,0.20544554455445543,2.313,2.323,-0.028,-0.038,0.0,0.0058,0.003,0.3373,0.7108,0.8916,1.528,-0.21,0.83521,False
-populaire,Jeweled Gauntlet + Strikers Flail,58,0.14356435643564355,2.31,2.324,-0.027,-0.041,0.0,0.0039,-0.0093,0.4138,0.7069,0.8793,1.714,-0.17,0.86234,False
-populaire,Rabadons Deathcap + Spear Of Shojin,41,0.10148514851485149,2.317,2.332,-0.02,-0.034,0.0,0.002,0.0138,0.3659,0.5854,0.9024,1.369,-0.15,0.87932,False
-populaire,Jeweled Gauntlet + Nashors Tooth,58,0.14356435643564355,2.328,2.336,-0.016,-0.024,0.0,0.0023,-0.0265,0.3793,0.6552,0.8621,1.49,-0.11,0.90921,False
-populaire,Jeweled Gauntlet + Spear Of Shojin,124,0.3069306930693069,2.468,2.445,0.094,0.116,0.0,-0.0287,-0.0418,0.3871,0.5968,0.8468,1.609,0.71,0.47517,False
-populaire,Jeweled Gauntlet + Rabadons Deathcap,44,0.10891089108910891,2.568,2.48,0.129,0.217,0.0,-0.014,-0.0477,0.3409,0.5682,0.8409,1.711,0.81,0.41986,False

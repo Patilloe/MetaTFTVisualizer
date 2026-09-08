@@ -1,15 +1,15 @@
 comp,champ,games,share_of_meta,avg_place,top4,win,erreur
-Sivir,DA_18_Sivir,199,0.03245,2.06,0.9548,0.4322,
-Soraka,DA_18_Soraka,235,0.03832,2.081,0.9447,0.417,
-Aphelios,DA_18_Aphelios,285,0.04647,2.095,0.9754,0.3895,
-Ezreal,DA_18_Ezreal,248,0.04044,2.105,0.9234,0.4073,
-Sentinel,DA_Sentinel18,425,0.0693,2.2,0.9341,0.4024,
-Malphite,DA_18_Malphite,300,0.04892,2.31,0.9167,0.36,
-Sett,DA_18_Sett,365,0.05951,2.329,0.9014,0.3726,
-Lillia,DA_18_Lillia,173,0.02821,2.335,0.9422,0.2832,
-Brambleback,DA_Brambleback18,199,0.03245,2.347,0.8945,0.3668,
-Ahri,DA_18_Ahri,404,0.06587,2.351,0.8886,0.3589,
-Zyra,DA_18_Zyra,175,0.02853,2.377,0.8971,0.3543,
-Morgana,DA_18_Morgana,280,0.04565,2.404,0.9071,0.3179,
-Nidalee A P,DA_Nidalee18_AP,228,0.03718,2.456,0.8904,0.3421,
-Amumu,DA_Amumu18,219,0.03571,2.47,0.863,0.3607,
+Brambleback,DA_Brambleback18,6,0.03297,2.167,1.0,0.1667,echantillon insuffisant (6 parties)
+Malphite,DA_18_Malphite,6,0.03297,2.167,1.0,0.1667,echantillon insuffisant (6 parties)
+Nidalee A P,DA_Nidalee18_AP,6,0.03297,2.167,1.0,0.3333,echantillon insuffisant (6 parties)
+Lillia,DA_18_Lillia,5,0.02747,2.2,0.8,0.4,echantillon insuffisant (5 parties)
+Sentinel,DA_Sentinel18,14,0.07692,2.286,0.8571,0.4286,echantillon insuffisant (14 parties)
+Ezreal,DA_18_Ezreal,7,0.03846,2.286,0.8571,0.4286,echantillon insuffisant (7 parties)
+Soraka,DA_18_Soraka,7,0.03846,2.571,0.8571,0.1429,echantillon insuffisant (7 parties)
+Zyra,DA_18_Zyra,11,0.06044,3.091,0.7273,0.1818,echantillon insuffisant (11 parties)
+Sett,DA_18_Sett,15,0.08242,3.2,0.7333,0.3333,echantillon insuffisant (15 parties)
+Ahri,DA_18_Ahri,12,0.06593,3.417,0.6667,0.25,echantillon insuffisant (12 parties)
+Aphelios,DA_18_Aphelios,10,0.05495,3.5,0.8,0.1,echantillon insuffisant (10 parties)
+Sivir,DA_18_Sivir,13,0.07143,3.846,0.6923,0.1538,echantillon insuffisant (13 parties)
+Amumu,DA_Amumu18,8,0.04396,4.0,0.625,0.125,echantillon insuffisant (8 parties)
+Morgana,DA_18_Morgana,4,0.02198,4.5,0.25,0.0,echantillon insuffisant (4 parties)
