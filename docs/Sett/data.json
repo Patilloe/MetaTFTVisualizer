@@ -5,17 +5,60 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 15,
-  "share_of_meta": 0.08241758241758242,
-  "avg_place": 3.2,
-  "win": 0.3333,
-  "top4": 0.7333,
-  "top4_ci": [
-   0.4805,
-   0.891
-  ]
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Sett 2*"
+    ],
+    "label": "Sett 2*",
+    "n": 47,
+    "share": 1.0444444444444445,
+    "avg_place": 2.511,
+    "sd": 1.855,
+    "win": 0.3617,
+    "top2": 0.6596,
+    "top4": 0.8723,
+    "top4_ci": [
+     0.7483,
+     0.9402
+    ],
+    "d_avg": -0.067,
+    "d_avg_ci": [
+     -0.828,
+     0.694
+    ],
+    "d_top4": 0.0057,
+    "d_win": 0.0284,
+    "shrunk_avg": 2.537,
+    "score": -0.041,
+    "d_avg_pess": 0.0,
+    "impact": 0.0428,
+    "z": -0.17,
+    "p": 0.86271,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": []
  },
- "error": "echantillon insuffisant (15 parties)"
+ "meta": {
+  "games": 45,
+  "share_of_meta": 0.07653061224489796,
+  "avg_place": 2.578,
+  "win": 0.3333,
+  "top4": 0.8667,
+  "top4_ci": [
+   0.7382,
+   0.9374
+  ],
+  "prior_games": 30
+ }
 }
