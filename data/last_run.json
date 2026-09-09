@@ -1,8 +1,30 @@
 {
- "generated_at": "2026-09-08T10:33:38Z",
+ "generated_at": "2026-09-09T10:44:52Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
- "comps": {}
+ "comps": {
+  "Sentinel": {
+   "champ": "DA_Sentinel18",
+   "games": 48,
+   "avg_place": 2.333,
+   "top4": 0.8958,
+   "win": 0.3958
+  },
+  "Malphite": {
+   "champ": "DA_18_Malphite",
+   "games": 40,
+   "avg_place": 2.425,
+   "top4": 0.85,
+   "win": 0.375
+  },
+  "Sett": {
+   "champ": "DA_18_Sett",
+   "games": 45,
+   "avg_place": 2.578,
+   "top4": 0.8667,
+   "win": 0.3333
+  }
+ }
 }
