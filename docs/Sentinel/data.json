@@ -12,33 +12,33 @@
   "paires": [],
   "items_emblem": [],
   "items_craftable": [],
-  "items_artifact": [],
   "items_radiant": [],
+  "items_artifact": [],
   "etoiles": [
    {
     "key": [
      "DA_Sentinel18 2*"
     ],
     "label": "Sentinel18 2*",
-    "n": 48,
+    "n": 67,
     "share": 1.0,
-    "avg_place": 2.333,
-    "sd": 1.65,
-    "win": 0.3958,
-    "top2": 0.6875,
-    "top4": 0.8958,
+    "avg_place": 2.299,
+    "sd": 1.796,
+    "win": 0.4328,
+    "top2": 0.7313,
+    "top4": 0.8955,
     "top4_ci": [
-     0.7783,
-     0.9547
+     0.7997,
+     0.9485
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.66,
-     0.66
+     -0.608,
+     0.608
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 2.333,
+    "shrunk_avg": 2.299,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -51,14 +51,14 @@
   "traits_flex": []
  },
  "meta": {
-  "games": 48,
-  "share_of_meta": 0.08163265306122448,
-  "avg_place": 2.333,
-  "win": 0.3958,
-  "top4": 0.8958,
+  "games": 67,
+  "share_of_meta": 0.06673306772908366,
+  "avg_place": 2.299,
+  "win": 0.4328,
+  "top4": 0.8955,
   "top4_ci": [
-   0.7783,
-   0.9547
+   0.7997,
+   0.9485
   ],
   "prior_games": 30
  }

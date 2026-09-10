@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Gargoyle Stoneplate,47,0.7704918032786885,2.468,2.548,-0.125,-0.204,0.0,0.096,0.0265,0.4255,0.7021,0.8298,1.955,-0.54,0.5902,False

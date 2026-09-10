@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Flora Fatalis,40,0.9302325581395349,2.675,2.685,-0.013,-0.023,0.0,0.0121,-0.0122,0.425,0.55,0.825,2.005,-0.05,0.95837,False

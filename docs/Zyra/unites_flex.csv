@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Azir,44,0.8301886792452831,2.568,2.606,-0.055,-0.092,0.0,0.0455,0.0069,0.3864,0.6364,0.8182,1.876,-0.24,0.81209,False

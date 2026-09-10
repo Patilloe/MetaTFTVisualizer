@@ -5,17 +5,93 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 27,
-  "share_of_meta": 0.04591836734693878,
-  "avg_place": 2.444,
-  "win": 0.4074,
-  "top4": 0.8889,
-  "top4_ci": [
-   0.7194,
-   0.9615
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_radiant": [],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Soraka 2*"
+    ],
+    "label": "Soraka 2*",
+    "n": 43,
+    "share": 1.0,
+    "avg_place": 2.698,
+    "sd": 1.947,
+    "win": 0.3953,
+    "top2": 0.5349,
+    "top4": 0.8372,
+    "top4_ci": [
+     0.7003,
+     0.9188
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.823,
+     0.823
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 2.698,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_FloraFatalis18_2"
+    ],
+    "label": "Flora Fatalis",
+    "n": 40,
+    "share": 0.9302325581395349,
+    "avg_place": 2.675,
+    "sd": 2.005,
+    "win": 0.425,
+    "top2": 0.55,
+    "top4": 0.825,
+    "top4_ci": [
+     0.6805,
+     0.9125
+    ],
+    "d_avg": -0.023,
+    "d_avg_ci": [
+     -0.874,
+     0.829
+    ],
+    "d_top4": -0.0122,
+    "d_win": 0.0297,
+    "shrunk_avg": 2.685,
+    "score": -0.013,
+    "d_avg_pess": 0.0,
+    "impact": 0.0121,
+    "z": -0.05,
+    "p": 0.95837,
+    "significant": false
+   }
   ]
  },
- "error": "echantillon insuffisant (27 parties)"
+ "meta": {
+  "games": 43,
+  "share_of_meta": 0.04282868525896414,
+  "avg_place": 2.698,
+  "win": 0.3953,
+  "top4": 0.8372,
+  "top4_ci": [
+   0.7003,
+   0.9188
+  ],
+  "prior_games": 30
+ }
 }

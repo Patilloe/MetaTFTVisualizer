@@ -1,0 +1,3 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Karma,43,0.7962962962962963,2.628,2.636,-0.012,-0.02,0.0,0.0095,0.0366,0.2791,0.5349,0.907,1.698,-0.06,0.95418,False
+populaire,Sett,44,0.8148148148148148,2.659,2.655,0.007,0.011,0.0,-0.0053,0.016,0.2955,0.5682,0.8864,1.783,0.03,0.97572,False

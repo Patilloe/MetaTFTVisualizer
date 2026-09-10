@@ -5,17 +5,92 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 35,
-  "share_of_meta": 0.05952380952380952,
-  "avg_place": 2.514,
-  "win": 0.3714,
-  "top4": 0.8286,
-  "top4_ci": [
-   0.6732,
-   0.919
-  ]
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Zyra 2*"
+    ],
+    "label": "Zyra 2*",
+    "n": 54,
+    "share": 1.0188679245283019,
+    "avg_place": 2.648,
+    "sd": 1.916,
+    "win": 0.3519,
+    "top2": 0.6296,
+    "top4": 0.8148,
+    "top4_ci": [
+     0.6916,
+     0.8962
+    ],
+    "d_avg": -0.012,
+    "d_avg_ci": [
+     -0.742,
+     0.717
+    ],
+    "d_top4": 0.0035,
+    "d_win": -0.0066,
+    "shrunk_avg": 2.653,
+    "score": -0.008,
+    "d_avg_pess": 0.0,
+    "impact": 0.008,
+    "z": -0.03,
+    "p": 0.97378,
+    "significant": false
+   }
+  ],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_18_Azir"
+    ],
+    "label": "Azir",
+    "n": 44,
+    "share": 0.8301886792452831,
+    "avg_place": 2.568,
+    "sd": 1.876,
+    "win": 0.3864,
+    "top2": 0.6364,
+    "top4": 0.8182,
+    "top4_ci": [
+     0.6804,
+     0.9049
+    ],
+    "d_avg": -0.092,
+    "d_avg_ci": [
+     -0.852,
+     0.668
+    ],
+    "d_top4": 0.0069,
+    "d_win": 0.0279,
+    "shrunk_avg": 2.606,
+    "score": -0.055,
+    "d_avg_pess": 0.0,
+    "impact": 0.0455,
+    "z": -0.24,
+    "p": 0.81209,
+    "significant": false
+   }
+  ],
+  "traits_flex": []
  },
- "error": "echantillon insuffisant (35 parties)"
+ "meta": {
+  "games": 53,
+  "share_of_meta": 0.052788844621513946,
+  "avg_place": 2.66,
+  "win": 0.3585,
+  "top4": 0.8113,
+  "top4_ci": [
+   0.6864,
+   0.8941
+  ],
+  "prior_games": 30
+ }
 }

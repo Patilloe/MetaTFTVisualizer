@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Sivir 2*,52,1.0196078431372548,2.404,2.407,-0.005,-0.008,0.0,0.0051,0.0026,0.4038,0.6923,0.8654,1.779,-0.02,0.98206,False

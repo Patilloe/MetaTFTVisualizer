@@ -1,15 +1,15 @@
 comp,champ,games,share_of_meta,avg_place,top4,win,erreur
-Lillia,DA_18_Lillia,9,0.01531,2.0,0.8889,0.3333,echantillon insuffisant (9 parties)
-Ezreal,DA_18_Ezreal,18,0.03061,2.167,0.9444,0.4444,echantillon insuffisant (18 parties)
-Nidalee A P,DA_Nidalee18_AP,29,0.04932,2.31,0.8621,0.4138,echantillon insuffisant (29 parties)
-Sentinel,DA_Sentinel18,48,0.08163,2.333,0.8958,0.3958,
-Malphite,DA_18_Malphite,40,0.06803,2.425,0.85,0.375,
-Soraka,DA_18_Soraka,27,0.04592,2.444,0.8889,0.4074,echantillon insuffisant (27 parties)
-Zyra,DA_18_Zyra,35,0.05952,2.514,0.8286,0.3714,echantillon insuffisant (35 parties)
-Sett,DA_18_Sett,45,0.07653,2.578,0.8667,0.3333,
-Sivir,DA_18_Sivir,33,0.05612,2.667,0.8182,0.3939,echantillon insuffisant (33 parties)
-Brambleback,DA_Brambleback18,21,0.03571,2.714,0.8571,0.1905,echantillon insuffisant (21 parties)
-Amumu,DA_Amumu18,25,0.04252,2.8,0.88,0.28,echantillon insuffisant (25 parties)
-Ahri,DA_18_Ahri,33,0.05612,2.818,0.7879,0.3333,echantillon insuffisant (33 parties)
-Aphelios,DA_18_Aphelios,28,0.04762,3.286,0.7857,0.1429,echantillon insuffisant (28 parties)
-Morgana,DA_18_Morgana,22,0.03741,3.455,0.6364,0.1818,echantillon insuffisant (22 parties)
+Lillia,DA_18_Lillia,14,0.01394,2.071,0.9286,0.3571,echantillon insuffisant (14 parties)
+Ezreal,DA_18_Ezreal,36,0.03586,2.111,0.9444,0.4722,echantillon insuffisant (36 parties)
+Nidalee A P,DA_Nidalee18_AP,40,0.03984,2.275,0.85,0.425,
+Sentinel,DA_Sentinel18,67,0.06673,2.299,0.8955,0.4328,
+Sivir,DA_18_Sivir,51,0.0508,2.412,0.8627,0.4118,
+Brambleback,DA_Brambleback18,29,0.02888,2.483,0.8621,0.2759,echantillon insuffisant (29 parties)
+Amumu,DA_Amumu18,45,0.04482,2.556,0.9111,0.3556,
+Sett,DA_18_Sett,73,0.07271,2.575,0.8767,0.3151,
+Ahri,DA_18_Ahri,54,0.05378,2.648,0.8704,0.2963,
+Zyra,DA_18_Zyra,53,0.05279,2.66,0.8113,0.3585,
+Malphite,DA_18_Malphite,61,0.06076,2.672,0.8033,0.3607,
+Soraka,DA_18_Soraka,43,0.04283,2.698,0.8372,0.3953,
+Aphelios,DA_18_Aphelios,55,0.05478,2.927,0.8182,0.2182,
+Morgana,DA_18_Morgana,38,0.03785,3.211,0.7632,0.1579,echantillon insuffisant (38 parties)
