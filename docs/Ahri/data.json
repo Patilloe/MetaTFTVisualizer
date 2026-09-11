@@ -5,156 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [],
-  "items_radiant": [],
-  "items_artifact": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Ahri 2*"
-    ],
-    "label": "Ahri 2*",
-    "n": 55,
-    "share": 1.0185185185185186,
-    "avg_place": 2.655,
-    "sd": 1.74,
-    "win": 0.2909,
-    "top2": 0.5636,
-    "top4": 0.8727,
-    "top4_ci": [
-     0.7598,
-     0.937
-    ],
-    "d_avg": 0.006,
-    "d_avg_ci": [
-     -0.65,
-     0.663
-    ],
-    "d_top4": 0.0024,
-    "d_win": -0.0054,
-    "shrunk_avg": 2.652,
-    "score": 0.004,
-    "d_avg_pess": 0.0,
-    "impact": -0.0042,
-    "z": 0.02,
-    "p": 0.98475,
-    "significant": false
-   }
-  ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_Karma18"
-    ],
-    "label": "Karma",
-    "n": 43,
-    "share": 0.7962962962962963,
-    "avg_place": 2.628,
-    "sd": 1.698,
-    "win": 0.2791,
-    "top2": 0.5349,
-    "top4": 0.907,
-    "top4_ci": [
-     0.784,
-     0.9632
-    ],
-    "d_avg": -0.02,
-    "d_avg_ci": [
-     -0.711,
-     0.67
-    ],
-    "d_top4": 0.0366,
-    "d_win": -0.0172,
-    "shrunk_avg": 2.636,
-    "score": -0.012,
-    "d_avg_pess": 0.0,
-    "impact": 0.0095,
-    "z": -0.06,
-    "p": 0.95418,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Sett"
-    ],
-    "label": "Sett",
-    "n": 44,
-    "share": 0.8148148148148148,
-    "avg_place": 2.659,
-    "sd": 1.783,
-    "win": 0.2955,
-    "top2": 0.5682,
-    "top4": 0.8864,
-    "top4_ci": [
-     0.7602,
-     0.9505
-    ],
-    "d_avg": 0.011,
-    "d_avg_ci": [
-     -0.694,
-     0.716
-    ],
-    "d_top4": 0.016,
-    "d_win": -0.0008,
-    "shrunk_avg": 2.655,
-    "score": 0.007,
-    "d_avg_pess": 0.0,
-    "impact": -0.0053,
-    "z": 0.03,
-    "p": 0.97572,
-    "significant": false
-   }
-  ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_18_Spellweaver_1"
-    ],
-    "label": "Spellweaver",
-    "n": 43,
-    "share": 0.7962962962962963,
-    "avg_place": 2.628,
-    "sd": 1.739,
-    "win": 0.3256,
-    "top2": 0.5814,
-    "top4": 0.8605,
-    "top4_ci": [
-     0.7274,
-     0.9344
-    ],
-    "d_avg": -0.02,
-    "d_avg_ci": [
-     -0.72,
-     0.679
-    ],
-    "d_top4": -0.0099,
-    "d_win": 0.0293,
-    "shrunk_avg": 2.636,
-    "score": -0.012,
-    "d_avg_pess": 0.0,
-    "impact": 0.0095,
-    "z": -0.06,
-    "p": 0.95477,
-    "significant": false
-   }
+ "tables": {},
+ "meta": {
+  "games": 4,
+  "share_of_meta": 0.031496062992125984,
+  "avg_place": 1.5,
+  "win": 0.5,
+  "top4": 1.0,
+  "top4_ci": [
+   0.5101,
+   1.0
   ]
  },
- "meta": {
-  "games": 54,
-  "share_of_meta": 0.053784860557768925,
-  "avg_place": 2.648,
-  "win": 0.2963,
-  "top4": 0.8704,
-  "top4_ci": [
-   0.7558,
-   0.9358
-  ],
-  "prior_games": 30
- }
+ "error": "echantillon insuffisant (4 parties)"
 }

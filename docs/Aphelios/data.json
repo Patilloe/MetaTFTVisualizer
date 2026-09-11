@@ -5,92 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [],
-  "items_radiant": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Aphelios 2*"
-    ],
-    "label": "Aphelios 2*",
-    "n": 57,
-    "share": 1.0363636363636364,
-    "avg_place": 3.035,
-    "sd": 2.069,
-    "win": 0.2105,
-    "top2": 0.5789,
-    "top4": 0.807,
-    "top4_ci": [
-     0.6866,
-     0.8887
-    ],
-    "d_avg": 0.108,
-    "d_avg_ci": [
-     -0.644,
-     0.859
-    ],
-    "d_top4": -0.0112,
-    "d_win": -0.0077,
-    "shrunk_avg": 2.998,
-    "score": 0.071,
-    "d_avg_pess": 0.0,
-    "impact": -0.0732,
-    "z": 0.28,
-    "p": 0.77859,
-    "significant": false
-   }
-  ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_18_Diana"
-    ],
-    "label": "Diana",
-    "n": 45,
-    "share": 0.8181818181818182,
-    "avg_place": 2.978,
-    "sd": 1.961,
-    "win": 0.2,
-    "top2": 0.5778,
-    "top4": 0.8222,
-    "top4_ci": [
-     0.6867,
-     0.9071
-    ],
-    "d_avg": 0.051,
-    "d_avg_ci": [
-     -0.727,
-     0.828
-    ],
-    "d_top4": 0.004,
-    "d_win": -0.0182,
-    "shrunk_avg": 2.958,
-    "score": 0.03,
-    "d_avg_pess": 0.0,
-    "impact": -0.0248,
-    "z": 0.13,
-    "p": 0.8987,
-    "significant": false
-   }
-  ],
-  "traits_flex": []
- },
+ "tables": {},
  "meta": {
-  "games": 55,
-  "share_of_meta": 0.054780876494023904,
-  "avg_place": 2.927,
-  "win": 0.2182,
-  "top4": 0.8182,
+  "games": 11,
+  "share_of_meta": 0.08661417322834646,
+  "avg_place": 1.364,
+  "win": 0.6364,
+  "top4": 1.0,
   "top4_ci": [
-   0.6967,
-   0.8981
-  ],
-  "prior_games": 30
- }
+   0.7412,
+   1.0
+  ]
+ },
+ "error": "echantillon insuffisant (11 parties)"
 }

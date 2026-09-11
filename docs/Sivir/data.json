@@ -5,93 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_artifact": [],
-  "items_craftable": [],
-  "items_radiant": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Sivir 2*"
-    ],
-    "label": "Sivir 2*",
-    "n": 52,
-    "share": 1.0196078431372548,
-    "avg_place": 2.404,
-    "sd": 1.779,
-    "win": 0.4038,
-    "top2": 0.6923,
-    "top4": 0.8654,
-    "top4_ci": [
-     0.7473,
-     0.9332
-    ],
-    "d_avg": -0.008,
-    "d_avg_ci": [
-     -0.698,
-     0.682
-    ],
-    "d_top4": 0.0026,
-    "d_win": -0.0079,
-    "shrunk_avg": 2.407,
-    "score": -0.005,
-    "d_avg_pess": 0.0,
-    "impact": 0.0051,
-    "z": -0.02,
-    "p": 0.98206,
-    "significant": false
-   }
-  ],
-  "unites_flex": [],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_Primal18_1"
-    ],
-    "label": "Primal",
-    "n": 40,
-    "share": 0.7843137254901961,
-    "avg_place": 2.4,
-    "sd": 1.868,
-    "win": 0.425,
-    "top2": 0.7,
-    "top4": 0.875,
-    "top4_ci": [
-     0.7389,
-     0.9454
-    ],
-    "d_avg": -0.012,
-    "d_avg_ci": [
-     -0.772,
-     0.748
-    ],
-    "d_top4": 0.0123,
-    "d_win": 0.0132,
-    "shrunk_avg": 2.405,
-    "score": -0.007,
-    "d_avg_pess": 0.0,
-    "impact": 0.0053,
-    "z": -0.03,
-    "p": 0.9758,
-    "significant": false
-   }
+ "tables": {},
+ "meta": {
+  "games": 8,
+  "share_of_meta": 0.06299212598425197,
+  "avg_place": 3.25,
+  "win": 0.125,
+  "top4": 0.75,
+  "top4_ci": [
+   0.4093,
+   0.9285
   ]
  },
- "meta": {
-  "games": 51,
-  "share_of_meta": 0.05079681274900399,
-  "avg_place": 2.412,
-  "win": 0.4118,
-  "top4": 0.8627,
-  "top4_ci": [
-   0.7428,
-   0.9319
-  ],
-  "prior_games": 30
- }
+ "error": "echantillon insuffisant (8 parties)"
 }
