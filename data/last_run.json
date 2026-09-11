@@ -1,79 +1,8 @@
 {
- "generated_at": "2026-09-10T10:35:21Z",
+ "generated_at": "2026-09-11T10:35:12Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
- "comps": {
-  "Nidalee A P": {
-   "champ": "DA_Nidalee18_AP",
-   "games": 40,
-   "avg_place": 2.275,
-   "top4": 0.85,
-   "win": 0.425
-  },
-  "Sentinel": {
-   "champ": "DA_Sentinel18",
-   "games": 67,
-   "avg_place": 2.299,
-   "top4": 0.8955,
-   "win": 0.4328
-  },
-  "Sivir": {
-   "champ": "DA_18_Sivir",
-   "games": 51,
-   "avg_place": 2.412,
-   "top4": 0.8627,
-   "win": 0.4118
-  },
-  "Amumu": {
-   "champ": "DA_Amumu18",
-   "games": 45,
-   "avg_place": 2.556,
-   "top4": 0.9111,
-   "win": 0.3556
-  },
-  "Sett": {
-   "champ": "DA_18_Sett",
-   "games": 73,
-   "avg_place": 2.575,
-   "top4": 0.8767,
-   "win": 0.3151
-  },
-  "Ahri": {
-   "champ": "DA_18_Ahri",
-   "games": 54,
-   "avg_place": 2.648,
-   "top4": 0.8704,
-   "win": 0.2963
-  },
-  "Zyra": {
-   "champ": "DA_18_Zyra",
-   "games": 53,
-   "avg_place": 2.66,
-   "top4": 0.8113,
-   "win": 0.3585
-  },
-  "Malphite": {
-   "champ": "DA_18_Malphite",
-   "games": 61,
-   "avg_place": 2.672,
-   "top4": 0.8033,
-   "win": 0.3607
-  },
-  "Soraka": {
-   "champ": "DA_18_Soraka",
-   "games": 43,
-   "avg_place": 2.698,
-   "top4": 0.8372,
-   "win": 0.3953
-  },
-  "Aphelios": {
-   "champ": "DA_18_Aphelios",
-   "games": 55,
-   "avg_place": 2.927,
-   "top4": 0.8182,
-   "win": 0.2182
-  }
- }
+ "comps": {}
 }
