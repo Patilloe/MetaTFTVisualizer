@@ -1,23 +1,16 @@
 {
- "generated_at": "2026-09-16T10:49:53Z",
+ "generated_at": "2026-09-17T10:56:38Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
  "comps": {
-  "Ahri": {
-   "champ": "DA_18_Ahri",
-   "games": 41,
-   "avg_place": 1.878,
-   "top4": 0.9756,
-   "win": 0.4634
-  },
   "Sentinel": {
    "champ": "DA_Sentinel18",
-   "games": 46,
-   "avg_place": 2.174,
-   "top4": 0.9348,
-   "win": 0.3696
+   "games": 42,
+   "avg_place": 2.143,
+   "top4": 0.9286,
+   "win": 0.381
   }
  }
 }
