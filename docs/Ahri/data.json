@@ -5,61 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [],
-  "items_artifact": [],
-  "items_radiant": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Ahri 2*"
-    ],
-    "label": "Ahri 2*",
-    "n": 42,
-    "share": 1.024390243902439,
-    "avg_place": 1.929,
-    "sd": 1.078,
-    "win": 0.4524,
-    "top2": 0.7619,
-    "top4": 0.9762,
-    "top4_ci": [
-     0.8768,
-     0.9958
-    ],
-    "d_avg": 0.051,
-    "d_avg_ci": [
-     -0.405,
-     0.506
-    ],
-    "d_top4": 0.0006,
-    "d_win": -0.011,
-    "shrunk_avg": 1.908,
-    "score": 0.029,
-    "d_avg_pess": 0.0,
-    "impact": -0.0302,
-    "z": 0.22,
-    "p": 0.82798,
-    "significant": false
-   }
-  ],
-  "unites_flex": [],
-  "traits_flex": []
- },
+ "tables": {},
  "meta": {
-  "games": 41,
-  "share_of_meta": 0.06799336650082918,
-  "avg_place": 1.878,
-  "win": 0.4634,
-  "top4": 0.9756,
+  "games": 39,
+  "share_of_meta": 0.06914893617021277,
+  "avg_place": 1.821,
+  "win": 0.4872,
+  "top4": 0.9744,
   "top4_ci": [
-   0.874,
-   0.9957
-  ],
-  "prior_games": 30
- }
+   0.8682,
+   0.9955
+  ]
+ },
+ "error": "echantillon insuffisant (39 parties)"
 }
