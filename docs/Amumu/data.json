@@ -8,9 +8,9 @@
  "tables": {},
  "meta": {
   "games": 28,
-  "share_of_meta": 0.05907172995780591,
-  "avg_place": 2.0,
-  "win": 0.3929,
+  "share_of_meta": 0.06436781609195402,
+  "avg_place": 2.143,
+  "win": 0.3571,
   "top4": 0.9643,
   "top4_ci": [
    0.8229,
