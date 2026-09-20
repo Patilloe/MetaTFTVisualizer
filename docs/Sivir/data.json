@@ -1,21 +1,8 @@
 {
  "name": "Sivir",
  "champ": "DA_18_Sivir",
- "unit": "DA_18_Sivir",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
- "warnings": [],
  "tables": {},
- "meta": {
-  "games": 18,
-  "share_of_meta": 0.041379310344827586,
-  "avg_place": 2.222,
-  "win": 0.2222,
-  "top4": 1.0,
-  "top4_ci": [
-   0.8241,
-   1.0
-  ]
- },
- "error": "echantillon insuffisant (18 parties)"
+ "error": "Expecting value: line 1 column 1 (char 0)"
 }

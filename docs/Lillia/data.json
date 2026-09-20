@@ -1,21 +1,8 @@
 {
  "name": "Lillia",
  "champ": "DA_18_Lillia",
- "unit": "DA_18_Lillia",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
- "warnings": [],
  "tables": {},
- "meta": {
-  "games": 11,
-  "share_of_meta": 0.02528735632183908,
-  "avg_place": 2.091,
-  "win": 0.3636,
-  "top4": 1.0,
-  "top4_ci": [
-   0.7412,
-   1.0
-  ]
- },
- "error": "echantillon insuffisant (11 parties)"
+ "error": "Expecting value: line 1 column 1 (char 0)"
 }

@@ -1,21 +1,8 @@
 {
  "name": "Ezreal",
  "champ": "DA_18_Ezreal",
- "unit": "DA_18_Ezreal",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
- "warnings": [],
  "tables": {},
- "meta": {
-  "games": 21,
-  "share_of_meta": 0.04827586206896552,
-  "avg_place": 1.619,
-  "win": 0.619,
-  "top4": 1.0,
-  "top4_ci": [
-   0.8454,
-   1.0
-  ]
- },
- "error": "echantillon insuffisant (21 parties)"
+ "error": "Expecting value: line 1 column 1 (char 0)"
 }

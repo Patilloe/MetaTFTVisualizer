@@ -1,21 +1,8 @@
 {
  "name": "Soraka",
  "champ": "DA_18_Soraka",
- "unit": "DA_18_Soraka",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
- "warnings": [],
  "tables": {},
- "meta": {
-  "games": 16,
-  "share_of_meta": 0.0367816091954023,
-  "avg_place": 1.438,
-  "win": 0.6875,
-  "top4": 1.0,
-  "top4_ci": [
-   0.8064,
-   1.0
-  ]
- },
- "error": "echantillon insuffisant (16 parties)"
+ "error": "Expecting value: line 1 column 1 (char 0)"
 }

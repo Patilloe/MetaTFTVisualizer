@@ -1,21 +1,8 @@
 {
  "name": "Aphelios",
  "champ": "DA_18_Aphelios",
- "unit": "DA_18_Aphelios",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
- "warnings": [],
  "tables": {},
- "meta": {
-  "games": 23,
-  "share_of_meta": 0.052873563218390804,
-  "avg_place": 2.174,
-  "win": 0.4348,
-  "top4": 0.913,
-  "top4_ci": [
-   0.732,
-   0.9758
-  ]
- },
- "error": "echantillon insuffisant (23 parties)"
+ "error": "Expecting value: line 1 column 1 (char 0)"
 }
