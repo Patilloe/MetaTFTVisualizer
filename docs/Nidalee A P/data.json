@@ -1,8 +1,21 @@
 {
  "name": "Nidalee A P",
  "champ": "DA_Nidalee18_AP",
+ "unit": "DA_Nidalee18_AP",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
+ "warnings": [],
  "tables": {},
- "error": "Expecting value: line 1 column 1 (char 0)"
+ "meta": {
+  "games": 19,
+  "share_of_meta": 0.04428904428904429,
+  "avg_place": 2.158,
+  "win": 0.3684,
+  "top4": 1.0,
+  "top4_ci": [
+   0.8318,
+   1.0
+  ]
+ },
+ "error": "echantillon insuffisant (19 parties)"
 }

@@ -1,8 +1,21 @@
 {
  "name": "Morgana",
  "champ": "DA_18_Morgana",
+ "unit": "DA_18_Morgana",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
+ "warnings": [],
  "tables": {},
- "error": "Expecting value: line 1 column 1 (char 0)"
+ "meta": {
+  "games": 14,
+  "share_of_meta": 0.03263403263403263,
+  "avg_place": 2.143,
+  "win": 0.2857,
+  "top4": 0.9286,
+  "top4_ci": [
+   0.6853,
+   0.9873
+  ]
+ },
+ "error": "echantillon insuffisant (14 parties)"
 }

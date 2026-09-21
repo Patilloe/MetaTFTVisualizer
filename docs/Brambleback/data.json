@@ -1,8 +1,21 @@
 {
  "name": "Brambleback",
  "champ": "DA_Brambleback18",
+ "unit": "DA_Brambleback18",
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
+ "warnings": [],
  "tables": {},
- "error": "Expecting value: line 1 column 1 (char 0)"
+ "meta": {
+  "games": 4,
+  "share_of_meta": 0.009324009324009324,
+  "avg_place": 2.5,
+  "win": 0.5,
+  "top4": 0.75,
+  "top4_ci": [
+   0.3006,
+   0.9544
+  ]
+ },
+ "error": "echantillon insuffisant (4 parties)"
 }
