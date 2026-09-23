@@ -1,8 +1,23 @@
 {
- "generated_at": "2026-09-22T10:57:04Z",
+ "generated_at": "2026-09-23T10:45:07Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
- "comps": {}
+ "comps": {
+  "Sentinel": {
+   "champ": "DA_Sentinel18",
+   "games": 41,
+   "avg_place": 2.195,
+   "top4": 0.9024,
+   "win": 0.3659
+  },
+  "Amumu": {
+   "champ": "DA_Amumu18",
+   "games": 44,
+   "avg_place": 2.523,
+   "top4": 0.9091,
+   "win": 0.3409
+  }
+ }
 }
