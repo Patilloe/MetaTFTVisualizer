@@ -1,15 +1,15 @@
 comp,champ,games,share_of_meta,avg_place,top4,win,erreur
-Ezreal,DA_18_Ezreal,27,0.05895,2.185,1.0,0.3333,echantillon insuffisant (27 parties)
-Sentinel,DA_Sentinel18,41,0.08952,2.195,0.9024,0.3659,
-Soraka,DA_18_Soraka,17,0.03712,2.235,0.8824,0.3529,echantillon insuffisant (17 parties)
-Ahri,DA_18_Ahri,29,0.06332,2.241,0.931,0.2759,echantillon insuffisant (29 parties)
-Sett,DA_18_Sett,25,0.05459,2.44,0.92,0.24,echantillon insuffisant (25 parties)
-Amumu,DA_Amumu18,44,0.09607,2.523,0.9091,0.3409,
-Zyra,DA_18_Zyra,24,0.0524,2.542,0.9167,0.25,echantillon insuffisant (24 parties)
-Malphite,DA_18_Malphite,22,0.04803,2.545,0.9091,0.2727,echantillon insuffisant (22 parties)
-Aphelios,DA_18_Aphelios,32,0.06987,2.594,0.875,0.4062,echantillon insuffisant (32 parties)
-Morgana,DA_18_Morgana,16,0.03493,2.625,0.875,0.1875,echantillon insuffisant (16 parties)
-Nidalee A P,DA_Nidalee18_AP,34,0.07424,2.676,0.8824,0.2941,echantillon insuffisant (34 parties)
-Brambleback,DA_Brambleback18,6,0.0131,2.833,0.8333,0.3333,echantillon insuffisant (6 parties)
-Sivir,DA_18_Sivir,22,0.04803,2.955,0.8182,0.0909,echantillon insuffisant (22 parties)
-Lillia,DA_18_Lillia,9,0.01965,3.444,0.7778,0.1111,echantillon insuffisant (9 parties)
+Sentinel,DA_Sentinel18,44,0.09302,2.227,0.8864,0.3636,
+Ahri,DA_18_Ahri,32,0.06765,2.25,0.9375,0.25,echantillon insuffisant (32 parties)
+Ezreal,DA_18_Ezreal,24,0.05074,2.25,1.0,0.3333,echantillon insuffisant (24 parties)
+Soraka,DA_18_Soraka,18,0.03805,2.278,0.8889,0.3333,echantillon insuffisant (18 parties)
+Sett,DA_18_Sett,24,0.05074,2.375,0.9167,0.25,echantillon insuffisant (24 parties)
+Morgana,DA_18_Morgana,18,0.03805,2.444,0.8889,0.2778,echantillon insuffisant (18 parties)
+Amumu,DA_Amumu18,44,0.09302,2.568,0.9091,0.3182,
+Malphite,DA_18_Malphite,22,0.04651,2.591,0.9091,0.2727,echantillon insuffisant (22 parties)
+Nidalee A P,DA_Nidalee18_AP,36,0.07611,2.611,0.8889,0.2778,echantillon insuffisant (36 parties)
+Aphelios,DA_18_Aphelios,34,0.07188,2.618,0.8824,0.3529,echantillon insuffisant (34 parties)
+Zyra,DA_18_Zyra,24,0.05074,2.667,0.9167,0.2083,echantillon insuffisant (24 parties)
+Sivir,DA_18_Sivir,21,0.0444,2.952,0.8095,0.0952,echantillon insuffisant (21 parties)
+Brambleback,DA_Brambleback18,7,0.0148,3.0,0.8571,0.2857,echantillon insuffisant (7 parties)
+Lillia,DA_18_Lillia,10,0.02114,3.3,0.8,0.1,echantillon insuffisant (10 parties)
