@@ -12,6 +12,7 @@
   "paires": [],
   "items_emblem": [],
   "items_craftable": [],
+  "items_artifact": [],
   "etoiles": [
    {
     "key": [
@@ -20,23 +21,23 @@
     "label": "Sentinel18 2*",
     "n": 44,
     "share": 1.0,
-    "avg_place": 2.227,
-    "sd": 1.521,
-    "win": 0.3636,
-    "top2": 0.75,
-    "top4": 0.8864,
+    "avg_place": 2.477,
+    "sd": 1.631,
+    "win": 0.2955,
+    "top2": 0.6818,
+    "top4": 0.8409,
     "top4_ci": [
-     0.7602,
-     0.9505
+     0.7063,
+     0.9207
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.635,
-     0.635
+     -0.681,
+     0.681
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 2.227,
+    "shrunk_avg": 2.477,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -50,13 +51,13 @@
  },
  "meta": {
   "games": 44,
-  "share_of_meta": 0.09302325581395349,
-  "avg_place": 2.227,
-  "win": 0.3636,
-  "top4": 0.8864,
+  "share_of_meta": 0.0838095238095238,
+  "avg_place": 2.477,
+  "win": 0.2955,
+  "top4": 0.8409,
   "top4_ci": [
-   0.7602,
-   0.9505
+   0.7063,
+   0.9207
   ],
   "prior_games": 30
  }
