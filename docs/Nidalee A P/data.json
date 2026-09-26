@@ -5,17 +5,60 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 39,
-  "share_of_meta": 0.07428571428571429,
-  "avg_place": 2.487,
-  "win": 0.2821,
-  "top4": 0.8974,
-  "top4_ci": [
-   0.7642,
-   0.9594
-  ]
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_Nidalee18_AP 2*"
+    ],
+    "label": "Nidalee A P 2*",
+    "n": 43,
+    "share": 1.0238095238095237,
+    "avg_place": 2.581,
+    "sd": 1.482,
+    "win": 0.2326,
+    "top2": 0.5814,
+    "top4": 0.907,
+    "top4_ci": [
+     0.784,
+     0.9632
+    ],
+    "d_avg": 0.034,
+    "d_avg_ci": [
+     -0.597,
+     0.664
+    ],
+    "d_top4": 0.0022,
+    "d_win": -0.0055,
+    "shrunk_avg": 2.568,
+    "score": 0.02,
+    "d_avg_pess": 0.0,
+    "impact": -0.0204,
+    "z": 0.11,
+    "p": 0.91637,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": []
  },
- "error": "echantillon insuffisant (39 parties)"
+ "meta": {
+  "games": 42,
+  "share_of_meta": 0.06645569620253164,
+  "avg_place": 2.548,
+  "win": 0.2381,
+  "top4": 0.9048,
+  "top4_ci": [
+   0.7793,
+   0.9623
+  ],
+  "prior_games": 30
+ }
 }

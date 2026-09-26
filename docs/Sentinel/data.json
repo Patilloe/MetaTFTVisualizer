@@ -19,25 +19,25 @@
      "DA_Sentinel18 2*"
     ],
     "label": "Sentinel18 2*",
-    "n": 44,
+    "n": 50,
     "share": 1.0,
-    "avg_place": 2.477,
-    "sd": 1.631,
-    "win": 0.2955,
-    "top2": 0.6818,
-    "top4": 0.8409,
+    "avg_place": 2.5,
+    "sd": 1.552,
+    "win": 0.26,
+    "top2": 0.68,
+    "top4": 0.88,
     "top4_ci": [
-     0.7063,
-     0.9207
+     0.7619,
+     0.9438
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.681,
-     0.681
+     -0.609,
+     0.609
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 2.477,
+    "shrunk_avg": 2.5,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -50,14 +50,14 @@
   "traits_flex": []
  },
  "meta": {
-  "games": 44,
-  "share_of_meta": 0.0838095238095238,
-  "avg_place": 2.477,
-  "win": 0.2955,
-  "top4": 0.8409,
+  "games": 50,
+  "share_of_meta": 0.07911392405063292,
+  "avg_place": 2.5,
+  "win": 0.26,
+  "top4": 0.88,
   "top4_ci": [
-   0.7063,
-   0.9207
+   0.7619,
+   0.9438
   ],
   "prior_games": 30
  }
