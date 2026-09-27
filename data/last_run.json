@@ -1,30 +1,8 @@
 {
- "generated_at": "2026-09-26T10:47:44Z",
+ "generated_at": "2026-09-27T11:22:50Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
- "comps": {
-  "Amumu": {
-   "champ": "DA_Amumu18",
-   "games": 51,
-   "avg_place": 2.49,
-   "top4": 0.9216,
-   "win": 0.3333
-  },
-  "Sentinel": {
-   "champ": "DA_Sentinel18",
-   "games": 50,
-   "avg_place": 2.5,
-   "top4": 0.88,
-   "win": 0.26
-  },
-  "Nidalee A P": {
-   "champ": "DA_Nidalee18_AP",
-   "games": 42,
-   "avg_place": 2.548,
-   "top4": 0.9048,
-   "win": 0.2381
-  }
- }
+ "comps": {}
 }
