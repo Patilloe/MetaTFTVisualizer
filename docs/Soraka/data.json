@@ -7,15 +7,15 @@
  "warnings": [],
  "tables": {},
  "meta": {
-  "games": 9,
-  "share_of_meta": 0.04225352112676056,
-  "avg_place": 1.222,
-  "win": 0.7778,
+  "games": 11,
+  "share_of_meta": 0.03470031545741325,
+  "avg_place": 1.273,
+  "win": 0.7273,
   "top4": 1.0,
   "top4_ci": [
-   0.7008,
+   0.7412,
    1.0
   ]
  },
- "error": "echantillon insuffisant (9 parties)"
+ "error": "echantillon insuffisant (11 parties)"
 }
