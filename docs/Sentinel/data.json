@@ -5,17 +5,60 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 14,
-  "share_of_meta": 0.05363984674329502,
-  "avg_place": 1.214,
-  "win": 0.7857,
-  "top4": 1.0,
-  "top4_ci": [
-   0.7847,
-   1.0
-  ]
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_Sentinel18 2*"
+    ],
+    "label": "Sentinel18 2*",
+    "n": 42,
+    "share": 1.0,
+    "avg_place": 3.143,
+    "sd": 2.263,
+    "win": 0.381,
+    "top2": 0.5,
+    "top4": 0.7143,
+    "top4_ci": [
+     0.5643,
+     0.8283
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.968,
+     0.968
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 3.143,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": []
  },
- "error": "echantillon insuffisant (14 parties)"
+ "meta": {
+  "games": 42,
+  "share_of_meta": 0.10071942446043165,
+  "avg_place": 3.143,
+  "win": 0.381,
+  "top4": 0.7143,
+  "top4_ci": [
+   0.5643,
+   0.8283
+  ],
+  "prior_games": 30
+ }
 }
