@@ -1,8 +1,16 @@
 {
- "generated_at": "2026-10-18T10:22:23Z",
+ "generated_at": "2026-10-19T12:05:30Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
- "comps": {}
+ "comps": {
+  "Sentinel": {
+   "champ": "DA_Sentinel18",
+   "games": 42,
+   "avg_place": 3.143,
+   "top4": 0.7143,
+   "win": 0.381
+  }
+ }
 }
