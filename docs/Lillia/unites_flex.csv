@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Rakan,43,0.48314606741573035,3.907,3.756,0.217,0.368,0.0,-0.1046,-0.0807,0.2093,0.3721,0.6047,2.351,0.86,0.38987,False

@@ -1,0 +1,3 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Void Staff,80,0.5633802816901409,4.138,4.129,0.023,0.032,0.0,-0.0131,0.0171,0.075,0.25,0.5875,1.986,0.11,0.91047,False
+populaire,Spear Of Shojin,45,0.31690140845070425,4.378,4.269,0.163,0.272,0.0,-0.0517,-0.0593,0.0444,0.1778,0.5111,1.841,0.83,0.40403,False

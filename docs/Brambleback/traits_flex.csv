@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Slayer,56,0.8115942028985508,3.625,3.533,0.171,0.263,0.0,-0.1388,-0.0461,0.1607,0.3036,0.6786,1.788,0.81,0.41662,False

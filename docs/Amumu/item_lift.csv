@@ -1,0 +1,3 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Warmogs Armor,56,0.448,4.179,4.253,-0.139,-0.213,0.0,0.0623,-0.004,0.1786,0.3036,0.5,2.253,-0.59,0.55589,False
+populaire,Gargoyle Stoneplate,85,0.68,4.447,4.433,0.041,0.055,0.0,-0.0277,-0.0216,0.1294,0.2235,0.4824,2.128,0.18,0.85747,False

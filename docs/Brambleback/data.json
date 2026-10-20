@@ -5,17 +5,124 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 21,
-  "share_of_meta": 0.050359712230215826,
-  "avg_place": 2.333,
-  "win": 0.5238,
-  "top4": 0.9048,
-  "top4_ci": [
-   0.7109,
-   0.9735
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_artifact": [],
+  "items_craftable": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_Brambleback18 2*"
+    ],
+    "label": "Brambleback18 2*",
+    "n": 69,
+    "share": 1.0,
+    "avg_place": 3.362,
+    "sd": 1.81,
+    "win": 0.2174,
+    "top2": 0.3768,
+    "top4": 0.7246,
+    "top4_ci": [
+     0.6095,
+     0.8161
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.604,
+     0.604
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 3.362,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_Sentinel18"
+    ],
+    "label": "Sentinel",
+    "n": 63,
+    "share": 0.9130434782608695,
+    "avg_place": 3.429,
+    "sd": 1.761,
+    "win": 0.1746,
+    "top2": 0.3492,
+    "top4": 0.746,
+    "top4_ci": [
+     0.6266,
+     0.8372
+    ],
+    "d_avg": 0.066,
+    "d_avg_ci": [
+     -0.543,
+     0.676
+    ],
+    "d_top4": 0.0214,
+    "d_win": -0.0428,
+    "shrunk_avg": 3.407,
+    "score": 0.045,
+    "d_avg_pess": 0.0,
+    "impact": -0.041,
+    "z": 0.21,
+    "p": 0.83128,
+    "significant": false
+   }
+  ],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Slayer_1"
+    ],
+    "label": "Slayer",
+    "n": 56,
+    "share": 0.8115942028985508,
+    "avg_place": 3.625,
+    "sd": 1.788,
+    "win": 0.1607,
+    "top2": 0.3036,
+    "top4": 0.6786,
+    "top4_ci": [
+     0.5482,
+     0.786
+    ],
+    "d_avg": 0.263,
+    "d_avg_ci": [
+     -0.371,
+     0.897
+    ],
+    "d_top4": -0.0461,
+    "d_win": -0.0567,
+    "shrunk_avg": 3.533,
+    "score": 0.171,
+    "d_avg_pess": 0.0,
+    "impact": -0.1388,
+    "z": 0.81,
+    "p": 0.41662,
+    "significant": false
+   }
   ]
  },
- "error": "echantillon insuffisant (21 parties)"
+ "meta": {
+  "games": 69,
+  "share_of_meta": 0.04277743335399876,
+  "avg_place": 3.362,
+  "win": 0.2174,
+  "top4": 0.7246,
+  "top4_ci": [
+   0.6095,
+   0.8161
+  ],
+  "prior_games": 30
+ }
 }
