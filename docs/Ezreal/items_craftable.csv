@@ -1,3 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Deathblade,50,0.43859649122807015,3.22,3.299,-0.131,-0.21,0.0,0.0575,0.0182,0.3,0.42,0.72,2.062,-0.58,0.56008,False
-populaire,Spear Of Shojin,54,0.47368421052631576,3.537,3.499,0.069,0.107,0.0,-0.0326,-0.0536,0.2778,0.4259,0.6481,2.323,0.28,0.77796,False

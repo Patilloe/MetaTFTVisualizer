@@ -5,124 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_artifact": [],
-  "items_craftable": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Sivir 2*"
-    ],
-    "label": "Sivir 2*",
-    "n": 58,
-    "share": 1.0,
-    "avg_place": 4.034,
-    "sd": 2.205,
-    "win": 0.2069,
-    "top2": 0.2931,
-    "top4": 0.569,
-    "top4_ci": [
-     0.4412,
-     0.6882
-    ],
-    "d_avg": 0.0,
-    "d_avg_ci": [
-     -0.802,
-     0.802
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0,
-    "shrunk_avg": 4.034,
-    "score": 0.0,
-    "d_avg_pess": 0.0,
-    "impact": -0.0,
-    "z": 0.0,
-    "p": 1.0,
-    "significant": false
-   }
-  ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_Vi18"
-    ],
-    "label": "Vi",
-    "n": 44,
-    "share": 0.7586206896551724,
-    "avg_place": 3.659,
-    "sd": 2.194,
-    "win": 0.2727,
-    "top2": 0.3636,
-    "top4": 0.5909,
-    "top4_ci": [
-     0.4441,
-     0.7231
-    ],
-    "d_avg": -0.375,
-    "d_avg_ci": [
-     -1.237,
-     0.486
-    ],
-    "d_top4": 0.0219,
-    "d_win": 0.0658,
-    "shrunk_avg": 3.811,
-    "score": -0.223,
-    "d_avg_pess": 0.0,
-    "impact": 0.1693,
-    "z": -0.85,
-    "p": 0.39315,
-    "significant": false
-   }
-  ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_Primal18_1"
-    ],
-    "label": "Primal",
-    "n": 45,
-    "share": 0.7758620689655172,
-    "avg_place": 4.044,
-    "sd": 2.211,
-    "win": 0.2222,
-    "top2": 0.2889,
-    "top4": 0.5556,
-    "top4_ci": [
-     0.4118,
-     0.6906
-    ],
-    "d_avg": 0.01,
-    "d_avg_ci": [
-     -0.85,
-     0.87
-    ],
-    "d_top4": -0.0134,
-    "d_win": 0.0153,
-    "shrunk_avg": 4.04,
-    "score": 0.006,
-    "d_avg_pess": 0.0,
-    "impact": -0.0046,
-    "z": 0.02,
-    "p": 0.98188,
-    "significant": false
-   }
+ "tables": {},
+ "meta": {
+  "games": 5,
+  "share_of_meta": 0.06578947368421052,
+  "avg_place": 3.4,
+  "win": 0.2,
+  "top4": 0.6,
+  "top4_ci": [
+   0.2307,
+   0.8824
   ]
  },
- "meta": {
-  "games": 58,
-  "share_of_meta": 0.03595784252944823,
-  "avg_place": 4.034,
-  "win": 0.2069,
-  "top4": 0.569,
-  "top4_ci": [
-   0.4412,
-   0.6882
-  ],
-  "prior_games": 30
- }
+ "error": "echantillon insuffisant (5 parties)"
 }
