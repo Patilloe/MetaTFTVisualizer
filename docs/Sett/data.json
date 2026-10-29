@@ -8,13 +8,13 @@
  "tables": {},
  "meta": {
   "games": 10,
-  "share_of_meta": 0.04830917874396135,
-  "avg_place": 1.5,
-  "win": 0.5,
-  "top4": 1.0,
+  "share_of_meta": 0.054945054945054944,
+  "avg_place": 2.2,
+  "win": 0.4,
+  "top4": 0.9,
   "top4_ci": [
-   0.7225,
-   1.0
+   0.5958,
+   0.9821
   ]
  },
  "error": "echantillon insuffisant (10 parties)"
