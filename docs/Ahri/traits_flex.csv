@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Spellweaver,41,0.9111111111111111,3.78,3.751,0.04,0.069,0.0,-0.0365,-0.0081,0.1463,0.2927,0.6585,2.018,0.16,0.87217,False

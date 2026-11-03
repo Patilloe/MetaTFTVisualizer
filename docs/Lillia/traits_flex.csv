@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Defender,45,0.9183673469387755,3.667,3.653,0.02,0.034,0.0,-0.0187,-0.029,0.2444,0.4444,0.6444,2.394,0.07,0.94411,False

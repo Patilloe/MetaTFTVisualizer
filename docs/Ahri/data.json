@@ -5,17 +5,125 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 12,
-  "share_of_meta": 0.07317073170731707,
-  "avg_place": 3.0,
-  "win": 0.1667,
-  "top4": 0.8333,
-  "top4_ci": [
-   0.552,
-   0.953
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "items_radiant": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Ahri 2*"
+    ],
+    "label": "Ahri 2*",
+    "n": 45,
+    "share": 1.0,
+    "avg_place": 3.711,
+    "sd": 1.973,
+    "win": 0.1333,
+    "top2": 0.3111,
+    "top4": 0.6667,
+    "top4_ci": [
+     0.5207,
+     0.7864
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.815,
+     0.815
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 3.711,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_18_Sett"
+    ],
+    "label": "Sett",
+    "n": 42,
+    "share": 0.9333333333333333,
+    "avg_place": 3.643,
+    "sd": 1.95,
+    "win": 0.1429,
+    "top2": 0.3095,
+    "top4": 0.6905,
+    "top4_ci": [
+     0.5397,
+     0.8093
+    ],
+    "d_avg": -0.068,
+    "d_avg_ci": [
+     -0.893,
+     0.756
+    ],
+    "d_top4": 0.0238,
+    "d_win": 0.0095,
+    "shrunk_avg": 3.671,
+    "score": -0.04,
+    "d_avg_pess": 0.0,
+    "impact": 0.0372,
+    "z": -0.16,
+    "p": 0.87114,
+    "significant": false
+   }
+  ],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Spellweaver_1"
+    ],
+    "label": "Spellweaver",
+    "n": 41,
+    "share": 0.9111111111111111,
+    "avg_place": 3.78,
+    "sd": 2.018,
+    "win": 0.1463,
+    "top2": 0.2927,
+    "top4": 0.6585,
+    "top4_ci": [
+     0.5055,
+     0.7844
+    ],
+    "d_avg": 0.069,
+    "d_avg_ci": [
+     -0.776,
+     0.914
+    ],
+    "d_top4": -0.0081,
+    "d_win": 0.013,
+    "shrunk_avg": 3.751,
+    "score": 0.04,
+    "d_avg_pess": 0.0,
+    "impact": -0.0365,
+    "z": 0.16,
+    "p": 0.87217,
+    "significant": false
+   }
   ]
  },
- "error": "echantillon insuffisant (12 parties)"
+ "meta": {
+  "games": 45,
+  "share_of_meta": 0.10321100917431193,
+  "avg_place": 3.711,
+  "win": 0.1333,
+  "top4": 0.6667,
+  "top4_ci": [
+   0.5207,
+   0.7864
+  ],
+  "prior_games": 30
+ }
 }

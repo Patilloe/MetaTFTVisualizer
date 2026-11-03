@@ -5,17 +5,60 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 12,
-  "share_of_meta": 0.07317073170731707,
-  "avg_place": 3.667,
-  "win": 0.3333,
-  "top4": 0.5833,
-  "top4_ci": [
-   0.3195,
-   0.8067
-  ]
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_Amumu18 2*"
+    ],
+    "label": "Amumu18 2*",
+    "n": 43,
+    "share": 1.0,
+    "avg_place": 4.395,
+    "sd": 2.441,
+    "win": 0.186,
+    "top2": 0.3023,
+    "top4": 0.4419,
+    "top4_ci": [
+     0.3043,
+     0.5889
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -1.032,
+     1.032
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 4.395,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": []
  },
- "error": "echantillon insuffisant (12 parties)"
+ "meta": {
+  "games": 43,
+  "share_of_meta": 0.09862385321100918,
+  "avg_place": 4.395,
+  "win": 0.186,
+  "top4": 0.4419,
+  "top4_ci": [
+   0.3043,
+   0.5889
+  ],
+  "prior_games": 30
+ }
 }
