@@ -1,65 +1,8 @@
 {
- "generated_at": "2026-11-03T13:37:04Z",
+ "generated_at": "2026-11-04T13:45:46Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
- "comps": {
-  "Sentinel": {
-   "champ": "DA_Sentinel18",
-   "games": 46,
-   "avg_place": 3.543,
-   "top4": 0.6522,
-   "win": 0.3043
-  },
-  "Lillia": {
-   "champ": "DA_18_Lillia",
-   "games": 49,
-   "avg_place": 3.633,
-   "top4": 0.6735,
-   "win": 0.2245
-  },
-  "Ahri": {
-   "champ": "DA_18_Ahri",
-   "games": 45,
-   "avg_place": 3.711,
-   "top4": 0.6667,
-   "win": 0.1333
-  },
-  "Ezreal": {
-   "champ": "DA_18_Ezreal",
-   "games": 44,
-   "avg_place": 3.727,
-   "top4": 0.6136,
-   "win": 0.2727
-  },
-  "Sett": {
-   "champ": "DA_18_Sett",
-   "games": 43,
-   "avg_place": 3.791,
-   "top4": 0.6279,
-   "win": 0.1395
-  },
-  "Brambleback": {
-   "champ": "DA_Brambleback18",
-   "games": 40,
-   "avg_place": 3.925,
-   "top4": 0.575,
-   "win": 0.125
-  },
-  "Amumu": {
-   "champ": "DA_Amumu18",
-   "games": 43,
-   "avg_place": 4.395,
-   "top4": 0.4419,
-   "win": 0.186
-  },
-  "Sivir": {
-   "champ": "DA_18_Sivir",
-   "games": 40,
-   "avg_place": 4.425,
-   "top4": 0.55,
-   "win": 0.1
-  }
- }
+ "comps": {}
 }
