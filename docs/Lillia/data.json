@@ -5,93 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [],
-  "items_artifact": [],
-  "items_radiant": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Lillia 2*"
-    ],
-    "label": "Lillia 2*",
-    "n": 49,
-    "share": 1.0,
-    "avg_place": 3.633,
-    "sd": 2.301,
-    "win": 0.2245,
-    "top2": 0.4082,
-    "top4": 0.6735,
-    "top4_ci": [
-     0.5338,
-     0.7879
-    ],
-    "d_avg": 0.0,
-    "d_avg_ci": [
-     -0.911,
-     0.911
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0,
-    "shrunk_avg": 3.633,
-    "score": 0.0,
-    "d_avg_pess": 0.0,
-    "impact": -0.0,
-    "z": 0.0,
-    "p": 1.0,
-    "significant": false
-   }
-  ],
-  "unites_flex": [],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_18_Defender_1"
-    ],
-    "label": "Defender",
-    "n": 45,
-    "share": 0.9183673469387755,
-    "avg_place": 3.667,
-    "sd": 2.394,
-    "win": 0.2444,
-    "top2": 0.4444,
-    "top4": 0.6444,
-    "top4_ci": [
-     0.4984,
-     0.7678
-    ],
-    "d_avg": 0.034,
-    "d_avg_ci": [
-     -0.917,
-     0.985
-    ],
-    "d_top4": -0.029,
-    "d_win": 0.02,
-    "shrunk_avg": 3.653,
-    "score": 0.02,
-    "d_avg_pess": 0.0,
-    "impact": -0.0187,
-    "z": 0.07,
-    "p": 0.94411,
-    "significant": false
-   }
+ "tables": {},
+ "meta": {
+  "games": 7,
+  "share_of_meta": 0.07216494845360824,
+  "avg_place": 4.143,
+  "win": 0.2857,
+  "top4": 0.5714,
+  "top4_ci": [
+   0.2505,
+   0.8418
   ]
  },
- "meta": {
-  "games": 49,
-  "share_of_meta": 0.11238532110091744,
-  "avg_place": 3.633,
-  "win": 0.2245,
-  "top4": 0.6735,
-  "top4_ci": [
-   0.5338,
-   0.7879
-  ],
-  "prior_games": 30
- }
+ "error": "echantillon insuffisant (7 parties)"
 }
