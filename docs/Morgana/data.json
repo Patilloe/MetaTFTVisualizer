@@ -5,17 +5,93 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 3,
-  "share_of_meta": 0.030927835051546393,
-  "avg_place": 3.667,
-  "win": 0.3333,
-  "top4": 0.6667,
-  "top4_ci": [
-   0.2077,
-   0.9385
-  ]
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "items_radiant": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Morgana 2*"
+    ],
+    "label": "Morgana 2*",
+    "n": 50,
+    "share": 1.0204081632653061,
+    "avg_place": 2.94,
+    "sd": 2.073,
+    "win": 0.32,
+    "top2": 0.56,
+    "top4": 0.78,
+    "top4_ci": [
+     0.6476,
+     0.8725
+    ],
+    "d_avg": -0.019,
+    "d_avg_ci": [
+     -0.839,
+     0.801
+    ],
+    "d_top4": 0.0045,
+    "d_win": -0.0065,
+    "shrunk_avg": 2.947,
+    "score": -0.012,
+    "d_avg_pess": 0.0,
+    "impact": 0.0122,
+    "z": -0.05,
+    "p": 0.96343,
+    "significant": false
+   }
+  ],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_Sentinel18"
+    ],
+    "label": "Sentinel",
+    "n": 44,
+    "share": 0.8979591836734694,
+    "avg_place": 2.818,
+    "sd": 2.014,
+    "win": 0.3409,
+    "top2": 0.5909,
+    "top4": 0.7955,
+    "top4_ci": [
+     0.655,
+     0.8885
+    ],
+    "d_avg": -0.141,
+    "d_avg_ci": [
+     -0.976,
+     0.694
+    ],
+    "d_top4": 0.0199,
+    "d_win": 0.0144,
+    "shrunk_avg": 2.875,
+    "score": -0.084,
+    "d_avg_pess": 0.0,
+    "impact": 0.0753,
+    "z": -0.33,
+    "p": 0.74054,
+    "significant": false
+   }
+  ],
+  "traits_flex": []
  },
- "error": "echantillon insuffisant (3 parties)"
+ "meta": {
+  "games": 49,
+  "share_of_meta": 0.06056860321384425,
+  "avg_place": 2.959,
+  "win": 0.3265,
+  "top4": 0.7755,
+  "top4_ci": [
+   0.6412,
+   0.8698
+  ],
+  "prior_games": 30
+ }
 }

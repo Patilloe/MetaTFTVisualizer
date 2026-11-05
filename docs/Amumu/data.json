@@ -5,17 +5,122 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 11,
-  "share_of_meta": 0.1134020618556701,
-  "avg_place": 4.364,
-  "win": 0.0909,
-  "top4": 0.6364,
-  "top4_ci": [
-   0.3538,
-   0.8483
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_Amumu18 2*"
+    ],
+    "label": "Amumu18 2*",
+    "n": 71,
+    "share": 1.0,
+    "avg_place": 4.225,
+    "sd": 2.375,
+    "win": 0.169,
+    "top2": 0.2817,
+    "top4": 0.5915,
+    "top4_ci": [
+     0.4754,
+     0.6983
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.781,
+     0.781
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 4.225,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Vanguard_1"
+    ],
+    "label": "Vanguard",
+    "n": 44,
+    "share": 0.6197183098591549,
+    "avg_place": 4.045,
+    "sd": 2.468,
+    "win": 0.2045,
+    "top2": 0.3409,
+    "top4": 0.6136,
+    "top4_ci": [
+     0.4662,
+     0.7428
+    ],
+    "d_avg": -0.18,
+    "d_avg_ci": [
+     -1.095,
+     0.735
+    ],
+    "d_top4": 0.0221,
+    "d_win": 0.0355,
+    "shrunk_avg": 4.118,
+    "score": -0.107,
+    "d_avg_pess": 0.0,
+    "impact": 0.0663,
+    "z": -0.39,
+    "p": 0.69989,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Juggernaut18_1"
+    ],
+    "label": "Juggernaut",
+    "n": 55,
+    "share": 0.7746478873239436,
+    "avg_place": 4.273,
+    "sd": 2.416,
+    "win": 0.1818,
+    "top2": 0.2909,
+    "top4": 0.5455,
+    "top4_ci": [
+     0.4152,
+     0.6697
+    ],
+    "d_avg": 0.047,
+    "d_avg_ci": [
+     -0.797,
+     0.892
+    ],
+    "d_top4": -0.0461,
+    "d_win": 0.0128,
+    "shrunk_avg": 4.256,
+    "score": 0.031,
+    "d_avg_pess": 0.0,
+    "impact": -0.0237,
+    "z": 0.11,
+    "p": 0.91242,
+    "significant": false
+   }
   ]
  },
- "error": "echantillon insuffisant (11 parties)"
+ "meta": {
+  "games": 71,
+  "share_of_meta": 0.08776266996291718,
+  "avg_place": 4.225,
+  "win": 0.169,
+  "top4": 0.5915,
+  "top4_ci": [
+   0.4754,
+   0.6983
+  ],
+  "prior_games": 30
+ }
 }

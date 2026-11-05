@@ -5,17 +5,251 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 12,
-  "share_of_meta": 0.12371134020618557,
-  "avg_place": 2.75,
-  "win": 0.3333,
-  "top4": 0.75,
-  "top4_ci": [
-   0.4677,
-   0.9111
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [
+   {
+    "key": [
+     "DA_SpearOfShojin"
+    ],
+    "label": "Spear Of Shojin",
+    "n": 41,
+    "share": 0.6507936507936508,
+    "avg_place": 3.439,
+    "sd": 2.274,
+    "win": 0.2683,
+    "top2": 0.4878,
+    "top4": 0.6829,
+    "top4_ci": [
+     0.5302,
+     0.8044
+    ],
+    "d_avg": 0.122,
+    "d_avg_ci": [
+     -0.784,
+     1.027
+    ],
+    "d_top4": -0.0155,
+    "d_win": -0.065,
+    "shrunk_avg": 3.388,
+    "score": 0.07,
+    "d_avg_pess": 0.0,
+    "impact": -0.0457,
+    "z": 0.26,
+    "p": 0.79237,
+    "significant": false
+   }
+  ],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [
+   {
+    "key": [
+     "DA_SpearOfShojin-1"
+    ],
+    "label": "Spear Of Shojin",
+    "n": 41,
+    "share": 0.6507936507936508,
+    "avg_place": 3.439,
+    "sd": 2.274,
+    "win": 0.2683,
+    "top2": 0.4878,
+    "top4": 0.6829,
+    "top4_ci": [
+     0.5302,
+     0.8044
+    ],
+    "d_avg": 0.122,
+    "d_avg_ci": [
+     -0.784,
+     1.027
+    ],
+    "d_top4": -0.0155,
+    "d_win": -0.065,
+    "shrunk_avg": 3.388,
+    "score": 0.07,
+    "d_avg_pess": 0.0,
+    "impact": -0.0457,
+    "z": 0.26,
+    "p": 0.79237,
+    "significant": false
+   }
+  ],
+  "items_artifact": [],
+  "items_radiant": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Ezreal 2*"
+    ],
+    "label": "Ezreal 2*",
+    "n": 63,
+    "share": 1.0,
+    "avg_place": 3.317,
+    "sd": 2.342,
+    "win": 0.3333,
+    "top2": 0.5079,
+    "top4": 0.6984,
+    "top4_ci": [
+     0.5764,
+     0.7976
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.818,
+     0.818
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 3.317,
+    "score": -0.0,
+    "d_avg_pess": 0.0,
+    "impact": 0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_18_Ornn"
+    ],
+    "label": "Ornn",
+    "n": 41,
+    "share": 0.6507936507936508,
+    "avg_place": 3.293,
+    "sd": 2.452,
+    "win": 0.3659,
+    "top2": 0.561,
+    "top4": 0.6829,
+    "top4_ci": [
+     0.5302,
+     0.8044
+    ],
+    "d_avg": -0.025,
+    "d_avg_ci": [
+     -0.972,
+     0.923
+    ],
+    "d_top4": -0.0155,
+    "d_win": 0.0325,
+    "shrunk_avg": 3.303,
+    "score": -0.014,
+    "d_avg_pess": 0.0,
+    "impact": 0.0093,
+    "z": -0.05,
+    "p": 0.95912,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Alistar"
+    ],
+    "label": "Alistar",
+    "n": 50,
+    "share": 0.7936507936507936,
+    "avg_place": 3.34,
+    "sd": 2.405,
+    "win": 0.36,
+    "top2": 0.52,
+    "top4": 0.68,
+    "top4_ci": [
+     0.5419,
+     0.7924
+    ],
+    "d_avg": 0.023,
+    "d_avg_ci": [
+     -0.86,
+     0.905
+    ],
+    "d_top4": -0.0184,
+    "d_win": 0.0267,
+    "shrunk_avg": 3.332,
+    "score": 0.014,
+    "d_avg_pess": 0.0,
+    "impact": -0.0112,
+    "z": 0.05,
+    "p": 0.96008,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Hecarim"
+    ],
+    "label": "Hecarim",
+    "n": 42,
+    "share": 0.6666666666666666,
+    "avg_place": 3.429,
+    "sd": 2.372,
+    "win": 0.3333,
+    "top2": 0.5,
+    "top4": 0.6429,
+    "top4_ci": [
+     0.4917,
+     0.7701
+    ],
+    "d_avg": 0.111,
+    "d_avg_ci": [
+     -0.81,
+     1.033
+    ],
+    "d_top4": -0.0556,
+    "d_win": 0.0,
+    "shrunk_avg": 3.382,
+    "score": 0.065,
+    "d_avg_pess": 0.0,
+    "impact": -0.0432,
+    "z": 0.24,
+    "p": 0.81317,
+    "significant": false
+   }
+  ],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Brawler_1"
+    ],
+    "label": "Brawler",
+    "n": 44,
+    "share": 0.6984126984126984,
+    "avg_place": 2.705,
+    "sd": 1.949,
+    "win": 0.4091,
+    "top2": 0.6136,
+    "top4": 0.7955,
+    "top4_ci": [
+     0.655,
+     0.8885
+    ],
+    "d_avg": -0.613,
+    "d_avg_ci": [
+     -1.429,
+     0.203
+    ],
+    "d_top4": 0.097,
+    "d_win": 0.0758,
+    "shrunk_avg": 2.953,
+    "score": -0.364,
+    "d_avg_pess": 0.0,
+    "impact": 0.2545,
+    "z": -1.47,
+    "p": 0.14108,
+    "significant": false
+   }
   ]
  },
- "error": "echantillon insuffisant (12 parties)"
+ "meta": {
+  "games": 63,
+  "share_of_meta": 0.07787391841779975,
+  "avg_place": 3.317,
+  "win": 0.3333,
+  "top4": 0.6984,
+  "top4_ci": [
+   0.5764,
+   0.7976
+  ],
+  "prior_games": 30
+ }
 }

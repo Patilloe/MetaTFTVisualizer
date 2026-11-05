@@ -5,17 +5,155 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 7,
-  "share_of_meta": 0.07216494845360824,
-  "avg_place": 4.143,
-  "win": 0.2857,
-  "top4": 0.5714,
-  "top4_ci": [
-   0.2505,
-   0.8418
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Lillia 2*"
+    ],
+    "label": "Lillia 2*",
+    "n": 65,
+    "share": 1.0,
+    "avg_place": 3.338,
+    "sd": 1.971,
+    "win": 0.2308,
+    "top2": 0.4308,
+    "top4": 0.6769,
+    "top4_ci": [
+     0.5561,
+     0.778
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.678,
+     0.678
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 3.338,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_18_Rakan"
+    ],
+    "label": "Rakan",
+    "n": 41,
+    "share": 0.6307692307692307,
+    "avg_place": 3.61,
+    "sd": 2.059,
+    "win": 0.1951,
+    "top2": 0.3902,
+    "top4": 0.6098,
+    "top4_ci": [
+     0.4573,
+     0.7434
+    ],
+    "d_avg": 0.271,
+    "d_avg_ci": [
+     -0.52,
+     1.063
+    ],
+    "d_top4": -0.0672,
+    "d_win": -0.0356,
+    "shrunk_avg": 3.495,
+    "score": 0.157,
+    "d_avg_pess": 0.0,
+    "impact": -0.0988,
+    "z": 0.67,
+    "p": 0.50179,
+    "significant": false
+   }
+  ],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Defender_1"
+    ],
+    "label": "Defender",
+    "n": 61,
+    "share": 0.9384615384615385,
+    "avg_place": 3.393,
+    "sd": 1.986,
+    "win": 0.2295,
+    "top2": 0.4098,
+    "top4": 0.6721,
+    "top4_ci": [
+     0.5472,
+     0.7767
+    ],
+    "d_avg": 0.055,
+    "d_avg_ci": [
+     -0.636,
+     0.746
+    ],
+    "d_top4": -0.0048,
+    "d_win": -0.0013,
+    "shrunk_avg": 3.375,
+    "score": 0.037,
+    "d_avg_pess": 0.0,
+    "impact": -0.0346,
+    "z": 0.16,
+    "p": 0.87614,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Fae_1"
+    ],
+    "label": "Fae",
+    "n": 47,
+    "share": 0.7230769230769231,
+    "avg_place": 3.553,
+    "sd": 1.998,
+    "win": 0.2128,
+    "top2": 0.383,
+    "top4": 0.6383,
+    "top4_ci": [
+     0.4954,
+     0.7603
+    ],
+    "d_avg": 0.215,
+    "d_avg_ci": [
+     -0.531,
+     0.96
+    ],
+    "d_top4": -0.0386,
+    "d_win": -0.018,
+    "shrunk_avg": 3.47,
+    "score": 0.131,
+    "d_avg_pess": 0.0,
+    "impact": -0.0948,
+    "z": 0.56,
+    "p": 0.57243,
+    "significant": false
+   }
   ]
  },
- "error": "echantillon insuffisant (7 parties)"
+ "meta": {
+  "games": 65,
+  "share_of_meta": 0.08034610630407911,
+  "avg_place": 3.338,
+  "win": 0.2308,
+  "top4": 0.6769,
+  "top4_ci": [
+   0.5561,
+   0.778
+  ],
+  "prior_games": 30
+ }
 }

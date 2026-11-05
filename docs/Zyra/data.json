@@ -5,17 +5,281 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 13,
-  "share_of_meta": 0.13402061855670103,
-  "avg_place": 4.077,
-  "win": 0.0,
-  "top4": 0.6923,
-  "top4_ci": [
-   0.4237,
-   0.8732
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [
+   {
+    "key": [
+     "DA_VoidStaff"
+    ],
+    "label": "Void Staff",
+    "n": 43,
+    "share": 0.6615384615384615,
+    "avg_place": 3.884,
+    "sd": 1.781,
+    "win": 0.0698,
+    "top2": 0.2326,
+    "top4": 0.6279,
+    "top4_ci": [
+     0.4786,
+     0.7562
+    ],
+    "d_avg": 0.099,
+    "d_avg_ci": [
+     -0.594,
+     0.792
+    ],
+    "d_top4": -0.0336,
+    "d_win": -0.0072,
+    "shrunk_avg": 3.843,
+    "score": 0.058,
+    "d_avg_pess": 0.0,
+    "impact": -0.0386,
+    "z": 0.28,
+    "p": 0.77936,
+    "significant": false
+   }
+  ],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [
+   {
+    "key": [
+     "DA_VoidStaff-1"
+    ],
+    "label": "Void Staff",
+    "n": 43,
+    "share": 0.6615384615384615,
+    "avg_place": 3.884,
+    "sd": 1.781,
+    "win": 0.0698,
+    "top2": 0.2326,
+    "top4": 0.6279,
+    "top4_ci": [
+     0.4786,
+     0.7562
+    ],
+    "d_avg": 0.099,
+    "d_avg_ci": [
+     -0.594,
+     0.792
+    ],
+    "d_top4": -0.0336,
+    "d_win": -0.0072,
+    "shrunk_avg": 3.843,
+    "score": 0.058,
+    "d_avg_pess": 0.0,
+    "impact": -0.0386,
+    "z": 0.28,
+    "p": 0.77936,
+    "significant": false
+   }
+  ],
+  "items_radiant": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Zyra 2*"
+    ],
+    "label": "Zyra 2*",
+    "n": 65,
+    "share": 1.0,
+    "avg_place": 3.785,
+    "sd": 1.827,
+    "win": 0.0769,
+    "top2": 0.2615,
+    "top4": 0.6615,
+    "top4_ci": [
+     0.5404,
+     0.7647
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.628,
+     0.628
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 3.785,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_Fiddlesticks18"
+    ],
+    "label": "Fiddlesticks",
+    "n": 47,
+    "share": 0.7230769230769231,
+    "avg_place": 3.979,
+    "sd": 1.839,
+    "win": 0.0638,
+    "top2": 0.1915,
+    "top4": 0.6383,
+    "top4_ci": [
+     0.4954,
+     0.7603
+    ],
+    "d_avg": 0.194,
+    "d_avg_ci": [
+     -0.494,
+     0.882
+    ],
+    "d_top4": -0.0232,
+    "d_win": -0.0131,
+    "shrunk_avg": 3.903,
+    "score": 0.118,
+    "d_avg_pess": 0.0,
+    "impact": -0.0857,
+    "z": 0.55,
+    "p": 0.58045,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Yorick"
+    ],
+    "label": "Yorick",
+    "n": 49,
+    "share": 0.7538461538461538,
+    "avg_place": 3.98,
+    "sd": 1.9,
+    "win": 0.0816,
+    "top2": 0.2245,
+    "top4": 0.6122,
+    "top4_ci": [
+     0.4725,
+     0.7357
+    ],
+    "d_avg": 0.195,
+    "d_avg_ci": [
+     -0.498,
+     0.888
+    ],
+    "d_top4": -0.0493,
+    "d_win": 0.0047,
+    "shrunk_avg": 3.906,
+    "score": 0.121,
+    "d_avg_pess": 0.0,
+    "impact": -0.0912,
+    "z": 0.55,
+    "p": 0.58141,
+    "significant": false
+   }
+  ],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Summoner_1"
+    ],
+    "label": "Summoner",
+    "n": 46,
+    "share": 0.7076923076923077,
+    "avg_place": 3.522,
+    "sd": 1.638,
+    "win": 0.1087,
+    "top2": 0.2826,
+    "top4": 0.7174,
+    "top4_ci": [
+     0.5745,
+     0.8268
+    ],
+    "d_avg": -0.263,
+    "d_avg_ci": [
+     -0.912,
+     0.386
+    ],
+    "d_top4": 0.0559,
+    "d_win": 0.0318,
+    "shrunk_avg": 3.626,
+    "score": -0.159,
+    "d_avg_pess": 0.0,
+    "impact": 0.1126,
+    "z": -0.79,
+    "p": 0.4274,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_Juggernaut18_1"
+    ],
+    "label": "Juggernaut",
+    "n": 48,
+    "share": 0.7384615384615385,
+    "avg_place": 3.812,
+    "sd": 1.889,
+    "win": 0.1042,
+    "top2": 0.2708,
+    "top4": 0.625,
+    "top4_ci": [
+     0.4836,
+     0.7478
+    ],
+    "d_avg": 0.028,
+    "d_avg_ci": [
+     -0.667,
+     0.723
+    ],
+    "d_top4": -0.0365,
+    "d_win": 0.0272,
+    "shrunk_avg": 3.802,
+    "score": 0.017,
+    "d_avg_pess": 0.0,
+    "impact": -0.0127,
+    "z": 0.08,
+    "p": 0.93731,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Spellweaver_1"
+    ],
+    "label": "Spellweaver",
+    "n": 47,
+    "share": 0.7230769230769231,
+    "avg_place": 3.957,
+    "sd": 1.913,
+    "win": 0.1064,
+    "top2": 0.234,
+    "top4": 0.5957,
+    "top4_ci": [
+     0.4534,
+     0.7236
+    ],
+    "d_avg": 0.173,
+    "d_avg_ci": [
+     -0.532,
+     0.877
+    ],
+    "d_top4": -0.0658,
+    "d_win": 0.0295,
+    "shrunk_avg": 3.89,
+    "score": 0.105,
+    "d_avg_pess": 0.0,
+    "impact": -0.0763,
+    "z": 0.48,
+    "p": 0.63061,
+    "significant": false
+   }
   ]
  },
- "error": "echantillon insuffisant (13 parties)"
+ "meta": {
+  "games": 65,
+  "share_of_meta": 0.08034610630407911,
+  "avg_place": 3.785,
+  "win": 0.0769,
+  "top4": 0.6615,
+  "top4_ci": [
+   0.5404,
+   0.7647
+  ],
+  "prior_games": 30
+ }
 }

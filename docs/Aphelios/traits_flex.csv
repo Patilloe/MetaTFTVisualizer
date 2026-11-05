@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Rapidfire,47,0.8545454545454545,3.745,3.681,0.099,0.163,0.0,-0.085,-0.0526,0.234,0.4043,0.6383,2.338,0.36,0.72017,False

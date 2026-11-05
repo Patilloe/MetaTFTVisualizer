@@ -5,17 +5,124 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {},
- "meta": {
-  "games": 5,
-  "share_of_meta": 0.05154639175257732,
-  "avg_place": 4.4,
-  "win": 0.2,
-  "top4": 0.4,
-  "top4_ci": [
-   0.1176,
-   0.7693
-  ]
+ "tables": {
+  "builds": [],
+  "builds_partiels": [],
+  "item_lift": [
+   {
+    "key": [
+     "DA_GargoyleStoneplate"
+    ],
+    "label": "Gargoyle Stoneplate",
+    "n": 40,
+    "share": 0.8695652173913043,
+    "avg_place": 3.75,
+    "sd": 2.059,
+    "win": 0.15,
+    "top2": 0.35,
+    "top4": 0.575,
+    "top4_ci": [
+     0.4219,
+     0.7149
+    ],
+    "d_avg": -0.163,
+    "d_avg_ci": [
+     -1.063,
+     0.737
+    ],
+    "d_top4": 0.0315,
+    "d_win": -0.0022,
+    "shrunk_avg": 3.82,
+    "score": -0.093,
+    "d_avg_pess": 0.0,
+    "impact": 0.081,
+    "z": -0.36,
+    "p": 0.72243,
+    "significant": false
+   }
+  ],
+  "paires": [],
+  "items_emblem": [],
+  "items_craftable": [
+   {
+    "key": [
+     "DA_GargoyleStoneplate-1"
+    ],
+    "label": "Gargoyle Stoneplate",
+    "n": 40,
+    "share": 0.8695652173913043,
+    "avg_place": 3.75,
+    "sd": 2.059,
+    "win": 0.15,
+    "top2": 0.35,
+    "top4": 0.575,
+    "top4_ci": [
+     0.4219,
+     0.7149
+    ],
+    "d_avg": -0.163,
+    "d_avg_ci": [
+     -1.063,
+     0.737
+    ],
+    "d_top4": 0.0315,
+    "d_win": -0.0022,
+    "shrunk_avg": 3.82,
+    "score": -0.093,
+    "d_avg_pess": 0.0,
+    "impact": 0.081,
+    "z": -0.36,
+    "p": 0.72243,
+    "significant": false
+   }
+  ],
+  "items_artifact": [],
+  "etoiles": [
+   {
+    "key": [
+     "DA_18_Malphite 2*"
+    ],
+    "label": "Malphite 2*",
+    "n": 46,
+    "share": 1.0,
+    "avg_place": 3.913,
+    "sd": 2.195,
+    "win": 0.1522,
+    "top2": 0.3478,
+    "top4": 0.5435,
+    "top4_ci": [
+     0.4018,
+     0.6785
+    ],
+    "d_avg": 0.0,
+    "d_avg_ci": [
+     -0.897,
+     0.897
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 3.913,
+    "score": 0.0,
+    "d_avg_pess": 0.0,
+    "impact": -0.0,
+    "z": 0.0,
+    "p": 1.0,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": []
  },
- "error": "echantillon insuffisant (5 parties)"
+ "meta": {
+  "games": 46,
+  "share_of_meta": 0.05686032138442522,
+  "avg_place": 3.913,
+  "win": 0.1522,
+  "top4": 0.5435,
+  "top4_ci": [
+   0.4018,
+   0.6785
+  ],
+  "prior_games": 30
+ }
 }
