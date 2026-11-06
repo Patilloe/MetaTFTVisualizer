@@ -1,0 +1,3 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Lillia,40,0.6666666666666666,3.9,3.836,0.086,0.15,0.0,-0.0571,0.0,0.125,0.325,0.65,2.166,0.33,0.73825,False
+populaire,Rakan,41,0.6833333333333333,4.0,3.894,0.144,0.25,0.0,-0.0987,-0.0159,0.1463,0.3171,0.6341,2.306,0.54,0.58884,False

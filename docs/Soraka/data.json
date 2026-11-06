@@ -20,25 +20,25 @@
      "DA_18_Soraka 2*"
     ],
     "label": "Soraka 2*",
-    "n": 43,
+    "n": 49,
     "share": 1.0,
-    "avg_place": 3.907,
-    "sd": 2.208,
-    "win": 0.186,
-    "top2": 0.3256,
-    "top4": 0.5581,
+    "avg_place": 3.796,
+    "sd": 2.119,
+    "win": 0.1633,
+    "top2": 0.3265,
+    "top4": 0.5918,
     "top4_ci": [
-     0.4111,
-     0.6957
+     0.4525,
+     0.7178
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.933,
-     0.933
+     -0.839,
+     0.839
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 3.907,
+    "shrunk_avg": 3.796,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -48,17 +48,49 @@
    }
   ],
   "unites_flex": [],
-  "traits_flex": []
+  "traits_flex": [
+   {
+    "key": [
+     "DA_FloraFatalis18_2"
+    ],
+    "label": "Flora Fatalis",
+    "n": 40,
+    "share": 0.8163265306122449,
+    "avg_place": 3.75,
+    "sd": 1.997,
+    "win": 0.15,
+    "top2": 0.3,
+    "top4": 0.6,
+    "top4_ci": [
+     0.446,
+     0.7365
+    ],
+    "d_avg": -0.046,
+    "d_avg_ci": [
+     -0.903,
+     0.811
+    ],
+    "d_top4": 0.0082,
+    "d_win": -0.0133,
+    "shrunk_avg": 3.77,
+    "score": -0.026,
+    "d_avg_pess": 0.0,
+    "impact": 0.0214,
+    "z": -0.1,
+    "p": 0.91639,
+    "significant": false
+   }
+  ]
  },
  "meta": {
-  "games": 43,
-  "share_of_meta": 0.05315203955500618,
-  "avg_place": 3.907,
-  "win": 0.186,
-  "top4": 0.5581,
+  "games": 49,
+  "share_of_meta": 0.051633298208640675,
+  "avg_place": 3.796,
+  "win": 0.1633,
+  "top4": 0.5918,
   "top4_ci": [
-   0.4111,
-   0.6957
+   0.4525,
+   0.7178
   ],
   "prior_games": 30
  }

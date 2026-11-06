@@ -8,11 +8,137 @@
  "tables": {
   "builds": [],
   "builds_partiels": [],
-  "item_lift": [],
+  "item_lift": [
+   {
+    "key": [
+     "DA_KrakensFury"
+    ],
+    "label": "Krakens Fury",
+    "n": 40,
+    "share": 0.5970149253731343,
+    "avg_place": 3.325,
+    "sd": 2.09,
+    "win": 0.225,
+    "top2": 0.425,
+    "top4": 0.775,
+    "top4_ci": [
+     0.625,
+     0.8768
+    ],
+    "d_avg": -0.317,
+    "d_avg_ci": [
+     -1.155,
+     0.522
+    ],
+    "d_top4": 0.0735,
+    "d_win": 0.031,
+    "shrunk_avg": 3.461,
+    "score": -0.181,
+    "d_avg_pess": 0.0,
+    "impact": 0.1081,
+    "z": -0.74,
+    "p": 0.45905,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_GuinsoosRageblade"
+    ],
+    "label": "Guinsoos Rageblade",
+    "n": 47,
+    "share": 0.7014925373134329,
+    "avg_place": 3.83,
+    "sd": 2.176,
+    "win": 0.1702,
+    "top2": 0.3404,
+    "top4": 0.6596,
+    "top4_ci": [
+     0.5167,
+     0.7783
+    ],
+    "d_avg": 0.188,
+    "d_avg_ci": [
+     -0.631,
+     1.007
+    ],
+    "d_top4": -0.0419,
+    "d_win": -0.0238,
+    "shrunk_avg": 3.757,
+    "score": 0.115,
+    "d_avg_pess": 0.0,
+    "impact": -0.0805,
+    "z": 0.45,
+    "p": 0.65279,
+    "significant": false
+   }
+  ],
   "paires": [],
   "items_emblem": [],
   "items_artifact": [],
-  "items_craftable": [],
+  "items_craftable": [
+   {
+    "key": [
+     "DA_KrakensFury-1"
+    ],
+    "label": "Krakens Fury",
+    "n": 40,
+    "share": 0.5970149253731343,
+    "avg_place": 3.325,
+    "sd": 2.09,
+    "win": 0.225,
+    "top2": 0.425,
+    "top4": 0.775,
+    "top4_ci": [
+     0.625,
+     0.8768
+    ],
+    "d_avg": -0.317,
+    "d_avg_ci": [
+     -1.155,
+     0.522
+    ],
+    "d_top4": 0.0735,
+    "d_win": 0.031,
+    "shrunk_avg": 3.461,
+    "score": -0.181,
+    "d_avg_pess": 0.0,
+    "impact": 0.1081,
+    "z": -0.74,
+    "p": 0.45905,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_GuinsoosRageblade-1"
+    ],
+    "label": "Guinsoos Rageblade",
+    "n": 47,
+    "share": 0.7014925373134329,
+    "avg_place": 3.83,
+    "sd": 2.176,
+    "win": 0.1702,
+    "top2": 0.3404,
+    "top4": 0.6596,
+    "top4_ci": [
+     0.5167,
+     0.7783
+    ],
+    "d_avg": 0.188,
+    "d_avg_ci": [
+     -0.631,
+     1.007
+    ],
+    "d_top4": -0.0419,
+    "d_win": -0.0238,
+    "shrunk_avg": 3.757,
+    "score": 0.115,
+    "d_avg_pess": 0.0,
+    "impact": -0.0805,
+    "z": 0.45,
+    "p": 0.65279,
+    "significant": false
+   }
+  ],
   "items_radiant": [],
   "etoiles": [
    {
@@ -20,25 +146,25 @@
      "DA_18_Aphelios 2*"
     ],
     "label": "Aphelios 2*",
-    "n": 55,
+    "n": 67,
     "share": 1.0,
-    "avg_place": 3.582,
-    "sd": 2.229,
-    "win": 0.2182,
-    "top2": 0.4182,
-    "top4": 0.6909,
+    "avg_place": 3.642,
+    "sd": 2.224,
+    "win": 0.194,
+    "top2": 0.403,
+    "top4": 0.7015,
     "top4_ci": [
-     0.5597,
-     0.7972
+     0.5834,
+     0.7977
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.833,
-     0.833
+     -0.753,
+     0.753
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 3.582,
+    "shrunk_avg": 3.642,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -54,43 +180,74 @@
      "DA_18_Rapidfire_1"
     ],
     "label": "Rapidfire",
-    "n": 47,
-    "share": 0.8545454545454545,
-    "avg_place": 3.745,
-    "sd": 2.338,
-    "win": 0.234,
-    "top2": 0.4043,
-    "top4": 0.6383,
+    "n": 56,
+    "share": 0.835820895522388,
+    "avg_place": 3.839,
+    "sd": 2.351,
+    "win": 0.2143,
+    "top2": 0.3929,
+    "top4": 0.6429,
     "top4_ci": [
-     0.4954,
-     0.7603
+     0.5119,
+     0.7554
     ],
-    "d_avg": 0.163,
+    "d_avg": 0.197,
     "d_avg_ci": [
-     -0.728,
-     1.054
+     -0.617,
+     1.012
     ],
-    "d_top4": -0.0526,
-    "d_win": 0.0159,
-    "shrunk_avg": 3.681,
-    "score": 0.099,
+    "d_top4": -0.0586,
+    "d_win": 0.0203,
+    "shrunk_avg": 3.77,
+    "score": 0.129,
     "d_avg_pess": 0.0,
-    "impact": -0.085,
-    "z": 0.36,
-    "p": 0.72017,
+    "impact": -0.1075,
+    "z": 0.48,
+    "p": 0.63446,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Vanguard_1"
+    ],
+    "label": "Vanguard",
+    "n": 41,
+    "share": 0.6119402985074627,
+    "avg_place": 4.439,
+    "sd": 2.264,
+    "win": 0.122,
+    "top2": 0.2439,
+    "top4": 0.561,
+    "top4_ci": [
+     0.4104,
+     0.7011
+    ],
+    "d_avg": 0.797,
+    "d_avg_ci": [
+     -0.077,
+     1.671
+    ],
+    "d_top4": -0.1405,
+    "d_win": -0.0721,
+    "shrunk_avg": 4.102,
+    "score": 0.46,
+    "d_avg_pess": 0.0,
+    "impact": -0.2817,
+    "z": 1.79,
+    "p": 0.07378,
     "significant": false
    }
   ]
  },
  "meta": {
-  "games": 55,
-  "share_of_meta": 0.06798516687268233,
-  "avg_place": 3.582,
-  "win": 0.2182,
-  "top4": 0.6909,
+  "games": 67,
+  "share_of_meta": 0.07060063224446786,
+  "avg_place": 3.642,
+  "win": 0.194,
+  "top4": 0.7015,
   "top4_ci": [
-   0.5597,
-   0.7972
+   0.5834,
+   0.7977
   ],
   "prior_games": 30
  }

@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Warmogs Armor,40,0.5,3.7,3.861,-0.214,-0.375,0.0,0.1071,0.1,0.225,0.35,0.725,2.283,-0.84,0.40195,False
