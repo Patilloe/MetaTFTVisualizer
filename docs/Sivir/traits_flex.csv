@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Primal,50,0.8333333333333334,3.86,3.819,0.069,0.11,0.0,-0.0573,-0.01,0.2,0.32,0.64,2.298,0.25,0.80068,False
+populaire,Primal,51,0.8360655737704918,3.804,3.767,0.062,0.099,0.0,-0.0521,-0.0087,0.2157,0.3333,0.6471,2.31,0.23,0.81943,False
