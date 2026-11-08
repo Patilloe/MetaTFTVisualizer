@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Sentinel,55,0.859375,2.655,2.699,-0.082,-0.127,0.0,0.0705,0.0057,0.4,0.6364,0.8182,2.002,-0.34,0.73171,False
+populaire,Sentinel,65,0.8552631578947368,2.523,2.553,-0.065,-0.095,0.0,0.0558,0.0018,0.4154,0.6769,0.8308,1.922,-0.29,0.77002,False

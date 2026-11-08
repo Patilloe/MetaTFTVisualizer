@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Fiddlesticks,46,0.7076923076923077,3.283,3.286,-0.006,-0.01,0.0,0.0042,0.0033,0.2174,0.3913,0.6957,1.907,-0.03,0.97973,False

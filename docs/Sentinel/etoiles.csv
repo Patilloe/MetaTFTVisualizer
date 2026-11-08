@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Sentinel18 2*,90,1.0112359550561798,3.256,3.259,-0.011,-0.014,0.0,0.0107,0.0032,0.3,0.5111,0.7111,2.298,-0.04,0.9673,False
+populaire,Sentinel18 2*,114,1.008849557522124,2.956,2.958,-0.007,-0.008,0.0,0.0068,0.002,0.3333,0.5614,0.7719,2.162,-0.03,0.97652,False

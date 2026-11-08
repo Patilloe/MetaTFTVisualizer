@@ -20,25 +20,25 @@
      "DA_18_Soraka 2*"
     ],
     "label": "Soraka 2*",
-    "n": 50,
+    "n": 65,
     "share": 1.0,
-    "avg_place": 3.76,
-    "sd": 2.112,
-    "win": 0.16,
-    "top2": 0.34,
-    "top4": 0.6,
+    "avg_place": 3.292,
+    "sd": 2.081,
+    "win": 0.2462,
+    "top2": 0.4308,
+    "top4": 0.6923,
     "top4_ci": [
-     0.4618,
-     0.7239
+     0.572,
+     0.7911
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.828,
-     0.828
+     -0.715,
+     0.715
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 3.76,
+    "shrunk_avg": 3.292,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -47,50 +47,82 @@
     "significant": false
    }
   ],
-  "unites_flex": [],
+  "unites_flex": [
+   {
+    "key": [
+     "DA_Fiddlesticks18"
+    ],
+    "label": "Fiddlesticks",
+    "n": 46,
+    "share": 0.7076923076923077,
+    "avg_place": 3.283,
+    "sd": 1.907,
+    "win": 0.2174,
+    "top2": 0.3913,
+    "top4": 0.6957,
+    "top4_ci": [
+     0.5519,
+     0.8092
+    ],
+    "d_avg": -0.01,
+    "d_avg_ci": [
+     -0.758,
+     0.738
+    ],
+    "d_top4": 0.0033,
+    "d_win": -0.0288,
+    "shrunk_avg": 3.286,
+    "score": -0.006,
+    "d_avg_pess": 0.0,
+    "impact": 0.0042,
+    "z": -0.03,
+    "p": 0.97973,
+    "significant": false
+   }
+  ],
   "traits_flex": [
    {
     "key": [
      "DA_FloraFatalis18_2"
     ],
     "label": "Flora Fatalis",
-    "n": 41,
-    "share": 0.82,
-    "avg_place": 3.707,
-    "sd": 1.991,
-    "win": 0.1463,
-    "top2": 0.3171,
-    "top4": 0.6098,
+    "n": 52,
+    "share": 0.8,
+    "avg_place": 3.308,
+    "sd": 1.966,
+    "win": 0.2115,
+    "top2": 0.4038,
+    "top4": 0.6923,
     "top4_ci": [
-     0.4573,
-     0.7434
+     0.5573,
+     0.8009
     ],
-    "d_avg": -0.053,
+    "d_avg": 0.015,
     "d_avg_ci": [
-     -0.898,
-     0.792
+     -0.721,
+     0.751
     ],
-    "d_top4": 0.0098,
-    "d_win": -0.0137,
-    "shrunk_avg": 3.73,
-    "score": -0.03,
+    "d_top4": 0.0,
+    "d_win": -0.0346,
+    "shrunk_avg": 3.302,
+    "score": 0.01,
     "d_avg_pess": 0.0,
-    "impact": 0.0249,
-    "z": -0.12,
-    "p": 0.90275,
+    "impact": -0.0078,
+    "z": 0.04,
+    "p": 0.96732,
     "significant": false
    }
   ]
  },
  "meta": {
-  "games": 50,
-  "share_of_meta": 0.05,
-  "avg_place": 3.76,
-  "win": 0.16,
-  "top4": 0.6,
+  "games": 65,
+  "share_of_meta": 0.04716981132075472,
+  "avg_place": 3.292,
+  "win": 0.2462,
+  "top4": 0.6923,
   "top4_ci": [
-   0.4618,
-   0.7239
+   0.572,
+   0.7911
   ],
   "prior_games": 30
  }

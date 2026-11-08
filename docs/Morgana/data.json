@@ -8,10 +8,74 @@
  "tables": {
   "builds": [],
   "builds_partiels": [],
-  "item_lift": [],
+  "item_lift": [
+   {
+    "key": [
+     "DA_VoidStaff"
+    ],
+    "label": "Void Staff",
+    "n": 45,
+    "share": 0.5921052631578947,
+    "avg_place": 2.756,
+    "sd": 2.013,
+    "win": 0.3333,
+    "top2": 0.6444,
+    "top4": 0.8,
+    "top4_ci": [
+     0.6618,
+     0.891
+    ],
+    "d_avg": 0.137,
+    "d_avg_ci": [
+     -0.595,
+     0.869
+    ],
+    "d_top4": -0.0289,
+    "d_win": -0.0482,
+    "shrunk_avg": 2.701,
+    "score": 0.082,
+    "d_avg_pess": 0.0,
+    "impact": -0.0487,
+    "z": 0.37,
+    "p": 0.71353,
+    "significant": false
+   }
+  ],
   "paires": [],
   "items_emblem": [],
-  "items_craftable": [],
+  "items_craftable": [
+   {
+    "key": [
+     "DA_VoidStaff-1"
+    ],
+    "label": "Void Staff",
+    "n": 45,
+    "share": 0.5921052631578947,
+    "avg_place": 2.756,
+    "sd": 2.013,
+    "win": 0.3333,
+    "top2": 0.6444,
+    "top4": 0.8,
+    "top4_ci": [
+     0.6618,
+     0.891
+    ],
+    "d_avg": 0.137,
+    "d_avg_ci": [
+     -0.595,
+     0.869
+    ],
+    "d_top4": -0.0289,
+    "d_win": -0.0482,
+    "shrunk_avg": 2.701,
+    "score": 0.082,
+    "d_avg_pess": 0.0,
+    "impact": -0.0487,
+    "z": 0.37,
+    "p": 0.71353,
+    "significant": false
+   }
+  ],
   "items_artifact": [],
   "items_radiant": [],
   "etoiles": [
@@ -20,30 +84,30 @@
      "DA_18_Morgana 2*"
     ],
     "label": "Morgana 2*",
-    "n": 65,
-    "share": 1.015625,
-    "avg_place": 2.769,
-    "sd": 2.006,
-    "win": 0.3538,
-    "top2": 0.6,
-    "top4": 0.8154,
+    "n": 77,
+    "share": 1.013157894736842,
+    "avg_place": 2.61,
+    "sd": 1.928,
+    "win": 0.3766,
+    "top2": 0.6494,
+    "top4": 0.8312,
     "top4_ci": [
-     0.7045,
-     0.8911
+     0.7323,
+     0.8986
     ],
-    "d_avg": -0.012,
+    "d_avg": -0.008,
     "d_avg_ci": [
-     -0.707,
-     0.683
+     -0.621,
+     0.605
     ],
-    "d_top4": 0.0029,
-    "d_win": -0.0055,
-    "shrunk_avg": 2.773,
-    "score": -0.008,
+    "d_top4": 0.0022,
+    "d_win": -0.005,
+    "shrunk_avg": 2.613,
+    "score": -0.006,
     "d_avg_pess": 0.0,
-    "impact": 0.0084,
+    "impact": 0.0059,
     "z": -0.03,
-    "p": 0.97295,
+    "p": 0.97951,
     "significant": false
    }
   ],
@@ -53,30 +117,30 @@
      "DA_Sentinel18"
     ],
     "label": "Sentinel",
-    "n": 55,
-    "share": 0.859375,
-    "avg_place": 2.655,
-    "sd": 2.002,
-    "win": 0.4,
-    "top2": 0.6364,
-    "top4": 0.8182,
+    "n": 65,
+    "share": 0.8552631578947368,
+    "avg_place": 2.523,
+    "sd": 1.922,
+    "win": 0.4154,
+    "top2": 0.6769,
+    "top4": 0.8308,
     "top4_ci": [
-     0.6967,
-     0.8981
+     0.7218,
+     0.9028
     ],
-    "d_avg": -0.127,
+    "d_avg": -0.095,
     "d_avg_ci": [
-     -0.851,
-     0.598
+     -0.735,
+     0.544
     ],
-    "d_top4": 0.0057,
-    "d_win": 0.0406,
-    "shrunk_avg": 2.699,
-    "score": -0.082,
+    "d_top4": 0.0018,
+    "d_win": 0.0338,
+    "shrunk_avg": 2.553,
+    "score": -0.065,
     "d_avg_pess": 0.0,
-    "impact": 0.0705,
-    "z": -0.34,
-    "p": 0.73171,
+    "impact": 0.0558,
+    "z": -0.29,
+    "p": 0.77002,
     "significant": false
    }
   ],
@@ -86,43 +150,74 @@
      "DA_18_Spellweaver_1"
     ],
     "label": "Spellweaver",
-    "n": 47,
-    "share": 0.734375,
-    "avg_place": 2.553,
-    "sd": 1.877,
-    "win": 0.383,
-    "top2": 0.6596,
-    "top4": 0.8298,
+    "n": 52,
+    "share": 0.6842105263157895,
+    "avg_place": 2.423,
+    "sd": 1.833,
+    "win": 0.4231,
+    "top2": 0.6923,
+    "top4": 0.8462,
     "top4_ci": [
-     0.6986,
-     0.9111
+     0.7248,
+     0.9199
     ],
-    "d_avg": -0.228,
+    "d_avg": -0.195,
     "d_avg_ci": [
-     -0.958,
-     0.502
+     -0.857,
+     0.467
     ],
-    "d_top4": 0.0173,
-    "d_win": 0.0236,
-    "shrunk_avg": 2.642,
-    "score": -0.139,
+    "d_top4": 0.0172,
+    "d_win": 0.0415,
+    "shrunk_avg": 2.495,
+    "score": -0.124,
     "d_avg_pess": 0.0,
-    "impact": 0.1022,
-    "z": -0.61,
-    "p": 0.54027,
+    "impact": 0.0848,
+    "z": -0.58,
+    "p": 0.56307,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Vanguard_1"
+    ],
+    "label": "Vanguard",
+    "n": 43,
+    "share": 0.5657894736842105,
+    "avg_place": 2.953,
+    "sd": 2.124,
+    "win": 0.3023,
+    "top2": 0.6047,
+    "top4": 0.7674,
+    "top4_ci": [
+     0.6226,
+     0.8685
+    ],
+    "d_avg": 0.335,
+    "d_avg_ci": [
+     -0.435,
+     1.105
+    ],
+    "d_top4": -0.0615,
+    "d_win": -0.0793,
+    "shrunk_avg": 2.816,
+    "score": 0.197,
+    "d_avg_pess": 0.0,
+    "impact": -0.1117,
+    "z": 0.85,
+    "p": 0.39377,
     "significant": false
    }
   ]
  },
  "meta": {
-  "games": 64,
-  "share_of_meta": 0.064,
-  "avg_place": 2.781,
-  "win": 0.3594,
-  "top4": 0.8125,
+  "games": 76,
+  "share_of_meta": 0.055152394775036286,
+  "avg_place": 2.618,
+  "win": 0.3816,
+  "top4": 0.8289,
   "top4_ci": [
-   0.7003,
-   0.8894
+   0.729,
+   0.8972
   ],
   "prior_games": 30
  }
