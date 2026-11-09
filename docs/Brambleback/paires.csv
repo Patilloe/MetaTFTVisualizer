@@ -1,3 +1,4 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Edge Of Night + Quicksilver,44,0.4631578947368421,3.477,3.39,0.127,0.214,0.0,-0.059,-0.1005,0.2727,0.4773,0.6364,2.301,0.52,0.60047,False
-populaire,Edge Of Night + Guinsoos Rageblade,57,0.6,3.491,3.413,0.149,0.228,0.0,-0.0897,-0.0702,0.2456,0.4737,0.6667,2.272,0.62,0.53832,False
+populaire,Guinsoos Rageblade + Quicksilver,40,0.3669724770642202,3.35,3.251,0.132,0.231,0.0,-0.0484,-0.0956,0.3,0.5,0.675,2.286,0.56,0.57369,False
+populaire,Edge Of Night + Guinsoos Rageblade,63,0.5779816513761468,3.365,3.286,0.167,0.246,0.0,-0.0962,-0.0722,0.2381,0.5079,0.6984,2.213,0.72,0.46901,False
+populaire,Edge Of Night + Quicksilver,45,0.41284403669724773,3.422,3.301,0.182,0.303,0.0,-0.075,-0.1262,0.2889,0.4889,0.6444,2.304,0.77,0.44234,False

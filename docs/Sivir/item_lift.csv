@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Infinity Edge,48,0.676056338028169,3.562,3.552,0.017,0.027,0.0,-0.0114,-0.0026,0.2083,0.3542,0.6875,2.13,0.07,0.94664,False
+populaire,Infinity Edge,53,0.6463414634146342,3.34,3.336,0.007,0.01,0.0,-0.0043,-0.0025,0.2642,0.4151,0.717,2.145,0.03,0.97851,False
