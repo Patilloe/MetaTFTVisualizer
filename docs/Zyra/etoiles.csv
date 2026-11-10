@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Zyra 2*,95,1.0,3.347,3.347,0.0,0.0,0.0,-0.0,0.0,0.1579,0.3789,0.7368,1.851,0.0,1.0,False
+populaire,Zyra 2*,105,1.0,3.238,3.238,-0.0,0.0,0.0,0.0,0.0,0.181,0.4,0.7619,1.828,0.0,1.0,False

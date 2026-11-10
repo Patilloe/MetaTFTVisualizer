@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Steraks Gage,46,0.4791666666666667,3.674,3.655,0.03,0.049,0.0,-0.0142,-0.0258,0.2391,0.4348,0.6304,2.341,0.12,0.90598,False
+populaire,Steraks Gage,50,0.45871559633027525,3.48,3.438,0.071,0.113,0.0,-0.0324,-0.0372,0.28,0.48,0.66,2.343,0.29,0.77429,False

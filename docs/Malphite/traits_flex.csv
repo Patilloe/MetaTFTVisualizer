@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Blackthorn,45,0.6428571428571429,3.556,3.453,0.153,0.256,0.0,-0.0986,-0.0714,0.2667,0.3556,0.6,2.176,0.62,0.53226,False
+populaire,Blackthorn,52,0.6341463414634146,3.346,3.242,0.181,0.285,0.0,-0.1147,-0.0657,0.2885,0.4038,0.6538,2.129,0.77,0.44294,False
