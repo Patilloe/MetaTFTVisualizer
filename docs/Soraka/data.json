@@ -20,25 +20,25 @@
      "DA_18_Soraka 2*"
     ],
     "label": "Soraka 2*",
-    "n": 80,
+    "n": 45,
     "share": 1.0,
-    "avg_place": 2.712,
-    "sd": 1.667,
-    "win": 0.2375,
-    "top2": 0.575,
-    "top4": 0.8125,
+    "avg_place": 1.889,
+    "sd": 0.875,
+    "win": 0.3778,
+    "top2": 0.7778,
+    "top4": 0.9778,
     "top4_ci": [
-     0.7134,
-     0.8829
+     0.8843,
+     0.9961
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.517,
-     0.517
+     -0.362,
+     0.362
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 2.712,
+    "shrunk_avg": 1.889,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -47,144 +47,18 @@
     "significant": false
    }
   ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_18_Ezreal"
-    ],
-    "label": "Ezreal",
-    "n": 45,
-    "share": 0.5625,
-    "avg_place": 2.533,
-    "sd": 1.845,
-    "win": 0.3333,
-    "top2": 0.6889,
-    "top4": 0.8222,
-    "top4_ci": [
-     0.6867,
-     0.9071
-    ],
-    "d_avg": -0.179,
-    "d_avg_ci": [
-     -0.83,
-     0.472
-    ],
-    "d_top4": 0.0097,
-    "d_win": 0.0958,
-    "shrunk_avg": 2.605,
-    "score": -0.107,
-    "d_avg_pess": 0.0,
-    "impact": 0.0605,
-    "z": -0.54,
-    "p": 0.58973,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Fiddlesticks18"
-    ],
-    "label": "Fiddlesticks",
-    "n": 58,
-    "share": 0.725,
-    "avg_place": 2.81,
-    "sd": 1.624,
-    "win": 0.2069,
-    "top2": 0.5345,
-    "top4": 0.7931,
-    "top4_ci": [
-     0.6723,
-     0.8775
-    ],
-    "d_avg": 0.098,
-    "d_avg_ci": [
-     -0.457,
-     0.653
-    ],
-    "d_top4": -0.0194,
-    "d_win": -0.0306,
-    "shrunk_avg": 2.777,
-    "score": 0.064,
-    "d_avg_pess": 0.0,
-    "impact": -0.0468,
-    "z": 0.35,
-    "p": 0.72972,
-    "significant": false
-   }
-  ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_18_Defender_1"
-    ],
-    "label": "Defender",
-    "n": 42,
-    "share": 0.525,
-    "avg_place": 2.738,
-    "sd": 1.544,
-    "win": 0.1667,
-    "top2": 0.5476,
-    "top4": 0.8571,
-    "top4_ci": [
-     0.7216,
-     0.9328
-    ],
-    "d_avg": 0.026,
-    "d_avg_ci": [
-     -0.567,
-     0.618
-    ],
-    "d_top4": 0.0446,
-    "d_win": -0.0708,
-    "shrunk_avg": 2.727,
-    "score": 0.015,
-    "d_avg_pess": 0.0,
-    "impact": -0.0078,
-    "z": 0.08,
-    "p": 0.93257,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_FloraFatalis18_2"
-    ],
-    "label": "Flora Fatalis",
-    "n": 64,
-    "share": 0.8,
-    "avg_place": 2.797,
-    "sd": 1.593,
-    "win": 0.2031,
-    "top2": 0.5312,
-    "top4": 0.7969,
-    "top4_ci": [
-     0.6829,
-     0.8773
-    ],
-    "d_avg": 0.084,
-    "d_avg_ci": [
-     -0.45,
-     0.619
-    ],
-    "d_top4": -0.0156,
-    "d_win": -0.0344,
-    "shrunk_avg": 2.77,
-    "score": 0.057,
-    "d_avg_pess": 0.0,
-    "impact": -0.046,
-    "z": 0.31,
-    "p": 0.75705,
-    "significant": false
-   }
-  ]
+  "unites_flex": [],
+  "traits_flex": []
  },
  "meta": {
-  "games": 80,
-  "share_of_meta": 0.036968576709796676,
-  "avg_place": 2.712,
-  "win": 0.2375,
-  "top4": 0.8125,
+  "games": 45,
+  "share_of_meta": 0.02717391304347826,
+  "avg_place": 1.889,
+  "win": 0.3778,
+  "top4": 0.9778,
   "top4_ci": [
-   0.7134,
-   0.8829
+   0.8843,
+   0.9961
   ],
   "prior_games": 30
  }

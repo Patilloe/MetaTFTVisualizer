@@ -1,3 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Morellonomicon,51,0.425,2.392,2.46,-0.115,-0.183,0.0,0.0489,0.0407,0.4314,0.6863,0.8824,1.827,-0.59,0.55294,False
-populaire,Void Staff,62,0.5166666666666667,2.613,2.601,0.026,0.038,0.0,-0.0132,-0.003,0.3387,0.6774,0.8387,1.937,0.13,0.8995,False
+populaire,Void Staff,40,0.46511627906976744,1.7,1.784,-0.112,-0.195,0.0,0.0519,0.0331,0.5,0.875,0.975,0.9,-1.06,0.28975,False

@@ -8,184 +8,55 @@
  "tables": {
   "builds": [],
   "builds_partiels": [],
-  "item_lift": [
-   {
-    "key": [
-     "DA_GargoyleStoneplate"
-    ],
-    "label": "Gargoyle Stoneplate",
-    "n": 55,
-    "share": 0.7236842105263158,
-    "avg_place": 2.964,
-    "sd": 1.858,
-    "win": 0.2364,
-    "top2": 0.5273,
-    "top4": 0.7455,
-    "top4_ci": [
-     0.617,
-     0.8419
-    ],
-    "d_avg": 0.056,
-    "d_avg_ci": [
-     -0.597,
-     0.709
-    ],
-    "d_top4": -0.0177,
-    "d_win": -0.0136,
-    "shrunk_avg": 2.944,
-    "score": 0.036,
-    "d_avg_pess": 0.0,
-    "impact": -0.0261,
-    "z": 0.17,
-    "p": 0.86711,
-    "significant": false
-   }
-  ],
+  "item_lift": [],
   "paires": [],
   "items_emblem": [],
-  "items_craftable": [
-   {
-    "key": [
-     "DA_GargoyleStoneplate-1"
-    ],
-    "label": "Gargoyle Stoneplate",
-    "n": 55,
-    "share": 0.7236842105263158,
-    "avg_place": 2.964,
-    "sd": 1.858,
-    "win": 0.2364,
-    "top2": 0.5273,
-    "top4": 0.7455,
-    "top4_ci": [
-     0.617,
-     0.8419
-    ],
-    "d_avg": 0.056,
-    "d_avg_ci": [
-     -0.597,
-     0.709
-    ],
-    "d_top4": -0.0177,
-    "d_win": -0.0136,
-    "shrunk_avg": 2.944,
-    "score": 0.036,
-    "d_avg_pess": 0.0,
-    "impact": -0.0261,
-    "z": 0.17,
-    "p": 0.86711,
-    "significant": false
-   }
-  ],
-  "items_artifact": [],
+  "items_craftable": [],
   "etoiles": [
    {
     "key": [
      "DA_18_Malphite 2*"
     ],
     "label": "Malphite 2*",
-    "n": 77,
-    "share": 1.013157894736842,
-    "avg_place": 2.883,
-    "sd": 1.914,
-    "win": 0.2597,
-    "top2": 0.5584,
-    "top4": 0.7662,
+    "n": 44,
+    "share": 1.0232558139534884,
+    "avg_place": 1.864,
+    "sd": 0.842,
+    "win": 0.4091,
+    "top2": 0.75,
+    "top4": 1.0,
     "top4_ci": [
-     0.6605,
-     0.8467
+     0.9197,
+     1.0
     ],
-    "d_avg": -0.025,
+    "d_avg": -0.02,
     "d_avg_ci": [
-     -0.631,
-     0.582
+     -0.374,
+     0.334
     ],
-    "d_top4": 0.0031,
-    "d_win": 0.0097,
-    "shrunk_avg": 2.89,
-    "score": -0.018,
+    "d_top4": 0.0,
+    "d_win": 0.0137,
+    "shrunk_avg": 1.872,
+    "score": -0.012,
     "d_avg_pess": 0.0,
-    "impact": 0.0181,
-    "z": -0.08,
-    "p": 0.93618,
+    "impact": 0.0122,
+    "z": -0.11,
+    "p": 0.91137,
     "significant": false
    }
   ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_18_Azir"
-    ],
-    "label": "Azir",
-    "n": 47,
-    "share": 0.618421052631579,
-    "avg_place": 3.17,
-    "sd": 1.883,
-    "win": 0.1702,
-    "top2": 0.4894,
-    "top4": 0.7021,
-    "top4_ci": [
-     0.5602,
-     0.8135
-    ],
-    "d_avg": 0.262,
-    "d_avg_ci": [
-     -0.427,
-     0.951
-    ],
-    "d_top4": -0.061,
-    "d_win": -0.0798,
-    "shrunk_avg": 3.068,
-    "score": 0.16,
-    "d_avg_pess": 0.0,
-    "impact": -0.099,
-    "z": 0.75,
-    "p": 0.45563,
-    "significant": false
-   }
-  ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_18_Blackthorn_1"
-    ],
-    "label": "Blackthorn",
-    "n": 47,
-    "share": 0.618421052631579,
-    "avg_place": 3.319,
-    "sd": 1.99,
-    "win": 0.2128,
-    "top2": 0.4043,
-    "top4": 0.6809,
-    "top4_ci": [
-     0.5383,
-     0.796
-    ],
-    "d_avg": 0.411,
-    "d_avg_ci": [
-     -0.302,
-     1.125
-    ],
-    "d_top4": -0.0823,
-    "d_win": -0.0372,
-    "shrunk_avg": 3.159,
-    "score": 0.251,
-    "d_avg_pess": 0.0,
-    "impact": -0.1552,
-    "z": 1.13,
-    "p": 0.25854,
-    "significant": false
-   }
-  ]
+  "unites_flex": [],
+  "traits_flex": []
  },
  "meta": {
-  "games": 76,
-  "share_of_meta": 0.03512014787430684,
-  "avg_place": 2.908,
-  "win": 0.25,
-  "top4": 0.7632,
+  "games": 43,
+  "share_of_meta": 0.025966183574879228,
+  "avg_place": 1.884,
+  "win": 0.3953,
+  "top4": 1.0,
   "top4_ci": [
-   0.6564,
-   0.8446
+   0.918,
+   1.0
   ],
   "prior_games": 30
  }

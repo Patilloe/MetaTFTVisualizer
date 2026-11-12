@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Last Whisper + Spear Of Shojin,66,0.4024390243902439,2.318,2.316,0.005,0.007,0.0,-0.002,-0.0115,0.4242,0.697,0.8788,1.725,0.03,0.97707,False
+populaire,Last Whisper + Spear Of Shojin,53,0.43089430894308944,1.755,1.788,-0.058,-0.091,0.0,0.025,0.0081,0.4906,0.8113,1.0,0.888,-0.62,0.53694,False
