@@ -5,59 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Malphite 2*"
-    ],
-    "label": "Malphite 2*",
-    "n": 44,
-    "share": 1.0232558139534884,
-    "avg_place": 1.864,
-    "sd": 0.842,
-    "win": 0.4091,
-    "top2": 0.75,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9197,
-     1.0
-    ],
-    "d_avg": -0.02,
-    "d_avg_ci": [
-     -0.374,
-     0.334
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0137,
-    "shrunk_avg": 1.872,
-    "score": -0.012,
-    "d_avg_pess": 0.0,
-    "impact": 0.0122,
-    "z": -0.11,
-    "p": 0.91137,
-    "significant": false
-   }
-  ],
-  "unites_flex": [],
-  "traits_flex": []
- },
+ "tables": {},
  "meta": {
-  "games": 43,
-  "share_of_meta": 0.025966183574879228,
-  "avg_place": 1.884,
-  "win": 0.3953,
+  "games": 39,
+  "share_of_meta": 0.025210084033613446,
+  "avg_place": 1.872,
+  "win": 0.359,
   "top4": 1.0,
   "top4_ci": [
-   0.918,
+   0.9103,
    1.0
-  ],
-  "prior_games": 30
- }
+  ]
+ },
+ "error": "echantillon insuffisant (39 parties)"
 }

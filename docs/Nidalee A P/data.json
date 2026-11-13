@@ -20,25 +20,25 @@
      "DA_Nidalee18_AP 2*"
     ],
     "label": "Nidalee A P 2*",
-    "n": 69,
+    "n": 64,
     "share": 1.0,
-    "avg_place": 1.754,
-    "sd": 0.769,
-    "win": 0.4348,
-    "top2": 0.8261,
+    "avg_place": 1.688,
+    "sd": 0.747,
+    "win": 0.4688,
+    "top2": 0.8594,
     "top4": 1.0,
     "top4_ci": [
-     0.9473,
+     0.9434,
      1.0
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.257,
-     0.257
+     -0.259,
+     0.259
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.754,
+    "shrunk_avg": 1.688,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -53,125 +53,94 @@
      "DA_KogMaw18_AD"
     ],
     "label": "Kog Maw A D",
-    "n": 47,
-    "share": 0.6811594202898551,
-    "avg_place": 1.638,
-    "sd": 0.727,
-    "win": 0.4894,
-    "top2": 0.8936,
+    "n": 45,
+    "share": 0.703125,
+    "avg_place": 1.622,
+    "sd": 0.708,
+    "win": 0.4889,
+    "top2": 0.9111,
     "top4": 1.0,
     "top4_ci": [
-     0.9244,
+     0.9213,
      1.0
     ],
-    "d_avg": -0.115,
+    "d_avg": -0.065,
     "d_avg_ci": [
-     -0.391,
-     0.161
+     -0.342,
+     0.211
     ],
     "d_top4": 0.0,
-    "d_win": 0.0546,
-    "shrunk_avg": 1.683,
-    "score": -0.07,
+    "d_win": 0.0201,
+    "shrunk_avg": 1.648,
+    "score": -0.039,
     "d_avg_pess": 0.0,
-    "impact": 0.0479,
-    "z": -0.82,
-    "p": 0.41271,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Vi18"
-    ],
-    "label": "Vi",
-    "n": 41,
-    "share": 0.5942028985507246,
-    "avg_place": 1.683,
-    "sd": 0.642,
-    "win": 0.4146,
-    "top2": 0.9024,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9143,
-     1.0
-    ],
-    "d_avg": -0.071,
-    "d_avg_ci": [
-     -0.338,
-     0.197
-    ],
-    "d_top4": 0.0,
-    "d_win": -0.0201,
-    "shrunk_avg": 1.713,
-    "score": -0.041,
-    "d_avg_pess": 0.0,
-    "impact": 0.0243,
-    "z": -0.52,
-    "p": 0.60432,
+    "impact": 0.0275,
+    "z": -0.46,
+    "p": 0.64336,
     "significant": false
    }
   ],
   "traits_flex": [
    {
     "key": [
-     "DA_Primal18_1"
+     "DA_Juggernaut18_1"
     ],
-    "label": "Primal",
-    "n": 57,
-    "share": 0.8260869565217391,
-    "avg_place": 1.596,
-    "sd": 0.645,
-    "win": 0.4912,
-    "top2": 0.9123,
+    "label": "Juggernaut",
+    "n": 41,
+    "share": 0.640625,
+    "avg_place": 1.537,
+    "sd": 0.588,
+    "win": 0.5122,
+    "top2": 0.9512,
     "top4": 1.0,
     "top4_ci": [
-     0.9369,
+     0.9143,
      1.0
     ],
-    "d_avg": -0.157,
+    "d_avg": -0.151,
     "d_avg_ci": [
-     -0.404,
-     0.09
+     -0.408,
+     0.106
     ],
     "d_top4": 0.0,
-    "d_win": 0.0564,
-    "shrunk_avg": 1.651,
-    "score": -0.103,
+    "d_win": 0.0434,
+    "shrunk_avg": 1.6,
+    "score": -0.087,
     "d_avg_pess": 0.0,
-    "impact": 0.085,
-    "z": -1.25,
-    "p": 0.21232,
+    "impact": 0.0558,
+    "z": -1.15,
+    "p": 0.24947,
     "significant": false
    },
    {
     "key": [
-     "DA_Juggernaut18_1"
+     "DA_Primal18_1"
     ],
-    "label": "Juggernaut",
-    "n": 44,
-    "share": 0.6376811594202898,
-    "avg_place": 1.591,
-    "sd": 0.615,
-    "win": 0.4773,
-    "top2": 0.9318,
+    "label": "Primal",
+    "n": 56,
+    "share": 0.875,
+    "avg_place": 1.571,
+    "sd": 0.651,
+    "win": 0.5179,
+    "top2": 0.9107,
     "top4": 1.0,
     "top4_ci": [
-     0.9197,
+     0.9358,
      1.0
     ],
-    "d_avg": -0.163,
+    "d_avg": -0.116,
     "d_avg_ci": [
-     -0.42,
-     0.094
+     -0.366,
+     0.134
     ],
     "d_top4": 0.0,
-    "d_win": 0.0425,
-    "shrunk_avg": 1.657,
-    "score": -0.097,
+    "d_win": 0.0491,
+    "shrunk_avg": 1.612,
+    "score": -0.076,
     "d_avg_pess": 0.0,
-    "impact": 0.0617,
-    "z": -1.24,
-    "p": 0.21426,
+    "impact": 0.0661,
+    "z": -0.91,
+    "p": 0.36313,
     "significant": false
    },
    {
@@ -179,73 +148,42 @@
      "DA_18_Caustic_1"
     ],
     "label": "Caustic",
-    "n": 47,
-    "share": 0.6811594202898551,
-    "avg_place": 1.638,
-    "sd": 0.727,
-    "win": 0.4894,
-    "top2": 0.8936,
+    "n": 45,
+    "share": 0.703125,
+    "avg_place": 1.622,
+    "sd": 0.708,
+    "win": 0.4889,
+    "top2": 0.9111,
     "top4": 1.0,
     "top4_ci": [
-     0.9244,
+     0.9213,
      1.0
     ],
-    "d_avg": -0.115,
+    "d_avg": -0.065,
     "d_avg_ci": [
-     -0.391,
-     0.161
+     -0.342,
+     0.211
     ],
     "d_top4": 0.0,
-    "d_win": 0.0546,
-    "shrunk_avg": 1.683,
-    "score": -0.07,
+    "d_win": 0.0201,
+    "shrunk_avg": 1.648,
+    "score": -0.039,
     "d_avg_pess": 0.0,
-    "impact": 0.0479,
-    "z": -0.82,
-    "p": 0.41271,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Adaptor_1"
-    ],
-    "label": "Adaptor",
-    "n": 43,
-    "share": 0.6231884057971014,
-    "avg_place": 1.674,
-    "sd": 0.672,
-    "win": 0.4419,
-    "top2": 0.8837,
-    "top4": 1.0,
-    "top4_ci": [
-     0.918,
-     1.0
-    ],
-    "d_avg": -0.079,
-    "d_avg_ci": [
-     -0.35,
-     0.192
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0071,
-    "shrunk_avg": 1.707,
-    "score": -0.047,
-    "d_avg_pess": 0.0,
-    "impact": 0.0291,
-    "z": -0.57,
-    "p": 0.56644,
+    "impact": 0.0275,
+    "z": -0.46,
+    "p": 0.64336,
     "significant": false
    }
   ]
  },
  "meta": {
-  "games": 69,
-  "share_of_meta": 0.041666666666666664,
-  "avg_place": 1.754,
-  "win": 0.4348,
+  "games": 64,
+  "share_of_meta": 0.04137039431157078,
+  "avg_place": 1.688,
+  "win": 0.4688,
   "top4": 1.0,
   "top4_ci": [
-   0.9473,
+   0.9434,
    1.0
   ],
   "prior_games": 30

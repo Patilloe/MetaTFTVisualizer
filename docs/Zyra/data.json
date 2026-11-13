@@ -20,25 +20,25 @@
      "DA_18_Zyra 2*"
     ],
     "label": "Zyra 2*",
-    "n": 52,
+    "n": 46,
     "share": 1.0,
-    "avg_place": 1.808,
-    "sd": 0.921,
-    "win": 0.4615,
-    "top2": 0.8077,
+    "avg_place": 1.761,
+    "sd": 0.889,
+    "win": 0.4783,
+    "top2": 0.8261,
     "top4": 1.0,
     "top4_ci": [
-     0.9312,
+     0.9229,
      1.0
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.354,
-     0.354
+     -0.363,
+     0.363
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.808,
+    "shrunk_avg": 1.761,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -51,13 +51,13 @@
   "traits_flex": []
  },
  "meta": {
-  "games": 52,
-  "share_of_meta": 0.03140096618357488,
-  "avg_place": 1.808,
-  "win": 0.4615,
+  "games": 46,
+  "share_of_meta": 0.029734970911441498,
+  "avg_place": 1.761,
+  "win": 0.4783,
   "top4": 1.0,
   "top4_ci": [
-   0.9312,
+   0.9229,
    1.0
   ],
   "prior_games": 30

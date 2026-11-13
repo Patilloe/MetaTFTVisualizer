@@ -20,25 +20,25 @@
      "DA_Amumu18 2*"
     ],
     "label": "Amumu18 2*",
-    "n": 70,
+    "n": 65,
     "share": 1.0,
-    "avg_place": 1.843,
-    "sd": 0.92,
-    "win": 0.4429,
-    "top2": 0.7857,
+    "avg_place": 1.815,
+    "sd": 0.893,
+    "win": 0.4462,
+    "top2": 0.8,
     "top4": 1.0,
     "top4_ci": [
-     0.948,
+     0.9442,
      1.0
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.305,
-     0.305
+     -0.307,
+     0.307
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.843,
+    "shrunk_avg": 1.815,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -51,64 +51,33 @@
   "traits_flex": [
    {
     "key": [
-     "DA_18_Vanguard_1"
-    ],
-    "label": "Vanguard",
-    "n": 42,
-    "share": 0.6,
-    "avg_place": 1.762,
-    "sd": 0.84,
-    "win": 0.4524,
-    "top2": 0.8333,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9162,
-     1.0
-    ],
-    "d_avg": -0.081,
-    "d_avg_ci": [
-     -0.414,
-     0.252
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0095,
-    "shrunk_avg": 1.796,
-    "score": -0.047,
-    "d_avg_pess": 0.0,
-    "impact": 0.0283,
-    "z": -0.48,
-    "p": 0.63386,
-    "significant": false
-   },
-   {
-    "key": [
      "DA_Juggernaut18_1"
     ],
     "label": "Juggernaut",
-    "n": 57,
-    "share": 0.8142857142857143,
-    "avg_place": 1.807,
-    "sd": 0.926,
-    "win": 0.4737,
-    "top2": 0.7895,
+    "n": 53,
+    "share": 0.8153846153846154,
+    "avg_place": 1.792,
+    "sd": 0.876,
+    "win": 0.4528,
+    "top2": 0.8113,
     "top4": 1.0,
     "top4_ci": [
-     0.9369,
+     0.9324,
      1.0
     ],
-    "d_avg": -0.036,
+    "d_avg": -0.023,
     "d_avg_ci": [
-     -0.359,
-     0.287
+     -0.344,
+     0.298
     ],
     "d_top4": 0.0,
-    "d_win": 0.0308,
-    "shrunk_avg": 1.819,
-    "score": -0.023,
+    "d_win": 0.0067,
+    "shrunk_avg": 1.801,
+    "score": -0.015,
     "d_avg_pess": 0.0,
-    "impact": 0.0191,
-    "z": -0.22,
-    "p": 0.82778,
+    "impact": 0.0119,
+    "z": -0.14,
+    "p": 0.8885,
     "significant": false
    },
    {
@@ -116,42 +85,42 @@
      "DA_18_Inferno_1"
     ],
     "label": "Inferno",
-    "n": 48,
-    "share": 0.6857142857142857,
-    "avg_place": 1.854,
-    "sd": 0.935,
-    "win": 0.4375,
-    "top2": 0.7917,
+    "n": 41,
+    "share": 0.6307692307692307,
+    "avg_place": 1.805,
+    "sd": 0.889,
+    "win": 0.439,
+    "top2": 0.8293,
     "top4": 1.0,
     "top4_ci": [
-     0.9259,
+     0.9143,
      1.0
     ],
-    "d_avg": 0.011,
+    "d_avg": -0.011,
     "d_avg_ci": [
-     -0.33,
-     0.353
+     -0.359,
+     0.338
     ],
     "d_top4": 0.0,
-    "d_win": -0.0054,
-    "shrunk_avg": 1.85,
-    "score": 0.007,
+    "d_win": -0.0071,
+    "shrunk_avg": 1.809,
+    "score": -0.006,
     "d_avg_pess": 0.0,
-    "impact": -0.0048,
-    "z": 0.06,
-    "p": 0.94821,
+    "impact": 0.0038,
+    "z": -0.06,
+    "p": 0.95284,
     "significant": false
    }
   ]
  },
  "meta": {
-  "games": 70,
-  "share_of_meta": 0.042270531400966184,
-  "avg_place": 1.843,
-  "win": 0.4429,
+  "games": 65,
+  "share_of_meta": 0.04201680672268908,
+  "avg_place": 1.815,
+  "win": 0.4462,
   "top4": 1.0,
   "top4_ci": [
-   0.948,
+   0.9442,
    1.0
   ],
   "prior_games": 30

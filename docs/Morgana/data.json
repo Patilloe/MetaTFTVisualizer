@@ -8,102 +8,38 @@
  "tables": {
   "builds": [],
   "builds_partiels": [],
-  "item_lift": [
-   {
-    "key": [
-     "DA_VoidStaff"
-    ],
-    "label": "Void Staff",
-    "n": 40,
-    "share": 0.46511627906976744,
-    "avg_place": 1.7,
-    "sd": 0.9,
-    "win": 0.5,
-    "top2": 0.875,
-    "top4": 0.975,
-    "top4_ci": [
-     0.8712,
-     0.9956
-    ],
-    "d_avg": -0.195,
-    "d_avg_ci": [
-     -0.557,
-     0.166
-    ],
-    "d_top4": 0.0331,
-    "d_win": 0.0465,
-    "shrunk_avg": 1.784,
-    "score": -0.112,
-    "d_avg_pess": 0.0,
-    "impact": 0.0519,
-    "z": -1.06,
-    "p": 0.28975,
-    "significant": false
-   }
-  ],
+  "item_lift": [],
   "paires": [],
   "items_emblem": [],
-  "items_craftable": [
-   {
-    "key": [
-     "DA_VoidStaff-1"
-    ],
-    "label": "Void Staff",
-    "n": 40,
-    "share": 0.46511627906976744,
-    "avg_place": 1.7,
-    "sd": 0.9,
-    "win": 0.5,
-    "top2": 0.875,
-    "top4": 0.975,
-    "top4_ci": [
-     0.8712,
-     0.9956
-    ],
-    "d_avg": -0.195,
-    "d_avg_ci": [
-     -0.557,
-     0.166
-    ],
-    "d_top4": 0.0331,
-    "d_win": 0.0465,
-    "shrunk_avg": 1.784,
-    "score": -0.112,
-    "d_avg_pess": 0.0,
-    "impact": 0.0519,
-    "z": -1.06,
-    "p": 0.28975,
-    "significant": false
-   }
-  ],
+  "items_craftable": [],
   "items_artifact": [],
-  "items_radiant": [],
   "items_mechanic": [],
+  "items_radiant": [],
   "etoiles": [
    {
     "key": [
      "DA_18_Morgana 2*"
     ],
     "label": "Morgana 2*",
-    "n": 86,
+    "n": 77,
     "share": 1.0,
-    "avg_place": 1.895,
-    "sd": 1.089,
-    "win": 0.4535,
-    "top2": 0.7907,
-    "top4": 0.9419,
+    "avg_place": 2.039,
+    "sd": 1.253,
+    "win": 0.4156,
+    "top2": 0.7532,
+    "top4": 0.9221,
     "top4_ci": [
-     0.871,
-     0.9749
+     0.8402,
+     0.9638
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.326,
-     0.326
+     -0.396,
+     0.396
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.895,
+    "shrunk_avg": 2.039,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -115,234 +51,78 @@
   "unites_flex": [
    {
     "key": [
-     "DA_Sentinel18"
-    ],
-    "label": "Sentinel",
-    "n": 67,
-    "share": 0.7790697674418605,
-    "avg_place": 1.731,
-    "sd": 0.986,
-    "win": 0.5075,
-    "top2": 0.8657,
-    "top4": 0.9552,
-    "top4_ci": [
-     0.8764,
-     0.9847
-    ],
-    "d_avg": -0.164,
-    "d_avg_ci": [
-     -0.494,
-     0.166
-    ],
-    "d_top4": 0.0134,
-    "d_win": 0.054,
-    "shrunk_avg": 1.782,
-    "score": -0.113,
-    "d_avg_pess": 0.0,
-    "impact": 0.0883,
-    "z": -0.97,
-    "p": 0.32974,
-    "significant": false
-   },
-   {
-    "key": [
      "DA_18_Diana"
     ],
     "label": "Diana",
-    "n": 47,
-    "share": 0.5465116279069767,
-    "avg_place": 1.766,
-    "sd": 0.856,
-    "win": 0.4468,
-    "top2": 0.8298,
-    "top4": 0.9787,
+    "n": 43,
+    "share": 0.5584415584415584,
+    "avg_place": 1.86,
+    "sd": 0.851,
+    "win": 0.3721,
+    "top2": 0.814,
+    "top4": 0.9767,
     "top4_ci": [
-     0.8889,
-     0.9962
+     0.8794,
+     0.9959
     ],
-    "d_avg": -0.129,
+    "d_avg": -0.178,
     "d_avg_ci": [
-     -0.465,
-     0.207
+     -0.557,
+     0.2
     ],
-    "d_top4": 0.0369,
-    "d_win": -0.0067,
-    "shrunk_avg": 1.816,
-    "score": -0.079,
+    "d_top4": 0.0547,
+    "d_win": -0.0435,
+    "shrunk_avg": 1.934,
+    "score": -0.105,
     "d_avg_pess": 0.0,
-    "impact": 0.0432,
-    "z": -0.75,
-    "p": 0.45034,
+    "impact": 0.0587,
+    "z": -0.92,
+    "p": 0.355,
     "significant": false
    },
    {
     "key": [
-     "DA_Taric18"
+     "DA_Sentinel18"
     ],
-    "label": "Taric",
-    "n": 41,
-    "share": 0.47674418604651164,
-    "avg_place": 1.805,
-    "sd": 0.943,
-    "win": 0.4634,
-    "top2": 0.8049,
-    "top4": 0.9756,
+    "label": "Sentinel",
+    "n": 59,
+    "share": 0.7662337662337663,
+    "avg_place": 1.915,
+    "sd": 1.225,
+    "win": 0.4576,
+    "top2": 0.8136,
+    "top4": 0.9322,
     "top4_ci": [
-     0.874,
-     0.9957
+     0.8382,
+     0.9733
     ],
-    "d_avg": -0.09,
+    "d_avg": -0.124,
     "d_avg_ci": [
-     -0.46,
-     0.279
+     -0.543,
+     0.296
     ],
-    "d_top4": 0.0337,
-    "d_win": 0.0099,
-    "shrunk_avg": 1.843,
-    "score": -0.052,
+    "d_top4": 0.0101,
+    "d_win": 0.042,
+    "shrunk_avg": 1.957,
+    "score": -0.082,
     "d_avg_pess": 0.0,
-    "impact": 0.0249,
-    "z": -0.48,
-    "p": 0.63099,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Elise"
-    ],
-    "label": "Elise",
-    "n": 42,
-    "share": 0.4883720930232558,
-    "avg_place": 2.119,
-    "sd": 1.159,
-    "win": 0.3571,
-    "top2": 0.7143,
-    "top4": 0.9286,
-    "top4_ci": [
-     0.8099,
-     0.9754
-    ],
-    "d_avg": 0.224,
-    "d_avg_ci": [
-     -0.196,
-     0.643
-    ],
-    "d_top4": -0.0133,
-    "d_win": -0.0963,
-    "shrunk_avg": 2.026,
-    "score": 0.13,
-    "d_avg_pess": 0.0,
-    "impact": -0.0637,
-    "z": 1.05,
-    "p": 0.29576,
+    "impact": 0.0628,
+    "z": -0.58,
+    "p": 0.56338,
     "significant": false
    }
   ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_18_Spellweaver_1"
-    ],
-    "label": "Spellweaver",
-    "n": 45,
-    "share": 0.5232558139534884,
-    "avg_place": 1.444,
-    "sd": 0.579,
-    "win": 0.6,
-    "top2": 0.9556,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9213,
-     1.0
-    ],
-    "d_avg": -0.451,
-    "d_avg_ci": [
-     -0.737,
-     -0.165
-    ],
-    "d_top4": 0.0581,
-    "d_win": 0.1465,
-    "shrunk_avg": 1.625,
-    "score": -0.271,
-    "d_avg_pess": -0.165,
-    "impact": 0.1416,
-    "z": -3.09,
-    "p": 0.00199,
-    "significant": true
-   },
-   {
-    "key": [
-     "DA_18_Invoker_1"
-    ],
-    "label": "Invoker",
-    "n": 41,
-    "share": 0.47674418604651164,
-    "avg_place": 1.659,
-    "sd": 0.9,
-    "win": 0.5366,
-    "top2": 0.878,
-    "top4": 0.9756,
-    "top4_ci": [
-     0.874,
-     0.9957
-    ],
-    "d_avg": -0.237,
-    "d_avg_ci": [
-     -0.596,
-     0.122
-    ],
-    "d_top4": 0.0337,
-    "d_win": 0.0831,
-    "shrunk_avg": 1.759,
-    "score": -0.137,
-    "d_avg_pess": 0.0,
-    "impact": 0.0652,
-    "z": -1.29,
-    "p": 0.19613,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Emerald18_1"
-    ],
-    "label": "Emerald",
-    "n": 40,
-    "share": 0.46511627906976744,
-    "avg_place": 1.825,
-    "sd": 0.946,
-    "win": 0.45,
-    "top2": 0.8,
-    "top4": 0.975,
-    "top4_ci": [
-     0.8712,
-     0.9956
-    ],
-    "d_avg": -0.07,
-    "d_avg_ci": [
-     -0.443,
-     0.302
-    ],
-    "d_top4": 0.0331,
-    "d_win": -0.0035,
-    "shrunk_avg": 1.855,
-    "score": -0.04,
-    "d_avg_pess": 0.0,
-    "impact": 0.0187,
-    "z": -0.37,
-    "p": 0.71141,
-    "significant": false
-   }
-  ]
+  "traits_flex": []
  },
  "meta": {
-  "games": 86,
-  "share_of_meta": 0.051932367149758456,
-  "avg_place": 1.895,
-  "win": 0.4535,
-  "top4": 0.9419,
+  "games": 77,
+  "share_of_meta": 0.049773755656108594,
+  "avg_place": 2.039,
+  "win": 0.4156,
+  "top4": 0.9221,
   "top4_ci": [
-   0.871,
-   0.9749
+   0.8402,
+   0.9638
   ],
   "prior_games": 30
  }

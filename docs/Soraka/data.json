@@ -13,32 +13,31 @@
   "items_emblem": [],
   "items_craftable": [],
   "items_artifact": [],
-  "items_radiant": [],
   "etoiles": [
    {
     "key": [
      "DA_18_Soraka 2*"
     ],
     "label": "Soraka 2*",
-    "n": 45,
+    "n": 42,
     "share": 1.0,
-    "avg_place": 1.889,
-    "sd": 0.875,
-    "win": 0.3778,
-    "top2": 0.7778,
-    "top4": 0.9778,
+    "avg_place": 1.857,
+    "sd": 0.888,
+    "win": 0.4048,
+    "top2": 0.7857,
+    "top4": 0.9762,
     "top4_ci": [
-     0.8843,
-     0.9961
+     0.8768,
+     0.9958
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.362,
-     0.362
+     -0.38,
+     0.38
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.889,
+    "shrunk_avg": 1.857,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -51,14 +50,14 @@
   "traits_flex": []
  },
  "meta": {
-  "games": 45,
-  "share_of_meta": 0.02717391304347826,
-  "avg_place": 1.889,
-  "win": 0.3778,
-  "top4": 0.9778,
+  "games": 42,
+  "share_of_meta": 0.027149321266968326,
+  "avg_place": 1.857,
+  "win": 0.4048,
+  "top4": 0.9762,
   "top4_ci": [
-   0.8843,
-   0.9961
+   0.8768,
+   0.9958
   ],
   "prior_games": 30
  }
