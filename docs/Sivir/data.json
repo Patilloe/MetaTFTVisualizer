@@ -11,6 +11,7 @@
   "item_lift": [],
   "paires": [],
   "items_emblem": [],
+  "items_artifact": [],
   "items_craftable": [],
   "items_radiant": [],
   "etoiles": [
@@ -19,25 +20,25 @@
      "DA_18_Sivir 2*"
     ],
     "label": "Sivir 2*",
-    "n": 58,
+    "n": 64,
     "share": 1.0,
-    "avg_place": 1.672,
-    "sd": 0.917,
-    "win": 0.5172,
-    "top2": 0.8793,
-    "top4": 0.9828,
+    "avg_place": 1.688,
+    "sd": 0.899,
+    "win": 0.5,
+    "top2": 0.875,
+    "top4": 0.9844,
     "top4_ci": [
-     0.9086,
-     0.997
+     0.9167,
+     0.9972
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.334,
-     0.334
+     -0.312,
+     0.312
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.672,
+    "shrunk_avg": 1.688,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -54,42 +55,42 @@
     ],
     "label": "Primal",
     "n": 44,
-    "share": 0.7586206896551724,
-    "avg_place": 1.5,
-    "sd": 0.622,
-    "win": 0.5682,
+    "share": 0.6875,
+    "avg_place": 1.523,
+    "sd": 0.621,
+    "win": 0.5455,
     "top2": 0.9318,
     "top4": 1.0,
     "top4_ci": [
      0.9197,
      1.0
     ],
-    "d_avg": -0.172,
+    "d_avg": -0.165,
     "d_avg_ci": [
-     -0.471,
-     0.127
+     -0.452,
+     0.122
     ],
-    "d_top4": 0.0172,
-    "d_win": 0.0509,
-    "shrunk_avg": 1.57,
-    "score": -0.103,
+    "d_top4": 0.0156,
+    "d_win": 0.0455,
+    "shrunk_avg": 1.59,
+    "score": -0.098,
     "d_avg_pess": 0.0,
-    "impact": 0.0778,
+    "impact": 0.0674,
     "z": -1.13,
-    "p": 0.25848,
+    "p": 0.26005,
     "significant": false
    }
   ]
  },
  "meta": {
-  "games": 58,
-  "share_of_meta": 0.03749191984486102,
-  "avg_place": 1.672,
-  "win": 0.5172,
-  "top4": 0.9828,
+  "games": 64,
+  "share_of_meta": 0.04110468850353243,
+  "avg_place": 1.688,
+  "win": 0.5,
+  "top4": 0.9844,
   "top4_ci": [
-   0.9086,
-   0.997
+   0.9167,
+   0.9972
   ],
   "prior_games": 30
  }

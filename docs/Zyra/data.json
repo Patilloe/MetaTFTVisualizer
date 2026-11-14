@@ -12,7 +12,6 @@
   "paires": [],
   "items_emblem": [],
   "items_craftable": [],
-  "items_artifact": [],
   "items_radiant": [],
   "etoiles": [
    {
@@ -20,30 +19,30 @@
      "DA_18_Zyra 2*"
     ],
     "label": "Zyra 2*",
-    "n": 46,
-    "share": 1.0,
-    "avg_place": 1.761,
-    "sd": 0.889,
-    "win": 0.4783,
-    "top2": 0.8261,
+    "n": 49,
+    "share": 1.0208333333333333,
+    "avg_place": 1.633,
+    "sd": 0.774,
+    "win": 0.5102,
+    "top2": 0.898,
     "top4": 1.0,
     "top4_ci": [
-     0.9229,
+     0.9273,
      1.0
     ],
-    "d_avg": 0.0,
+    "d_avg": 0.008,
     "d_avg_ci": [
-     -0.363,
-     0.363
+     -0.302,
+     0.317
     ],
     "d_top4": 0.0,
-    "d_win": 0.0,
-    "shrunk_avg": 1.761,
-    "score": 0.0,
+    "d_win": -0.0106,
+    "shrunk_avg": 1.63,
+    "score": 0.005,
     "d_avg_pess": 0.0,
-    "impact": -0.0,
-    "z": 0.0,
-    "p": 1.0,
+    "impact": -0.0048,
+    "z": 0.05,
+    "p": 0.96135,
     "significant": false
    }
   ],
@@ -51,13 +50,13 @@
   "traits_flex": []
  },
  "meta": {
-  "games": 46,
-  "share_of_meta": 0.029734970911441498,
-  "avg_place": 1.761,
-  "win": 0.4783,
+  "games": 48,
+  "share_of_meta": 0.030828516377649325,
+  "avg_place": 1.625,
+  "win": 0.5208,
   "top4": 1.0,
   "top4_ci": [
-   0.9229,
+   0.9259,
    1.0
   ],
   "prior_games": 30
