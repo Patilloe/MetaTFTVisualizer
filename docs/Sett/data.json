@@ -8,74 +8,10 @@
  "tables": {
   "builds": [],
   "builds_partiels": [],
-  "item_lift": [
-   {
-    "key": [
-     "DA_GargoyleStoneplate"
-    ],
-    "label": "Gargoyle Stoneplate",
-    "n": 44,
-    "share": 0.7213114754098361,
-    "avg_place": 1.705,
-    "sd": 0.786,
-    "win": 0.4773,
-    "top2": 0.8409,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9197,
-     1.0
-    ],
-    "d_avg": -0.099,
-    "d_avg_ci": [
-     -0.423,
-     0.226
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0183,
-    "shrunk_avg": 1.745,
-    "score": -0.059,
-    "d_avg_pess": 0.0,
-    "impact": 0.0423,
-    "z": -0.6,
-    "p": 0.55063,
-    "significant": false
-   }
-  ],
+  "item_lift": [],
   "paires": [],
   "items_emblem": [],
-  "items_craftable": [
-   {
-    "key": [
-     "DA_GargoyleStoneplate-1"
-    ],
-    "label": "Gargoyle Stoneplate",
-    "n": 44,
-    "share": 0.7213114754098361,
-    "avg_place": 1.705,
-    "sd": 0.786,
-    "win": 0.4773,
-    "top2": 0.8409,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9197,
-     1.0
-    ],
-    "d_avg": -0.099,
-    "d_avg_ci": [
-     -0.423,
-     0.226
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0183,
-    "shrunk_avg": 1.745,
-    "score": -0.059,
-    "d_avg_pess": 0.0,
-    "impact": 0.0423,
-    "z": -0.6,
-    "p": 0.55063,
-    "significant": false
-   }
-  ],
+  "items_craftable": [],
   "items_artifact": [],
   "items_radiant": [],
   "etoiles": [
@@ -84,77 +20,45 @@
      "DA_18_Sett 2*"
     ],
     "label": "Sett 2*",
-    "n": 62,
-    "share": 1.0163934426229508,
-    "avg_place": 1.839,
-    "sd": 0.937,
-    "win": 0.4516,
-    "top2": 0.7903,
-    "top4": 1.0,
+    "n": 51,
+    "share": 1.02,
+    "avg_place": 1.98,
+    "sd": 1.111,
+    "win": 0.4314,
+    "top2": 0.7255,
+    "top4": 0.9804,
     "top4_ci": [
-     0.9417,
-     1.0
+     0.897,
+     0.9965
     ],
-    "d_avg": 0.035,
+    "d_avg": 0.04,
     "d_avg_ci": [
-     -0.29,
-     0.36
+     -0.388,
+     0.469
     ],
-    "d_top4": 0.0,
-    "d_win": -0.0074,
-    "shrunk_avg": 1.827,
-    "score": 0.024,
+    "d_top4": 0.0004,
+    "d_win": -0.0086,
+    "shrunk_avg": 1.965,
+    "score": 0.025,
     "d_avg_pess": 0.0,
-    "impact": -0.0243,
-    "z": 0.21,
-    "p": 0.83078,
+    "impact": -0.0259,
+    "z": 0.18,
+    "p": 0.85334,
     "significant": false
    }
   ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_18_Ahri"
-    ],
-    "label": "Ahri",
-    "n": 40,
-    "share": 0.6557377049180327,
-    "avg_place": 1.8,
-    "sd": 0.843,
-    "win": 0.45,
-    "top2": 0.775,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9124,
-     1.0
-    ],
-    "d_avg": -0.003,
-    "d_avg_ci": [
-     -0.349,
-     0.342
-    ],
-    "d_top4": 0.0,
-    "d_win": -0.009,
-    "shrunk_avg": 1.801,
-    "score": -0.002,
-    "d_avg_pess": 0.0,
-    "impact": 0.0012,
-    "z": -0.02,
-    "p": 0.98516,
-    "significant": false
-   }
-  ],
+  "unites_flex": [],
   "traits_flex": []
  },
  "meta": {
-  "games": 61,
-  "share_of_meta": 0.03917790622992935,
-  "avg_place": 1.803,
-  "win": 0.459,
-  "top4": 1.0,
+  "games": 50,
+  "share_of_meta": 0.03968253968253968,
+  "avg_place": 1.94,
+  "win": 0.44,
+  "top4": 0.98,
   "top4_ci": [
-   0.9408,
-   1.0
+   0.895,
+   0.9965
   ],
   "prior_games": 30
  }

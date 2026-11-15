@@ -11,131 +11,68 @@
   "item_lift": [
    {
     "key": [
-     "DA_InfinityEdge"
-    ],
-    "label": "Infinity Edge",
-    "n": 40,
-    "share": 0.43956043956043955,
-    "avg_place": 1.875,
-    "sd": 0.748,
-    "win": 0.35,
-    "top2": 0.775,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9124,
-     1.0
-    ],
-    "d_avg": 0.018,
-    "d_avg_ci": [
-     -0.272,
-     0.308
-    ],
-    "d_top4": 0.0,
-    "d_win": -0.0566,
-    "shrunk_avg": 1.867,
-    "score": 0.01,
-    "d_avg_pess": 0.0,
-    "impact": -0.0045,
-    "z": 0.12,
-    "p": 0.90385,
-    "significant": false
-   },
-   {
-    "key": [
      "DA_GuinsoosRageblade"
     ],
     "label": "Guinsoos Rageblade",
-    "n": 63,
-    "share": 0.6923076923076923,
-    "avg_place": 1.937,
-    "sd": 0.794,
-    "win": 0.3333,
-    "top2": 0.746,
+    "n": 47,
+    "share": 0.7121212121212122,
+    "avg_place": 1.809,
+    "sd": 0.704,
+    "win": 0.3617,
+    "top2": 0.8298,
     "top4": 1.0,
     "top4_ci": [
-     0.9425,
+     0.9244,
      1.0
     ],
-    "d_avg": 0.079,
+    "d_avg": 0.096,
     "d_avg_ci": [
-     -0.183,
-     0.341
+     -0.175,
+     0.368
     ],
     "d_top4": 0.0,
-    "d_win": -0.0733,
-    "shrunk_avg": 1.911,
-    "score": 0.054,
+    "d_win": -0.0928,
+    "shrunk_avg": 1.771,
+    "score": 0.059,
     "d_avg_pess": 0.0,
-    "impact": -0.0372,
-    "z": 0.59,
-    "p": 0.55283,
+    "impact": -0.0419,
+    "z": 0.7,
+    "p": 0.48613,
     "significant": false
    }
   ],
   "paires": [],
   "items_emblem": [],
-  "items_radiant": [],
   "items_craftable": [
-   {
-    "key": [
-     "DA_InfinityEdge-1"
-    ],
-    "label": "Infinity Edge",
-    "n": 40,
-    "share": 0.43956043956043955,
-    "avg_place": 1.875,
-    "sd": 0.748,
-    "win": 0.35,
-    "top2": 0.775,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9124,
-     1.0
-    ],
-    "d_avg": 0.018,
-    "d_avg_ci": [
-     -0.272,
-     0.308
-    ],
-    "d_top4": 0.0,
-    "d_win": -0.0566,
-    "shrunk_avg": 1.867,
-    "score": 0.01,
-    "d_avg_pess": 0.0,
-    "impact": -0.0045,
-    "z": 0.12,
-    "p": 0.90385,
-    "significant": false
-   },
    {
     "key": [
      "DA_GuinsoosRageblade-1"
     ],
     "label": "Guinsoos Rageblade",
-    "n": 63,
-    "share": 0.6923076923076923,
-    "avg_place": 1.937,
-    "sd": 0.794,
-    "win": 0.3333,
-    "top2": 0.746,
+    "n": 47,
+    "share": 0.7121212121212122,
+    "avg_place": 1.809,
+    "sd": 0.704,
+    "win": 0.3617,
+    "top2": 0.8298,
     "top4": 1.0,
     "top4_ci": [
-     0.9425,
+     0.9244,
      1.0
     ],
-    "d_avg": 0.079,
+    "d_avg": 0.096,
     "d_avg_ci": [
-     -0.183,
-     0.341
+     -0.175,
+     0.368
     ],
     "d_top4": 0.0,
-    "d_win": -0.0733,
-    "shrunk_avg": 1.911,
-    "score": 0.054,
+    "d_win": -0.0928,
+    "shrunk_avg": 1.771,
+    "score": 0.059,
     "d_avg_pess": 0.0,
-    "impact": -0.0372,
-    "z": 0.59,
-    "p": 0.55283,
+    "impact": -0.0419,
+    "z": 0.7,
+    "p": 0.48613,
     "significant": false
    }
   ],
@@ -146,263 +83,76 @@
      "DA_18_Aphelios 2*"
     ],
     "label": "Aphelios 2*",
-    "n": 92,
-    "share": 1.010989010989011,
-    "avg_place": 1.859,
-    "sd": 0.842,
-    "win": 0.4022,
-    "top2": 0.7717,
+    "n": 67,
+    "share": 1.0151515151515151,
+    "avg_place": 1.716,
+    "sd": 0.749,
+    "win": 0.4478,
+    "top2": 0.8507,
     "top4": 1.0,
     "top4_ci": [
-     0.9599,
+     0.9458,
      1.0
     ],
-    "d_avg": 0.002,
+    "d_avg": 0.004,
     "d_avg_ci": [
-     -0.243,
-     0.246
+     -0.251,
+     0.26
     ],
     "d_top4": 0.0,
-    "d_win": -0.0044,
-    "shrunk_avg": 1.858,
-    "score": 0.001,
+    "d_win": -0.0068,
+    "shrunk_avg": 1.715,
+    "score": 0.003,
     "d_avg_pess": 0.0,
-    "impact": -0.0012,
-    "z": 0.01,
-    "p": 0.99007,
+    "impact": -0.003,
+    "z": 0.03,
+    "p": 0.97371,
     "significant": false
    }
   ],
   "unites_flex": [
    {
     "key": [
-     "DA_18_Alune"
-    ],
-    "label": "Alune",
-    "n": 43,
-    "share": 0.4725274725274725,
-    "avg_place": 1.791,
-    "sd": 0.851,
-    "win": 0.4651,
-    "top2": 0.7674,
-    "top4": 1.0,
-    "top4_ci": [
-     0.918,
-     1.0
-    ],
-    "d_avg": -0.066,
-    "d_avg_ci": [
-     -0.374,
-     0.242
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0585,
-    "shrunk_avg": 1.818,
-    "score": -0.039,
-    "d_avg_pess": 0.0,
-    "impact": 0.0185,
-    "z": -0.42,
-    "p": 0.67243,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Varus"
-    ],
-    "label": "Varus",
-    "n": 40,
-    "share": 0.43956043956043955,
-    "avg_place": 1.8,
-    "sd": 0.781,
-    "win": 0.4,
-    "top2": 0.825,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9124,
-     1.0
-    ],
-    "d_avg": -0.057,
-    "d_avg_ci": [
-     -0.355,
-     0.241
-    ],
-    "d_top4": 0.0,
-    "d_win": -0.0066,
-    "shrunk_avg": 1.824,
-    "score": -0.033,
-    "d_avg_pess": 0.0,
-    "impact": 0.0144,
-    "z": -0.38,
-    "p": 0.70704,
-    "significant": false
-   },
-   {
-    "key": [
      "DA_18_Diana"
     ],
     "label": "Diana",
-    "n": 64,
-    "share": 0.7032967032967034,
-    "avg_place": 1.812,
-    "sd": 0.788,
-    "win": 0.4062,
-    "top2": 0.7969,
+    "n": 49,
+    "share": 0.7424242424242424,
+    "avg_place": 1.653,
+    "sd": 0.687,
+    "win": 0.4694,
+    "top2": 0.8776,
     "top4": 1.0,
     "top4_ci": [
-     0.9434,
+     0.9273,
      1.0
     ],
-    "d_avg": -0.045,
+    "d_avg": -0.059,
     "d_avg_ci": [
-     -0.304,
-     0.215
+     -0.324,
+     0.206
     ],
     "d_top4": 0.0,
-    "d_win": -0.0003,
-    "shrunk_avg": 1.827,
-    "score": -0.03,
+    "d_win": 0.0148,
+    "shrunk_avg": 1.675,
+    "score": -0.037,
     "d_avg_pess": 0.0,
-    "impact": 0.0214,
-    "z": -0.34,
-    "p": 0.73628,
+    "impact": 0.0272,
+    "z": -0.44,
+    "p": 0.66187,
     "significant": false
    }
   ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_Juggernaut18_1"
-    ],
-    "label": "Juggernaut",
-    "n": 42,
-    "share": 0.46153846153846156,
-    "avg_place": 1.738,
-    "sd": 0.789,
-    "win": 0.4524,
-    "top2": 0.8333,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9162,
-     1.0
-    ],
-    "d_avg": -0.119,
-    "d_avg_ci": [
-     -0.414,
-     0.176
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0458,
-    "shrunk_avg": 1.788,
-    "score": -0.069,
-    "d_avg_pess": 0.0,
-    "impact": 0.0321,
-    "z": -0.79,
-    "p": 0.42917,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Vanguard_1"
-    ],
-    "label": "Vanguard",
-    "n": 50,
-    "share": 0.5494505494505495,
-    "avg_place": 1.76,
-    "sd": 0.838,
-    "win": 0.46,
-    "top2": 0.82,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9286,
-     1.0
-    ],
-    "d_avg": -0.097,
-    "d_avg_ci": [
-     -0.387,
-     0.193
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0534,
-    "shrunk_avg": 1.796,
-    "score": -0.061,
-    "d_avg_pess": 0.0,
-    "impact": 0.0334,
-    "z": -0.66,
-    "p": 0.51169,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Rapidfire_1"
-    ],
-    "label": "Rapidfire",
-    "n": 42,
-    "share": 0.46153846153846156,
-    "avg_place": 1.762,
-    "sd": 0.84,
-    "win": 0.4762,
-    "top2": 0.7857,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9162,
-     1.0
-    ],
-    "d_avg": -0.095,
-    "d_avg_ci": [
-     -0.403,
-     0.213
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0696,
-    "shrunk_avg": 1.802,
-    "score": -0.056,
-    "d_avg_pess": 0.0,
-    "impact": 0.0256,
-    "z": -0.61,
-    "p": 0.54418,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_AluneUniqueTrait18_1"
-    ],
-    "label": "Alune Unique Trait",
-    "n": 43,
-    "share": 0.4725274725274725,
-    "avg_place": 1.791,
-    "sd": 0.851,
-    "win": 0.4651,
-    "top2": 0.7674,
-    "top4": 1.0,
-    "top4_ci": [
-     0.918,
-     1.0
-    ],
-    "d_avg": -0.066,
-    "d_avg_ci": [
-     -0.374,
-     0.242
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0585,
-    "shrunk_avg": 1.818,
-    "score": -0.039,
-    "d_avg_pess": 0.0,
-    "impact": 0.0185,
-    "z": -0.42,
-    "p": 0.67243,
-    "significant": false
-   }
-  ]
+  "traits_flex": []
  },
  "meta": {
-  "games": 91,
-  "share_of_meta": 0.05844572896596018,
-  "avg_place": 1.857,
-  "win": 0.4066,
+  "games": 66,
+  "share_of_meta": 0.05238095238095238,
+  "avg_place": 1.712,
+  "win": 0.4545,
   "top4": 1.0,
   "top4_ci": [
-   0.9595,
+   0.945,
    1.0
   ],
   "prior_games": 30
