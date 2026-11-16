@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Vanguard,44,0.5569620253164557,1.818,1.805,0.02,0.033,0.0,-0.0111,0.0,0.4091,0.7955,1.0,0.805,0.22,0.82573,False

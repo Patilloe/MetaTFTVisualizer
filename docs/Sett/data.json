@@ -8,10 +8,74 @@
  "tables": {
   "builds": [],
   "builds_partiels": [],
-  "item_lift": [],
+  "item_lift": [
+   {
+    "key": [
+     "DA_GargoyleStoneplate"
+    ],
+    "label": "Gargoyle Stoneplate",
+    "n": 47,
+    "share": 0.6351351351351351,
+    "avg_place": 1.83,
+    "sd": 0.883,
+    "win": 0.4255,
+    "top2": 0.7872,
+    "top4": 0.9787,
+    "top4_ci": [
+     0.8889,
+     0.9962
+    ],
+    "d_avg": 0.032,
+    "d_avg_ci": [
+     -0.284,
+     0.349
+    ],
+    "d_top4": -0.0078,
+    "d_win": -0.0069,
+    "shrunk_avg": 1.817,
+    "score": 0.02,
+    "d_avg_pess": 0.0,
+    "impact": -0.0126,
+    "z": 0.2,
+    "p": 0.84054,
+    "significant": false
+   }
+  ],
   "paires": [],
   "items_emblem": [],
-  "items_craftable": [],
+  "items_craftable": [
+   {
+    "key": [
+     "DA_GargoyleStoneplate-1"
+    ],
+    "label": "Gargoyle Stoneplate",
+    "n": 47,
+    "share": 0.6351351351351351,
+    "avg_place": 1.83,
+    "sd": 0.883,
+    "win": 0.4255,
+    "top2": 0.7872,
+    "top4": 0.9787,
+    "top4_ci": [
+     0.8889,
+     0.9962
+    ],
+    "d_avg": 0.032,
+    "d_avg_ci": [
+     -0.284,
+     0.349
+    ],
+    "d_top4": -0.0078,
+    "d_win": -0.0069,
+    "shrunk_avg": 1.817,
+    "score": 0.02,
+    "d_avg_pess": 0.0,
+    "impact": -0.0126,
+    "z": 0.2,
+    "p": 0.84054,
+    "significant": false
+   }
+  ],
   "items_artifact": [],
   "items_radiant": [],
   "etoiles": [
@@ -20,45 +84,171 @@
      "DA_18_Sett 2*"
     ],
     "label": "Sett 2*",
-    "n": 51,
-    "share": 1.02,
-    "avg_place": 1.98,
-    "sd": 1.111,
-    "win": 0.4314,
-    "top2": 0.7255,
-    "top4": 0.9804,
+    "n": 74,
+    "share": 1.0,
+    "avg_place": 1.797,
+    "sd": 0.838,
+    "win": 0.4324,
+    "top2": 0.7973,
+    "top4": 0.9865,
     "top4_ci": [
-     0.897,
-     0.9965
+     0.9273,
+     0.9976
     ],
-    "d_avg": 0.04,
+    "d_avg": 0.0,
     "d_avg_ci": [
-     -0.388,
-     0.469
+     -0.27,
+     0.27
     ],
-    "d_top4": 0.0004,
-    "d_win": -0.0086,
-    "shrunk_avg": 1.965,
-    "score": 0.025,
+    "d_top4": 0.0,
+    "d_win": 0.0,
+    "shrunk_avg": 1.797,
+    "score": -0.0,
     "d_avg_pess": 0.0,
-    "impact": -0.0259,
-    "z": 0.18,
-    "p": 0.85334,
+    "impact": 0.0,
+    "z": 0.0,
+    "p": 1.0,
     "significant": false
    }
   ],
-  "unites_flex": [],
-  "traits_flex": []
+  "unites_flex": [
+   {
+    "key": [
+     "DA_18_Yorick"
+    ],
+    "label": "Yorick",
+    "n": 49,
+    "share": 0.6621621621621622,
+    "avg_place": 1.816,
+    "sd": 0.896,
+    "win": 0.449,
+    "top2": 0.7755,
+    "top4": 0.9796,
+    "top4_ci": [
+     0.8931,
+     0.9964
+    ],
+    "d_avg": 0.019,
+    "d_avg_ci": [
+     -0.296,
+     0.334
+    ],
+    "d_top4": -0.0069,
+    "d_win": 0.0165,
+    "shrunk_avg": 1.809,
+    "score": 0.012,
+    "d_avg_pess": 0.0,
+    "impact": -0.0078,
+    "z": 0.12,
+    "p": 0.90583,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Ahri"
+    ],
+    "label": "Ahri",
+    "n": 56,
+    "share": 0.7567567567567568,
+    "avg_place": 1.857,
+    "sd": 0.875,
+    "win": 0.4107,
+    "top2": 0.7679,
+    "top4": 0.9821,
+    "top4_ci": [
+     0.9055,
+     0.9968
+    ],
+    "d_avg": 0.06,
+    "d_avg_ci": [
+     -0.238,
+     0.358
+    ],
+    "d_top4": -0.0043,
+    "d_win": -0.0217,
+    "shrunk_avg": 1.836,
+    "score": 0.039,
+    "d_avg_pess": 0.0,
+    "impact": -0.0295,
+    "z": 0.39,
+    "p": 0.69411,
+    "significant": false
+   }
+  ],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Brawler_1"
+    ],
+    "label": "Brawler",
+    "n": 48,
+    "share": 0.6486486486486487,
+    "avg_place": 1.667,
+    "sd": 0.717,
+    "win": 0.4792,
+    "top2": 0.8542,
+    "top4": 1.0,
+    "top4_ci": [
+     0.9259,
+     1.0
+    ],
+    "d_avg": -0.131,
+    "d_avg_ci": [
+     -0.409,
+     0.148
+    ],
+    "d_top4": 0.0135,
+    "d_win": 0.0467,
+    "shrunk_avg": 1.717,
+    "score": -0.08,
+    "d_avg_pess": 0.0,
+    "impact": 0.0521,
+    "z": -0.92,
+    "p": 0.35797,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Spellweaver_1"
+    ],
+    "label": "Spellweaver",
+    "n": 47,
+    "share": 0.6351351351351351,
+    "avg_place": 1.745,
+    "sd": 0.785,
+    "win": 0.4681,
+    "top2": 0.7872,
+    "top4": 1.0,
+    "top4_ci": [
+     0.9244,
+     1.0
+    ],
+    "d_avg": -0.053,
+    "d_avg_ci": [
+     -0.347,
+     0.242
+    ],
+    "d_top4": 0.0135,
+    "d_win": 0.0357,
+    "shrunk_avg": 1.765,
+    "score": -0.032,
+    "d_avg_pess": 0.0,
+    "impact": 0.0204,
+    "z": -0.35,
+    "p": 0.72627,
+    "significant": false
+   }
+  ]
  },
  "meta": {
-  "games": 50,
-  "share_of_meta": 0.03968253968253968,
-  "avg_place": 1.94,
-  "win": 0.44,
-  "top4": 0.98,
+  "games": 74,
+  "share_of_meta": 0.03923647932131495,
+  "avg_place": 1.797,
+  "win": 0.4324,
+  "top4": 0.9865,
   "top4_ci": [
-   0.895,
-   0.9965
+   0.9273,
+   0.9976
   ],
   "prior_games": 30
  }

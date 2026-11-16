@@ -20,25 +20,25 @@
      "DA_18_Sivir 2*"
     ],
     "label": "Sivir 2*",
-    "n": 51,
+    "n": 58,
     "share": 1.0,
-    "avg_place": 1.569,
-    "sd": 0.721,
-    "win": 0.549,
-    "top2": 0.902,
-    "top4": 1.0,
+    "avg_place": 1.793,
+    "sd": 1.03,
+    "win": 0.4655,
+    "top2": 0.8276,
+    "top4": 0.9828,
     "top4_ci": [
-     0.93,
-     1.0
+     0.9086,
+     0.997
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.28,
-     0.28
+     -0.375,
+     0.375
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.569,
+    "shrunk_avg": 1.793,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -48,17 +48,49 @@
    }
   ],
   "unites_flex": [],
-  "traits_flex": []
+  "traits_flex": [
+   {
+    "key": [
+     "DA_Primal18_1"
+    ],
+    "label": "Primal",
+    "n": 43,
+    "share": 0.7413793103448276,
+    "avg_place": 1.837,
+    "sd": 1.077,
+    "win": 0.4419,
+    "top2": 0.814,
+    "top4": 0.9767,
+    "top4_ci": [
+     0.8794,
+     0.9959
+    ],
+    "d_avg": 0.044,
+    "d_avg_ci": [
+     -0.373,
+     0.461
+    ],
+    "d_top4": -0.006,
+    "d_win": -0.0237,
+    "shrunk_avg": 1.819,
+    "score": 0.026,
+    "d_avg_pess": 0.0,
+    "impact": -0.0193,
+    "z": 0.21,
+    "p": 0.83575,
+    "significant": false
+   }
+  ]
  },
  "meta": {
-  "games": 51,
-  "share_of_meta": 0.04047619047619048,
-  "avg_place": 1.569,
-  "win": 0.549,
-  "top4": 1.0,
+  "games": 58,
+  "share_of_meta": 0.030752916224814422,
+  "avg_place": 1.793,
+  "win": 0.4655,
+  "top4": 0.9828,
   "top4_ci": [
-   0.93,
-   1.0
+   0.9086,
+   0.997
   ],
   "prior_games": 30
  }

@@ -19,44 +19,76 @@
      "DA_18_Lillia 2*"
     ],
     "label": "Lillia 2*",
+    "n": 59,
+    "share": 1.0172413793103448,
+    "avg_place": 1.746,
+    "sd": 0.815,
+    "win": 0.4746,
+    "top2": 0.7966,
+    "top4": 1.0,
+    "top4_ci": [
+     0.9389,
+     1.0
+    ],
+    "d_avg": -0.013,
+    "d_avg_ci": [
+     -0.308,
+     0.283
+    ],
+    "d_top4": 0.0,
+    "d_win": 0.0091,
+    "shrunk_avg": 1.75,
+    "score": -0.009,
+    "d_avg_pess": 0.0,
+    "impact": 0.0087,
+    "z": -0.09,
+    "p": 0.93205,
+    "significant": false
+   }
+  ],
+  "unites_flex": [],
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Defender_1"
+    ],
+    "label": "Defender",
     "n": 47,
-    "share": 1.0217391304347827,
-    "avg_place": 1.894,
-    "sd": 0.905,
-    "win": 0.4043,
-    "top2": 0.766,
+    "share": 0.8103448275862069,
+    "avg_place": 1.787,
+    "sd": 0.823,
+    "win": 0.4468,
+    "top2": 0.7872,
     "top4": 1.0,
     "top4_ci": [
      0.9244,
      1.0
     ],
-    "d_avg": -0.019,
+    "d_avg": 0.029,
     "d_avg_ci": [
-     -0.387,
-     0.348
+     -0.287,
+     0.344
     ],
     "d_top4": 0.0,
-    "d_win": 0.013,
-    "shrunk_avg": 1.901,
-    "score": -0.012,
+    "d_win": -0.0187,
+    "shrunk_avg": 1.776,
+    "score": 0.017,
     "d_avg_pess": 0.0,
-    "impact": 0.0121,
-    "z": -0.1,
-    "p": 0.91754,
+    "impact": -0.0142,
+    "z": 0.18,
+    "p": 0.85891,
     "significant": false
    }
-  ],
-  "unites_flex": [],
-  "traits_flex": []
+  ]
  },
  "meta": {
-  "games": 46,
-  "share_of_meta": 0.03650793650793651,
-  "avg_place": 1.913,
-  "win": 0.3913,
+  "games": 58,
+  "share_of_meta": 0.030752916224814422,
+  "avg_place": 1.759,
+  "win": 0.4655,
   "top4": 1.0,
   "top4_ci": [
-   0.9229,
+   0.9379,
    1.0
   ],
   "prior_games": 30

@@ -1,2 +1,4 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Gargoyle Stoneplate,41,0.4823529411764706,1.951,1.937,0.019,0.034,0.0,-0.0094,0.0118,0.3902,0.7317,1.0,0.936,0.18,0.85526,False
+populaire,Protectors Vow,60,0.43478260869565216,1.85,1.854,-0.008,-0.012,0.0,0.0036,-0.0094,0.5,0.7667,0.9833,1.077,-0.08,0.93884,False
+populaire,Warmogs Armor,50,0.36231884057971014,1.92,1.898,0.036,0.058,0.0,-0.0131,-0.0128,0.42,0.78,0.98,1.055,0.34,0.73349,False
+populaire,Gargoyle Stoneplate,68,0.4927536231884058,1.941,1.917,0.055,0.079,0.0,-0.027,0.0072,0.3676,0.75,1.0,0.889,0.59,0.55727,False

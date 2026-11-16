@@ -20,25 +20,25 @@
      "DA_18_Soraka 2*"
     ],
     "label": "Soraka 2*",
-    "n": 41,
+    "n": 49,
     "share": 1.0,
-    "avg_place": 1.659,
-    "sd": 0.753,
-    "win": 0.4878,
-    "top2": 0.878,
+    "avg_place": 1.51,
+    "sd": 0.674,
+    "win": 0.5714,
+    "top2": 0.9388,
     "top4": 1.0,
     "top4_ci": [
-     0.9143,
+     0.9273,
      1.0
     ],
     "d_avg": 0.0,
     "d_avg_ci": [
-     -0.326,
-     0.326
+     -0.267,
+     0.267
     ],
     "d_top4": 0.0,
     "d_win": 0.0,
-    "shrunk_avg": 1.659,
+    "shrunk_avg": 1.51,
     "score": 0.0,
     "d_avg_pess": 0.0,
     "impact": -0.0,
@@ -51,13 +51,13 @@
   "traits_flex": []
  },
  "meta": {
-  "games": 41,
-  "share_of_meta": 0.03253968253968254,
-  "avg_place": 1.659,
-  "win": 0.4878,
+  "games": 49,
+  "share_of_meta": 0.025980911983032873,
+  "avg_place": 1.51,
+  "win": 0.5714,
   "top4": 1.0,
   "top4_ci": [
-   0.9143,
+   0.9273,
    1.0
   ],
   "prior_games": 30
