@@ -8,88 +8,370 @@
  "tables": {
   "builds": [],
   "builds_partiels": [],
-  "item_lift": [],
+  "item_lift": [
+   {
+    "key": [
+     "DA_SpearOfShojin"
+    ],
+    "label": "Spear Of Shojin",
+    "n": 45,
+    "share": 0.4787234042553192,
+    "avg_place": 1.956,
+    "sd": 0.988,
+    "win": 0.4222,
+    "top2": 0.7111,
+    "top4": 1.0,
+    "top4_ci": [
+     0.9213,
+     1.0
+    ],
+    "d_avg": -0.023,
+    "d_avg_ci": [
+     -0.405,
+     0.359
+    ],
+    "d_top4": 0.0319,
+    "d_win": -0.0246,
+    "shrunk_avg": 1.965,
+    "score": -0.014,
+    "d_avg_pess": 0.0,
+    "impact": 0.0067,
+    "z": -0.12,
+    "p": 0.90537,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_VoidStaff"
+    ],
+    "label": "Void Staff",
+    "n": 45,
+    "share": 0.4787234042553192,
+    "avg_place": 2.022,
+    "sd": 1.308,
+    "win": 0.4222,
+    "top2": 0.7556,
+    "top4": 0.9778,
+    "top4_ci": [
+     0.8843,
+     0.9961
+    ],
+    "d_avg": 0.043,
+    "d_avg_ci": [
+     -0.413,
+     0.5
+    ],
+    "d_top4": 0.0097,
+    "d_win": -0.0246,
+    "shrunk_avg": 2.005,
+    "score": 0.026,
+    "d_avg_pess": 0.0,
+    "impact": -0.0125,
+    "z": 0.19,
+    "p": 0.85193,
+    "significant": false
+   }
+  ],
   "paires": [],
   "items_emblem": [],
-  "items_craftable": [],
-  "items_radiant": [],
+  "items_craftable": [
+   {
+    "key": [
+     "DA_SpearOfShojin-1"
+    ],
+    "label": "Spear Of Shojin",
+    "n": 45,
+    "share": 0.4787234042553192,
+    "avg_place": 1.956,
+    "sd": 0.988,
+    "win": 0.4222,
+    "top2": 0.7111,
+    "top4": 1.0,
+    "top4_ci": [
+     0.9213,
+     1.0
+    ],
+    "d_avg": -0.023,
+    "d_avg_ci": [
+     -0.405,
+     0.359
+    ],
+    "d_top4": 0.0319,
+    "d_win": -0.0246,
+    "shrunk_avg": 1.965,
+    "score": -0.014,
+    "d_avg_pess": 0.0,
+    "impact": 0.0067,
+    "z": -0.12,
+    "p": 0.90537,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_VoidStaff-1"
+    ],
+    "label": "Void Staff",
+    "n": 45,
+    "share": 0.4787234042553192,
+    "avg_place": 2.022,
+    "sd": 1.308,
+    "win": 0.4222,
+    "top2": 0.7556,
+    "top4": 0.9778,
+    "top4_ci": [
+     0.8843,
+     0.9961
+    ],
+    "d_avg": 0.043,
+    "d_avg_ci": [
+     -0.413,
+     0.5
+    ],
+    "d_top4": 0.0097,
+    "d_win": -0.0246,
+    "shrunk_avg": 2.005,
+    "score": 0.026,
+    "d_avg_pess": 0.0,
+    "impact": -0.0125,
+    "z": 0.19,
+    "p": 0.85193,
+    "significant": false
+   }
+  ],
+  "items_artifact": [],
   "etoiles": [
    {
     "key": [
      "DA_18_Zyra 2*"
     ],
     "label": "Zyra 2*",
-    "n": 65,
-    "share": 1.0317460317460319,
-    "avg_place": 1.692,
-    "sd": 0.876,
-    "win": 0.5385,
-    "top2": 0.8154,
-    "top4": 1.0,
+    "n": 96,
+    "share": 1.0212765957446808,
+    "avg_place": 1.99,
+    "sd": 1.229,
+    "win": 0.4375,
+    "top2": 0.75,
+    "top4": 0.9688,
     "top4_ci": [
-     0.9442,
-     1.0
+     0.9121,
+     0.9893
     ],
-    "d_avg": 0.026,
+    "d_avg": 0.011,
     "d_avg_ci": [
-     -0.277,
-     0.329
+     -0.34,
+     0.362
     ],
-    "d_top4": 0.0,
-    "d_win": -0.0171,
-    "shrunk_avg": 1.684,
-    "score": 0.018,
+    "d_top4": 0.0007,
+    "d_win": -0.0093,
+    "shrunk_avg": 1.987,
+    "score": 0.008,
     "d_avg_pess": 0.0,
-    "impact": -0.0181,
-    "z": 0.17,
-    "p": 0.86825,
+    "impact": -0.0085,
+    "z": 0.06,
+    "p": 0.95161,
     "significant": false
    }
   ],
   "unites_flex": [
    {
     "key": [
+     "DA_18_Yorick"
+    ],
+    "label": "Yorick",
+    "n": 51,
+    "share": 0.5425531914893617,
+    "avg_place": 1.863,
+    "sd": 1.428,
+    "win": 0.5882,
+    "top2": 0.8039,
+    "top4": 0.9608,
+    "top4_ci": [
+     0.8678,
+     0.9892
+    ],
+    "d_avg": -0.116,
+    "d_avg_ci": [
+     -0.581,
+     0.349
+    ],
+    "d_top4": -0.0073,
+    "d_win": 0.1414,
+    "shrunk_avg": 1.906,
+    "score": -0.073,
+    "d_avg_pess": 0.0,
+    "impact": 0.0396,
+    "z": -0.49,
+    "p": 0.62497,
+    "significant": false
+   },
+   {
+    "key": [
      "DA_Fiddlesticks18"
     ],
     "label": "Fiddlesticks",
-    "n": 41,
-    "share": 0.6507936507936508,
-    "avg_place": 1.537,
-    "sd": 0.799,
-    "win": 0.6341,
-    "top2": 0.8537,
-    "top4": 1.0,
+    "n": 57,
+    "share": 0.6063829787234043,
+    "avg_place": 1.947,
+    "sd": 1.33,
+    "win": 0.5088,
+    "top2": 0.7544,
+    "top4": 0.9649,
     "top4_ci": [
-     0.9143,
-     1.0
+     0.8808,
+     0.9903
     ],
-    "d_avg": -0.13,
+    "d_avg": -0.031,
     "d_avg_ci": [
-     -0.456,
-     0.196
+     -0.458,
+     0.395
     ],
-    "d_top4": 0.0,
-    "d_win": 0.0786,
-    "shrunk_avg": 1.592,
-    "score": -0.075,
+    "d_top4": -0.0032,
+    "d_win": 0.062,
+    "shrunk_avg": 1.958,
+    "score": -0.021,
     "d_avg_pess": 0.0,
-    "impact": 0.0489,
-    "z": -0.78,
-    "p": 0.43427,
+    "impact": 0.0125,
+    "z": -0.14,
+    "p": 0.8854,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Azir"
+    ],
+    "label": "Azir",
+    "n": 45,
+    "share": 0.4787234042553192,
+    "avg_place": 2.156,
+    "sd": 1.333,
+    "win": 0.3556,
+    "top2": 0.7111,
+    "top4": 0.9556,
+    "top4_ci": [
+     0.8517,
+     0.9877
+    ],
+    "d_avg": 0.177,
+    "d_avg_ci": [
+     -0.286,
+     0.64
+    ],
+    "d_top4": -0.0125,
+    "d_win": -0.0913,
+    "shrunk_avg": 2.085,
+    "score": 0.106,
+    "d_avg_pess": 0.0,
+    "impact": -0.0508,
+    "z": 0.75,
+    "p": 0.45392,
     "significant": false
    }
   ],
-  "traits_flex": []
+  "traits_flex": [
+   {
+    "key": [
+     "DA_18_Spellweaver_1"
+    ],
+    "label": "Spellweaver",
+    "n": 51,
+    "share": 0.5425531914893617,
+    "avg_place": 1.804,
+    "sd": 1.048,
+    "win": 0.5294,
+    "top2": 0.7843,
+    "top4": 0.9804,
+    "top4_ci": [
+     0.897,
+     0.9965
+    ],
+    "d_avg": -0.175,
+    "d_avg_ci": [
+     -0.556,
+     0.206
+    ],
+    "d_top4": 0.0123,
+    "d_win": 0.0826,
+    "shrunk_avg": 1.869,
+    "score": -0.11,
+    "d_avg_pess": 0.0,
+    "impact": 0.0597,
+    "z": -0.9,
+    "p": 0.36884,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Defender_1"
+    ],
+    "label": "Defender",
+    "n": 41,
+    "share": 0.43617021276595747,
+    "avg_place": 1.805,
+    "sd": 1.041,
+    "win": 0.5122,
+    "top2": 0.8049,
+    "top4": 0.9756,
+    "top4_ci": [
+     0.874,
+     0.9957
+    ],
+    "d_avg": -0.174,
+    "d_avg_ci": [
+     -0.579,
+     0.231
+    ],
+    "d_top4": 0.0075,
+    "d_win": 0.0654,
+    "shrunk_avg": 1.878,
+    "score": -0.1,
+    "d_avg_pess": 0.0,
+    "impact": 0.0438,
+    "z": -0.84,
+    "p": 0.40034,
+    "significant": false
+   },
+   {
+    "key": [
+     "DA_18_Summoner_1"
+    ],
+    "label": "Summoner",
+    "n": 56,
+    "share": 0.5957446808510638,
+    "avg_place": 2.054,
+    "sd": 1.14,
+    "win": 0.4107,
+    "top2": 0.6964,
+    "top4": 0.9821,
+    "top4_ci": [
+     0.9055,
+     0.9968
+    ],
+    "d_avg": 0.075,
+    "d_avg_ci": [
+     -0.315,
+     0.464
+    ],
+    "d_top4": 0.0141,
+    "d_win": -0.0361,
+    "shrunk_avg": 2.027,
+    "score": 0.049,
+    "d_avg_pess": 0.0,
+    "impact": -0.029,
+    "z": 0.38,
+    "p": 0.70654,
+    "significant": false
+   }
+  ]
  },
  "meta": {
-  "games": 63,
-  "share_of_meta": 0.03340402969247084,
-  "avg_place": 1.667,
-  "win": 0.5556,
-  "top4": 1.0,
+  "games": 94,
+  "share_of_meta": 0.02542602109818772,
+  "avg_place": 1.979,
+  "win": 0.4468,
+  "top4": 0.9681,
   "top4_ci": [
-   0.9425,
-   1.0
+   0.9103,
+   0.9891
   ],
   "prior_games": 30
  }
