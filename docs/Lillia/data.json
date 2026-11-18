@@ -5,155 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [],
-  "items_artifact": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Lillia 2*"
-    ],
-    "label": "Lillia 2*",
-    "n": 95,
-    "share": 1.0,
-    "avg_place": 2.042,
-    "sd": 1.123,
-    "win": 0.3895,
-    "top2": 0.7263,
-    "top4": 0.9579,
-    "top4_ci": [
-     0.8967,
-     0.9835
-    ],
-    "d_avg": 0.0,
-    "d_avg_ci": [
-     -0.319,
-     0.319
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0,
-    "shrunk_avg": 2.042,
-    "score": 0.0,
-    "d_avg_pess": 0.0,
-    "impact": -0.0,
-    "z": 0.0,
-    "p": 1.0,
-    "significant": false
-   }
-  ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_18_Rakan"
-    ],
-    "label": "Rakan",
-    "n": 44,
-    "share": 0.4631578947368421,
-    "avg_place": 2.114,
-    "sd": 1.092,
-    "win": 0.3409,
-    "top2": 0.7045,
-    "top4": 0.9545,
-    "top4_ci": [
-     0.8486,
-     0.9874
-    ],
-    "d_avg": 0.072,
-    "d_avg_ci": [
-     -0.322,
-     0.465
-    ],
-    "d_top4": -0.0033,
-    "d_win": -0.0486,
-    "shrunk_avg": 2.085,
-    "score": 0.043,
-    "d_avg_pess": 0.0,
-    "impact": -0.0197,
-    "z": 0.36,
-    "p": 0.7218,
-    "significant": false
-   }
-  ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_18_Fae_1"
-    ],
-    "label": "Fae",
-    "n": 44,
-    "share": 0.4631578947368421,
-    "avg_place": 1.773,
-    "sd": 0.849,
-    "win": 0.4773,
-    "top2": 0.7727,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9197,
-     1.0
-    ],
-    "d_avg": -0.269,
-    "d_avg_ci": [
-     -0.607,
-     0.068
-    ],
-    "d_top4": 0.0421,
-    "d_win": 0.0878,
-    "shrunk_avg": 1.882,
-    "score": -0.16,
-    "d_avg_pess": 0.0,
-    "impact": 0.0742,
-    "z": -1.56,
-    "p": 0.11782,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_18_Defender_1"
-    ],
-    "label": "Defender",
-    "n": 68,
-    "share": 0.7157894736842105,
-    "avg_place": 1.897,
-    "sd": 0.926,
-    "win": 0.4265,
-    "top2": 0.7353,
-    "top4": 1.0,
-    "top4_ci": [
-     0.9465,
-     1.0
-    ],
-    "d_avg": -0.145,
-    "d_avg_ci": [
-     -0.46,
-     0.17
-    ],
-    "d_top4": 0.0421,
-    "d_win": 0.037,
-    "shrunk_avg": 1.941,
-    "score": -0.101,
-    "d_avg_pess": 0.0,
-    "impact": 0.072,
-    "z": -0.9,
-    "p": 0.36727,
-    "significant": false
-   }
+ "tables": {},
+ "meta": {
+  "games": 0,
+  "share_of_meta": 0.0,
+  "avg_place": NaN,
+  "win": 0.0,
+  "top4": 0.0,
+  "top4_ci": [
+   0.0,
+   1.0
   ]
  },
- "meta": {
-  "games": 95,
-  "share_of_meta": 0.025696510684338654,
-  "avg_place": 2.042,
-  "win": 0.3895,
-  "top4": 0.9579,
-  "top4_ci": [
-   0.8967,
-   0.9835
-  ],
-  "prior_games": 30
- }
+ "error": "echantillon insuffisant (0 parties)"
 }

@@ -5,156 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [
-   {
-    "key": [
-     "DA_GargoyleStoneplate"
-    ],
-    "label": "Gargoyle Stoneplate",
-    "n": 53,
-    "share": 0.7794117647058824,
-    "avg_place": 1.868,
-    "sd": 1.244,
-    "win": 0.4906,
-    "top2": 0.7925,
-    "top4": 0.9623,
-    "top4_ci": [
-     0.8725,
-     0.9896
-    ],
-    "d_avg": -0.088,
-    "d_avg_ci": [
-     -0.521,
-     0.345
-    ],
-    "d_top4": -0.0083,
-    "d_win": 0.0788,
-    "shrunk_avg": 1.9,
-    "score": -0.056,
-    "d_avg_pess": 0.0,
-    "impact": 0.0438,
-    "z": -0.4,
-    "p": 0.69072,
-    "significant": false
-   }
-  ],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [
-   {
-    "key": [
-     "DA_GargoyleStoneplate-1"
-    ],
-    "label": "Gargoyle Stoneplate",
-    "n": 53,
-    "share": 0.7794117647058824,
-    "avg_place": 1.868,
-    "sd": 1.244,
-    "win": 0.4906,
-    "top2": 0.7925,
-    "top4": 0.9623,
-    "top4_ci": [
-     0.8725,
-     0.9896
-    ],
-    "d_avg": -0.088,
-    "d_avg_ci": [
-     -0.521,
-     0.345
-    ],
-    "d_top4": -0.0083,
-    "d_win": 0.0788,
-    "shrunk_avg": 1.9,
-    "score": -0.056,
-    "d_avg_pess": 0.0,
-    "impact": 0.0438,
-    "z": -0.4,
-    "p": 0.69072,
-    "significant": false
-   }
-  ],
-  "items_artifact": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Malphite 2*"
-    ],
-    "label": "Malphite 2*",
-    "n": 69,
-    "share": 1.0147058823529411,
-    "avg_place": 1.942,
-    "sd": 1.153,
-    "win": 0.4203,
-    "top2": 0.7536,
-    "top4": 0.971,
-    "top4_ci": [
-     0.9003,
-     0.992
-    ],
-    "d_avg": -0.014,
-    "d_avg_ci": [
-     -0.401,
-     0.373
-    ],
-    "d_top4": 0.0004,
-    "d_win": 0.0085,
-    "shrunk_avg": 1.946,
-    "score": -0.01,
-    "d_avg_pess": 0.0,
-    "impact": 0.0098,
-    "z": -0.07,
-    "p": 0.94402,
-    "significant": false
-   }
-  ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_18_Azir"
-    ],
-    "label": "Azir",
-    "n": 48,
-    "share": 0.7058823529411765,
-    "avg_place": 1.896,
-    "sd": 1.246,
-    "win": 0.4583,
-    "top2": 0.7917,
-    "top4": 0.9583,
-    "top4_ci": [
-     0.8602,
-     0.9885
-    ],
-    "d_avg": -0.06,
-    "d_avg_ci": [
-     -0.507,
-     0.387
-    ],
-    "d_top4": -0.0123,
-    "d_win": 0.0466,
-    "shrunk_avg": 1.919,
-    "score": -0.037,
-    "d_avg_pess": 0.0,
-    "impact": 0.0261,
-    "z": -0.26,
-    "p": 0.79225,
-    "significant": false
-   }
-  ],
-  "traits_flex": []
- },
+ "tables": {},
  "meta": {
-  "games": 68,
-  "share_of_meta": 0.018393291858263456,
-  "avg_place": 1.956,
-  "win": 0.4118,
-  "top4": 0.9706,
+  "games": 1,
+  "share_of_meta": 2.055549160513723e-06,
+  "avg_place": 1.0,
+  "win": 1.0,
+  "top4": 1.0,
   "top4_ci": [
-   0.899,
-   0.9919
-  ],
-  "prior_games": 30
- }
+   0.2065,
+   1.0
+  ]
+ },
+ "error": "echantillon insuffisant (1 parties)"
 }

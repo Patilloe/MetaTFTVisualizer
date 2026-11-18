@@ -1,4 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Spirit Visage,64,0.4507042253521127,1.938,1.969,-0.067,-0.098,0.0,0.03,0.0165,0.4531,0.7344,0.9531,1.088,-0.58,0.56309,False
-populaire,Warmogs Armor,61,0.4295774647887324,2.0,2.012,-0.024,-0.035,0.0,0.0101,-0.0022,0.4754,0.7213,0.9344,1.241,-0.19,0.85138,False
-populaire,Gargoyle Stoneplate,86,0.6056338028169014,2.081,2.069,0.034,0.046,0.0,-0.0207,-0.018,0.407,0.7326,0.9186,1.241,0.28,0.78241,False

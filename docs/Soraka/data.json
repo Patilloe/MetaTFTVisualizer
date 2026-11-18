@@ -5,156 +5,17 @@
  "set": "18-pbe",
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
- "tables": {
-  "builds": [],
-  "builds_partiels": [],
-  "item_lift": [],
-  "paires": [],
-  "items_emblem": [],
-  "items_craftable": [],
-  "items_radiant": [],
-  "items_artifact": [],
-  "etoiles": [
-   {
-    "key": [
-     "DA_18_Soraka 2*"
-    ],
-    "label": "Soraka 2*",
-    "n": 83,
-    "share": 1.0,
-    "avg_place": 1.904,
-    "sd": 1.286,
-    "win": 0.506,
-    "top2": 0.7952,
-    "top4": 0.9398,
-    "top4_ci": [
-     0.8666,
-     0.974
-    ],
-    "d_avg": 0.0,
-    "d_avg_ci": [
-     -0.391,
-     0.391
-    ],
-    "d_top4": 0.0,
-    "d_win": 0.0,
-    "shrunk_avg": 1.904,
-    "score": 0.0,
-    "d_avg_pess": 0.0,
-    "impact": -0.0,
-    "z": 0.0,
-    "p": 1.0,
-    "significant": false
-   }
-  ],
-  "unites_flex": [
-   {
-    "key": [
-     "DA_18_Kennen"
-    ],
-    "label": "Kennen",
-    "n": 41,
-    "share": 0.4939759036144578,
-    "avg_place": 1.585,
-    "sd": 1.287,
-    "win": 0.6829,
-    "top2": 0.9024,
-    "top4": 0.9512,
-    "top4_ci": [
-     0.8386,
-     0.9865
-    ],
-    "d_avg": -0.318,
-    "d_avg_ci": [
-     -0.8,
-     0.163
-    ],
-    "d_top4": 0.0115,
-    "d_win": 0.1769,
-    "shrunk_avg": 1.72,
-    "score": -0.184,
-    "d_avg_pess": 0.0,
-    "impact": 0.0908,
-    "z": -1.3,
-    "p": 0.19513,
-    "significant": false
-   },
-   {
-    "key": [
-     "DA_Fiddlesticks18"
-    ],
-    "label": "Fiddlesticks",
-    "n": 60,
-    "share": 0.7228915662650602,
-    "avg_place": 1.983,
-    "sd": 1.36,
-    "win": 0.4833,
-    "top2": 0.7667,
-    "top4": 0.9333,
-    "top4_ci": [
-     0.8407,
-     0.9738
-    ],
-    "d_avg": 0.08,
-    "d_avg_ci": [
-     -0.362,
-     0.521
-    ],
-    "d_top4": -0.0064,
-    "d_win": -0.0227,
-    "shrunk_avg": 1.957,
-    "score": 0.053,
-    "d_avg_pess": 0.0,
-    "impact": -0.0384,
-    "z": 0.35,
-    "p": 0.72343,
-    "significant": false
-   }
-  ],
-  "traits_flex": [
-   {
-    "key": [
-     "DA_FloraFatalis18_2"
-    ],
-    "label": "Flora Fatalis",
-    "n": 63,
-    "share": 0.7590361445783133,
-    "avg_place": 1.921,
-    "sd": 1.337,
-    "win": 0.5079,
-    "top2": 0.7937,
-    "top4": 0.9365,
-    "top4_ci": [
-     0.8478,
-     0.975
-    ],
-    "d_avg": 0.017,
-    "d_avg_ci": [
-     -0.414,
-     0.448
-    ],
-    "d_top4": -0.0033,
-    "d_win": 0.0019,
-    "shrunk_avg": 1.915,
-    "score": 0.012,
-    "d_avg_pess": 0.0,
-    "impact": -0.0088,
-    "z": 0.08,
-    "p": 0.93826,
-    "significant": false
-   }
+ "tables": {},
+ "meta": {
+  "games": 0,
+  "share_of_meta": 0.0,
+  "avg_place": NaN,
+  "win": 0.0,
+  "top4": 0.0,
+  "top4_ci": [
+   0.0,
+   1.0
   ]
  },
- "meta": {
-  "games": 83,
-  "share_of_meta": 0.022450635650527455,
-  "avg_place": 1.904,
-  "win": 0.506,
-  "top4": 0.9398,
-  "top4_ci": [
-   0.8666,
-   0.974
-  ],
-  "prior_games": 30
- }
+ "error": "echantillon insuffisant (0 parties)"
 }

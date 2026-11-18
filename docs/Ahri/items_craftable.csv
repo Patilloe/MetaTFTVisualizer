@@ -1,3 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Spear Of Shojin,78,0.5342465753424658,1.833,1.921,-0.229,-0.317,-0.003,0.1224,0.036,0.4744,0.7949,0.9744,1.031,-1.98,0.04797,True
-populaire,Jeweled Gauntlet,105,0.7191780821917808,2.267,2.241,0.09,0.116,0.0,-0.0649,-0.0145,0.381,0.6381,0.9238,1.436,0.65,0.51528,False
