@@ -1,8 +1,58 @@
 {
- "generated_at": "2026-11-20T14:52:21Z",
+ "generated_at": "2026-11-21T14:11:38Z",
  "meta": {
   "set_label": "",
   "site_dir": "site"
  },
- "comps": {}
+ "comps": {
+  "Aphelios": {
+   "champ": "DA_18_Aphelios",
+   "games": 2149,
+   "avg_place": 2.901,
+   "top4": 0.852,
+   "win": 0.1754
+  },
+  "Nidalee A P": {
+   "champ": "DA_Nidalee18_AP",
+   "games": 1635,
+   "avg_place": 2.987,
+   "top4": 0.789,
+   "win": 0.2465
+  },
+  "Ahri": {
+   "champ": "DA_18_Ahri",
+   "games": 4554,
+   "avg_place": 3.635,
+   "top4": 0.6757,
+   "win": 0.1585
+  },
+  "Amumu": {
+   "champ": "DA_Amumu18",
+   "games": 685,
+   "avg_place": 5.235,
+   "top4": 0.3547,
+   "win": 0.0336
+  },
+  "Sett": {
+   "champ": "DA_18_Sett",
+   "games": 426,
+   "avg_place": 5.826,
+   "top4": 0.2441,
+   "win": 0.0141
+  },
+  "Ezreal": {
+   "champ": "DA_18_Ezreal",
+   "games": 443,
+   "avg_place": 5.828,
+   "top4": 0.2122,
+   "win": 0.0181
+  },
+  "Lillia": {
+   "champ": "DA_18_Lillia",
+   "games": 324,
+   "avg_place": 6.139,
+   "top4": 0.1883,
+   "win": 0.037
+  }
+ }
 }
