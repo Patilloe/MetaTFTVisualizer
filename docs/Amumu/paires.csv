@@ -1,0 +1,9 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Evenshroud + Gargoyle Stoneplate,59,0.08613138686131387,4.729,4.899,-0.336,-0.506,-0.014,0.0289,0.1029,0.0678,0.1356,0.4576,1.849,-2.02,0.04388,False
+populaire,Gargoyle Stoneplate + Sunfire Cape,68,0.09927007299270073,4.926,5.021,-0.214,-0.309,0.0,0.0213,0.0423,0.0735,0.1618,0.3971,2.039,-1.2,0.23074,False
+populaire,Gargoyle Stoneplate + Warmogs Armor,175,0.25547445255474455,5.08,5.103,-0.132,-0.155,0.0,0.0338,0.0281,0.0629,0.12,0.3829,1.967,-0.94,0.34782,False
+populaire,Gargoyle Stoneplate + Spirit Visage,151,0.22043795620437956,5.106,5.127,-0.108,-0.129,0.0,0.0237,0.0426,0.0199,0.106,0.3974,1.849,-0.77,0.43895,False
+populaire,Spirit Visage + Warmogs Armor,57,0.08321167883211679,5.088,5.139,-0.097,-0.147,0.0,0.008,-0.0039,0.0526,0.1228,0.3509,1.904,-0.56,0.57421,False
+populaire,Gargoyle Stoneplate + Steadfast Heart,46,0.06715328467153285,5.261,5.251,0.016,0.026,0.0,-0.001,-0.0721,0.0652,0.087,0.2826,1.95,0.09,0.93053,False
+populaire,Gargoyle Stoneplate + Protectors Vow,41,0.059854014598540145,5.317,5.282,0.047,0.082,0.0,-0.0028,-0.0621,0.0488,0.1463,0.2927,2.042,0.25,0.80181,False
+populaire,Crownguard + Gargoyle Stoneplate,50,0.072992700729927,5.4,5.338,0.103,0.165,0.0,-0.0075,-0.0947,0.02,0.08,0.26,1.709,0.65,0.51293,False

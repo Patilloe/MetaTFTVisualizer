@@ -1,0 +1,2 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Gold Collector,53,0.024662633783154957,2.925,2.914,0.013,0.023,0.0,-0.0003,0.0348,0.1509,0.4151,0.8868,1.33,0.13,0.90049,False

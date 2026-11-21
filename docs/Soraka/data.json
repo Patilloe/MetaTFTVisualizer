@@ -6,16 +6,5 @@
  "set_label": "Set 18 - Enchanted Wilds (PBE)",
  "warnings": [],
  "tables": {},
- "meta": {
-  "games": 1,
-  "share_of_meta": 5.994402427013654e-07,
-  "avg_place": 2.0,
-  "win": 0.0,
-  "top4": 1.0,
-  "top4_ci": [
-   0.2065,
-   1.0
-  ]
- },
- "error": "echantillon insuffisant (1 parties)"
+ "error": "comp incompatible avec Set 18 - Enchanted Wilds (PBE) — carry absent (DA_18_Soraka) | filtres introuvables dans le set: unit:DA_18_Soraka"
 }

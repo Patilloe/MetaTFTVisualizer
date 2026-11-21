@@ -1,0 +1,19 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,189,0.041501976284584984,3.386,3.467,-0.168,-0.249,0.0,0.007,0.028,0.1587,0.3704,0.7037,1.738,-1.92,0.05468,False
+populaire,Jeweled Gauntlet + Spear Of Shojin + Void Staff,295,0.06477821695213,3.417,3.469,-0.167,-0.219,0.0,0.0108,0.0531,0.1898,0.3831,0.7288,1.894,-1.92,0.05529,False
+populaire,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,167,0.03667105841018885,3.389,3.476,-0.159,-0.246,0.0,0.0058,0.0549,0.2275,0.4072,0.7305,2.029,-1.54,0.12308,False
+populaire,Jeweled Gauntlet + Nashors Tooth + Strikers Flail,85,0.018664909969257796,3.353,3.499,-0.136,-0.283,0.0,0.0025,0.0655,0.2353,0.3529,0.7412,1.896,-1.36,0.17362,False
+populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,360,0.07905138339920949,3.481,3.512,-0.124,-0.155,0.0,0.0098,0.0493,0.1833,0.3528,0.725,1.934,-1.46,0.14379,False
+populaire,Blue Buff + Jeweled Gauntlet + Strikers Flail,102,0.022397891963109356,3.461,3.543,-0.092,-0.175,0.0,0.0021,0.0106,0.1961,0.3333,0.6863,1.866,-0.93,0.35041,False
+pepite,Blue Buff + Jeweled Gauntlet + Nashors Tooth,76,0.01668862538427756,3.434,3.544,-0.092,-0.201,0.0,0.0015,0.0612,0.1974,0.3553,0.7368,1.989,-0.88,0.38153,False
+pepite,Blue Buff + Giant Slayer + Jeweled Gauntlet,52,0.011418533157663592,3.404,3.551,-0.084,-0.232,0.0,0.001,0.0359,0.1346,0.3077,0.7115,1.608,-1.03,0.3031,False
+populaire,Archangels Staff + Jeweled Gauntlet + Spear Of Shojin,86,0.018884497145366712,3.523,3.581,-0.055,-0.112,0.0,0.001,-0.0013,0.1744,0.3721,0.6744,1.993,-0.52,0.60474,False
+pepite,Archangels Staff + Blue Buff + Jeweled Gauntlet,40,0.00878348704435661,3.475,3.587,-0.049,-0.16,0.0,0.0004,0.0243,0.2,0.35,0.7,1.91,-0.53,0.5969,False
+populaire,Giant Slayer + Jeweled Gauntlet + Spear Of Shojin,86,0.018884497145366712,3.628,3.632,-0.004,-0.008,0.0,0.0001,0.022,0.1628,0.2907,0.6977,1.856,-0.04,0.9701,False
+pepite,Hextech Gunblade + Jeweled Gauntlet + Spear Of Shojin,54,0.011857707509881422,3.63,3.633,-0.002,-0.006,0.0,0.0,0.0095,0.1481,0.3333,0.6852,1.898,-0.02,0.98203,False
+populaire,Blue Buff + Jeweled Gauntlet + Void Staff,89,0.019543258673693456,3.652,3.643,0.008,0.016,0.0,-0.0002,-0.0127,0.1461,0.4045,0.6629,2.105,0.07,0.9426,False
+,Blue Buff + Hextech Gunblade + Jeweled Gauntlet,46,0.010101010101010102,3.783,3.685,0.049,0.147,0.0,-0.0005,0.02,0.1304,0.2174,0.6957,1.706,0.58,0.56115,False
+,Jeweled Gauntlet + Nashors Tooth + Void Staff,52,0.011418533157663592,3.788,3.691,0.056,0.153,0.0,-0.0006,-0.0026,0.1154,0.3654,0.6731,1.974,0.56,0.57846,False
+,Jeweled Gauntlet + Nashors Tooth + Rabadons Deathcap,54,0.011857707509881422,3.852,3.716,0.081,0.216,0.0,-0.001,-0.0275,0.0741,0.2593,0.6481,1.83,0.86,0.38813,False
+,Jeweled Gauntlet + Nashors Tooth + Nashors Tooth,79,0.017347386912604304,3.835,3.728,0.093,0.2,0.0,-0.0016,-0.0174,0.1013,0.3165,0.6582,1.906,0.92,0.35539,False
+populaire,Blue Buff + Jeweled Gauntlet + Rabadons Deathcap,108,0.023715415019762844,4.056,3.863,0.228,0.42,0.064,-0.0054,-0.0183,0.0833,0.2037,0.6574,1.865,2.31,0.02086,False

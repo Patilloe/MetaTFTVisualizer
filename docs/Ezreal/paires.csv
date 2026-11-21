@@ -1,0 +1,4 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Infinity Edge + Spear Of Shojin,64,0.14446952595936793,5.562,5.647,-0.181,-0.266,0.0,0.0262,0.0378,0.0469,0.0938,0.25,1.944,-1.03,0.30091,False
+populaire,Guinsoos Rageblade + Krakens Fury,48,0.10835214446952596,6.125,6.011,0.182,0.297,0.0,-0.0198,-0.0455,0.0,0.0208,0.1667,1.563,1.23,0.21801,False
+populaire,Guinsoos Rageblade + Infinity Edge,92,0.2076749435665914,6.391,6.253,0.424,0.563,0.22,-0.0881,-0.1144,0.0109,0.0217,0.0978,1.474,3.21,0.00131,True
