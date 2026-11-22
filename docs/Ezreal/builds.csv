@@ -1,0 +1,6 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Infinity Edge + Last Whisper + Spear Of Shojin,57,0.02174742464708127,5.895,5.885,0.01,0.019,0.0,-0.0002,-0.0104,0.0,0.0526,0.2105,1.764,0.08,0.93424,False
+populaire,Guinsoos Rageblade + Infinity Edge + Spear Of Shojin,53,0.020221289584128194,6.094,5.985,0.11,0.219,0.0,-0.0022,-0.0511,0.0189,0.0189,0.1698,1.569,1.0,0.31587,False
+populaire,Guinsoos Rageblade + Infinity Edge + Last Whisper,48,0.018313620755436855,6.375,6.114,0.239,0.5,0.158,-0.0044,-0.1376,0.0,0.0,0.0833,1.184,2.86,0.00418,True
+populaire,Infinity Edge + Spear Of Shojin + Strikers Flail,83,0.03166730255627623,6.386,6.188,0.313,0.51,0.173,-0.0099,-0.1125,0.012,0.0361,0.1084,1.535,2.96,0.00304,True
+populaire,Guinsoos Rageblade + Infinity Edge + Krakens Fury,112,0.042731781762686,6.625,6.386,0.511,0.75,0.511,-0.0218,-0.1673,0.0,0.0089,0.0536,1.233,6.16,0.0,True

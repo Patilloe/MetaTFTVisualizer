@@ -1,0 +1,4 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Bodyguard Emblem,59,0.02741635687732342,5.0,5.324,-0.444,-0.768,-0.294,0.0122,0.1765,0.0,0.0678,0.4237,1.832,-3.18,0.00149,True
+populaire,Manager Emblem,44,0.020446096654275093,5.727,5.747,-0.021,-0.041,0.0,0.0004,-0.0654,0.0455,0.0909,0.1818,1.899,-0.14,0.88762,False
+populaire,Juggernaut Emblem,47,0.02184014869888476,5.957,5.867,0.099,0.189,0.0,-0.0022,0.0081,0.0213,0.0851,0.2553,2.021,0.64,0.52441,False

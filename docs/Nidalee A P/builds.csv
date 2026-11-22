@@ -1,0 +1,14 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Hand Of Justice + Jeweled Gauntlet + Strikers Flail,66,0.008287292817679558,2.576,2.853,-0.115,-0.392,-0.017,0.001,0.0942,0.303,0.5303,0.8939,1.548,-2.05,0.04063,True
+pepite,Jeweled Gauntlet + Nashors Tooth + Rabadons Deathcap,45,0.005650426921145153,2.556,2.877,-0.091,-0.412,0.0,0.0005,0.0669,0.3778,0.5778,0.8667,1.82,-1.52,0.12959,False
+pepite,Jeweled Gauntlet + Nashors Tooth + Strikers Flail,44,0.0055248618784530384,2.909,2.955,-0.013,-0.059,0.0,0.0001,0.0412,0.2045,0.4545,0.8409,1.593,-0.24,0.80693,False
+populaire,Giant Slayer + Hand Of Justice + Jeweled Gauntlet,53,0.006654947262682069,2.962,2.967,-0.001,-0.006,0.0,0.0,-0.0261,0.2453,0.4906,0.7736,1.682,-0.02,0.98033,False
+populaire,Hand Of Justice + Jeweled Gauntlet + Rabadons Deathcap,61,0.007659467604218985,3.18,3.027,0.059,0.212,0.0,-0.0005,-0.0292,0.1803,0.4262,0.7705,1.684,0.98,0.32682,False
+populaire,Hand Of Justice + Jeweled Gauntlet + Nashors Tooth,49,0.006152687091913611,3.245,3.033,0.065,0.277,0.0,-0.0004,-0.1263,0.2041,0.4694,0.6735,1.933,1.0,0.31719,False
+populaire,Jeweled Gauntlet + Rabadons Deathcap + Spear Of Shojin,68,0.008538422903063787,3.279,3.061,0.093,0.311,0.0,-0.0008,-0.035,0.2206,0.3971,0.7647,1.924,1.33,0.18353,False
+populaire,Giant Slayer + Jeweled Gauntlet + Spear Of Shojin,52,0.0065293822199899544,3.404,3.075,0.107,0.436,0.0,-0.0007,-0.0305,0.1346,0.3462,0.7692,1.724,1.82,0.06923,False
+populaire,Hand Of Justice + Jeweled Gauntlet + Quicksilver,50,0.006278252134605726,3.5,3.095,0.127,0.532,0.046,-0.0008,-0.0397,0.14,0.28,0.76,1.746,2.15,0.03179,True
+populaire,Hand Of Justice + Jeweled Gauntlet + Spear Of Shojin,62,0.0077850326469111,3.468,3.108,0.14,0.5,0.089,-0.0011,-0.0739,0.0806,0.3548,0.7258,1.643,2.38,0.01714,True
+,Jeweled Gauntlet + Nashors Tooth + Spear Of Shojin,47,0.005901557006529382,3.596,3.111,0.143,0.628,0.026,-0.0008,-0.0976,0.1702,0.383,0.7021,2.1,2.04,0.04088,True
+populaire,Jeweled Gauntlet + Spear Of Shojin + Strikers Flail,57,0.007157207433450528,3.544,3.12,0.152,0.576,0.011,-0.0011,-0.0804,0.2105,0.4035,0.7193,2.169,2.0,0.04553,True
+populaire,Edge Of Night + Hand Of Justice + Jeweled Gauntlet,72,0.009040683073832245,3.514,3.138,0.17,0.546,0.059,-0.0015,-0.1331,0.1944,0.4444,0.6667,2.102,2.2,0.02802,True
