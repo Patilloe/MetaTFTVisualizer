@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Sett 2*,2163,1.0051115241635689,5.768,5.768,0.0,0.0,0.0,-0.0003,-0.0003,0.0199,0.0573,0.2469,1.841,0.0,0.99638,False
+populaire,Sett 2*,4108,1.0071095856827654,5.734,5.734,0.002,0.002,0.0,-0.0024,-0.0006,0.0246,0.0674,0.2551,1.887,0.06,0.95448,False

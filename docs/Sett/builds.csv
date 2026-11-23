@@ -1,3 +1,12 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,102,0.047397769516728624,5.471,5.559,-0.209,-0.298,0.0,0.0099,0.0273,0.0196,0.0882,0.2745,1.851,-1.59,0.11258,False
-populaire,Gargoyle Stoneplate + Sunfire Cape + Warmogs Armor,48,0.022304832713754646,5.917,5.846,0.078,0.149,0.0,-0.0017,-0.0805,0.0208,0.0208,0.1667,1.566,0.65,0.51739,False
+populaire,Gargoyle Stoneplate + Spirit Visage + Warmogs Armor,197,0.048296151017406225,5.421,5.512,-0.219,-0.31,-0.048,0.0106,0.0286,0.0254,0.0863,0.2843,1.83,-2.32,0.02034,False
+pepite,Gargoyle Stoneplate + Warmogs Armor + Warmogs Armor,41,0.0100514832066683,5.122,5.528,-0.204,-0.61,0.0,0.002,0.1345,0.0732,0.1463,0.3902,2.144,-1.81,0.06969,False
+populaire,Gargoyle Stoneplate + Steadfast Heart + Warmogs Armor,47,0.01152243196861976,5.213,5.542,-0.19,-0.519,-0.026,0.0022,0.0634,0.0,0.0851,0.3191,1.713,-2.06,0.03919,False
+populaire,Dragons Claw + Gargoyle Stoneplate + Warmogs Armor,45,0.011032115714635941,5.311,5.582,-0.149,-0.42,0.0,0.0016,0.0776,0.0667,0.1556,0.3333,2.239,-1.25,0.20962,False
+populaire,Evenshroud + Gargoyle Stoneplate + Warmogs Armor,43,0.01054179946065212,5.395,5.616,-0.116,-0.336,0.0,0.0012,0.0466,0.0698,0.0698,0.3023,1.931,-1.14,0.25588,False
+populaire,Gargoyle Stoneplate + Spirit Visage + Sunfire Cape,54,0.013238538857563127,5.481,5.632,-0.1,-0.25,0.0,0.0013,0.0591,0.0556,0.0926,0.3148,2.025,-0.9,0.36695,False
+populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Warmogs Armor,63,0.015444962000490316,5.556,5.655,-0.077,-0.176,0.0,0.0012,-0.0494,0.0,0.0794,0.2063,1.641,-0.84,0.39927,False
+populaire,Gargoyle Stoneplate + Sunfire Cape + Warmogs Armor,87,0.021328757048296152,5.736,5.734,0.002,0.004,0.0,-0.0,-0.0603,0.023,0.046,0.1954,1.678,0.02,0.98214,False
+populaire,Gargoyle Stoneplate + Protectors Vow + Warmogs Armor,45,0.011032115714635941,5.822,5.764,0.032,0.091,0.0,-0.0004,-0.0557,0.0667,0.0667,0.2,1.877,0.32,0.74729,False
+populaire,Bloodthirster + Steraks Gage + Titans Resolve,58,0.014219171365530768,6.086,5.879,0.147,0.355,0.0,-0.0021,-0.1523,0.0,0.0172,0.1034,1.43,1.87,0.06203,False
+populaire,Gargoyle Stoneplate + Gargoyle Stoneplate + Spirit Visage,48,0.01176759009561167,6.479,6.008,0.277,0.748,0.275,-0.0033,-0.1099,0.0208,0.0208,0.1458,1.658,3.1,0.00193,True
