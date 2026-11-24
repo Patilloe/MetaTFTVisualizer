@@ -1,4 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Hand Of Justice Radiant,54,0.003642004451338774,3.574,3.072,0.091,0.594,0.097,-0.0003,-0.0758,0.1481,0.3333,0.7222,1.862,2.34,0.01927,True
-populaire,Rabadons Deathcap Radiant,60,0.0040466716125986376,3.65,3.093,0.113,0.67,0.115,-0.0005,-0.1147,0.2,0.35,0.6833,2.19,2.37,0.01795,True
-populaire,Jeweled Gauntlet Radiant,101,0.00681189721454104,3.465,3.103,0.123,0.485,0.116,-0.0008,-0.1247,0.1683,0.4059,0.6733,1.886,2.58,0.00993,True

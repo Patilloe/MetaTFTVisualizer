@@ -1,2 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Moguls Mail,106,0.025986761461142437,5.594,5.654,-0.078,-0.137,0.0,0.002,0.0556,0.0283,0.066,0.3113,2.008,-0.7,0.48677,False
+populaire,Moguls Mail,42,0.034229828850855744,5.643,5.649,-0.008,-0.014,0.0,0.0003,-0.0768,0.0714,0.119,0.1905,2.01,-0.04,0.96453,False

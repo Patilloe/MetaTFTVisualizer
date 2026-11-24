@@ -1,3 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Gold Collector,115,0.02190059036374024,5.843,5.838,0.006,0.011,0.0,-0.0001,-0.0231,0.0261,0.0522,0.2087,1.762,0.06,0.94876,False
-populaire,Gamblers Blade,75,0.014282993715482766,6.253,6.008,0.175,0.421,0.072,-0.0025,-0.0984,0.0,0.0267,0.1333,1.524,2.37,0.018,True
+populaire,Gold Collector,128,0.03710144927536232,5.531,5.57,-0.071,-0.11,0.0,0.0026,0.0392,0.0156,0.0703,0.3047,1.866,-0.65,0.51305,False

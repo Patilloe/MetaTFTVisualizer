@@ -1,0 +1,4 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Emblem C H A N G E M E,237,0.06552391484655792,4.814,4.911,-0.316,-0.412,-0.155,0.0207,0.0999,0.0591,0.1435,0.443,1.964,-3.14,0.00169,True
+populaire,Bodyguard Emblem,47,0.01299419408349461,5.064,5.163,-0.064,-0.163,0.0,0.0008,0.0612,0.0426,0.1277,0.4043,2.046,-0.54,0.58732,False
+populaire,Mosher Emblem,46,0.01271772186895217,5.891,5.485,0.258,0.665,0.268,-0.0033,-0.1909,0.0,0.0,0.1522,1.355,3.29,0.00101,True

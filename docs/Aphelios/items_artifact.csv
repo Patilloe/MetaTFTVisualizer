@@ -1,0 +1,4 @@
+group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
+populaire,Gold Collector,97,0.024625539477024627,2.763,2.857,-0.116,-0.209,0.0,0.0028,0.0699,0.2577,0.4433,0.9072,1.477,-1.38,0.16797,False
+populaire,Navori Flickerblade,50,0.012693577050012693,3.04,2.999,0.026,0.068,0.0,-0.0003,0.0027,0.18,0.38,0.84,1.509,0.31,0.75278,False
+populaire,Gamblers Blade,66,0.016755521706016754,3.091,3.026,0.054,0.119,0.0,-0.0009,-0.0039,0.2121,0.3939,0.8333,1.676,0.57,0.56817,False
