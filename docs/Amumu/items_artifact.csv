@@ -1,3 +1,2 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,The Indomitable,47,0.01299419408349461,5.213,5.221,-0.005,-0.014,0.0,0.0001,0.0399,0.0,0.0213,0.383,1.725,-0.05,0.95615,False
-populaire,Moguls Mail,107,0.029582526956040918,5.561,5.426,0.199,0.334,0.0,-0.0059,-0.0534,0.0187,0.0748,0.2897,1.799,1.89,0.05871,False
+populaire,Moguls Mail,91,0.037806398005816366,5.22,5.227,-0.013,-0.02,0.0,0.0005,-0.0098,0.0769,0.1209,0.3297,1.993,-0.09,0.92522,False

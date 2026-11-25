@@ -1,10 +1,8 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Blue Buff + Deathblade + Infinity Edge,108,0.03130434782608696,5.157,5.346,-0.295,-0.484,-0.113,0.0092,0.0863,0.037,0.1204,0.3519,1.94,-2.55,0.01063,True
-populaire,Blue Buff + Infinity Edge + Strikers Flail,633,0.18347826086956523,5.335,5.365,-0.276,-0.306,-0.149,0.0507,0.0441,0.0253,0.0916,0.3096,1.846,-3.83,0.00013,True
-populaire,Deathblade + Infinity Edge + Spear Of Shojin,48,0.01391304347826087,5.292,5.498,-0.143,-0.349,0.0,0.002,0.0678,0.0208,0.0833,0.3333,1.947,-1.24,0.21653,False
-populaire,Blue Buff + Giant Slayer + Infinity Edge,65,0.01884057971014493,5.354,5.502,-0.139,-0.287,0.0,0.0026,0.0883,0.0,0.0923,0.3538,1.81,-1.27,0.20507,False
-populaire,Gold Collector + Blue Buff + Infinity Edge,46,0.013333333333333334,5.326,5.515,-0.126,-0.315,0.0,0.0017,0.0823,0.0,0.087,0.3478,1.912,-1.11,0.26669,False
-populaire,Infinity Edge + Spear Of Shojin + Strikers Flail,140,0.04057971014492753,5.55,5.58,-0.061,-0.091,0.0,0.0025,-0.0084,0.0286,0.0571,0.2571,1.774,-0.59,0.5521,False
-populaire,Blue Buff + Infinity Edge + Last Whisper,104,0.030144927536231884,5.933,5.816,0.175,0.292,0.0,-0.0053,-0.0444,0.0192,0.0481,0.2212,1.836,1.59,0.11083,False
-populaire,Infinity Edge + Last Whisper + Spear Of Shojin,87,0.025217391304347827,5.989,5.835,0.194,0.347,0.0,-0.0049,-0.0931,0.0115,0.0805,0.1724,1.791,1.78,0.07432,False
-populaire,Guinsoos Rageblade + Infinity Edge + Krakens Fury,52,0.015072463768115942,6.327,5.936,0.295,0.686,0.336,-0.0044,-0.1886,0.0,0.0192,0.0769,1.267,3.84,0.00012,True
+populaire,Blue Buff + Infinity Edge + Strikers Flail,256,0.1111111111111111,6.051,6.066,-0.087,-0.103,0.0,0.0097,0.0095,0.0,0.0391,0.1836,1.649,-0.94,0.34714,False
+populaire,Blue Buff + Giant Slayer + Infinity Edge,44,0.019097222222222224,6.182,6.167,0.014,0.028,0.0,-0.0003,-0.0604,0.0227,0.0455,0.1136,1.655,0.11,0.91106,False
+populaire,Blue Buff + Deathblade + Infinity Edge,50,0.021701388888888888,6.24,6.199,0.045,0.086,0.0,-0.001,-0.034,0.0,0.04,0.14,1.668,0.36,0.71756,False
+populaire,Infinity Edge + Spear Of Shojin + Strikers Flail,102,0.044270833333333336,6.265,6.23,0.077,0.111,0.0,-0.0034,-0.0466,0.0,0.0098,0.1275,1.441,0.75,0.45098,False
+populaire,Blue Buff + Infinity Edge + Last Whisper,56,0.024305555555555556,6.607,6.402,0.249,0.453,0.058,-0.006,-0.0848,0.0,0.0357,0.0893,1.484,2.25,0.02455,True
+populaire,Guinsoos Rageblade + Infinity Edge + Spear Of Shojin,42,0.018229166666666668,6.738,6.432,0.279,0.584,0.15,-0.0051,-0.1264,0.0,0.0238,0.0476,1.415,2.64,0.00831,True
+populaire,Infinity Edge + Last Whisper + Spear Of Shojin,94,0.04079861111111111,6.681,6.507,0.354,0.527,0.211,-0.0144,-0.0783,0.0106,0.0213,0.0957,1.524,3.27,0.00109,True

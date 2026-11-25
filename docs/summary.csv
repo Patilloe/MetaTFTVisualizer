@@ -1,11 +1,11 @@
 comp,champ,games,share_of_meta,avg_place,top4,win,erreur
-Aphelios,DA_18_Aphelios,3939,0.01014,2.972,0.8373,0.1706,
-Nidalee A P,DA_Nidalee18_AP,4108,0.01058,3.147,0.7724,0.2076,
-Ahri,DA_18_Ahri,10514,0.02707,3.858,0.6294,0.1375,
-Amumu,DA_Amumu18,3617,0.00931,5.227,0.3431,0.0301,
-Ezreal,DA_18_Ezreal,3450,0.00888,5.641,0.2655,0.0212,
-Sett,DA_18_Sett,1227,0.00316,5.657,0.2673,0.0399,
-Lillia,DA_18_Lillia,684,0.00176,6.253,0.1652,0.0175,
+Aphelios,DA_18_Aphelios,3115,0.00934,2.955,0.8401,0.1865,
+Nidalee A P,DA_Nidalee18_AP,3340,0.01001,3.033,0.7802,0.2458,
+Ahri,DA_18_Ahri,8915,0.02673,3.789,0.6406,0.1482,
+Amumu,DA_Amumu18,2407,0.00722,5.24,0.3394,0.0328,
+Sett,DA_18_Sett,1036,0.00311,5.792,0.2355,0.0357,
+Ezreal,DA_18_Ezreal,2304,0.00691,6.154,0.174,0.0178,
+Lillia,DA_18_Lillia,560,0.00168,6.189,0.1839,0.0286,
 Sentinel,DA_Sentinel18,0,0,,,,comp incompatible avec Set 18 - Enchanted Wilds (PBE) — carry absent (DA_Sentinel18) | filtres introuvables dans le set: unit:DA_Sentinel18
 Soraka,DA_18_Soraka,0,0,,,,comp incompatible avec Set 18 - Enchanted Wilds (PBE) — carry absent (DA_18_Soraka) | filtres introuvables dans le set: unit:DA_18_Soraka
 Brambleback,DA_Brambleback18,0,0,,,,comp incompatible avec Set 18 - Enchanted Wilds (PBE) — carry absent (DA_Brambleback18) | filtres introuvables dans le set: unit:DA_Brambleback18

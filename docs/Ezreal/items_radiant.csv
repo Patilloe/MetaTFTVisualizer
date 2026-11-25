@@ -1,4 +1,0 @@
-group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Blue Buff Radiant,58,0.01681159420289855,5.448,5.553,-0.088,-0.193,0.0,0.0015,0.0276,0.069,0.1207,0.2931,2.01,-0.73,0.46815,False
-populaire,Infinity Edge Radiant,57,0.01652173913043478,5.702,5.669,0.027,0.061,0.0,-0.0005,-0.0374,0.0175,0.0526,0.2281,1.757,0.26,0.79642,False
-populaire,Strikers Flail Radiant,42,0.01217391304347826,6.024,5.786,0.145,0.383,0.0,-0.0018,-0.0512,0.0238,0.0238,0.2143,1.779,1.38,0.16626,False
