@@ -1,2 +1,4 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Guinsoos Rageblade Radiant,45,0.014446227929373997,2.467,2.75,-0.205,-0.488,-0.102,0.003,0.071,0.2667,0.6,0.9111,1.31,-2.48,0.01328,True
+populaire,Guinsoos Rageblade Radiant,94,0.013187429854096521,2.372,2.692,-0.211,-0.531,-0.272,0.0028,0.1003,0.2872,0.617,0.9468,1.271,-4.01,6e-05,True
+populaire,Infinity Edge Radiant,66,0.009259259259259259,2.545,2.79,-0.113,-0.358,0.0,0.001,0.0474,0.197,0.6364,0.8939,1.489,-1.94,0.05195,True
+populaire,Deathblade Radiant,43,0.006032547699214366,2.977,2.92,0.017,0.073,0.0,-0.0001,-0.0326,0.2326,0.5581,0.814,1.811,0.26,0.7912,False
