@@ -1,3 +1,4 @@
 group,label,n,share,avg_place,shrunk_avg,score,d_avg,d_avg_pess,impact,d_top4,win,top2,top4,sd,z,p,significant
-populaire,Warmogs Armor Radiant,48,0.005043606178417569,5.375,5.287,0.022,0.11,0.0,-0.0001,0.0243,0.0,0.0625,0.3542,1.9,0.4,0.6899,False
-populaire,Gargoyle Stoneplate Radiant,94,0.009877062099401071,5.511,5.346,0.081,0.245,0.0,-0.0008,-0.032,0.0106,0.0532,0.2979,1.767,1.34,0.18074,False
+populaire,Spirit Visage Radiant,54,0.004123711340206186,5.074,5.245,-0.035,-0.207,0.0,0.0001,0.0809,0.0,0.0185,0.4074,1.55,-0.98,0.32885,False
+populaire,Warmogs Armor Radiant,66,0.005040091638029783,5.212,5.267,-0.014,-0.069,0.0,0.0001,0.0372,0.0152,0.0758,0.3636,1.911,-0.29,0.77138,False
+populaire,Gargoyle Stoneplate Radiant,118,0.009011072928598702,5.585,5.375,0.094,0.304,0.0,-0.0009,-0.0299,0.0085,0.0508,0.2966,1.82,1.81,0.07081,False
